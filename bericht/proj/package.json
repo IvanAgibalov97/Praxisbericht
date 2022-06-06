@@ -1,0 +1,19 @@
+{
+    "name": "proj",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha -r ts-node/register 'tests/test.ts'"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "@types/chai": "^4.3.1",
+        "@types/mocha": "^9.1.1",
+        "chai": "^4.3.6",
+        "mocha": "^10.0.0",
+        "ts-node": "^10.8.1"
+    }
+}
