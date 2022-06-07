@@ -9,6 +9,8 @@ type TEventInfo = {
 };
 
 class MyOCPPTestFramework {
+    public readonly dispatcher: {} = {};
+    public readonly useCases: {} = {};
     public readonly interactors: {
         interactor_1: () => void;
         interactor_2: () => void;
@@ -51,15 +53,8 @@ class MyOCPPTestFramework {
 
 describe("example test", () => {
     let testOcppInstanz: MyOCPPTestFramework;
-    let counter = 0;
-    async function beforeOCPPServer(fn: Mocha.Func) {
-        console.log("before before", ++counter);
-        await before(fn);
-        console.log("after before", ++counter);
-    }
 
-    beforeOCPPServer(async () => {
-        console.log("in before", ++counter);
+    before(async () => {
         // 1. Create test server instanz
         testOcppInstanz = new MyOCPPTestFramework({ host: "https://127.0.0.1", port: 8080 });
 

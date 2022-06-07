@@ -1,46 +1,80 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abbildungsverzeichnis}{i}{section*.3}%
+\contentsline {section}{Abbildungsverzeichnis}{ii}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Tabellenverzeichnis}{i}{section*.4}%
+\contentsline {section}{Tabellenverzeichnis}{ii}{section*.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Example Section}{1}{section.2}%
+\contentsline {subsection}{\numberline {1.1}OOP Design Patterns}{1}{subsection.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Gewünschtes Interfaces}{2}{section.3}%
+\contentsline {subsubsection}{\numberline {1.1.1}Observer}{1}{subsubsection.1.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Implementierung}{3}{section.4}%
+\contentsline {subsubsection}{\numberline {1.1.2}Proxy}{1}{subsubsection.1.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Achitecture des Frameworks}{3}{subsection.4.1}%
+\contentsline {subsubsection}{\numberline {1.1.3}Template Method}{1}{subsubsection.1.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Ports}{3}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {1.1.4}Builder}{1}{subsubsection.1.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Adapters}{3}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {1.1.5}Facade}{1}{subsubsection.1.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3}Controllers}{3}{subsubsection.4.1.3}%
+\contentsline {subsection}{\numberline {1.2}Clean Architecture}{1}{subsection.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4}Dispatcher}{4}{subsubsection.4.1.4}%
+\contentsline {subsection}{\numberline {1.3}Software Testing}{1}{subsection.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.5}UseCases}{4}{subsubsection.4.1.5}%
+\contentsline {subsubsection}{\numberline {1.3.1}Testing Pyramide}{2}{subsubsection.1.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.6}Interactors}{4}{subsubsection.4.1.6}%
+\contentsline {subsubsection}{\numberline {1.3.2}Unit Tests}{2}{subsubsection.1.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.7}Domain}{4}{subsubsection.4.1.7}%
+\contentsline {subsubsection}{\numberline {1.3.3}Integration Tests}{2}{subsubsection.1.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Zugriff vom Testframework}{4}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {1.3.4}SystemTests}{2}{subsubsection.1.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Testbeispiel}{5}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {1.3.5}UI Tests}{2}{subsubsection.1.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Conclusion}{5}{section.5}%
+\contentsline {subsubsection}{\numberline {1.3.6}Manual Tests}{2}{subsubsection.1.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{6}{section*.6}%
+\contentsline {section}{\numberline {2}Aufgabenstellung}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Appendix}{7}{section*.7}%
+\contentsline {subsection}{\numberline {2.1}Anforderungen an Standalone Server}{3}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A}Hello World Example}{7}{subsection.Alph0.1}%
+\contentsline {subsection}{\numberline {2.2}Anforderungen an Testframework }{3}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B}Flow Chart Example}{7}{subsection.Alph0.2}%
+\contentsline {section}{\numberline {3}Lösung der Aufgabe}{3}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C}Sub-figures Example}{8}{subsection.Alph0.3}%
+\contentsline {section}{\numberline {4}Gewünschtes Interfaces}{4}{section.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {5}Implementierung}{5}{section.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.1}Achitecture des Frameworks}{5}{subsection.5.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.1}Ports}{5}{subsubsection.5.1.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.2}Adapters}{5}{subsubsection.5.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.3}Controllers}{5}{subsubsection.5.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.4}Dispatcher}{6}{subsubsection.5.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.5}UseCases}{6}{subsubsection.5.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.6}Interactors}{6}{subsubsection.5.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {5.1.7}Domain}{6}{subsubsection.5.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.2}Zugriff vom Testframework}{6}{subsection.5.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {5.3}Testbeispiel}{7}{subsection.5.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {6}Conclusion}{7}{section.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Bibliography}{8}{section*.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix}{9}{section*.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A}Hello World Example}{9}{subsection.Alph0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B}Flow Chart Example}{9}{subsection.Alph0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C}Sub-figures Example}{10}{subsection.Alph0.3}%
