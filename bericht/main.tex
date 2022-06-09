@@ -23,8 +23,74 @@
 % Defining main matter settings 
 \mainmatter
 
-% Introduction explaining this LaTeX-template
-\import{./Sections/}{Introduction}
+\section{Introduction}
+    \import{./Sections/Introduction}{Introduction}
+
+    \subsection{OOP Design Patterns}
+        \import{./Sections/Introduction/OOPDesignPatterns}{OOPPatterns}
+
+        \subsubsection{Observer}
+            \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Observer}
+
+        \subsubsection{Proxy}
+            \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Proxy}
+
+        \subsubsection{TemplateMethod}
+            \import{./Sections/Introduction/OOPDesignPatterns/sub/}{TemplateMethod}
+
+        \subsubsection{Builder}
+            \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Builder}
+
+        \subsubsection{Facade}
+            \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Facade}
+
+    \subsection{CleanArchitecture}
+        \import{./Sections/Introduction/CleanArchitecture}{CleanArchitecture}
+
+    \subsection{Software Testing}
+        \import{./Sections/Introduction/SoftwareTesting}{SoftwareTesting}
+
+        \subsubsection{Testing Pyramide}
+            \import{./Sections/Introduction/SoftwareTesting/sub/}{TestingPyramide}
+        
+        \subsubsection{Unit Tests}
+            \import{./Sections/Introduction/SoftwareTesting/sub/}{UnitTests}
+        
+        \subsubsection{Integration Tests}
+            \import{./Sections/Introduction/SoftwareTesting/sub/}{IntegrationTests}
+
+        \subsubsection{SystemTests}
+            \import{./Sections/Introduction/SoftwareTesting/sub/}{SystemTests}
+
+        \subsubsection{UI Tests}
+            \import{./Sections/Introduction/SoftwareTesting/sub/}{uitests}
+
+        \subsubsection{Manual Tests}
+            \import{./Sections/Introduction/SoftwareTesting/sub/}{ManualTests}
+
+    \subsection{SOLID}
+        \import{./Sections/Introduction/SOLID/}{SOLID}
+
+        \subsubsection{single-responsibility principle}
+            \import{./Sections/Introduction/SOLID/sub/}{SingleResponsibilityPrinciple}
+        
+        \subsubsection{open–closed principle}
+            \import{./Sections/Introduction/SOLID/sub/}{OpenClosedPrinciple}
+        
+        \subsubsection{Liskov substitution principle}
+            \import{./Sections/Introduction/SOLID/sub/}{LiskovSubstitutionPrinciple}
+        
+        \subsubsection{interface segregation principle}
+            \import{./Sections/Introduction/SOLID/sub/}{InterfaceSegregationPrinciple}
+        
+        \subsubsection{dependency inversion principle}
+            \import{./Sections/Introduction/SOLID/sub/}{DependencyInversionPrinciple}
+
+    \subsection{GRASP}
+        \import{./Sections/Introduction/GRASP/}{GRASP}
+
+
+
 
 % Example section added from an external tex-file, here located in ./Sections/
 \import{./Sections/}{Aufgabestellung}
