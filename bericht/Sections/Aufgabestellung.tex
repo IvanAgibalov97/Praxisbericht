@@ -6,6 +6,7 @@ Bedarf:
 \begin{itemize}
     \item Testframework für die Integrationstest von der Ladesäule
     \item Eigenständiges OCPP1.6 und später OCPP2.0 Server für die manuellen Tests
+    \item ERK (Eichrechtkonformität) automatisiert überprüfen
 \end{itemize}
 
 Lösung:
@@ -13,9 +14,24 @@ Beide Anforderungen sind sehr ähnlich zueinander =\> soweit es geht gleiches Co
 
 \subsection{Anforderungen an Standalone Server}
 
-hier sind welche Anforderungen an Standalone Server
+    Der Server wird großtenteils für die manuellen Tests benutzt. 
+
+    \begin{itemize}
+        \item Der Zustand des Servers soll für den Nutzer erreichbar sein (z.B. eine REST Schnittstelle)
+        \item Der Nutzer soll in der Lage sein den Server zu parametrieren
+    \end{itemize}
 
 \subsection{Anforderungen an Testframework }
+    \begin{itemize}
+        \item Der OCPP Server soll den Port selber auswählen können und dann ihn zurückgeben => um mehrere Tests parallel starten zu können.
+        \item Das Verhalten von dem Testserver soll geändert werden können (auch während der Tests)
+        \item Das Defaultverhalten von dem Testserver soll parametrierbar sein (z.b. einen Benutzer hinzufügen)
+        \item Alle Events, die den Zustand der getesteten Ladesäule aufdecken, sollen beobachtbar sein
+    \end{itemize}
 
-hier sind welche Anforderungen an Testframework
+\subsection{Anforderungen an ERK Teil}
+    Damit die Ladesäule ERK ist, muss dies für jeder Ladesäule überprüft werden. Dies ist immer das gleiche Prozess, das sich entsprechend automatisieren lässt.
+Der Teil mit OCPP Server wird gebraucht um nachzuweisen, dass die gemessenen Daten nirgendwo in der Software geändert wurden und werden entsprechend genauso an der Server übertragen und dort abgerechnet.
+Dafür muss man für jede Ladesäule einen Ladevorgang starten (Transaction), währendderen Strom fließt und gemessen wird. Die Ladesäule übertragt dabei die Sichertsschlussel an den Server um dann sicherstellen zu können,
+dass die Messdaten nicht manipuliert wurden. Nach dem Beenden der Transaction werden die gemessenen Daten mit der Transactionsdaten mittels eine Drittsoftware überprüft.
 

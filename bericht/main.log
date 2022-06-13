@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.23)  9 JUN 2022 16:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.23)  13 JUN 2022 07:09
 entering extended mode
 **"c:/Users/agiba/OneDrive/Desktop/8. Semester/Praxisbericht/bericht/main.tex"
 (c:/Users/agiba/OneDrive/Desktop/8. Semester/Praxisbericht/bericht/main.tex
@@ -934,7 +934,11 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (main.aux)
+ (main.aux
+
+LaTeX Warning: Label `fig:flow around cylinder' multiply defined.
+
+)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
@@ -1087,7 +1091,7 @@ Package gensymb Info: Using \textmu for \micro on input line 8.
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
 (./title.tex
-<./Images/HTWK_Zusatz_de_V_Black.jpg, id=190, 1192.455pt x 644.4075pt>
+<./Images/HTWK_Zusatz_de_V_Black.jpg, id=214, 1192.455pt x 644.4075pt>
 File: ./Images/HTWK_Zusatz_de_V_Black.jpg Graphic file (type jpg)
 <use ./Images/HTWK_Zusatz_de_V_Black.jpg>
 Package pdftex.def Info: ./Images/HTWK_Zusatz_de_V_Black.jpg  used on input line 11.
@@ -1113,77 +1117,86 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \tf@lot=\write9
 \openout9 = `main.lot'.
 
- [2] (Sections/Introduction/Introduction.tex) (Sections/Introduction/OOPDesignPatterns/OOPPatterns.tex) (Sections/Introduction/OOPDesignPatterns/sub/Observer.tex) (Sections/Introduction/OOPDesignPatterns/sub/Proxy.tex) (Sections/Introduction/OOPDesignPatterns/sub/TemplateMethod.tex) (Sections/Introduction/OOPDesignPatterns/sub/Builder.tex) (Sections/Introduction/OOPDesignPatterns/sub/Facade.tex) (Sections/Introduction/CleanArchitecture/CleanArchitecture.tex) (Sections/Introduction/SoftwareTesting/SoftwareTesting.texpdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+ [2] (Sections/Introduction/Introduction.tex) (Sections/Introduction/OOPDesignPatterns/OOPPatterns.tex) (Sections/Introduction/OOPDesignPatterns/sub/Observer.tex
+<Images/Observer.png, id=294, 492.3996pt x 317.0244pt>
+File: Images/Observer.png Graphic file (type png)
+<use Images/Observer.png>
+Package pdftex.def Info: Images/Observer.png  used on input line 14.
+(pdftex.def)             Requested size: 426.79134pt x 274.79314pt.
+) (Sections/Introduction/OOPDesignPatterns/sub/Proxy.tex) (Sections/Introduction/OOPDesignPatterns/sub/TemplateMethod.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.7 D
-     amit man das Risiko die Software kaputt zu machen minimiert, kann man d... [1]) (Sections/Introduction/SoftwareTesting/sub/TestingPyramide.tex
-<Images/test_pyramid.png, id=265, 838.63312pt x 461.47406pt>
+l.40 
+      [1 <./Images/Observer.png>] (Sections/Introduction/OOPDesignPatterns/sub/Builder.tex) (Sections/Introduction/OOPDesignPatterns/sub/Facade.tex) (Sections/Introduction/CleanArchitecture/CleanArchitecture.tex) (Sections/Introduction/SoftwareTesting/SoftwareTesting.tex) (Sections/Introduction/SoftwareTesting/sub/TestingPyramide.tex
+<Images/test_pyramid.png, id=299, 838.63312pt x 461.47406pt>
 File: Images/test_pyramid.png Graphic file (type png)
 <use Images/test_pyramid.png>
 Package pdftex.def Info: Images/test_pyramid.png  used on input line 5.
 (pdftex.def)             Requested size: 426.79134pt x 234.8487pt.
-) (Sections/Introduction/SoftwareTesting/sub/UnitTests.tex) (Sections/Introduction/SoftwareTesting/sub/IntegrationTests.tex [2 <./Images/test_pyramid.png>]) (Sections/Introduction/SoftwareTesting/sub/SystemTests.tex) (Sections/Introduction/SoftwareTesting/sub/uitests.tex) (Sections/Introduction/SoftwareTesting/sub/ManualTests.tex) (Sections/Introduction/SOLID/SOLID.tex) (Sections/Introduction/SOLID/sub/SingleResponsibilityPrinciple.tex) (Sections/Introduction/SOLID/sub/OpenClosedPrinciple.tex) (Sections/Introduction/SOLID/sub/LiskovSubstitutionPrinciple.tex) (Sections/Introduction/SOLID/sub/InterfaceSegregationPrinciple.tex) (Sections/Introduction/SOLID/sub/DependencyInversionPrinciple.tex) (Sections/Introduction/GRASP/GRASP.tex) (Sections/Aufgabestellung.tex [3]) (Sections/Loesung.tex) [4] (Sections/Bestinterface.tex) [5] (Sections/Implementierung.tex [6]
-<Images/TestExample.png, id=291, 542.77782pt x 575.14874pt>
+) [2] (Sections/Introduction/SoftwareTesting/sub/UnitTests.tex) (Sections/Introduction/SoftwareTesting/sub/IntegrationTests.tex) (Sections/Introduction/SoftwareTesting/sub/SystemTests.tex) (Sections/Introduction/SoftwareTesting/sub/uitests.tex) [3 <./Images/test_pyramid.png>] (Sections/Introduction/SoftwareTesting/sub/ManualTests.tex) (Sections/Introduction/SOLID/SOLID.tex) (Sections/Introduction/SOLID/sub/SingleResponsibilityPrinciple.tex) (Sections/Introduction/SOLID/sub/OpenClosedPrinciple.tex) (Sections/Introduction/SOLID/sub/LiskovSubstitutionPrinciple.tex) (Sections/Introduction/SOLID/sub/InterfaceSegregationPrinciple.tex) (Sections/Introduction/SOLID/sub/DependencyInversionPrinciple.tex) (Sections/Introduction/GRASP/GRASP.tex) (Sections/Introduction/OOPPrinciples/OOPPrinciples.tex) (Sections/Introduction/OOPPrinciples/sub/Abstraction.tex) (Sections/Introduction/OOPPrinciples/sub/Encapsulation.tex) [4] (Sections/Introduction/OOPPrinciples/sub/Inheritance.tex) (Sections/Introduction/OOPPrinciples/sub/Polymorphism.tex) (Sections/Aufgabestellung.tex [5]) (Sections/Loesung.tex) [6] (Sections/Bestinterface.tex) [7] (Sections/Implementierung.tex [8]
+<Images/TestExample.png, id=332, 542.77782pt x 575.14874pt>
 File: Images/TestExample.png Graphic file (type png)
 <use Images/TestExample.png>
 Package pdftex.def Info: Images/TestExample.png  used on input line 75.
 (pdftex.def)             Requested size: 426.79134pt x 452.26505pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 75--108
+Underfull \hbox (badness 10000) in paragraph at lines 75--123
 
  []
 
-[7] [8 <./Images/TestExample.png>] [9] (Appendices/example_appendix.tex
-<Images/Sub-figures_Example/cavity_100_streamlines.png, id=313, 386.6445pt x 386.6445pt>
+[9] [10 <./Images/TestExample.png>] [11] (Appendices/example_appendix.tex
+<Images/Sub-figures_Example/cavity_100_streamlines.png, id=355, 386.6445pt x 386.6445pt>
 File: Images/Sub-figures_Example/cavity_100_streamlines.png Graphic file (type png)
 <use Images/Sub-figures_Example/cavity_100_streamlines.png>
 Package pdftex.def Info: Images/Sub-figures_Example/cavity_100_streamlines.png  used on input line 34.
 (pdftex.def)             Requested size: 192.0548pt x 192.05333pt.
-<Images/Sub-figures_Example/cavity_100_streamlines_ghia.png, id=314, 253.54726pt x 257.763pt>
+<Images/Sub-figures_Example/cavity_100_streamlines_ghia.png, id=356, 253.54726pt x 257.763pt>
 File: Images/Sub-figures_Example/cavity_100_streamlines_ghia.png Graphic file (type png)
 <use Images/Sub-figures_Example/cavity_100_streamlines_ghia.png>
 Package pdftex.def Info: Images/Sub-figures_Example/cavity_100_streamlines_ghia.png  used on input line 38.
 (pdftex.def)             Requested size: 188.21252pt x 191.35127pt.
-<Images/Sub-figures_Example/cavity_400_streamlines.png, id=317, 387.24675pt x 384.2355pt>
+<Images/Sub-figures_Example/cavity_400_streamlines.png, id=359, 387.24675pt x 384.2355pt>
 File: Images/Sub-figures_Example/cavity_400_streamlines.png Graphic file (type png)
 <use Images/Sub-figures_Example/cavity_400_streamlines.png>
 Package pdftex.def Info: Images/Sub-figures_Example/cavity_400_streamlines.png  used on input line 43.
 (pdftex.def)             Requested size: 192.0548pt x 190.56358pt.
-<Images/Sub-figures_Example/cavity_400_streamlines_ghia.png, id=318, 252.945pt x 258.9675pt>
+<Images/Sub-figures_Example/cavity_400_streamlines_ghia.png, id=360, 252.945pt x 258.9675pt>
 File: Images/Sub-figures_Example/cavity_400_streamlines_ghia.png Graphic file (type png)
 <use Images/Sub-figures_Example/cavity_400_streamlines_ghia.png>
 Package pdftex.def Info: Images/Sub-figures_Example/cavity_400_streamlines_ghia.png  used on input line 47.
 (pdftex.def)             Requested size: 186.93611pt x 191.39189pt.
-<Images/Sub-figures_Example/cavity_1000_streamlines.png, id=321, 385.44pt x 385.44pt>
+<Images/Sub-figures_Example/cavity_1000_streamlines.png, id=363, 385.44pt x 385.44pt>
 File: Images/Sub-figures_Example/cavity_1000_streamlines.png Graphic file (type png)
 <use Images/Sub-figures_Example/cavity_1000_streamlines.png>
 Package pdftex.def Info: Images/Sub-figures_Example/cavity_1000_streamlines.png  used on input line 52.
 (pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
-<Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png, id=322, 250.536pt x 257.16075pt>
+<Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png, id=364, 250.536pt x 257.16075pt>
 File: Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png Graphic file (type png)
 <use Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png>
 Package pdftex.def Info: Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png  used on input line 56.
 (pdftex.def)             Requested size: 186.93611pt x 191.88124pt.
-) [10] [11 <./Images/Sub-figures_Example/cavity_100_streamlines.png> <./Images/Sub-figures_Example/cavity_100_streamlines_ghia.png> <./Images/Sub-figures_Example/cavity_400_streamlines.png> <./Images/Sub-figures_Example/cavity_400_streamlines_ghia.png> <./Images/Sub-figures_Example/cavity_1000_streamlines.png> <./Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png>] (main.aux)
+) [12] [13 <./Images/Sub-figures_Example/cavity_100_streamlines.png> <./Images/Sub-figures_Example/cavity_100_streamlines_ghia.png> <./Images/Sub-figures_Example/cavity_400_streamlines.png> <./Images/Sub-figures_Example/cavity_400_streamlines_ghia.png> <./Images/Sub-figures_Example/cavity_1000_streamlines.png> <./Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png>] (main.aux)
+
+LaTeX Warning: There were multiply-defined labels.
+
 Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 9AEDCA5D98F5BADDDBBAD64067E79B6B;6449.
+(rerunfilecheck)             Checksum: 873671FDE65FCB53EEDA3434C0BB829C;7279.
 Package logreq Info: Writing requests to 'main.run.xml'.
 \openout1 = `main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38568 strings out of 478864
- 787501 string characters out of 2848660
- 1500327 words of memory out of 3000000
- 55645 multiletter control sequences out of 15000+600000
+ 38626 strings out of 478864
+ 790305 string characters out of 2848660
+ 1501369 words of memory out of 3000000
+ 55672 multiletter control sequences out of 15000+600000
  423242 words of font info for 97 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 117i,12n,122p,805b,2463s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 117i,11n,122p,805b,2443s stack positions out of 5000i,500n,10000p,200000b,80000s
  <C:\Users\agiba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (14 pages, 837124 bytes).
+Output written on main.pdf (16 pages, 880141 bytes).
 PDF statistics:
- 414 PDF objects out of 1000 (max. 8388607)
- 67 named destinations out of 1000 (max. 500000)
- 426 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 457 PDF objects out of 1000 (max. 8388607)
+ 76 named destinations out of 1000 (max. 500000)
+ 479 words of extra memory for PDF output out of 10000 (max. 10000000)
 
