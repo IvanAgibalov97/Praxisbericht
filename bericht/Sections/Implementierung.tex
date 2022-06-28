@@ -1,10 +1,11 @@
 \section{Implementierung}
-    Es handelt sich um einen Intergrationstests. Bei diesen Tests wird die Software komplett getestet, so wie sie dann im Betrieb ist.
-    Aus diesem Grund, jedes Setup der Software wird Zeit in Anspruch nehmen und man soll das lieber soweit es möglich vermeiden. 
-    Es gibt mehrere Möglichkeiten dies zu vermeiden:
+    Bei der vorgestellten Implementierung werden Systemtests verwendet. Bei dieser Art von Test wird die Software komplett und analog zum Produktivumfeld getestet. 
+    Deshalb sind Systemtests sehr zeitintensiv. Mit folgenden Möglichkeiten kann der Einsatz von Systemtest optimiert werden:
+
     \begin{itemize}
-        \item mehrere Tests pro Setup zu definieren und auszuführen.
-        \item  die Tests die in unterschiedlichen Setups ablaufen (d.h. nicht miteinader verbunden) parallel laufen zu lassen.
+        \item mehrere Tests pro Setup definieren und ausführen.
+        \item die Tests die in unterschiedlichen Setups ablaufen (d.h. nicht miteinader verbunden sind) 
+        parallel durchfuhren
     \end{itemize}
 
     % Um die Einarbeitungszeit in das Testframework klein zu halten, wurde entschieden das OCPPServer Testframework 
@@ -14,7 +15,8 @@
     Um die Lesbarkeit des Tests zu verbessern wäre es vom Vorteil, wenn die erstellte OCPPServer Testinstanz bereits ein vordefiniertes Verhalten besitzt, 
     das man ändern kann.
 
-    Es soll auch möglich sein das vordefinierte Verhalten zu parametrieren. Dies erfordert einen Interfaces, die bestimmte Parameter der Instanz ändern kann.
+    Es soll auch möglich sein das vordefinierte Verhalten zu parametrieren. 
+    Dies erfordert Interfaces, die bestimmte Parameter der Instanz ändern können.
 
     Da nur das Verhalten von dem Charging Point getestet werden soll, sollen nur die Ereignisse, die den Zustand des Charging Points abbilden, abrufbar sein.
     Zum Beispiel: geschickte Nachrichten von dem Charging Point zu dem Server, Reihenfolge der Nachrichten.
@@ -26,7 +28,7 @@
 
         In dem Framework wird nur ein Port gebraucht - WebSocket Server
         \subsubsection{Adapters}
-        Adapters sollen die ankommenden Events/Messages vom Port an das dazugehörige Controller zu übersetzen.
+        Adapters sollen die ankommenden Events/Messages vom Port an den zugehörigen Controller zu übersetzen.
 
         In dem Framework wird nur einen Adapter gebraucht - OCPP16 Adapter
         \subsubsection{Controllers}
@@ -43,32 +45,36 @@
 
         Die Contoller können von dem Nutzer des Frameworks parametriert werden, um das Verhalten des Servers zu ändern.
         \subsubsection{Dispatcher}
-        Dispatcher informiert alle abonnierten UseCases über das geschehene Event
+        Der Dispatcher informiert alle abonnierten UseCases über das eingetretene Event.
 
-        In dem Framework sind nur OCPP Events wichtig (Nachrichten und Verbindungsevent)
+        In dem Framework sind nur OCPP Events wichtig (Nachrichten und Verbindungsevent).
         \subsubsection{UseCases}
-        UseCases beschreiben den Vorgang beim geschehen eines Events, das von denen abonniert wurde.
-        Die vordefinierten UseCases dürfen nur die Interactor benutzen um das Verhalten zu definieren.
+        UseCases beschreiben den Vorgang beim Auslösen eines Events, welches sie abonniert haben.
+        Die vordefinierten UseCases dürfen nur Interactors benutzen um das Verhalten zu definieren.
 
-        In dem Framework sind die UseCases, die das vordefinierte Verhalten definieren und sie können auch entsprechend umbeschrieben werden.
+        Dieses Framework beinhaltet UseCases, welche ein vordefiniertes Verhalten besitzen. 
+        Diese kann auch entsprechend umgeschrieben werden.
         \subsubsection{Interactors}
-        Eine atomare Operation im Programm(die Operation lässt sich nicht mehr sinnvoll im Rahmen der Anwendung aufgeteilen).
+        Eine atomare Operation im Programm (die Operation lässt sich nicht mehr sinnvoll im Rahmen der Anwendung aufgeteilen).
+        Interactors benutzen Contoller "Dependency Injection"
+        
         Benutzt mittels "Dependency Injection" die Controller.
 
-        In dem Framework wird nur als "Wrapper" für alle Funktionen von Controllern implementiert.
+        In dem Framework werden sie nur als "Wrapper" für alle Funktionen von Controllern implementiert.
         \subsubsection{Domain}
-        Definiert alle Types und Interfaces der Applications.
-        Definiert die Verbindungen zwischen den Interfaces und Types, die dann in den anderen 6 Layers umgesetz werden.
+        Eine Domain definiert alle Types und Interfaces der Applications.
+        Sie beschreibt die Verbindungen zwischen den Interfaces und Types, die dann in den anderen 6 Layers umgesetz werden.
 
-    \subsection{Zugriff vom Testframework}
+    \subsection{Zugriff auf das Testframework}
+    \textbf{IRGENDWAS EINLEITENDES}
     \begin{itemize}
         \item OCPPPort soll nur bei der Initialisierung der Instanz parametrierbar sein (Netzwerkeinstellung)
         \item Adapters sollen nicht von der Seite des Frameworks aufrufbar sein
         \item Contollers sollen nicht von der Seite des Frameworks aufrufbar sein
-        \item Dispatcher darf nur zum Abonnieren/Disabonnieren benutzt werden um das Verhalten des Charging Points beobachten zu können
+        \item Dispatcher darf nur zum Abonnieren/Deabonnieren benutzt werden um das Verhalten des Charging Points beobachten zu können
         \item UseCases sollen überschreibar und erweitbar sein, falls man bestimmtes Verhalten hinzufügen möchte.
         \item Interactors sollen von der Seite des Frameworks aufrufbar sein, um die Serverinstanz parametrieren zu können.
-        \item Domain beinhaltet alle Typen die in den anderen Layers benutzt werden. Aus diesem Grund sollen die Typen von der Seite des Frameworks benutzbar sein.
+        \item Domain beinhaltet alle Typen die in den anderen Layers verwendet werden. Aus diesem Grund sollen die Typen von der Seite des Frameworks benutzbar sein.
     \end{itemize}
 
     \subsection{Testbeispiel}

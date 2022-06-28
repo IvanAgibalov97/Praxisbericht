@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.23)  28 JUN 2022 10:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.23)  28 JUN 2022 08:50
 entering extended mode
-**"c:/Users/agiba/OneDrive/Desktop/8. Semester/Praxisbericht/bericht/main.tex"
-(c:/Users/agiba/OneDrive/Desktop/8. Semester/Praxisbericht/bericht/main.tex
+**"c:/Users/agiba/OneDrive/Desktop/8. Semester/Praxisbericht/bericht/praxisbericht.tex"
+(c:/Users/agiba/OneDrive/Desktop/8. Semester/Praxisbericht/bericht/praxisbericht.tex
 LaTeX2e <2021-06-01>
 L3 programming layer <2021-06-01> (C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2021/02/12 v1.4n Standard LaTeX document class
@@ -935,31 +935,31 @@ Package csquotes Info: Checking for multilingual support...
 Package csquotes Info: ... found 'babel' package.
 Package csquotes Info: Adjusting default style.
 Package csquotes Info: Redefining alias 'default' -> 'ngerman'.
- (main.aux
+ (praxisbericht.aux
 
 LaTeX Warning: Label `fig:flow around cylinder' multiply defined.
 
 )
-\openout1 = `main.aux'.
+\openout1 = `praxisbericht.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 8.
-LaTeX Font Info:    ... okay on input line 8.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 3.
+LaTeX Font Info:    ... okay on input line 3.
  (C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count464
@@ -1012,19 +1012,19 @@ Package: xparse 2021-06-01 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2020/12/31 v3.16 expl3 case changing code for biblatex
 )
-\openout3 = `main.bcf'.
+\openout3 = `praxisbericht.bcf'.
 
 Package biblatex Info: Trying to load bibliographic data...
-Package biblatex Info: ... file 'main.bbl' found.
- (main.bbl)
-Package biblatex Info: Reference section=0 on input line 8.
-Package biblatex Info: Reference segment=0 on input line 8.
+Package biblatex Info: ... file 'praxisbericht.bbl' found.
+ (praxisbericht.bbl)
+Package biblatex Info: Reference section=0 on input line 3.
+Package biblatex Info: Reference segment=0 on input line 3.
 Package caption Info: Begin \AtBeginDocument code.
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: wrapfig package is loaded.
 Package caption Info: End \AtBeginDocument code.
-Package hyperref Info: Link coloring ON on input line 8.
+Package hyperref Info: Link coloring ON on input line 3.
  (C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
@@ -1034,28 +1034,28 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 \c@section@level=\count470
 )
-LaTeX Info: Redefining \ref on input line 8.
-LaTeX Info: Redefining \pageref on input line 8.
-LaTeX Info: Redefining \nameref on input line 8.
- (main.out) (main.out)
+LaTeX Info: Redefining \ref on input line 3.
+LaTeX Info: Redefining \pageref on input line 3.
+LaTeX Info: Redefining \nameref on input line 3.
+ (praxisbericht.out) (praxisbericht.out)
 \@outlinefile=\write6
-\openout6 = `main.out'.
+\openout6 = `praxisbericht.out'.
 
  (C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex/latex/translations/dicts\translations-basic-dictionary-german.trsl
 File: translations-basic-dictionary-german.trsl (german translation file `translations-basic-dictionary')
 )
-Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 8.
+Package translations Info: loading dictionary `translations-basic-dictionary' for `german'. on input line 3.
 \symgns@font=\mathgroup9
 LaTeX Font Info:    Overwriting symbol font `gns@font' in version `bold'
-(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 8.
-Package gensymb Info: Math companion symbols declared on input line 8.
-LaTeX Info: Redefining \degree on input line 8.
-LaTeX Info: Redefining \celsius on input line 8.
-Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 8.
-LaTeX Info: Redefining \ohm on input line 8.
-Package gensymb Info: Using \textohm for \ohm on input line 8.
-LaTeX Info: Redefining \micro on input line 8.
-Package gensymb Info: Using \textmu for \micro on input line 8.
+(Font)                  TS1/cmr/m/n --> TS1/cmr/b/n on input line 3.
+Package gensymb Info: Math companion symbols declared on input line 3.
+LaTeX Info: Redefining \degree on input line 3.
+LaTeX Info: Redefining \celsius on input line 3.
+Package gensymb Info: Using text companion symbols for \degree, \celsius and \perthousand on input line 3.
+LaTeX Info: Redefining \ohm on input line 3.
+Package gensymb Info: Using \textohm for \ohm on input line 3.
+LaTeX Info: Redefining \micro on input line 3.
+Package gensymb Info: Using \textmu for \micro on input line 3.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1091,113 +1091,71 @@ Package gensymb Info: Using \textmu for \micro on input line 8.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-(./title.tex
-<./Images/HTWK_Zusatz_de_V_Black.jpg, id=214, 1192.455pt x 644.4075pt>
+(./title2.tex
+<./Images/HTWK_Zusatz_de_V_Black.jpg, id=42, 1192.455pt x 644.4075pt>
 File: ./Images/HTWK_Zusatz_de_V_Black.jpg Graphic file (type jpg)
 <use ./Images/HTWK_Zusatz_de_V_Black.jpg>
-Package pdftex.def Info: ./Images/HTWK_Zusatz_de_V_Black.jpg  used on input line 11.
+Package pdftex.def Info: ./Images/HTWK_Zusatz_de_V_Black.jpg  used on input line 5.
 (pdftex.def)             Requested size: 170.71393pt x 92.25183pt.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 17.
  (C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 26.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 17.
  (C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{C:/Users/agiba/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Images/HTWK_Zusatz_de_V_Black.jpg>]) (main.toc [1])
+{C:/Users/agiba/AppData/Local/MiKTeX/pdftex/config/pdftex.map} <./Images/HTWK_Zusatz_de_V_Black.jpg>]) (praxisbericht.toc)
 \tf@toc=\write7
-\openout7 = `main.toc'.
+\openout7 = `praxisbericht.toc'.
 
- (main.lof)
+ (praxisbericht.lof)
 \tf@lof=\write8
-\openout8 = `main.lof'.
+\openout8 = `praxisbericht.lof'.
 
- (main.lot)
+ (praxisbericht.lot)
 \tf@lot=\write9
-\openout9 = `main.lot'.
+\openout9 = `praxisbericht.lot'.
 
- [2] (Sections/Introduction/Introduction.tex) (Sections/Introduction/OOPDesignPatterns/OOPPatterns.tex) (Sections/Introduction/OOPDesignPatterns/sub/Observer.tex
-<Images/Observer.png, id=294, 492.3996pt x 317.0244pt>
-File: Images/Observer.png Graphic file (type png)
-<use Images/Observer.png>
-Package pdftex.def Info: Images/Observer.png  used on input line 14.
-(pdftex.def)             Requested size: 426.79134pt x 274.79314pt.
-) (Sections/Introduction/OOPDesignPatterns/sub/Proxy.tex) (Sections/Introduction/OOPDesignPatterns/sub/TemplateMethod.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
+ [1] (Sections/Aufgabestellung.tex)pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.40 
-      [1 <./Images/Observer.png>] (Sections/Introduction/OOPDesignPatterns/sub/Builder.tex) (Sections/Introduction/OOPDesignPatterns/sub/Facade.tex) (Sections/Introduction/CleanArchitecture/CleanArchitecture.tex) (Sections/Introduction/SoftwareTesting/SoftwareTesting.tex) (Sections/Introduction/SoftwareTesting/sub/TestingPyramide.tex
-<Images/test_pyramid.png, id=299, 838.63312pt x 461.47406pt>
-File: Images/test_pyramid.png Graphic file (type png)
-<use Images/test_pyramid.png>
-Package pdftex.def Info: Images/test_pyramid.png  used on input line 5.
-(pdftex.def)             Requested size: 426.79134pt x 234.8487pt.
-) [2] (Sections/Introduction/SoftwareTesting/sub/UnitTests.tex) (Sections/Introduction/SoftwareTesting/sub/IntegrationTests.tex) (Sections/Introduction/SoftwareTesting/sub/SystemTests.tex) (Sections/Introduction/SoftwareTesting/sub/uitests.tex) [3 <./Images/test_pyramid.png>] (Sections/Introduction/SoftwareTesting/sub/ManualTests.tex) (Sections/Introduction/SOLID/SOLID.tex) (Sections/Introduction/SOLID/sub/SingleResponsibilityPrinciple.tex) (Sections/Introduction/SOLID/sub/OpenClosedPrinciple.tex) (Sections/Introduction/SOLID/sub/LiskovSubstitutionPrinciple.tex) (Sections/Introduction/SOLID/sub/InterfaceSegregationPrinciple.tex) (Sections/Introduction/SOLID/sub/DependencyInversionPrinciple.tex) (Sections/Introduction/GRASP/GRASP.tex) (Sections/Introduction/OOPPrinciples/OOPPrinciples.tex) (Sections/Introduction/OOPPrinciples/sub/Abstraction.tex) (Sections/Introduction/OOPPrinciples/sub/Encapsulation.tex) [4] (Sections/Introduction/OOPPrinciples/sub/Inheritance.tex) (Sections/Introduction/OOPPrinciples/sub/Polymorphism.tex) (Sections/Aufgabestellung.tex [5]) (Sections/Loesung.tex) [6] (Sections/Bestinterface.tex) [7] (Sections/Implementierung.tex [8] [9]
-<Images/TestExample.png, id=336, 542.77782pt x 575.14874pt>
-File: Images/TestExample.png Graphic file (type png)
-<use Images/TestExample.png>
-Package pdftex.def Info: Images/TestExample.png  used on input line 81.
-(pdftex.def)             Requested size: 426.79134pt x 452.26505pt.
-)
-Underfull \hbox (badness 10000) in paragraph at lines 81--123
-
- []
-
-[10 <./Images/TestExample.png>] [11] (Appendices/example_appendix.tex
-<Images/Sub-figures_Example/cavity_100_streamlines.png, id=355, 386.6445pt x 386.6445pt>
-File: Images/Sub-figures_Example/cavity_100_streamlines.png Graphic file (type png)
-<use Images/Sub-figures_Example/cavity_100_streamlines.png>
-Package pdftex.def Info: Images/Sub-figures_Example/cavity_100_streamlines.png  used on input line 34.
-(pdftex.def)             Requested size: 192.0548pt x 192.05333pt.
-<Images/Sub-figures_Example/cavity_100_streamlines_ghia.png, id=356, 253.54726pt x 257.763pt>
-File: Images/Sub-figures_Example/cavity_100_streamlines_ghia.png Graphic file (type png)
-<use Images/Sub-figures_Example/cavity_100_streamlines_ghia.png>
-Package pdftex.def Info: Images/Sub-figures_Example/cavity_100_streamlines_ghia.png  used on input line 38.
-(pdftex.def)             Requested size: 188.21252pt x 191.35127pt.
-<Images/Sub-figures_Example/cavity_400_streamlines.png, id=359, 387.24675pt x 384.2355pt>
-File: Images/Sub-figures_Example/cavity_400_streamlines.png Graphic file (type png)
-<use Images/Sub-figures_Example/cavity_400_streamlines.png>
-Package pdftex.def Info: Images/Sub-figures_Example/cavity_400_streamlines.png  used on input line 43.
-(pdftex.def)             Requested size: 192.0548pt x 190.56358pt.
-<Images/Sub-figures_Example/cavity_400_streamlines_ghia.png, id=360, 252.945pt x 258.9675pt>
-File: Images/Sub-figures_Example/cavity_400_streamlines_ghia.png Graphic file (type png)
-<use Images/Sub-figures_Example/cavity_400_streamlines_ghia.png>
-Package pdftex.def Info: Images/Sub-figures_Example/cavity_400_streamlines_ghia.png  used on input line 47.
-(pdftex.def)             Requested size: 186.93611pt x 191.39189pt.
-<Images/Sub-figures_Example/cavity_1000_streamlines.png, id=363, 385.44pt x 385.44pt>
-File: Images/Sub-figures_Example/cavity_1000_streamlines.png Graphic file (type png)
-<use Images/Sub-figures_Example/cavity_1000_streamlines.png>
-Package pdftex.def Info: Images/Sub-figures_Example/cavity_1000_streamlines.png  used on input line 52.
-(pdftex.def)             Requested size: 192.0548pt x 192.05493pt.
-<Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png, id=364, 250.536pt x 257.16075pt>
-File: Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png Graphic file (type png)
-<use Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png>
-Package pdftex.def Info: Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png  used on input line 56.
-(pdftex.def)             Requested size: 186.93611pt x 191.88124pt.
-) [12] [13 <./Images/Sub-figures_Example/cavity_100_streamlines.png> <./Images/Sub-figures_Example/cavity_100_streamlines_ghia.png> <./Images/Sub-figures_Example/cavity_400_streamlines.png> <./Images/Sub-figures_Example/cavity_400_streamlines_ghia.png> <./Images/Sub-figures_Example/cavity_1000_streamlines.png> <./Images/Sub-figures_Example/cavity_1000_streamlines_ghia.png>] (main.aux)
+l.17     \newpage
+                  [1] (Sections/Umsetzung.tex [2]
+<./Sections//./UML.png, id=79, 511.9125pt x 588.69937pt>
+File: ./Sections//./UML.png Graphic file (type png)
+<use ./Sections//./UML.png>
+Package pdftex.def Info: ./Sections//./UML.png  used on input line 40.
+(pdftex.def)             Requested size: 426.79134pt x 490.81215pt.
+ [3 <./Sections//./UML.png>]
+<./Sections//./Report.pdf, id=85, 614.295pt x 794.97pt>
+File: ./Sections//./Report.pdf Graphic file (type pdf)
+<use ./Sections//./Report.pdf>
+Package pdftex.def Info: ./Sections//./Report.pdf  used on input line 52.
+(pdftex.def)             Requested size: 426.79134pt x 552.32666pt.
+) [4 <./Sections//./Report.pdf>] (praxisbericht.aux)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
-(rerunfilecheck)             Checksum: 6D1D614841F9B551624A3FF435A96A74;7302.
-Package logreq Info: Writing requests to 'main.run.xml'.
-\openout1 = `main.run.xml'.
+Package rerunfilecheck Info: File `praxisbericht.out' has not changed.
+(rerunfilecheck)             Checksum: 47108872A096355DE52CA4E18D768DC1;1596.
+Package logreq Info: Writing requests to 'praxisbericht.run.xml'.
+\openout1 = `praxisbericht.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 38625 strings out of 478864
- 790264 string characters out of 2848660
- 1507165 words of memory out of 3000000
- 55670 multiletter control sequences out of 15000+600000
- 423242 words of font info for 97 fonts, out of 8000000 for 9000
+ 37878 strings out of 478864
+ 765184 string characters out of 2848660
+ 1503009 words of memory out of 3000000
+ 55125 multiletter control sequences out of 15000+600000
+ 419788 words of font info for 85 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
- 99i,11n,97p,805b,2443s stack positions out of 5000i,500n,10000p,200000b,80000s
- <C:\Users\agiba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi9.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
-Output written on main.pdf (16 pages, 882016 bytes).
+ 99i,11n,97p,814b,2329s stack positions out of 5000i,500n,10000p,200000b,80000s
+ <C:\Users\agiba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb>
+Output written on praxisbericht.pdf (6 pages, 333378 bytes).
 PDF statistics:
- 457 PDF objects out of 1000 (max. 8388607)
- 76 named destinations out of 1000 (max. 500000)
- 479 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 143 PDF objects out of 1000 (max. 8388607)
+ 19 named destinations out of 1000 (max. 500000)
+ 100 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -1,0 +1,19 @@
+\documentclass{article}
+\usepackage{packages}
+\begin{document}
+\import{./}{title2}
+
+% Defining front matter settings 
+\frontmatter
+
+% Inserting table of contents
+\tableofcontents
+
+% Inserting list of figures & list of tables
+\listoffigures
+\listoftables
+\mainmatter
+    \import{./Sections/}{Aufgabestellung}
+    \newpage
+    \import{./Sections/}{Umsetzung}
+\end{document}
