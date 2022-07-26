@@ -18,27 +18,24 @@
 
 
 \refsection{0}
-  \datalist[entry]{nyt/global//global/global}
+  \datalist[entry]{ynt/global//global/global}
     \entry{ghia_1982}{article}{}
       \name{author}{3}{}{%
-        {{un=0,uniquepart=base,hash=ae624d922375a4dd3ca9895b88a36f0b}{%
+        {{hash=ae624d922375a4dd3ca9895b88a36f0b}{%
            family={Ghia},
            familyi={G\bibinitperiod},
            given={U.},
-           giveni={U\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=5a3ebc3007a3461e82fd301cc47b028a}{%
+           giveni={U\bibinitperiod}}}%
+        {{hash=5a3ebc3007a3461e82fd301cc47b028a}{%
            family={Ghia},
            familyi={G\bibinitperiod},
            given={K.\bibnamedelimi N.},
-           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod},
-           givenun=0}}%
-        {{un=0,uniquepart=base,hash=939f2c02931e4438b32abf2639507c91}{%
+           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
+        {{hash=939f2c02931e4438b32abf2639507c91}{%
            family={Shin},
            familyi={S\bibinitperiod},
            given={C.\bibnamedelimi T.},
-           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
+           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{ac1475424ad3de7957ad17b55d44317d}
       \strng{fullhash}{2f309e0af031967bd4d0d591f2e38bd6}
@@ -46,10 +43,9 @@
       \strng{authorbibnamehash}{2f309e0af031967bd4d0d591f2e38bd6}
       \strng{authornamehash}{ac1475424ad3de7957ad17b55d44317d}
       \strng{authorfullhash}{2f309e0af031967bd4d0d591f2e38bd6}
-      \field{sortinit}{G}
-      \field{sortinithash}{32d67eca0634bf53703493fb1090a2e8}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
+      \field{labelalpha}{GGS82}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Journal of Computational Physics}
@@ -59,14 +55,118 @@
       \field{pages}{387\bibrangedash 411}
       \range{pages}{25}
     \endentry
+    \entry{sagan_1993}{book}{}
+      \name{author}{1}{}{%
+        {{hash=17d6616424502bba556b6b98ee30e858}{%
+           family={Sagan},
+           familyi={S\bibinitperiod},
+           given={Carl},
+           giveni={C\bibinitperiod}}}%
+      }
+      \list{publisher}{1}{%
+        {Presidio Press}%
+      }
+      \strng{namehash}{17d6616424502bba556b6b98ee30e858}
+      \strng{fullhash}{17d6616424502bba556b6b98ee30e858}
+      \strng{bibnamehash}{17d6616424502bba556b6b98ee30e858}
+      \strng{authorbibnamehash}{17d6616424502bba556b6b98ee30e858}
+      \strng{authornamehash}{17d6616424502bba556b6b98ee30e858}
+      \strng{authorfullhash}{17d6616424502bba556b6b98ee30e858}
+      \field{labelalpha}{Sag93}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Brocas brain: reflections on the romance of science}
+      \field{year}{1993}
+    \endentry
+    \entry{cleanArchitecture}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{labelalpha}{Mar18}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-13-449416-6}
+      \field{title}{Clean Architecture}
+      \field{year}{2018}
+    \endentry
+    \entry{MF_WhatIsSA}{online}{}
+      \name{author}{1}{}{%
+        {{hash=312ac886938a9b2be4f8eb607567fe4c}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{fullhash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{bibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authorbibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authornamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authorfullhash}{312ac886938a9b2be4f8eb607567fe4c}
+      \field{extraname}{1}
+      \field{labelalpha}{Fow}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf
+      \endverb
+      \verb{url}
+      \verb https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf
+      \endverb
+    \endentry
+    \entry{MF_isHighQuilatySoftwareWorthTheCost}{online}{}
+      \name{author}{1}{}{%
+        {{hash=312ac886938a9b2be4f8eb607567fe4c}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{fullhash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{bibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authorbibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authornamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authorfullhash}{312ac886938a9b2be4f8eb607567fe4c}
+      \field{extraname}{2}
+      \field{labelalpha}{Fow}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Is High Quality Software Worth the Cost?}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://martinfowler.com/articles/is-quality-worth-cost.html
+      \endverb
+      \verb{url}
+      \verb https://martinfowler.com/articles/is-quality-worth-cost.html
+      \endverb
+    \endentry
     \entry{imt_software_wiki}{online}{}
       \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=178c5578ed7109d0caf64717be9612fc}{%
+        {{hash=178c5578ed7109d0caf64717be9612fc}{%
            family={NTNU},
            familyi={N\bibinitperiod},
            given={Department\bibnamedelimb of\bibnamedelimb Marine\bibnamedelima Technology},
-           giveni={D\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod},
-           givenun=0}}%
+           giveni={D\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
       }
       \strng{namehash}{178c5578ed7109d0caf64717be9612fc}
       \strng{fullhash}{178c5578ed7109d0caf64717be9612fc}
@@ -74,10 +174,9 @@
       \strng{authorbibnamehash}{178c5578ed7109d0caf64717be9612fc}
       \strng{authornamehash}{178c5578ed7109d0caf64717be9612fc}
       \strng{authorfullhash}{178c5578ed7109d0caf64717be9612fc}
-      \field{sortinit}{N}
-      \field{sortinithash}{22369a73d5f88983a108b63f07f37084}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{url}
+      \field{labelalpha}{NTN}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{IMT Software Wiki - LaTeX}
@@ -92,33 +191,6 @@
       \verb{url}
       \verb https://www.ntnu.no/wiki/display/imtsoftware/LaTeX
       \endverb
-    \endentry
-    \entry{sagan_1993}{book}{}
-      \name{author}{1}{}{%
-        {{un=0,uniquepart=base,hash=17d6616424502bba556b6b98ee30e858}{%
-           family={Sagan},
-           familyi={S\bibinitperiod},
-           given={Carl},
-           giveni={C\bibinitperiod},
-           givenun=0}}%
-      }
-      \list{publisher}{1}{%
-        {Presidio Press}%
-      }
-      \strng{namehash}{17d6616424502bba556b6b98ee30e858}
-      \strng{fullhash}{17d6616424502bba556b6b98ee30e858}
-      \strng{bibnamehash}{17d6616424502bba556b6b98ee30e858}
-      \strng{authorbibnamehash}{17d6616424502bba556b6b98ee30e858}
-      \strng{authornamehash}{17d6616424502bba556b6b98ee30e858}
-      \strng{authorfullhash}{17d6616424502bba556b6b98ee30e858}
-      \field{sortinit}{S}
-      \field{sortinithash}{b164b07b29984b41daf1e85279fbc5ab}
-      \field{extradatescope}{labelyear}
-      \field{labeldatesource}{year}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Brocas brain: reflections on the romance of science}
-      \field{year}{1993}
     \endentry
   \enddatalist
 \endrefsection

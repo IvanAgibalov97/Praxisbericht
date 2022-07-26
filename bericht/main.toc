@@ -1,106 +1,132 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Abbildungsverzeichnis}{ii}{section*.3}%
+\contentsline {section}{Abbildungsverzeichnis}{iii}{section*.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Tabellenverzeichnis}{ii}{section*.4}%
+\contentsline {section}{Tabellenverzeichnis}{iii}{section*.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {1}Introduction}{1}{section.1}%
+\contentsline {section}{\numberline {1}Motivation}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.1}OOP Design Patterns}{1}{subsection.1.1}%
+\contentsline {section}{\numberline {2}Introduction}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.1}Observer}{1}{subsubsection.1.1.1}%
+\contentsline {subsection}{\numberline {2.1}OOP Design Patterns}{2}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.2}Proxy}{1}{subsubsection.1.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.1}Observer}{2}{subsubsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.3}TemplateMethod}{2}{subsubsection.1.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.2}Proxy}{2}{subsubsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.4}Builder}{2}{subsubsection.1.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.3}TemplateMethod}{3}{subsubsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.1.5}Facade}{2}{subsubsection.1.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.4}Builder}{3}{subsubsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.2}CleanArchitecture}{2}{subsection.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.5}Facade}{3}{subsubsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.3}Software Testing}{2}{subsection.1.3}%
+\contentsline {subsection}{\numberline {2.2}CleanArchitecture}{3}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.1}Testing Pyramide}{2}{subsubsection.1.3.1}%
+\contentsline {subsection}{\numberline {2.3}Software Testing}{3}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.2}Unit Tests}{3}{subsubsection.1.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.1}Testing Pyramide}{3}{subsubsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.3}Integration Tests}{3}{subsubsection.1.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.2}Unit Tests}{4}{subsubsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.4}SystemTests}{3}{subsubsection.1.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.3}Integration Tests}{4}{subsubsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.5}UI Tests}{4}{subsubsection.1.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.4}SystemTests}{4}{subsubsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.3.6}Manual Tests}{4}{subsubsection.1.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.5}UI Tests}{5}{subsubsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.4}SOLID}{4}{subsection.1.4}%
+\contentsline {subsubsection}{\numberline {2.3.6}Manual Tests}{5}{subsubsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.1}single-responsibility principle}{4}{subsubsection.1.4.1}%
+\contentsline {subsection}{\numberline {2.4}SOLID}{5}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.2}open–closed principle}{4}{subsubsection.1.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.1}single-responsibility principle}{5}{subsubsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.3}Liskov substitution principle}{4}{subsubsection.1.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.2}open–closed principle}{5}{subsubsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.4}interface segregation principle}{4}{subsubsection.1.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.3}Liskov substitution principle}{5}{subsubsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.4.5}dependency inversion principle}{4}{subsubsection.1.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.4}interface segregation principle}{5}{subsubsection.2.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.5}GRASP}{4}{subsection.1.5}%
+\contentsline {subsubsection}{\numberline {2.4.5}dependency inversion principle}{5}{subsubsection.2.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {1.6}OOP Principles}{4}{subsection.1.6}%
+\contentsline {subsection}{\numberline {2.5}GRASP}{5}{subsection.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.6.1}Abstraction}{4}{subsubsection.1.6.1}%
+\contentsline {subsection}{\numberline {2.6}OOP Principles}{5}{subsection.2.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.6.2}Encapsulation}{5}{subsubsection.1.6.2}%
+\contentsline {subsubsection}{\numberline {2.6.1}Abstraction}{5}{subsubsection.2.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.6.3}Inheritance}{5}{subsubsection.1.6.3}%
+\contentsline {subsubsection}{\numberline {2.6.2}Encapsulation}{6}{subsubsection.2.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {1.6.4}Polymorphism}{5}{subsubsection.1.6.4}%
+\contentsline {subsubsection}{\numberline {2.6.3}Inheritance}{6}{subsubsection.2.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Aufgabenstellung}{5}{section.2}%
+\contentsline {subsubsection}{\numberline {2.6.4}Polymorphism}{6}{subsubsection.2.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}Anforderungen an Standalone Server}{5}{subsection.2.1}%
+\contentsline {section}{\numberline {3}Software Architektur}{7}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Anforderungen an Testframework }{5}{subsection.2.2}%
+\contentsline {subsection}{\numberline {3.1}Was ist eine Software Architektur}{7}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Anforderungen an ERK Teil}{6}{subsection.2.3}%
+\contentsline {subsection}{\numberline {3.2}Ziele der Software Architektur}{7}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Lösung der Aufgabe}{6}{section.3}%
+\contentsline {subsection}{\numberline {3.3}Technische Schulden}{8}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Gewünschtes Interfaces}{7}{section.4}%
+\contentsline {subsection}{\numberline {3.4}Qualität und Kosten der Software}{9}{subsection.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Implementierung}{8}{section.5}%
+\contentsline {subsection}{\numberline {3.5}Wichtigkeit der Testbarkeit der Software}{10}{subsection.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.1}Achitecture des Frameworks}{8}{subsection.5.1}%
+\contentsline {subsection}{\numberline {3.6}Technische Umsetzung der Software Architektur}{10}{subsection.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.1}Ports}{8}{subsubsection.5.1.1}%
+\contentsline {subsubsection}{\numberline {3.6.1}Auswahl der Datenbank}{10}{subsubsection.3.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.2}Adapters}{8}{subsubsection.5.1.2}%
+\contentsline {subsubsection}{\numberline {3.6.2}Dependency Rule}{10}{subsubsection.3.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.3}Controllers}{8}{subsubsection.5.1.3}%
+\contentsline {subsubsection}{\numberline {3.6.3}Unterschied zu Layered Architektur}{10}{subsubsection.3.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.4}Dispatcher}{9}{subsubsection.5.1.4}%
+\contentsline {subsubsection}{\numberline {3.6.4}Implementierung der Testbarkeit}{10}{subsubsection.3.6.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.5}UseCases}{9}{subsubsection.5.1.5}%
+\contentsline {subsubsection}{\numberline {3.6.5}Dependency Injection}{11}{subsubsection.3.6.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.6}Interactors}{9}{subsubsection.5.1.6}%
+\contentsline {section}{\numberline {4}Aufgabenstellung}{13}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {5.1.7}Domain}{9}{subsubsection.5.1.7}%
+\contentsline {subsection}{\numberline {4.1}Anforderungen an den Standalone Server}{13}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.2}Zugriff auf das Testframework}{9}{subsection.5.2}%
+\contentsline {subsection}{\numberline {4.2}Anforderungen an das Testframework }{14}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {5.3}Testbeispiel}{10}{subsection.5.3}%
+\contentsline {subsection}{\numberline {4.3}Anforderungen an ERK Automatisierungstool}{14}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Conclusion}{10}{section.6}%
+\contentsline {section}{\numberline {5}Lösung der Aufgabe}{14}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{11}{section*.7}%
+\contentsline {section}{\numberline {6}Gewünschtes Interfaces}{15}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Appendix}{12}{section*.8}%
+\contentsline {section}{\numberline {7}Implementierung}{16}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {A}Hello World Example}{12}{subsection.Alph0.1}%
+\contentsline {subsection}{\numberline {7.1}Achitecture des Frameworks}{16}{subsection.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {B}Flow Chart Example}{12}{subsection.Alph0.2}%
+\contentsline {subsubsection}{\numberline {7.1.1}Ports}{16}{subsubsection.7.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {C}Sub-figures Example}{13}{subsection.Alph0.3}%
+\contentsline {subsubsection}{\numberline {7.1.2}Adapters}{16}{subsubsection.7.1.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.3}Controllers}{16}{subsubsection.7.1.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.4}Dispatcher}{17}{subsubsection.7.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.5}UseCases}{17}{subsubsection.7.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.6}Interactors}{17}{subsubsection.7.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.7}Domain}{17}{subsubsection.7.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Zugriff auf das Testframework}{17}{subsection.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3}Testbeispiel}{18}{subsection.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Conclusion}{18}{section.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Bibliography}{19}{section*.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Appendix}{20}{section*.12}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {A}Hello World Example}{20}{subsection.Alph0.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {B}Flow Chart Example}{20}{subsection.Alph0.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {C}Sub-figures Example}{21}{subsection.Alph0.3}%

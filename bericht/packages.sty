@@ -7,6 +7,7 @@
 
 \usepackage{pdfpages}
 
+
 % ------ Contents -------
 % Appendices
 % Bibliography & References
@@ -33,8 +34,9 @@
 
 % --- Bibliography & References---  
 \usepackage[backend = biber,    % Recommended backend for sorting bibliography
-            style = authoryear-comp,    % Close to the 'Harvard' referencing style
+            style = alphabetic-verb,
             urldate = long,     % Long: 24th Mar. 1997 | Short: 24/03/1997
+            sorting = ynt,
             maxcitenames = 2,   % Number of authors in cite before replaced with 'Author#1 et al.'
             ]{biblatex}
 \addbibresource{references.bib}     % Adding our file containing the references
@@ -87,7 +89,7 @@
 \usepackage{float}      % Force image location using "H"
 \usepackage{url}        % Insert urls
 \urlstyle{sf}           % Set url-style as "sans-serif". Other options are e.g. "same" or "rm"
-\newcommand{\HRule}{\rule{\linewidth}{0.5mm}}   % Ruler
+\newcommand{\HRule}{\rule{\linewidth}{1mm}}   % Ruler
 \usepackage[export]{adjustbox}                  % To change the default alignment of a image from left or right 
 
 % --- Language ---
@@ -122,7 +124,7 @@
 
 % --- Page setup ---
 \usepackage[a4paper, total={150mm, 245mm,footskip = 14mm}]{geometry}
-\setlength{\parindent}{0em}
+\setlength{\parindent}{1em}
 \setlength{\parskip}{0.8em}
 
 % Customized header and footer

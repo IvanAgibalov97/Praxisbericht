@@ -1,8 +1,16 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces UML Observer}}{1}{figure.caption.5}%
+\contentsline {figure}{\numberline {1}{\ignorespaces CI/CD Pipeline\relax }}{1}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces Testing Pyramide}}{3}{figure.caption.6}%
+\contentsline {figure}{\numberline {2}{\ignorespaces UML Observer}}{2}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Streamline results}}{13}{figure.caption.9}%
+\contentsline {figure}{\numberline {3}{\ignorespaces Testing Pyramide}}{4}{figure.caption.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {4}{\ignorespaces Vergleich einer guten und einer schlecten Softwarearchitektur\relax }}{10}{figure.caption.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {5}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{11}{figure.caption.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {6}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{12}{figure.caption.10}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {7}{\ignorespaces Streamline results}}{21}{figure.caption.13}%
