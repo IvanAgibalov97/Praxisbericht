@@ -1,0 +1,10 @@
+*.aux
+*.bcf
+*.blg
+*.fdb*
+*.lof
+*.ffs
+*.log
+*.lot
+*.out
+*.toc

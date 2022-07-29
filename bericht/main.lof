@@ -9,8 +9,14 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {4}{\ignorespaces Vergleich einer guten und einer schlecten Softwarearchitektur\relax }}{10}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{11}{figure.caption.9}%
+\contentsline {figure}{\numberline {5}{\ignorespaces some Caption}}{11}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{12}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces some Caption}}{13}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Streamline results}}{21}{figure.caption.13}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Sequencediagramm vom Datenfluss ``1'' Blau\relax }}{14}{figure.caption.11}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {8}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{17}{figure.caption.15}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {9}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{18}{figure.caption.16}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {10}{\ignorespaces Streamline results}}{27}{figure.caption.19}%

@@ -2345,18 +2345,19 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" nocite="1">imt_software_wiki</bcf:citekey>
-    <bcf:citekey order="2">cleanArchitecture</bcf:citekey>
-    <bcf:citekey order="3">MF_WhatIsSA</bcf:citekey>
-    <bcf:citekey order="4">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="2">GRASP_Def</bcf:citekey>
+    <bcf:citekey order="3">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="4">MF_WhatIsSA</bcf:citekey>
     <bcf:citekey order="5">cleanArchitecture</bcf:citekey>
-    <bcf:citekey order="6" nocite="1">MF_isHighQuilatySoftwareWorthTheCost</bcf:citekey>
-    <bcf:citekey order="7">sagan_1993</bcf:citekey>
-    <bcf:citekey order="8">ghia_1982</bcf:citekey>
+    <bcf:citekey order="6">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="7" nocite="1">MF_isHighQuilatySoftwareWorthTheCost</bcf:citekey>
+    <bcf:citekey order="8">sagan_1993</bcf:citekey>
     <bcf:citekey order="9">ghia_1982</bcf:citekey>
     <bcf:citekey order="10">ghia_1982</bcf:citekey>
     <bcf:citekey order="11">ghia_1982</bcf:citekey>
     <bcf:citekey order="12">ghia_1982</bcf:citekey>
     <bcf:citekey order="13">ghia_1982</bcf:citekey>
+    <bcf:citekey order="14">ghia_1982</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

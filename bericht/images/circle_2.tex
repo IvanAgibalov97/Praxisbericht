@@ -1,0 +1,103 @@
+\begin{figure}[h]
+    
+    \begin{tikzpicture}[scale=.95]  
+        % Ports
+        \fill[red!5] ($(0, 0) + (30:6)$) arc (30:150:6) -- ($(0, 0) + (150:7)$) arc (150:30:7) -- cycle;
+        \fill[red!5] ($(0, 0) + (150:6)$) arc (150:270:6) -- ($(0, 0) + (270:7)$) arc (270:150:7) -- cycle;
+        \fill[red!5] ($(0, 0) + (-90:6)$) arc (-90:30:6) -- ($(0, 0) + (30:7)$) arc (30:-90:7) -- cycle;
+
+        % Adapaters
+        \fill[yellow!5] ($(0, 0) + (30:5)$) arc (30:150:5) -- ($(0, 0) + (150:6)$) arc (150:30:6) -- cycle;
+        \fill[yellow!5] ($(0, 0) + (150:5)$) arc (150:270:5) -- ($(0, 0) + (270:6)$) arc (270:150:6) -- cycle;
+        \fill[yellow!5] ($(0, 0) + (-90:5)$) arc (-90:30:5) -- ($(0, 0) + (30:6)$) arc (30:-90:6) -- cycle;
+
+        % Controllers
+        \fill[gray!5] ($(0, 0) + (30:4)$) arc (30:150:4) -- ($(0, 0) + (150:5)$) arc (150:30:5) -- cycle;
+        \fill[gray!5] ($(0, 0) + (150:4)$) arc (150:270:4) -- ($(0, 0) + (270:5)$) arc (270:150:5) -- cycle;
+        \fill[gray!5] ($(0, 0) + (-90:4)$) arc (-90:30:4) -- ($(0, 0) + (30:5)$) arc (30:-90:5) -- cycle;
+
+
+
+        % Dispatcher
+        \fill[blue!5] (0,0)circle(4);
+
+        % UseCases
+        \fill[green!5] ($(0, 0) + (30:2)$) arc (30:150:2) -- ($(0, 0) + (150:3)$) arc (150:30:3) -- cycle;
+        \fill[green!5] ($(0, 0) + (150:2)$) arc (150:270:2) -- ($(0, 0) + (270:3)$) arc (270:150:3) -- cycle;
+        \fill[green!5] ($(0, 0) + (-90:2)$) arc (-90:30:2) -- ($(0, 0) + (30:3)$) arc (30:-90:3) -- cycle;
+
+        % Interactors
+        \fill[olive!5] ($(0, 0) + (30:1)$) arc (30:150:1) -- ($(0, 0) + (150:2)$) arc (150:30:2) -- cycle;
+        \fill[olive!5] ($(0, 0) + (150:1)$) arc (150:270:1) -- ($(0, 0) + (270:2)$) arc (270:150:2) -- cycle;
+        \fill[olive!5] ($(0, 0) + (-90:1)$) arc (-90:30:1) -- ($(0, 0) + (30:2)$) arc (30:-90:2) -- cycle;
+
+        % Domain
+        \fill[cyan!5] (0,0)circle(1);
+        %Add labels with names of the primary and secondary colors.
+        
+        % Boundaries between components
+        %\draw ($(0,0) + (30:4)$) -- (30:7);
+        %\draw ($(0,0) + (150:4)$) -- (150:7);
+        %\draw ($(0,0) + (270:4)$) -- (270:7);
+
+        %\draw[dotted] (0,0)circle(1);
+        %\draw[dotted] (0,0)circle(2);
+        %\draw[line width = 1pt, dotted] (0,0)circle(3);
+        %\draw[line width = 1pt, dotted] (0,0)circle(4);
+        %\draw[dotted] (0,0)circle(5);
+        %\draw[dotted] (0,0)circle(6);
+        %\draw (0,0)circle(7);
+
+        % Boundaries between Usecases
+        % \foreach \x in {0, 30, ..., 330}
+        %    \draw ($(0,0) + (\x:2)$) -- (\x:3);
+
+
+        \path[font=\footnotesize]
+
+        (0, -0.2) node[above]{$Domain$}
+        (0, 1.2) node[above]{$Interactors$}
+        (0, 2.2) node[above]{$Use Cases$}
+        (0, 3.2) node[above]{$Dispatcher$}
+        (0, 4.2) node[above]{$Controllers$}
+        (0, 5.2) node[above]{$Adapters$}
+        (0, 6.2) node[above]{$Ports$};
+
+        % Dataflow
+        \coordinate[label=below:$A$] (nodeA) at ($(0,0) + (225:7.5)$);
+        \coordinate[label=below:$B$] (nodeB) at ($(0,0) + (225:6.5)$);
+        \coordinate[label=below:$C$] (nodeC) at ($(0,0) + (225:5.5)$);
+
+        \coordinate[label=below:$D$] (nodeD) at ($(0,0) + (225:4.5)$);
+        \coordinate[label=below:$ $] (nodeE) at ($(0,0) + (225:3.5)$);
+        \coordinate[label=above:$ $] (nodeF) at ($(0,0) + (135:3.5)$);
+        \coordinate[label=above:$G$] (nodeG) at ($(0,0) + (135:2.5)$);
+        \coordinate[label=above:$K$] (nodeK) at ($(0,0) + (135:1.5)$);
+        \coordinate[label=right:$L$] (nodeL) at ($(0,0) + (315:4.5)$);
+
+        \coordinate[label=below:$M$] (nodeM) at ($(0,0) + (315:5.5)$);
+        \coordinate[label=below:$N$] (nodeN) at ($(0,0) + (315:6.5)$);
+        \coordinate[label=below:$O$] (nodeO) at ($(0,0) + (315:7.5)$);
+
+        \draw[teal] (nodeA) -- (nodeB);
+        \draw[teal] (nodeB) -- (nodeC);
+        \draw[teal, ->] (nodeC) -- (nodeD); 
+
+        \draw[blue] (nodeD) -- (nodeE); 
+        \draw[blue, line width = 1px, dotted] (nodeE) to[out=135,in=225]  (nodeF);
+        \draw[blue] (nodeF) -- (nodeG); 
+        \draw[blue] (nodeG) -- (nodeK);
+        \draw[blue, ->, dotted](nodeK) -- (nodeL);
+
+        \draw[red](nodeL) -- (nodeM);
+        \draw[red] (nodeM) -- (nodeN);
+        \draw[red, ->] (nodeN) -- (nodeO);
+
+
+        % Legends
+        \draw (0, -8) -- (1, -8) node[right] {$Teile\ des\ Programms\ wissen\ nichts\ voneinander$};
+    \end{tikzpicture}
+    \caption[some Caption]{Darstellung der umgesetzten Architecture als ``Clean Architecture'' mit 7 Schichten. 
+    Pfeile repräsentieren mögliche Datenflüsse}
+    \label{fig:sp2d}
+\end{figure}

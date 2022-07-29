@@ -192,6 +192,31 @@
       \verb https://www.ntnu.no/wiki/display/imtsoftware/LaTeX
       \endverb
     \endentry
+    \entry{GRASP_Def}{online}{}
+      \name{author}{1}{}{%
+        {{hash=520cf502d0e4b111e62778cc4520abdc}{%
+           family={Rodin},
+           familyi={R\bibinitperiod},
+           given={Vladislav},
+           giveni={V\bibinitperiod}}}%
+      }
+      \strng{namehash}{520cf502d0e4b111e62778cc4520abdc}
+      \strng{fullhash}{520cf502d0e4b111e62778cc4520abdc}
+      \strng{bibnamehash}{520cf502d0e4b111e62778cc4520abdc}
+      \strng{authorbibnamehash}{520cf502d0e4b111e62778cc4520abdc}
+      \strng{authornamehash}{520cf502d0e4b111e62778cc4520abdc}
+      \strng{authorfullhash}{520cf502d0e4b111e62778cc4520abdc}
+      \field{labelalpha}{Rod}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://tech-de.netlify.app/articles/de521476/index.html
+      \endverb
+      \verb{url}
+      \verb https://tech-de.netlify.app/articles/de521476/index.html
+      \endverb
+    \endentry
   \enddatalist
 \endrefsection
 \endinput
