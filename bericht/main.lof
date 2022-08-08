@@ -1,22 +1,26 @@
 \boolfalse {citerequest}\boolfalse {citetracker}\boolfalse {pagetracker}\boolfalse {backtracker}\relax 
 \babel@toc {ngerman}{}
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {1}{\ignorespaces CI/CD Pipeline\relax }}{1}{figure.caption.5}%
+\contentsline {figure}{\numberline {1}{\ignorespaces CI/CD Pipeline}}{1}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {2}{\ignorespaces UML Observer}}{2}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {3}{\ignorespaces Testing Pyramide}}{4}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Vergleich einer guten und einer schlecten Softwarearchitektur\relax }}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Vergleich einer guten und einer schlechten Softwarearchitektur}}{10}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {5}{\ignorespaces some Caption}}{11}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces some Caption}}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Klassendiagrammm PAC}}{13}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Sequencediagramm vom Datenfluss ``1'' Blau\relax }}{14}{figure.caption.11}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Klassendiagrammm Controller-Dispatcher-UseCase-Interactor}}{14}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{17}{figure.caption.15}%
+\contentsline {figure}{\numberline {8}{\ignorespaces some Caption}}{15}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{18}{figure.caption.16}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Sequencediagramm vom Datenfluss ``1'' Blau\relax }}{16}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces Streamline results}}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{19}{figure.caption.17}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {11}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{20}{figure.caption.18}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {12}{\ignorespaces Streamline results}}{30}{figure.caption.21}%

@@ -26,7 +26,7 @@
 \section{Motivation}
     \import{./Sections/}{Motivation}
 
-\section{Introduction}
+\section{Grundlagen}
     \import{./Sections/Introduction}{Introduction}
 
     \subsection{OOP Design Patterns}
@@ -47,8 +47,11 @@
         \subsubsection{Facade}
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Facade}
 
-    \subsection{CleanArchitecture}
-        \import{./Sections/Introduction/CleanArchitecture}{CleanArchitecture}
+    \subsection{Architecturen}
+        \subsubsection{Clean Architectur}
+            \import{./Sections/Introduction/CleanArchitecture}{CleanArchitecture}
+        \subsubsection{Model-View Architekturen}
+            lol kek cheburek
 
     \subsection{Software Testing}
         \import{./Sections/Introduction/SoftwareTesting}{SoftwareTesting}
@@ -110,29 +113,28 @@
 \newpage
 
 \section{Software Architektur}
-
     \subsection{Was ist eine Software Architektur}
 
-    Bevor man anfängt über die Software Architectur zu reden, muss man sie erstmal definieren.
-    Es gibt keine einheitliche Definition einer Software Architectur. Verschiedene Authoren definieren es auch unterschiedlich.
+    Bevor man anfängt über die Software Architektur zu reden, muss man sie erstmal definieren.
+    Es gibt keine einheitliche Definition einer Software Architektur. Verschiedene Authoren definieren es auch unterschiedlich.
 
     Robert Martin definiert es als ein Gegenstand mit bestimmten Eigenschaften zu definieren.\\
     \textit{Softwarearchitektur ist die Gestalt des Systems erstellt von derjenigen, die das entwickeln. 
     Die Form dieser Gestalt ist das Aufteilen des Systems in Komponenten, die Anordnung (Arrangement) dieser Komponenten und die Wege, 
     wie diese Komponente miteinander kommunizieren} \cite[136]{cleanArchitecture}
     
-    Ralph Jonson definiert Software Architecture aus Sicht eines Projektes.\\
-    \textit{Architecture besteht aus den Entscheidungen, die man sich wünscht so früh wie möglich in einem Projekt zu treffen}
+    Ralph Jonson definiert Software Architektur aus Sicht eines Projektes.\\
+    \textit{Architektur besteht aus den Entscheidungen, die man sich wünscht so früh wie möglich in einem Projekt zu treffen}
     \cite{MF_WhatIsSA}
 
     In dem ersten Teil des Kapitels wird die Softwarearchitektur aus Sicht eines Projektes betrachtet, 
     indem es kurz beschrieben wird, welche Auswirkungen eine gute und eine schlechte Architektur auf ein Projekt haben kann.
 
-    In dem 2. Teil des Kapitels, wird die Architecture des OCPP Backend Serves beschrieben
+    In dem 2. Teil des Kapitels, wird die Architektur des OCPP Backend Servers beschrieben
     \begin{itemize}
-        \item in welche Teile das Programm aufgeteilt wurde
+        \item Aufteilung des Programms in einzelne Teile
         \item Testbarkeit und Erweitbarkeit einzelner Teile des Programms
-        \item wie die einzelnen Teile miteinander kommunizieren
+        \item Kommunikation zwischen den einzelnen Teilen
     \end{itemize}
 
     \subsection{Ziele der Software Architektur}
@@ -164,12 +166,12 @@
 
 
     \subsection{Technische Schulden}
-    Bei den Änderungen oder Erweiterungen eines Systems oft entsteht ein Overhead, das durch die "Unsaubarkeit" des bestehenden Programms verusacht wird.
+    Bei den Änderungen oder Erweiterungen eines Systems oft entsteht ein Overhead, das durch die ``Unsaubarkeit'' des bestehenden Programms verusacht wird.
 
     Dieses Overhead wird als technische Schulden (en. : Technical Debts) bezeichnet.
 
     Die technischen Schulden entstehen dadurch, dass bei der Entwicklung eines Teiles des Systems wurde 
-    von den Entwicklungsteam weniger Zeit investiert um die nicht Gewinnbringende Sachen zu implementieren.
+    von den Entwicklungsteam weniger Zeit investiert um die nicht gewinnbringende Aufgaben zu erledigen.
     Beispiele für solche Tätigkeiten wären:
     \begin{itemize}
         \item Unittests
@@ -177,11 +179,11 @@
         \item Code Review
     \end{itemize}
 
-    Beispiele für Teschnise Schulden wären:
+    Beispiele für Technische Schulden wären:
     \begin{itemize}
         \item Alte Funktionalitäten funktionieren nach der Änderung nicht mehr
         \item Aufdeckung eines Bugs erst nach einer gewissen Zeit in Produktionsversion der Software
-        \item Das implementieren der neuen Funktionalitäten verbraucht deutlich mehr Zeit
+        \item Implementieren der neuen Funktionalitäten verbraucht deutlich mehr Zeit
     \end{itemize}
 
     Eine klare Struktur der Software reduziert die Menge an technischen Schulden, 
@@ -195,23 +197,22 @@
         \item die Menge an durch den "Zufall" entstehenden Bugs in anderen Teilen des Programms ist minimal
     \end{itemize}
 
-    Durch die bereits definierten Kommunikationswege zwischen den Modulen, muss weniger Dokumentation geschrieben werden,
-    mit weniger Dokumentation findet man schneller die gesuchten Informationen.
+    Durch die bereits definierten Kommunikationswege zwischen den Modulen, muss weniger Dokumentation geschrieben werden.
+    Mit weniger Dokumentation findet man schneller die gesuchten Informationen.
 
-    Durch die einheitliche Bezeichnung Teile des Modules kann man allein aus dem Namen des Modules seine Aufgaben ableiten.
+    Durch die einheitliche Bezeichnung der Teile des Modules kann man allein aus dem Namen des Modules seine Aufgaben ableiten.
 
-    Daher es ist vom Vorteil bevor man mit der Umsetzung des Softwaresystems anfängt, die oben gennanten Aufgaben zu lösen.
-    Die erforderliche Zeit um die Änderungen von oben genannten Eigenschaften nimmt mit der Lebenszeit der Software zu. 
+    Daher ist es vom Vorteil bevor man mit der Umsetzung des Softwaresystems anfängt, die oben gennanten Aufgaben zu lösen,
+    denn mit zunehmender Lebenszeit der Software nimmt die Änderungszeit zu.
 
-    Somit lassen sich die vorhandenen Ressourcen effizienter eingesetzt werden.
-
+    Somit lassen sich die vorhandenen Ressourcen effizienter eingesetzen.
 
     \newpage
     \subsection{Qualität und Kosten der Software}
     \nocite{MF_isHighQuilatySoftwareWorthTheCost}
 
-    Am Anfang jedes neuen Projektes in Softwareentwicklung muss man eine Entscheidung treffen, wie qualitativ gut die Software am Ende sein soll.
-    Damit werden die Eigenschaften/Funktionalitäten der Software gemeint, die für die Benutzer irrelevant sind, jedoch eine sehr große Bedeutung 
+    Am Anfang jedes neuen Projektes in der Softwareentwicklung muss die Entscheidung getroffen werden, wie qualitativ gut die Software am Ende sein soll.
+    Damit sind die Eigenschaften/Funktionalitäten der Software gemeint, die für die Benutzer irrelevant sind, jedoch eine sehr große Bedeutung 
     für das Entwicklungsteam haben.
     
     Wenn man eine qualitativ gute Software hat, ergeben sich unteranderem folgende Vorteile:
@@ -219,11 +220,11 @@
         \item Bugs können schneller lokalisiert und beseitigt werden
         \item Neue Funktionalitäten können mit weniger Aufwand umgesetzt werden
         \item Die Änderungen der Funktionalitäten können schneller umgesetzt werden
-        \item Die Wahrscheinlichkeit alte Funktionalitäten zu zerstören weringert sich
+        \item Die Wahrscheinlichkeit bestehende Funktionalitäten ungewollt zu ändern veringert sich
         \item Die Einarbeitungszeit von neuen Teammitgliedern verkürzt sich 
     \end{itemize}
 
-    Alle diese Vorteile hat man nicht umsonst, denn dafür muss man auch Zeit investieren indem man:
+    Alle diese Vorteile hat man nicht kostenlos, denn dafür muss man auch Zeit investieren indem man:
     \begin{itemize}
         \item Regelmäßig die Software refactored
         \item Code Qualität überprüft
@@ -233,13 +234,14 @@
         \item Die technischen Schulden gering hält
     \end{itemize}
 
-    Nicht in jedem Projekt ist das Umsetzen von oben genannten Eigenschaften möglich, denn man hat nicht genug Zeit oder das Budget ist zu wenig dafür.
+    Nicht in jedem Projekt ist das Umsetzen von oben genannten Eigenschaften möglich, 
+    denn man hat nicht genug Zeit oder das Budget ist zu klein dafür.
     Man kann aber gewisse Kriterien setzen um mit deren Hilfe bessere Entscheidung zu treffen:
     \begin{itemize}
-        \item Wann soll spätestens die erste Version da sein
+        \item Wann soll die MVP\footnote[1]{Minimum viable product} vorhanden sein.
         \item Wie viele Ressourcen man zur Verfügung hat
         \item Wie wahrescheinlich sind die Änderungen und Erweiterungen der Software
-        \item Wie kritisch verschieden Probleme und Ausfälle der Software sind 
+        \item Wie kritisch verschiede Probleme und Ausfälle der Software sind 
     \end{itemize}
 
     Auf dem unterer Darstellung sieht man, dass auf langere Distanz eine gute Softwarearchitektur deutlich
@@ -248,34 +250,35 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{./images/QASoftwareCompare.png}
-        \caption{Vergleich einer guten und einer schlecten Softwarearchitektur}
-        \label{fig:flow around cylinder}
-        \source{https://martinfowler.com/articles/is-quality-worth-cost.html}
+        \caption[Vergleich einer guten und einer schlechten Softwarearchitektur]{Vergleich einer guten und einer schlechten Softwarearchitektur \footnotemark}
+        \label{fig:softQuality}
     \end{figure}
+    \footnotetext{https://martinfowler.com/articles/is-quality-worth-cost.html}
+    Diese Eigenschaft muss man immer beim Projektbegin beachten, denn es wäre Zeitaufwändig für ein Studiumprojekt, 
+    für das man evtl. nur eine Woche Zeit hat, um eine komplexe Architektur zu implementieren, die ohne jeglichen Funktionalitäten mehrere Wochen gebrauchen wird.
 
-    Diese Eigenschaft muss man immer beim Projektbegin beachten, denn es wäre sehr Zeitaufwändig für ein Studiumprojekt, 
-    für das man evtl. nur 1 Woche Zeit komplexe Architektur zu implementieren, die ohne jeglichen Funktionalitäten mehrere Wochen gebrauchen wird.
-
-    Wenn man aber ein Projekt hat, das regelmäßig weiterentwickeln wird, dass man gleich eine gute Architektur umzusetzt.
+    Wenn man aber ein Projekt hat, das regelmäßig weiterentwickeln wird, ist es vom Vorteil gleich eine gute Architektur umzusetzen.
 
     \subsection{Wichtigkeit der Testbarkeit der Software}
     Jedes Teil der Software wird in seinem Lebenszyklus mehrmals geändert. 
     Um die Funktionalität der neuen Version zu verifizieren, muss sie getestet werden.
-    Man ist sehr daran interessiert diese Aufgabe zu automatisieren. 
+    Es ist von Interesse diese Aufgabe zu automatisieren. 
     Wie in den früheren Kapitels bereits beschrieben wurde, am schnellsten findet man die Bugs, falls vorhanden, mit Unittests. 
-    Bei den Unittests müssen die Module (z.B. einzelne Klassen in Falle von OOP Sprachen) in verschiedensten Umgebungen überprüft werden. 
-    Das heißt, dass die Zustände von benutzten Modulen müssen leicht simulierbar sein.
+    Bei den Unittests müssen die Module (z.B. einzelne Klassen in Falle von OOP Sprachen) in verschiedenen Umgebungen überprüft werden. 
+    Das heißt, dass die Zustände von benutzten Modulen müssen einfach zu simulieren sein.
     Dies erfordert eine Planung der Softwarearchitektur im Voraus, 
-    um diese Eigenschaft zu implementieren um im Laufe der Entwicklung viel Zeit durch automatisierte Tests zu sparen.
+    um diese Eigenschaft zu implementieren um im Laufe der Entwicklung, Zeit durch automatisierte Tests zu sparen.
 
     \newpage
     \subsection{Technische Umsetzung der Software Architektur}
 
-    Die OCPP Backend Server wurde anhand ``Clean Architecture'' projektiert und entsprechend umgesetzt. 
-    In dem Kapitel werden die benutzten Schichten beschrieben, welche Eigenschaften sie besitzen und wie sie miteinander verbunden sind.
-    Auch wird kurz gezeigt wie es mit der Testbarkeit auf allen Niveaus (Unit, Integration und Systemtests), Änderbarkeit und Erweitbarkeit der Software aussieht.
+    Der OCPP Backend Server wurde anhand ``Clean Architecture'' projektiert und entsprechend umgesetzt. 
+    Im Kapitel werden die benutzten Schichten beschrieben, welche Eigenschaften sie besitzen und wie sie miteinander verbunden sind.
+    Auch wird kurz gezeigt wie es mit der Testbarkeit auf allen Niveaus (Unit, Integration und Systemtests), 
+    Änderbarkeit und Erweitbarkeit der Software ist.
 
     \import{./images/}{circle_1}
+    \footnotetext{Eigene Quelle}
 
     Beschreibung der Darstellung:
     Jede Komponente bringt in das gesamt Programm folgende Teile:
@@ -289,6 +292,58 @@
     \end{itemize}
 
     \newpage
+    \subsection{Abhängigkeiten im Programm}
+
+    Die Architektur lässt sich in zwei wesentlichen Teilen zerlegen
+    \begin{itemize}
+        \item Anbindung an Infrastruktur um das Programm (Port - Adapter - Controller)
+        \item Innere Logik des Programms (Controller - Dispatcher - UseCase - Interactor)
+    \end{itemize}
+
+    Beispiele für die Infrastruktur sind: Datenbank, Persistenz, Schnittstellen (HTTP, USB usw)
+
+    Bei solcher Aufteilung ergeben sich folgende Vorteile:
+    \begin{itemize}
+        \item Innere Logik des Programms lässt sich mittels Integrationstests unabhängig von Schnittstellen abdecken.
+        Damit ist die Laufzeit von jedem einzelnen Test ohne reelen Schnittstellen ist schneller als mit reelen Schnittstellen und 
+        man hat das gleiche Ergebnis bezüglich des Verhaltens des Programms.
+        \item Die Innere Logik ist nicht an Schnittstellen gebunden, 
+        somit können alle Schnittstellen mit wenig Aufwand getauscht werden.
+    \end{itemize}
+
+    \subsubsection{Port-Adapter-Controller}
+    Am nähesten zu der \textbf{PAC}\footnote{Port-Adapter-Controller} Struktrur 
+    ist das Pattern \textbf{MVP}\footnote{Model-View-Presenter}.
+    Dabei die Aufgaben von \textbf{View} entsprechen den Aufgaben von \textbf{Port}. 
+    Die Aufgaben von \textbf{Presenter} entsprechen den Aufgaben \textbf{Adapter}.
+    Und die Aufgaben von dem Rest des Programms inklusiv \textbf{Controller} entspechen den Aufgaben von \textbf{Model}.
+
+    Der Unterschied zu \textbf{MVP} besteht darin, dass \textbf{MVP} im klassischen Sinne nur für die Benutzerobeflächen gedacht ist,
+    während in der hier beschriebenen Umsetzung wird es für alle Schnittstellen benutzt.
+    \textbf{MVP} Architektur übernimmt in der gesamten Application eine zentralle Stelle und ist nur einmal zu treffen.
+    \textbf{PAC} ist nur ein Teil der gesamten Application, wird an mehreren Stellen unterschiedlich benutzt und beschreibt nicht 
+    die Architektur der Application.
+
+
+    \begin{figure}[H]
+       \centering
+       \includegraphics[width=6.5cm]{./images/Port-Adapter-Contoller.png}
+        \caption[Klassendiagrammm PAC]{Klassendiagrammm PAC \footnotemark}
+        \label{fig:CDPAC}
+    \end{figure}
+    \footnotetext{Eigene Quelle}
+
+    \subsubsection{Controller-Dispatcher-UseCase-Interactor}
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=6.5cm]{./images/Controller-Dispatcher-UseCase-Interactor.png}
+         \caption[Klassendiagrammm Controller-Dispatcher-UseCase-Interactor]{Klassendiagrammm Controller-Dispatcher-UseCase-Interactor \footnotemark}
+         \label{fig:CDCDUI}
+     \end{figure}
+     \footnotetext{Eigene Quelle}
+
+    \newpage
     \subsection{Datenfluss im Programm}
     Im System gibt es 3 wichtige Datenflusse, die durch Kombination miteinander die komplexen Abläufe im System umsetzen
     \begin{enumerate}
@@ -298,9 +353,10 @@
     \end{enumerate}
     Wenn das geschehen ist, sieht der Datenfluss so aus:
     \import{./images/}{circle_2}
+    \footnotetext{Eigene Quelle}
 
     \newpage
-    Darstellung des Datenflusses ``1'' als ``sequencediagram'':
+    Darstellung des Datenflusses \textbf{1} als \textbf{Sequencediagram}:
 
     \begin{figure}[h]
         \begin{sequencediagram}
@@ -328,13 +384,16 @@
           \label{fig:seqDiagBlue}
     \end{figure}
 
-    Wenn im ``Controller'' ein Ereignis erzeugt wird, wird ``Dispatcher'' darüber informiert. 1 oder mehrere UseCases haben bereits dieses Event bei ``Dispatcher'' aboniert.
-    ``Dispatcher'' informiert alle auf das Ereignis abonierte ``UseCases''. Jeder UseCases kann seinen eigenen Verhalten auf das Event definieren unabhängig voneinander.
-    ``UseCase'' definiert einen Ablauf an ``Interactoren'', die wie vorgeschrieben ausgeführt werden. Jeder ``Interactor'' ruft eine Methode von einem ``Controller'' auf 
-    und das Ergebnis wird an ``UseCase'' zurückgegeben, das vom UseCase entsprechend behandelt wird.
+    Wenn im \textbf{Controller} ein Ereignis erzeugt wird, wird \textbf{Dispatcher} darüber informiert. ein
+    oder mehrere \textbf{UseCases} haben bereits dieses Event bei \textbf{Dispatcher} aboniert.
+    \textbf{Dispatcher} informiert alle auf das Ereignis abonierte \textbf{UseCases}. 
+    Jeder UseCases kann seinen eigenen Verhalten auf das Event definieren unabhängig voneinander.
+    \textbf{UseCase} definiert einen Ablauf an \textbf{Interactoren},
+    die wie vorgeschrieben ausgeführt werden. Jeder \textbf{Interactor} ruft eine Methode von einem \textbf{Controller} auf 
+    und das Ergebnis wird an \textbf{UseCase} zurückgegeben, das vom UseCase entsprechend behandelt wird.
 
     \newpage
-    Dabei es gibt 2 Möglichkeiten wie das Ereignis vom ``Controller J'' das ``Interactor I'' erreichen kann:
+    Dabei es gibt 2 Möglichkeiten wie das Ereignis vom \textbf{Controller J} das \textbf{Interactor I} erreichen kann:
     \begin{enumerate}
         \item synchron - der Rückgabewert ist das Ergebnis der aufgerufenen Methode 
         \item asynchron - man wartet auf dazugehörige Antwort vom Port (z.B. auf OCPP Response warten, wenn man ein OCPP Request abschickt)
@@ -461,22 +520,24 @@
     \subsubsection{Implementierung der Testbarkeit}
     - Humble Objects
     \subsubsection{Dependency Injection}
-    In dem unteren Diagramm sieht man ein Beispiel von einer Anwendug, die die von der konsole ankommenden Zahlen quadriert und das Ergebnis zurückgibt.
+    In der Abbildung \ref{fig:dateflowVScodedep} sieht man ein Beispiel von einer Anwendung, die die von der Konsole ankommenden Zahlen quadriert und das Ergebnis zurückgibt.
     
     \begin{figure}[H]
         \centering
         \includegraphics[width=1\textwidth]{./images/DepInj_1.png}
         \caption{Datenfluss und Quellcode Abhängigkeiten}
-        \label{fig:flow around cylinder}
+        \label{fig:dateflowVScodedep}
         \source{Eigene Quelle}
     \end{figure}
 
-    Die Funktion "Quadrieren" ist in dem Fall befindet sich auf einem höheren Niveau als Eingabe und Ausgabe, 
+    Die Funktion \textbf{Quadrieren} ist in dem Fall befindet sich auf einem höheren Niveau als Eingabe und Ausgabe, 
     da das Quadrieren einer Zahl soll unabhängig von der Eingabe und Ausgabe sein.
 
-    Würde man aber bei der Ausgabe die Eingabeparameter von ``number'' auf ``string'' ändern, so müsste man auch die Ausgabe von Quadrieren von ``number'' auf ``string'' ändern.
-    Dies könnte auch eine weitere Kette an Anderungen im Programm auslösen. Zum Beispiel müssen auch die Unittests von ``Quadrieren'' geändert werden.
-    Somit ist ``Quadrieren'' abhängig von der ``Ausgabe''
+    Würde man aber bei der Ausgabe die Eingabeparameter von \textbf{number} auf \textbf{string} ändern, 
+    so müsste man auch die Ausgabe von Quadrieren von \textbf{number} auf \textbf{string} ändern.
+    Dies könnte auch eine weitere Kette an Anderungen im Programm auslösen. 
+    Zum Beispiel müssen auch die Unittests von \textbf{Quadrieren} geändert werden.
+    Somit ist \textbf{Quadrieren} abhängig von der \textbf{Ausgabe}
 
     Das Problem lässt sich mittels Dependency Injection lösen.
     In OOP Sprachen kann man dafür ``Interface'' benutzen.
@@ -490,12 +551,14 @@
         \source{Eigene Quelle}
     \end{figure}
 
-    Dies lässt sich mit ``Interface'' (für OOP Sprachen) umsetzen, 
-    in dem es frühestens bei der Initialisiereung der ``Quadrieren'' Klasse das jeweilige Eingabe und Ausgabe Objekt übergeben wird.
+    Dies lässt sich mit \textbf{Interface} (für OOP Sprachen) umsetzen, 
+    in dem es frühestens bei der Initialisiereung der \textbf{Quadrieren} 
+    Klasse das jeweilige Eingabe und Ausgabe Objekt übergeben wird.
 
-    Somit lässt sich die Funktion ``Quadrieren'' mit gefälschten Eingabe- und Ausgabeklasse mit Unit tests getestet werden.
+    Somit lässt sich die Funktion \textbf{Quadrieren} mit gefälschten Eingabe- und Ausgabeklasse mit Unit tests getestet werden.
 
-    Wenn man alle Klassen über Interface miteinander verbindet, ist es möglich, dass die Umgebung von jeder einzelnen Klasse bei den Unittests gefälscht
+    Wenn man alle Klassen über Interface miteinander verbindet, 
+    ist es möglich, dass die Umgebung von jeder einzelnen Klasse bei den Unittests gefälscht
     wird und somit das Schreiben von Unittests sehr einfach wird. 
 
     Interfaces können sich natürlich auch ändern und dann muss man auch alle davon betroffenen Objekte entsprechend ändern, 
@@ -520,6 +583,8 @@
 % Beschreibung der Implementierung der Software
 \newpage
 \import{./Sections/}{Implementierung}
+
+\section{Übersichtsdiagramm}
 
 % Example section added directly into the main-file
 \section{Conclusion}

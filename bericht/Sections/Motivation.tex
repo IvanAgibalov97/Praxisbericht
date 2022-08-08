@@ -1,25 +1,35 @@
-Die Entwicklung eines Softwaresystems ist ein wiederholendes Prozess, das sich in mehreren Phasen unterteilen lässt.
+Die Entwicklung eines Softwaresystems ist ein wiederholender Prozess, der sich in mehreren Phasen unterteilen lässt.
 Alle Phasen beeinflüssen sich gegenseitig, sodass man sie nicht unabhängig voneinander betrachten kann. 
 
-Die unterer Abbildung zeigt eine mögliche Aufteilung in Phasen der Entwicklung. 
+Die Abbildung \ref{fig:workflowCiCd} zeigt eine mögliche Aufteilung in Phasen der Entwicklung. 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{../images/CiCD.png}
-    \caption{CI/CD Pipeline}
-    \label{fig:flow around cylinder}
-    \source{https://blog.itil.org/2016/07/wort-zum-montag-cd-continous-delivery/}
+    \caption[CI/CD Pipeline]{CI/CD Pipeline \footnotemark}
+    \label{fig:workflowCiCd}
 \end{figure}
+\footnotetext{https://blog.itil.org/2016/07/wort-zum-montag-cd-continous-delivery/}
 
-Man ist sehr daran interessiert, die Gesamtzeit des Zyklus so klein wie möglich zu halten, denn somit können die neuen Funktionalität schneller von Kunden benutzt werden und 
+Man ist daran interessiert, die Gesamtzeit des Zyklus so klein wie möglich zu halten, denn somit können die neuen Funktionalität schneller von Kunden benutzt werden und 
 die Bugs werden schneller eliminiert. 
 
-Im groben kann man die Entwicklung in 2 Teilen teilen: Bevor die neue Version der Software freigegeben wird und nach der Freigabe der neuen Version.
+Im Groben kann man die Entwicklung in zwei Teilen teilen: Bevor die neue Version der Software freigegeben 
+wird und nach der Freigabe der neuen Version.
 Die Phasen nach der Freigabe der neuen Version lassen sich fast vollständig automatisieren 
-und verbrauchen dementsprechend nicht so viel Ressourcen ab einem gewissen Moment. Das großte Anteil an Ressourcen wird in die ersten 4 Phasen (Plan, Code, Build, Test) verbraucht, 
-denn diese Aufgaben lassen sich sehr schlecht bis zu gar nicht automatisieren. 
-Und wenn man am Anfang des Projektes schlechte Entscheidungen trifft, 
-die das automatisierte Testen erschweren oder durch die schlechte Struktur des Programms das Hinzufügen der neuen Funktionalität deutlich schwieriger macht, 
-wird man deutlich mehr Ressourcen gebrauchen, um das gleiche Ziel zu ereichen als wenn man das nicht gemacht hätte.
+und verbrauchen dementsprechend nicht viel Ressourcen ab einem gewissen Moment. 
+Der großte Anteil an Ressourcen wird in die ersten vier Phasen (Plan, Code, Build, Test) verbraucht, 
+denn diese Aufgaben lassen sich schlecht bis gar nicht automatisieren. 
 
-In dieser Arbeit wird es darum gehen, welche Entscheidungen am Beispiel eines OCPP Servers man bereits in der Phase ``Plan'' und ``Code'' treffen kann, 
-um die Gesamtqualität der Software zu erhöhen, die die Anzahl an benötigten menschlichen Ressourcen reduziert. 
+Ein hoher Anteil an manuellen Prozessen, wie z.B. Testen, Erstellen, führt in der Softwareentwicklung 
+zu längeren Zykluszeiten. Es ist bereits am Anfang des Projektes von Interesse die Gedanken daran zu machen,
+wie man so viel wie möglich automatisiert.
+
+% Und wenn man am Anfang des Projektes schlechte Entscheidungen trifft, 
+% die das automatisierte Testen erschweren oder durch die schlechte Struktur 
+% des Programms das Hinzufügen der neuen Funktionalität deutlich schwieriger macht, 
+% wird man deutlich mehr Ressourcen gebrauchen, um das gleiche Ziel zu ereichen als wenn man das nicht gemacht hätte.
+
+In dieser Arbeit werden Entscheidungen erläutert, 
+welche bereits in den Phasen "Plan" und "Code" getroffen werden können.
+Das Ziel ist die Gesamtqualität der Software zu verbesseren bei 
+gleichbleibendem oder geringerem personellen Aufwand. Als Beispielt dient die Entwicklung eines OCPP Servers.
