@@ -1557,6 +1557,8 @@ INPUT Sections\Introduction\OOPDesignPatterns\sub\Facade.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\Facade.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\Facade.tex
 INPUT Sections\Introduction\OOPDesignPatterns\sub\Facade.tex
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
 INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
 INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
@@ -1564,6 +1566,13 @@ INPUT Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
 INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
 INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
 INPUT Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
+INPUT .\images\MVP.png
+INPUT .\images\MVP.png
+INPUT images\MVP.png
+INPUT .\images\MVP.png
+INPUT .\images\MVP.png
+INPUT .\images\MVP.png
+INPUT .\images\MVP.png
 INPUT .\Sections\Introduction\SoftwareTesting\SoftwareTesting.tex
 INPUT .\Sections\Introduction\SoftwareTesting\SoftwareTesting.tex
 INPUT .\Sections\Introduction\SoftwareTesting\SoftwareTesting.tex
@@ -1669,7 +1678,6 @@ INPUT Sections\Introduction\GRASP\GRASP.tex
 INPUT .\Sections\Introduction\GRASP\GRASP.tex
 INPUT .\Sections\Introduction\GRASP\GRASP.tex
 INPUT Sections\Introduction\GRASP\GRASP.tex
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT .\Sections\Introduction\OOPPrinciples\OOPPrinciples.tex
 INPUT .\Sections\Introduction\OOPPrinciples\OOPPrinciples.tex
 INPUT .\Sections\Introduction\OOPPrinciples\OOPPrinciples.tex
@@ -1747,6 +1755,13 @@ INPUT .\images\KlassendiagramMitUtilityControllers.png
 INPUT .\images\KlassendiagramMitUtilityControllers.png
 INPUT .\images\KlassendiagramMitUtilityControllers.png
 INPUT .\images\KlassendiagramMitUtilityControllers.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
 INPUT .\images\circle_2.tex
 INPUT .\images\circle_2.tex
 INPUT .\images\circle_2.tex
@@ -1756,6 +1771,13 @@ INPUT .\images\circle_2.tex
 INPUT images\circle_2.tex
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT .\images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
 INPUT .\images\DepInj_1.png
 INPUT .\images\DepInj_1.png
 INPUT images\DepInj_1.png
@@ -1770,6 +1792,48 @@ INPUT .\images\DepInj_2.png
 INPUT .\images\DepInj_2.png
 INPUT .\images\DepInj_2.png
 INPUT .\images\DepInj_2.png
+INPUT .\images\SimpliedArchitecture.png
+INPUT .\images\SimpliedArchitecture.png
+INPUT images\SimpliedArchitecture.png
+INPUT .\images\SimpliedArchitecture.png
+INPUT .\images\SimpliedArchitecture.png
+INPUT .\images\SimpliedArchitecture.png
+INPUT .\images\SimpliedArchitecture.png
+INPUT .\images\Architecture as Standalone.png
+INPUT .\images\Architecture as Standalone.png
+INPUT images\Architecture as Standalone.png
+INPUT .\images\Architecture as Standalone.png
+INPUT .\images\Architecture as Standalone.png
+INPUT .\images\Architecture as Standalone.png
+INPUT .\images\Architecture as Standalone.png
+INPUT .\images\Dataflow.png
+INPUT .\images\Dataflow.png
+INPUT images\Dataflow.png
+INPUT .\images\Dataflow.png
+INPUT .\images\Dataflow.png
+INPUT .\images\Dataflow.png
+INPUT .\images\Dataflow.png
+INPUT .\images\Architecture as Facade.png
+INPUT .\images\Architecture as Facade.png
+INPUT images\Architecture as Facade.png
+INPUT .\images\Architecture as Facade.png
+INPUT .\images\Architecture as Facade.png
+INPUT .\images\Architecture as Facade.png
+INPUT .\images\Architecture as Facade.png
+INPUT .\images\Architecture as Component.png
+INPUT .\images\Architecture as Component.png
+INPUT images\Architecture as Component.png
+INPUT .\images\Architecture as Component.png
+INPUT .\images\Architecture as Component.png
+INPUT .\images\Architecture as Component.png
+INPUT .\images\Architecture as Component.png
+INPUT .\images\Dataflow as Component with inform.png
+INPUT .\images\Dataflow as Component with inform.png
+INPUT images\Dataflow as Component with inform.png
+INPUT .\images\Dataflow as Component with inform.png
+INPUT .\images\Dataflow as Component with inform.png
+INPUT .\images\Dataflow as Component with inform.png
+INPUT .\images\Dataflow as Component with inform.png
 INPUT .\Sections\Aufgabestellung.tex
 INPUT .\Sections\Aufgabestellung.tex
 INPUT .\Sections\Aufgabestellung.tex
@@ -1875,6 +1939,8 @@ INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbx12.pfb
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmbxti10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmcsc10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb

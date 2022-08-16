@@ -46,12 +46,54 @@
 
         \subsubsection{Facade}
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Facade}
+        \subsubsection{Singleton}
+        \label{kap:gof:singleton}
+            Mehr zu Singleton kann \textit{\textbf{Refactoring guru}} lesen.
+
+            Singlteon garantiert, dass eine Klasse nur eine Instanz in der Anwendung hat.
+            Dieser Pattern kann sehr hilfreich sein, wenn man weißt, man hat nur eine Instanz der Klasse im Programm 
+            und auf sie möchte man aus allen Stellen der Anwendung zugreifen.
+            Das Verhalten ähnelt sich mit dem Verhalten einer 
+            globalen Variable deren Wert (die erstellte Instanz) nicht ersetzt werden kann.
+
+            Ein großes Nachteil bei der Benutzung des Singletons ist, 
+            dass die Teile des Programms, in denen Singleton aufgerufen wird, nicht unabhängig von ihm getestet werden können.
+        \subsubsection{Abstract Factory}
+            some info to abstract factory
 
     \subsection{Architecturen}
         \subsubsection{Clean Architectur}
             \import{./Sections/Introduction/CleanArchitecture}{CleanArchitecture}
-        \subsubsection{Model-View Architekturen}
-            lol kek cheburek
+        \newpage
+        \subsubsection{Model-View-Presenter Architektur}
+            Mehr zu MVP (Model-View-Presenter) kann man \textit{\textbf{in folgende Quelle}} lesen.
+
+            Model-View-Presenter Architektur wird in den Anwendungen benutzt, die eine Oberfläche besitzen.
+            Die Architektur teilt die Anwendung in 3 Teile:
+            \begin{itemize}
+                \item \textbf{Model} - enthält die komplete Logik des Programms.
+                \item \textbf{View} - empfängt alle Ereignisse von der Oberfläche und enthält die Daten, die angezeigt werden sollen.
+                \item \textbf{Presenter} - transformiert die Daten in beide Richtungen vom Model zu View 
+                und vom View zu Model
+            \end{itemize}
+
+
+            Eigenschaften der MVP Architektur:
+            \begin{itemize}
+                \item \textbf{Presenter} und \textbf{Model} lassen sich mit Unittests abdecken.
+                \item Jedes neues \textbf{View} braucht ein eigenes \textbf{Presenter}.
+            \end{itemize}
+
+
+            \begin{figure}[H]
+                \centering
+                \includegraphics[width=1\textwidth]{./images/MVP.png}
+                \caption[Datenfluss in MVP Architektur]{Datenfluss in MVP Architektur \footnotemark}
+                \label{fig:MVP}
+            \end{figure}
+            \footnotetext{Eigene Quelle}
+
+
 
     \subsection{Software Testing}
         \import{./Sections/Introduction/SoftwareTesting}{SoftwareTesting}
@@ -138,6 +180,15 @@
     \end{itemize}
 
     \subsection{Ziele der Software Architektur}
+
+    Jede Software erfüllt bestimmte Anforderungen, die von Außen gestellt werden. 
+    Diese Anforderungen sind meistens von nicht Softwareentwicklern definiert und beziehen sich auf nicht Informatikgebiete 
+    (z.B. Banksoftware oder ein Smartphone Anwendung). 
+    Das Erfüllen von diesen Anforderungen ist das Ziel von jedem Softwareprojekt.
+    Jedoch bei der Umsetzung entstehen viele Herausforderungen, die für die Außenstehenden nicht bekannt sind 
+    (z.B. Auswahl einer Datenbank oder Optimierung der Ressourcenverwendung). 
+
+    \textbf{fehlt gluetext}
 
     \textit{Das Ziel der Software Architektur ist das Mininimieren der menschlichen Ressourcen, 
     die benötigt werden um ein System zu entwickeln und zu unterstützen.}\cite[5]{cleanArchitecture}
@@ -293,6 +344,7 @@
 
     \newpage
     \subsection{Abhängigkeiten im Programm}
+    \label{kap:Structur}
 
     Die Architektur lässt sich in zwei wesentlichen Teilen zerlegen
     \begin{itemize}
@@ -329,7 +381,7 @@
     \begin{figure}[H]
        \centering
        \includegraphics[width=6.5cm]{./images/Port-Adapter-Contoller.png}
-        \caption[Klassendiagrammm PAC]{Klassendiagrammm PAC \footnotemark}
+        \caption[Objektendiagramm PAC]{Objektendiagramm PAC \footnotemark}
         \label{fig:CDPAC}
     \end{figure}
     \footnotetext{Eigene Quelle}
@@ -360,12 +412,12 @@
     \end{itemize}
     D.h. man braucht eine ``Hülle'' um jeder Methode - \textbf{Interactor}
 
-    Wenn man das alles zusammen entsteht folgendes Klassendiagrammm:
+    Wenn man das alles zusammen entsteht folgendes Objektendiagramm:
 
     \begin{figure}[H]
         \centering
         \includegraphics[width=6.5cm]{./images/Controller-Dispatcher-UseCase-Interactor.png}
-         \caption[Klassendiagrammm Controller-Dispatcher-UseCase-Interactor]{Klassendiagrammm Controller-Dispatcher-UseCase-Interactor \footnotemark}
+         \caption[Objektendiagramm Controller-Dispatcher-UseCase-Interactor]{Objektendiagramm Controller-Dispatcher-UseCase-Interactor \footnotemark}
          \label{fig:CDCDUI}
     \end{figure}
     \footnotetext{Eigene Quelle}
@@ -401,21 +453,24 @@
     \end{figure}
     \footnotetext{Eigene Quelle}
 
-
     Mit diesem Ablauf können mehrere \textbf{Main}s erstellt werden, die verschiedene Anwendungen für verschiedene Zwecke erstellen.
     Z.B. ein Framework braucht keine reelen Anknüpfungen an die Infrastruktur (z.B. Datenbank) im Vergleich zu Standalone Anwendung.
     Oder es können verschiedene \textbf{Main}s für verschiedene Datenbanken.
 
-
     \subsubsection{Utility Controllers}
+    \label{kap:utilityControllers}
     In jeder Anwendung gibt es Teile bzw. Module, die aus allen Orten erreichbar sein sollen
-    (z.B. Logger Controller oder Datum Controller).
+    (z.B. Logger Controller oder Datum Controller), und es gibt auch Klassen, die regelmäßig instanziert werden.
+
+    Das Problem dabei ist, dass in das neue erstellte Objekt die Utility Controllers immer neben den anderen Argumenten 
+    mitübergeben werden müssen. Das erschwert die Lesbarkeit des Codes und kann eine Reihe an Änderungen an vielen Stellen mit sich ziehen,
+    falls man die Konstruktoren ändert.
     
-    Es gibt folgende Möglichkeiten es umzusetzen:
+    Es gibt folgende Möglichkeiten das Problem zu lösen:
     \begin{itemize}
-        \item Globale Objekte bzw. Instanzen (z.B. OOP Design Pattern \textbf{Singleton})
+        \item Globale Objekte bzw. Instanzen (z.B. OOP Design Pattern \textbf{Singleton} \ref{kap:gof:singleton})
         \item Initialisiereung von den Entsprechenden Instanzen und Übergeben in dem Konstruktor (OOP Sprachen)
-        oder mittels einem Setters
+        oder mittels einer Settermethode.
     \end{itemize}
 
     Bei der ersten Implementierung hat man das Problem, dass die benutzten Utility Controllers nicht ersetzbar sind.
@@ -427,11 +482,14 @@
 
     Bei der zweiten Möglichkeit müssen alle Utility Controllers entweder bei der Initialisiereung im Konstruktor 
     der jeweiligen Instanzen übergeben, dies führt zu einer längeren Parameterliste,
-    die die Lesbarkeit des Codes erschwert oder mittels einer anderen Methode der Instanz,
+    die die Lesbarkeit des Codes erschwert oder mittels einer Settermethode der Instanz,
     dies führt dazu, dass der Aufruf der Methode von dem Softwareentwickler vergessen werden kann.
     
     Das Problem lässt sich zum Beispiel durch OOP design pattern \textbf{Factory}, das die Utility Controllers bereits
-    enthält und bei der Initialisiereung entsprechend in Konstruktor übergibt. Alle Module bzw. Klassen lassen sich somit auch mit Unittests
+    enthält und bei der Initialisiereung entsprechend in Konstruktor übergibt. 
+    Jedes Teil des Programms besitzt eine Referenz auf der Instanz der Fabrik, 
+    die eine kürzere Interface für das erstellen von verschieden Instanzen anbietet.
+    Alle Module bzw. Klassen lassen sich somit auch mit Unittests
     abdecken, da die Utility Controllers entsprechend gemockt werden können. 
 
     In der Abbildung \ref{fig:CDControllerWithUtility} ist die Verbindung jedes \textbf{Controller}s mit den Utility Controllers als Klassendiagramm dargestellt.
@@ -439,15 +497,34 @@
     \begin{figure}[H]
         \centering
         \includegraphics[width=12cm]{./images/KlassendiagramMitUtilityControllers.png}
-         \caption[Klassendiagramm mit Utility Controllers]{Klassendiagramm mit Utility Controllers \footnotemark}
+         \caption[Objektendiagramm mit Utility Controllers]{Objektendiagramm mit Utility Controllers \footnotemark}
          \label{fig:CDControllerWithUtility}
     \end{figure}
     \footnotetext{Eigene Quelle}
 
+    \subsubsection{Verbindung der einzelnen Schichten miteinander und die Testbarkeit}
+    Die früheren Kapitels beschreiben mittels Objektendiagramms die Struktur der Anwendungen nach dem Starten.
 
+    Die Schichten sind mittels \textbf{\nameref{DependencyInjection}} miteinander verknüpft.
+
+    Beispiel für \textbf{Port}-\textbf{Adapter}-\textbf{Controller} Verbindung:
+
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=12cm]{./images/Klassendiagramm Port-Adapter.png}
+        \caption[Klassendiagramm Port-Adapter-Controller]{Klassendiagramm Port-Adapter-Controller \footnotemark}
+        \label{fig:FullCDPAC}
+    \end{figure}
+    \footnotetext{Eigene Quelle}
+
+    Im Klassendiagramm \ref{fig:FullCDPAC} sind alle Klassen miteinander über ein Interface verbunden.
+    Dies ermöglicht leichte und schnelle Ersetzbarkeit der Schichten und 
+    somit lässt sich jeder Zustand der Umgebung um einer Schicht simulieren. 
+    Das ist Voraussetzung für Testbarkeit jeder einzelnen Schicht unabhängig von den anderen Schichten.
 
     \newpage
     \subsection{Datenfluss im Programm}
+    \label{kap:Dataflow}
     Im System gibt es 3 wichtige Datenflusse, die durch Kombination miteinander die komplexen Abläufe im System umsetzen
     \begin{enumerate}
         \item (blau) Controller löst ein Ereignis im Dispatcher aus.
@@ -456,6 +533,7 @@
     \end{enumerate}
     Wenn das geschehen ist, sieht der Datenfluss so aus:
     \import{./images/}{circle_2}
+    \label{fig:sp2d}
     \footnotetext{Eigene Quelle}
 
     \newpage
@@ -592,7 +670,7 @@
 
 
     Darstellung des Datenflusses ``3'' als ``sequencediagram'':
-    \begin{figure}[h]
+    \begin{figure}[H]
         \begin{sequencediagram}
             \newthread{A}{Externe}
             \newthread{B}{Port}
@@ -609,13 +687,49 @@
         \end{sequencediagram}
     \end{figure}
     
-    Beschreibung der Struktur des Programms:
-    \textbf{hier kommt das Bild nur mit der Structur}
+    \newpage
+    \newpage
+    \newpage
+    \subsubsection{Logging}
+    Ein wichtiger Bestandteil jeder Software ist das Logging von unterschiedlichen Ereignissen in der Software.
+    Das Ziel vom Logging ist später von den Softwareentwicklern verschiede Fehler in der Software so schnell wie möglich zu finden und
+    zu beseitigen.
+    
+    Dafür muss es möglich sein mit den Logs die Fehler so genau wie möglich in der Software zu lokalisieren 
+    (welche Komponente oder welche Methode den Fehler hervorgerufen hat) 
+    und welche Ereigniskette den jeweiligen Fehler hervorgerufen hat.
+
+    In dem Kapitel \ref{kap:Dataflow} sind alle möglichen Wege basierend auf der beschriebenen Struktur 
+    im Kapitel \ref{kap:Structur} für die ankommenden Ereignissen in der Software beschrieben.
+
+    Die untere Abbildung \ref{fig:FullDataFlow} zeigt den kompleten Ablauf beim Geschehen eines Ereignisses.
+    Eine mögliche Systematisierung des Loggierens in der Appliaction wäre: 
     \begin{itemize}
-        \item 
+        \item man zeichnet in jeder Komponente den Inhalt des ankommenden Ereignisses auf
+        \item man zeichnet in jeder Komponente den Inhalt des ausgehenden Ereignisses auf
+        \item man zeichnet alle Komponenten auf, an die das Ereignis weitergegeben wird
     \end{itemize}
 
+    Somit lässen sich die Fehler auf die Komponente genau lokalisieren, d.h. man kann einen entsprechenden Unittest schreiben, 
+    der diesen Fehler abdeckt, bzw. einen Integrationtests, da man auch den Ablauf des Ereignisses kennt.
+    
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=12cm]{./images/FullDataFlow.png}
+         \caption[Kompletter Datenfluss]{Kompletter Datenfluss \footnotemark}
+         \label{fig:FullDataFlow}
+    \end{figure}
+    \footnotetext{Eigene Quelle}
 
+    \newpage
+    \subsubsection{Parallelismus}
+    evtl. auf Funktionales Programmieren hinweisen.
+    In der beschriebenen Struktur lassen sich folgende Prozesse parallel ausführen:
+    \begin{itemize}
+        \item Jede Controller-Adapter-Port Komponente
+        \item Dispatcher
+        \item Jedes aktives UseCase
+    \end{itemize}
 
     \subsubsection{Auswahl der Datenbank}
     \subsubsection{Dependency Rule}
@@ -623,6 +737,7 @@
     \subsubsection{Implementierung der Testbarkeit}
     - Humble Objects
     \subsubsection{Dependency Injection}
+    \label{DependencyInjection}
     In der Abbildung \ref{fig:dateflowVScodedep} sieht man ein Beispiel von einer Anwendung, die die von der Konsole ankommenden Zahlen quadriert und das Ergebnis zurückgibt.
     
     \begin{figure}[H]
@@ -669,6 +784,145 @@
 
     Auch mit Dependency Injection lassen sich externe Schnittstellen wie Datenbank oder Netzwerkschnittstellen schnell austauschen, 
     denn man muss nur eine Klasse schreiben, die das Interface implementiert.
+
+    \newpage
+    \subsection{Erweiterung der Funktionalitäten}
+    Wie am Anfang angedeutet wurde, ein wichtiges Ziel der Architectur ist die leichte Erweiterung der jeglichen Funktionalitäten der 
+    Anwendung. In dem Kapitel werden mehrere Szenarien betrachtet und entsprechend beschrieben, an welchen Stellen was geändert bzw.
+    hinzugefügt werden soll. Bei allen Änderungen darf man nicht vergessen, dass sie entsprechend im Programm initalisiert werden.
+    (z.B. eine entsprechende Instanz gestartet wird usw.)
+    
+    \subsubsection{Verhalten für ein Ereignis erweitern}
+    \label{Verhalten für ein Ereignis erweitern}
+    Bei diesem Szenario, geht man davon aus das ein Ereignis an Dispatcher ankommt und entspechend an alle dafür 
+    verantwortlichen UseCases weiterleitet. 
+    Es gibt hier zwei Möglichkeiten:
+    \begin{enumerate}
+        \item bestehendes UseCase um die neue Funktionalität erweitern.
+        \item neues UseCase erstellen, das das gleiche Ereignis handelt.
+    \end{enumerate}
+
+    Mit der ersten Möglichkeit hat man das komplete Verhalten für ein Ereignis an einem Ort und mit Unittests abdecken.
+
+    Die zweite Möglichkeit streut das Verhalten für ein Ereignis im Projekt, was eine besere Lesbarkeit des jeweiligen Teils erhöht,
+    jedoch die Schwierigkeit bringt alle solche Teile im Projekt zu finden. Das Gesamtverhalten lässt sich erst mittels
+    einem Integrationtest abdecken, was eine mögliche Fehlersuche erschweren kann. 
+    Für den Fall, dass das neue Verhalten unabhängig von dem bestehenden Verhalten ablaufen soll ist es eine gute Möglichkeit.
+    
+    \subsubsection{Eine bestehende Schnittstelle um 1 Ereignis erweitern}
+    In dem Fall wird nur der Datenweg vom \textbf{Port}-\textbf{Adapter}-\textbf{Controller} betrachtet und welche Änderungen,
+    da entsprechend gemacht werden müssen.
+
+    Der Weg vom \textbf{Port} zum \textbf{Controller}
+
+    \begin{itemize}
+        \item \textbf{Port} in dem Teil sollen keine Änderungen gemacht werden.
+        \item \textbf{Adapter} in dem Teil soll das Validieren des ankommenden Ereignisses hinzugefügt werden. Normalerweise würde 
+        das Ereignis als ein unbekanntes Ereignis markiert und dann weitergeleitet.
+        \item \textbf{Controller} in dem Teil sollen keine Änderungen gemacht werden.
+    \end{itemize}
+
+    Der Weg vom \textbf{Controller} zum \textbf{Port}
+    \begin{itemize}
+        \item \textbf{Controller} das Absenden soll ermöglicht werden, evtl. auch ein \textbf{Interactor} hinzufügen
+        \item \textbf{Adapter} um das Umwandeln des Ereignisses soll erweitert werden.
+        \item \textbf{Port} in dem Teil sollen keine Änderungen gemacht werden.
+    \end{itemize}
+
+    \newpage
+    \subsubsection{Neue Schnittstelle hinzufügen}
+    Wenn man eine neue Schnittstelle hinzufügen möchte, muss man 3 neue Teile erstellen.
+    \begin{itemize}
+        \item \textbf{Port}
+        \item \textbf{Adapter}
+        \item \textbf{Controller} evtl. auch \textbf{Interactoren} hinzufügen
+    \end{itemize}
+
+    \subsubsection{Das Verhalten für ein neues Ereignis hinzufügen}
+    Der Ablauf in dem Fall ist gleich dem Ablauf der zweiten Möglichkeit in dem Teil \ref{Verhalten für ein Ereignis erweitern}.
+    Man hat dabei keine beschriebenen Nachteile, die in dem Kapitel beschrieben sind.
+    
+    \newpage
+    \subsection{Anbindung in eine andere Anwendung als eine Komponente}
+    Nicht jede Software wird als Standalone Anwendung ausgeführt, es kann auch passieren, dass man 
+    erst ein Kern umsetzt, die dann in jeweiligen Anwendungen entsprechend angepasst werden 
+    oder es handelt sich nur um eine Komponente für die andere Anwednung.
+    Eine Analogie aus OOP wäre eine Abstrakte Klasse.
+
+    Grundsätzlich kann man die Abbildung \ref{fig:sp2d} folgendeweise vereinfachen:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{./images/SimpliedArchitecture.png}
+        \caption{Vereinfachte Darstellung}
+        \label{fig:SimpliedArchitecture}
+        \source{Eigene Quelle}
+    \end{figure}
+
+    Und bei einer Standalone Anwendung gibt es eine Main-Methode, die diese Struktrur erstellt.
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{./images/Architecture as Standalone.png}
+        \caption{Vereinfachte Darstellung einer Standalone Anwendung}
+        \label{fig:SimpliedArchitectureAsStandalone}
+        \source{Eigene Quelle}
+    \end{figure}
+    
+    Der Datenfluss lässt sich so darstellen:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{./images/Dataflow.png}
+        \caption{Vereinfachte Darstellung einer Standalone Anwendung}
+        \label{fig:SimpliedArchitectureDataflow}
+        \source{Eigene Quelle}
+    \end{figure}
+
+    \newpage
+    Wenn man es als Komponente in einer anderen Anwendung benutzen möchte, braucht die Struktur eine Facade, damit man 
+    auf "wichtige Teile" der Komponente zugreifen kann und der Rest verborgen bleibt. 
+    Die Facade baut die gesamte Struktur der Komponente auf.
+
+    So sieht eine fertige Komponente aus, die man in die anderen Anwendungen integrieren kann:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{./images/Architecture as Facade.png}
+        \caption{Vereinfacte Darstellung der Architektur als Komponente}
+        \label{fig:SimpliedArchitectureAsKomponent}
+        \source{Eigene Quelle}
+    \end{figure}
+
+    Auf der Darstellung \ref{fig:SimpliedArchitectureAsKomponent} sieht man, dass die Anwendung nur den Zugriff auf drei Teile der Komponente hat.
+    Das sind:
+    \begin{itemize}
+        \item \textbf{Controllers} - um die Zustände des jeweiligen Controllers abfragen und ändern.
+        \item \textbf{Dispatcher} - um alle Ereignise in der Komponente abzufangen.
+        \item \textbf{UseCases} - um das Verhalten auf gewisse Ereignise ändern zu können.
+    \end{itemize}
+
+    Die Komponente kann bestimmte Ereignise selber abarbeiten und die Anwendung davon gar nicht informieren oder
+    das Ereignis weiterleiten, dass es von der Anwednung selbst abarbeitet wird.
+    Die Komponente wird von der eigentlichen Anwendung unabhängig entwickelt, somit wird es passieren, dass
+    der Datentyp des Ereignisses von der Komponente nicht mit dem Datentyp der Anwendung übereinstimmt und deswegen muss noch durch den entsprechenden Adapter angepasst werden.
+    Das bedeutet, dass die Komponente wird nur von dem \textbf{Port} der jeweiligen Anwendung benutzt wird.
+
+    \newpage
+    Die Vereinfacte Darstellung der Anwendung mit der Komponente:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{./images/Architecture as Component.png}
+        \caption{Vereinfacte Darstellung einer Standalone Anwendung mit der Komponente}
+        \label{fig:SimpliedArchitectureAsStandaloneWithComponent}
+        \source{Eigene Quelle}
+    \end{figure}
+
+    Der Datenfluss in der Anwendung würde wie folgt aussehen:
+    \begin{figure}[H]
+        \centering
+        \includegraphics[width=1\textwidth]{./images/Dataflow as Component with inform.png}
+        \caption{Vereinfacte Darstellung des Datenflusses in einer Anwendung mit Komponente}
+        \label{fig:SimpliedDataflowWithComponent}
+        \source{Eigene Quelle}
+    \end{figure}
+
 \newpage
 
 
