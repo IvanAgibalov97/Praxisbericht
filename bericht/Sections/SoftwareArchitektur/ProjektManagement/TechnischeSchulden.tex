@@ -1,0 +1,40 @@
+Bei den Änderungen oder Erweiterungen eines Systems entsteht oft ein Overhead, welcher durch die ``Unsauberkeit'' des bestehenden Programms verusacht wird.
+
+Dieser Overhead wird als technische Schulden (en. : Technical Debts) bezeichnet.
+
+Die technischen Schulden entstehen dadurch, dass bei der Entwicklung eines Teiles des Systems wurde 
+von den Entwicklungsteam weniger Zeit für nicht gewinnbringende Aufgaben inverstiert wurde.
+Beispiele für solche Tätigkeiten sind:
+\begin{itemize}
+    \item Unittests
+    \item Dokumentieren 
+    \item Code Review
+\end{itemize}
+
+Beispiele für Technische Schulden sind:
+\begin{itemize}
+    \item Alte Funktionalitäten funktionieren nach der Änderung nicht mehr
+    \item Aufdeckung eines Bugs erst nach einer gewissen Zeit in Produktionsversion der Software
+    \item Implementieren der neuen Funktionalitäten verbraucht deutlich mehr Zeit
+\end{itemize}
+
+Eine klare Struktur der Software reduziert die Menge an technischen Schulden, 
+die die Weiterentwicklung in der Zukunft verlangsamen. 
+
+Die Softwareentwickler können die ankommenden Aufgaben erledigen
+\begin{itemize}
+    \item man hat bereits Vorgaben wie die Kommunikationswege zwischen den Modulen ist
+    \item wie die Module benannt werden sollen
+    \item an welchen Stellen das Modul in das System hinzugefügt werden soll
+    \item die Menge an durch den "Zufall" entstehenden Bugs in anderen Teilen des Programms ist minimal
+\end{itemize}
+
+Durch die bereits definierten Kommunikationswege zwischen den Modulen, muss weniger dokumentiert werden.
+Mit weniger Dokumentation können die gesuchten Informationen schneller gefunden werden.
+
+Durch die einheitliche Bezeichnung der Teile des Modules ist es möglich aus dem Namen des Modules seine Aufgaben ableiten.
+
+Daher ist es vom Vorteil vor Begin der Umsetzung des Softwaresystems, die oben gennanten Aufgaben zu lösen,
+denn mit zunehmender Lebenszeit der Software nimmt die Änderungszeit zu.
+
+Somit lassen sich die vorhandenen Ressourcen effizienter eingesetzen.

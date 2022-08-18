@@ -157,6 +157,17 @@ INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.d
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\pdfpages\pppdftex.def
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\titlesec\titlesec.sty
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\appendix\appendix.sty
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\appendix\appendix.sty
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\tex\latex\appendix\appendix.sty
@@ -1557,15 +1568,36 @@ INPUT Sections\Introduction\OOPDesignPatterns\sub\Facade.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\Facade.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\Facade.tex
 INPUT Sections\Introduction\OOPDesignPatterns\sub\Facade.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
+INPUT Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
+INPUT Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
-INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
-INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
-INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
-INPUT Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
-INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
-INPUT .\Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
-INPUT Sections\Introduction\CleanArchitecture\CleanArchitecture.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\AbstractFactory.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\AbstractFactory.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\AbstractFactory.tex
+INPUT Sections\Introduction\OOPDesignPatterns\sub\AbstractFactory.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\AbstractFactory.tex
+INPUT .\Sections\Introduction\OOPDesignPatterns\sub\AbstractFactory.tex
+INPUT Sections\Introduction\OOPDesignPatterns\sub\AbstractFactory.tex
+INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
+INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
+INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
+INPUT Sections\Introduction\Architecture\CleanArchitecture.tex
+INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
+INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
+INPUT Sections\Introduction\Architecture\CleanArchitecture.tex
+INPUT .\Sections\Introduction\Architecture\MVP.tex
+INPUT .\Sections\Introduction\Architecture\MVP.tex
+INPUT .\Sections\Introduction\Architecture\MVP.tex
+INPUT Sections\Introduction\Architecture\MVP.tex
+INPUT .\Sections\Introduction\Architecture\MVP.tex
+INPUT .\Sections\Introduction\Architecture\MVP.tex
+INPUT Sections\Introduction\Architecture\MVP.tex
 INPUT .\images\MVP.png
 INPUT .\images\MVP.png
 INPUT images\MVP.png
@@ -1713,71 +1745,20 @@ INPUT Sections\Introduction\OOPPrinciples\sub\Polymorphism.tex
 INPUT .\Sections\Introduction\OOPPrinciples\sub\Polymorphism.tex
 INPUT .\Sections\Introduction\OOPPrinciples\sub\Polymorphism.tex
 INPUT Sections\Introduction\OOPPrinciples\sub\Polymorphism.tex
-INPUT .\images\QASoftwareCompare.png
-INPUT .\images\QASoftwareCompare.png
-INPUT images\QASoftwareCompare.png
-INPUT .\images\QASoftwareCompare.png
-INPUT .\images\QASoftwareCompare.png
-INPUT .\images\QASoftwareCompare.png
-INPUT .\images\QASoftwareCompare.png
-INPUT .\images\circle_1.tex
-INPUT .\images\circle_1.tex
-INPUT .\images\circle_1.tex
-INPUT images\circle_1.tex
-INPUT .\images\circle_1.tex
-INPUT .\images\circle_1.tex
-INPUT images\circle_1.tex
-INPUT .\images\Port-Adapter-Contoller.png
-INPUT .\images\Port-Adapter-Contoller.png
-INPUT images\Port-Adapter-Contoller.png
-INPUT .\images\Port-Adapter-Contoller.png
-INPUT .\images\Port-Adapter-Contoller.png
-INPUT .\images\Port-Adapter-Contoller.png
-INPUT .\images\Port-Adapter-Contoller.png
-INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
-INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
-INPUT images\Controller-Dispatcher-UseCase-Interactor.png
-INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
-INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
-INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
-INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
-INPUT .\images\Erstellen AD.png
-INPUT .\images\Erstellen AD.png
-INPUT images\Erstellen AD.png
-INPUT .\images\Erstellen AD.png
-INPUT .\images\Erstellen AD.png
-INPUT .\images\Erstellen AD.png
-INPUT .\images\Erstellen AD.png
-INPUT .\images\KlassendiagramMitUtilityControllers.png
-INPUT .\images\KlassendiagramMitUtilityControllers.png
-INPUT images\KlassendiagramMitUtilityControllers.png
-INPUT .\images\KlassendiagramMitUtilityControllers.png
-INPUT .\images\KlassendiagramMitUtilityControllers.png
-INPUT .\images\KlassendiagramMitUtilityControllers.png
-INPUT .\images\KlassendiagramMitUtilityControllers.png
-INPUT .\images\Klassendiagramm Port-Adapter.png
-INPUT .\images\Klassendiagramm Port-Adapter.png
-INPUT images\Klassendiagramm Port-Adapter.png
-INPUT .\images\Klassendiagramm Port-Adapter.png
-INPUT .\images\Klassendiagramm Port-Adapter.png
-INPUT .\images\Klassendiagramm Port-Adapter.png
-INPUT .\images\Klassendiagramm Port-Adapter.png
-INPUT .\images\circle_2.tex
-INPUT .\images\circle_2.tex
-INPUT .\images\circle_2.tex
-INPUT images\circle_2.tex
-INPUT .\images\circle_2.tex
-INPUT .\images\circle_2.tex
-INPUT images\circle_2.tex
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
-INPUT .\images\FullDataFlow.png
-INPUT .\images\FullDataFlow.png
-INPUT images\FullDataFlow.png
-INPUT .\images\FullDataFlow.png
-INPUT .\images\FullDataFlow.png
-INPUT .\images\FullDataFlow.png
-INPUT .\images\FullDataFlow.png
+INPUT .\Sections\Introduction\IoC.tex
+INPUT .\Sections\Introduction\IoC.tex
+INPUT .\Sections\Introduction\IoC.tex
+INPUT Sections\Introduction\IoC.tex
+INPUT .\Sections\Introduction\IoC.tex
+INPUT .\Sections\Introduction\IoC.tex
+INPUT Sections\Introduction\IoC.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\DependencyInjection.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\DependencyInjection.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\DependencyInjection.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\DependencyInjection.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\DependencyInjection.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\DependencyInjection.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\DependencyInjection.tex
 INPUT .\images\DepInj_1.png
 INPUT .\images\DepInj_1.png
 INPUT images\DepInj_1.png
@@ -1792,6 +1773,204 @@ INPUT .\images\DepInj_2.png
 INPUT .\images\DepInj_2.png
 INPUT .\images\DepInj_2.png
 INPUT .\images\DepInj_2.png
+INPUT .\Sections\SoftwareArchitektur\into.tex
+INPUT .\Sections\SoftwareArchitektur\into.tex
+INPUT .\Sections\SoftwareArchitektur\into.tex
+INPUT Sections\SoftwareArchitektur\into.tex
+INPUT .\Sections\SoftwareArchitektur\into.tex
+INPUT .\Sections\SoftwareArchitektur\into.tex
+INPUT Sections\SoftwareArchitektur\into.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\ZieleSA.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\ZieleSA.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\ZieleSA.tex
+INPUT Sections\SoftwareArchitektur\ProjektManagement\ZieleSA.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\ZieleSA.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\ZieleSA.tex
+INPUT Sections\SoftwareArchitektur\ProjektManagement\ZieleSA.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\TechnischeSchulden.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\TechnischeSchulden.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\TechnischeSchulden.tex
+INPUT Sections\SoftwareArchitektur\ProjektManagement\TechnischeSchulden.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\TechnischeSchulden.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\TechnischeSchulden.tex
+INPUT Sections\SoftwareArchitektur\ProjektManagement\TechnischeSchulden.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\QualitaetUndKosten.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\QualitaetUndKosten.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\QualitaetUndKosten.tex
+INPUT Sections\SoftwareArchitektur\ProjektManagement\QualitaetUndKosten.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\QualitaetUndKosten.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\QualitaetUndKosten.tex
+INPUT Sections\SoftwareArchitektur\ProjektManagement\QualitaetUndKosten.tex
+INPUT .\images\QASoftwareCompare.png
+INPUT .\images\QASoftwareCompare.png
+INPUT images\QASoftwareCompare.png
+INPUT .\images\QASoftwareCompare.png
+INPUT .\images\QASoftwareCompare.png
+INPUT .\images\QASoftwareCompare.png
+INPUT .\images\QASoftwareCompare.png
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\WichtigkeitDerTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\WichtigkeitDerTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\WichtigkeitDerTestbarkeit.tex
+INPUT Sections\SoftwareArchitektur\ProjektManagement\WichtigkeitDerTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\WichtigkeitDerTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\ProjektManagement\WichtigkeitDerTestbarkeit.tex
+INPUT Sections\SoftwareArchitektur\ProjektManagement\WichtigkeitDerTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\intro.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\intro.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\intro.tex
+INPUT .\images\circle_1.tex
+INPUT .\images\circle_1.tex
+INPUT .\images\circle_1.tex
+INPUT images\circle_1.tex
+INPUT .\images\circle_1.tex
+INPUT .\images\circle_1.tex
+INPUT images\circle_1.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\intro.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\intro.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Port-Adapter-Controller.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Port-Adapter-Controller.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Port-Adapter-Controller.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Port-Adapter-Controller.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Port-Adapter-Controller.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Port-Adapter-Controller.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Port-Adapter-Controller.tex
+INPUT .\images\Port-Adapter-Contoller.png
+INPUT .\images\Port-Adapter-Contoller.png
+INPUT images\Port-Adapter-Contoller.png
+INPUT .\images\Port-Adapter-Contoller.png
+INPUT .\images\Port-Adapter-Contoller.png
+INPUT .\images\Port-Adapter-Contoller.png
+INPUT .\images\Port-Adapter-Contoller.png
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Controller-Dispatcher-UseCase-Interactor.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Controller-Dispatcher-UseCase-Interactor.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Controller-Dispatcher-UseCase-Interactor.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Controller-Dispatcher-UseCase-Interactor.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Controller-Dispatcher-UseCase-Interactor.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Controller-Dispatcher-UseCase-Interactor.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Controller-Dispatcher-UseCase-Interactor.tex
+INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
+INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
+INPUT images\Controller-Dispatcher-UseCase-Interactor.png
+INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
+INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
+INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
+INPUT .\images\Controller-Dispatcher-UseCase-Interactor.png
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Erstellen.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Erstellen.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Erstellen.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Erstellen.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Erstellen.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Erstellen.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Erstellen.tex
+INPUT .\images\Erstellen AD.png
+INPUT .\images\Erstellen AD.png
+INPUT images\Erstellen AD.png
+INPUT .\images\Erstellen AD.png
+INPUT .\images\Erstellen AD.png
+INPUT .\images\Erstellen AD.png
+INPUT .\images\Erstellen AD.png
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Utility.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Utility.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Utility.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Utility.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Utility.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Utility.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\Utility.tex
+INPUT .\images\KlassendiagramMitUtilityControllers.png
+INPUT .\images\KlassendiagramMitUtilityControllers.png
+INPUT images\KlassendiagramMitUtilityControllers.png
+INPUT .\images\KlassendiagramMitUtilityControllers.png
+INPUT .\images\KlassendiagramMitUtilityControllers.png
+INPUT .\images\KlassendiagramMitUtilityControllers.png
+INPUT .\images\KlassendiagramMitUtilityControllers.png
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\VerbindungUndTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\VerbindungUndTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\VerbindungUndTestbarkeit.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\VerbindungUndTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\VerbindungUndTestbarkeit.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\VerbindungUndTestbarkeit.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Struktur\VerbindungUndTestbarkeit.tex
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\images\Klassendiagramm Port-Adapter.png
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Intro.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Intro.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Intro.tex
+INPUT .\images\circle_2.tex
+INPUT .\images\circle_2.tex
+INPUT .\images\circle_2.tex
+INPUT images\circle_2.tex
+INPUT .\images\circle_2.tex
+INPUT .\images\circle_2.tex
+INPUT images\circle_2.tex
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
+INPUT .\images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT .\images\FullDataFlow.png
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\intro.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\intro.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\intro.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addBehavior.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addBehavior.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addBehavior.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addBehavior.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addBehavior.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addBehavior.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addBehavior.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addEvent.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addEvent.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addEvent.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addEvent.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addEvent.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addEvent.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addEvent.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addInterface.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addInterface.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addInterface.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addInterface.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addInterface.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addInterface.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\ArbeitMitArchitektur\addInterface.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\UseAsComponent.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\UseAsComponent.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\UseAsComponent.tex
+INPUT Sections\SoftwareArchitektur\Anwendung\UseAsComponent.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\UseAsComponent.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\UseAsComponent.tex
+INPUT Sections\SoftwareArchitektur\Anwendung\UseAsComponent.tex
 INPUT .\images\SimpliedArchitecture.png
 INPUT .\images\SimpliedArchitecture.png
 INPUT images\SimpliedArchitecture.png
@@ -1834,6 +2013,27 @@ INPUT .\images\Dataflow as Component with inform.png
 INPUT .\images\Dataflow as Component with inform.png
 INPUT .\images\Dataflow as Component with inform.png
 INPUT .\images\Dataflow as Component with inform.png
+INPUT .\Sections\SoftwareArchitektur\Anwendung\FrameworkAndLibrary.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\FrameworkAndLibrary.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\FrameworkAndLibrary.tex
+INPUT Sections\SoftwareArchitektur\Anwendung\FrameworkAndLibrary.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\FrameworkAndLibrary.tex
+INPUT .\Sections\SoftwareArchitektur\Anwendung\FrameworkAndLibrary.tex
+INPUT Sections\SoftwareArchitektur\Anwendung\FrameworkAndLibrary.tex
+INPUT .\images\Dataflow Library.png
+INPUT .\images\Dataflow Library.png
+INPUT images\Dataflow Library.png
+INPUT .\images\Dataflow Library.png
+INPUT .\images\Dataflow Library.png
+INPUT .\images\Dataflow Library.png
+INPUT .\images\Dataflow Library.png
+INPUT .\images\Dataflow Framework.png
+INPUT .\images\Dataflow Framework.png
+INPUT images\Dataflow Framework.png
+INPUT .\images\Dataflow Framework.png
+INPUT .\images\Dataflow Framework.png
+INPUT .\images\Dataflow Framework.png
+INPUT .\images\Dataflow Framework.png
 INPUT .\Sections\Aufgabestellung.tex
 INPUT .\Sections\Aufgabestellung.tex
 INPUT .\Sections\Aufgabestellung.tex

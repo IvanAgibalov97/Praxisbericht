@@ -1,0 +1,18 @@
+In dem Fall wird nur der Datenweg vom \textbf{Port}-\textbf{Adapter}-\textbf{Controller} betrachtet und welche Änderungen,
+da entsprechend gemacht werden müssen.
+
+Der Weg vom \textbf{Port} zum \textbf{Controller}
+
+\begin{itemize}
+    \item \textbf{Port} in dem Teil sollen keine Änderungen gemacht werden.
+    \item \textbf{Adapter} in dem Teil soll das Validieren des ankommenden Ereignisses hinzugefügt werden. Normalerweise würde 
+    das Ereignis als ein unbekanntes Ereignis markiert und dann weitergeleitet.
+    \item \textbf{Controller} in dem Teil sollen keine Änderungen gemacht werden.
+\end{itemize}
+
+Der Weg vom \textbf{Controller} zum \textbf{Port}
+\begin{itemize}
+    \item \textbf{Controller} das Absenden soll ermöglicht werden, evtl. auch ein \textbf{Interactor} hinzufügen
+    \item \textbf{Adapter} um das Umwandeln des Ereignisses soll erweitert werden.
+    \item \textbf{Port} in dem Teil sollen keine Änderungen gemacht werden.
+\end{itemize}

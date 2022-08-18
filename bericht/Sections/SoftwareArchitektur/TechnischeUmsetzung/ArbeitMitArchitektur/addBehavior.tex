@@ -1,0 +1,15 @@
+
+    Bei diesem Szenario, geht man davon aus das ein Ereignis an Dispatcher ankommt und entspechend an alle dafür 
+    verantwortlichen UseCases weiterleitet. 
+    Es gibt hier zwei Möglichkeiten:
+    \begin{enumerate}
+        \item bestehendes UseCase um die neue Funktionalität erweitern.
+        \item neues UseCase erstellen, das das gleiche Ereignis handelt.
+    \end{enumerate}
+
+    Mit der ersten Möglichkeit hat man das komplete Verhalten für ein Ereignis an einem Ort und mit Unittests abdecken.
+
+    Die zweite Möglichkeit streut das Verhalten für ein Ereignis im Projekt, was eine besere Lesbarkeit des jeweiligen Teils erhöht,
+    jedoch die Schwierigkeit bringt alle solche Teile im Projekt zu finden. Das Gesamtverhalten lässt sich erst mittels
+    einem Integrationtest abdecken, was eine mögliche Fehlersuche erschweren kann. 
+    Für den Fall, dass das neue Verhalten unabhängig von dem bestehenden Verhalten ablaufen soll ist es eine gute Möglichkeit.

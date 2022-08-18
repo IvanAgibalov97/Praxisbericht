@@ -1,0 +1,17 @@
+
+    Die Architektur lässt sich in zwei wesentlichen Teilen zerlegen
+    \begin{itemize}
+        \item Anbindung an Infrastruktur um das Programm (Port - Adapter - Controller)
+        \item Innere Logik des Programms (Controller - Dispatcher - UseCase - Interactor)
+    \end{itemize}
+
+    Beispiele für die Infrastruktur sind: Datenbank, Persistenz, Schnittstellen (HTTP, USB usw)
+
+    Bei solcher Aufteilung ergeben sich folgende Vorteile:
+    \begin{itemize}
+        \item Innere Logik des Programms lässt sich mittels Integrationstests unabhängig von Schnittstellen abdecken.
+        Damit ist die Laufzeit von jedem einzelnen Test ohne reelen Schnittstellen ist schneller als mit reelen Schnittstellen und 
+        man hat das gleiche Ergebnis bezüglich des Verhaltens des Programms.
+        \item Die Innere Logik ist nicht an Schnittstellen gebunden, 
+        somit können alle Schnittstellen mit wenig Aufwand getauscht werden.
+    \end{itemize}

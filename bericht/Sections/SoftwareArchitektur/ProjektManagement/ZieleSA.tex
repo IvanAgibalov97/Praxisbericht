@@ -1,0 +1,34 @@
+Jede Software erfüllt bestimmte Anforderungen, die von Außen gestellt werden. 
+Diese Anforderungen sind meistens von nicht Softwareentwicklern definiert und beziehen sich auf nicht Informatikgebiete 
+    (z.B. Banksoftware oder ein Smartphone Anwendung). 
+    Das Erfüllen von diesen Anforderungen ist das Ziel von jedem Softwareprojekt.
+    Jedoch bei der Umsetzung entstehen viele Herausforderungen, die für die Außenstehenden nicht bekannt sind 
+    (z.B. Auswahl einer Datenbank oder Optimierung der Ressourcenverwendung). 
+
+    \textbf{fehlt gluetext}
+
+    \textit{Das Ziel der Software Architektur ist das Mininimieren der menschlichen Ressourcen, 
+    die benötigt werden um ein System zu entwickeln und zu unterstützen.}\cite[5]{cleanArchitecture}
+
+    Diese Aussage lässt sich sehr einfach überprüfen, indem festgestellt wird, 
+    ob jede neue Anforderungen an der Software mehr Ressourcen verbraucht als die vorherigen.
+
+    \textit{Das Ziel der Softwarearchitektur ist so viel Entscheidungen wie möglich so spät wie möglich zu treffen}
+    \cite[136]{cleanArchitecture}
+
+    Beispiele für solche Entscheidungen sind:
+    \begin{itemize}
+        \item Datenbanksystem
+        \item Transferprotokoll zu der Benutzeroberfläche (z.B. HTTP oder WS) falls vorhanden
+        \item Wie und wo die Loggingdaten gespeichert werden (in einer Datei, Datenbank oder externe Server)
+    \end{itemize}
+
+    Auch die anderen Tätigkeiten, die nicht direkt das Programmieren betreffen, sind von den Entscheidungen in der SoftwareArchitektur betroffen:
+    \begin{itemize}
+        \item Deployment (Aufsetzung) der Software.
+        \item Maintenance (Unterstützung) der Software.
+    \end{itemize}
+
+    Deployment der Software beinhaltet die Kosten die durch das Aufsetzen der neuen Version der Software entstehen.\\
+    Maintenance der Software beinhaltet die Kosten, die nach dem Beenden der Entwicklung bei kleineren Erweiterungen und Änderungen des Systems entstehen.
+

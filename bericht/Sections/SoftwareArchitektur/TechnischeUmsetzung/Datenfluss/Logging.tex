@@ -1,0 +1,29 @@
+Ein wichtiger Bestandteil jeder Software ist das Logging von unterschiedlichen Ereignissen in der Software.
+Das Ziel vom Logging ist später von den Softwareentwicklern verschiede Fehler in der Software so schnell wie möglich zu finden und
+zu beseitigen.
+
+Dafür muss es möglich sein mit den Logs die Fehler so genau wie möglich in der Software zu lokalisieren 
+(welche Komponente oder welche Methode den Fehler hervorgerufen hat) 
+und welche Ereigniskette den jeweiligen Fehler hervorgerufen hat.
+
+In dem Kapitel \ref{kap:Dataflow} sind alle möglichen Wege basierend auf der beschriebenen Struktur 
+im Kapitel \ref{kap:Structur} für die ankommenden Ereignissen in der Software beschrieben.
+
+Die untere Abbildung \ref{fig:FullDataFlow} zeigt den kompleten Ablauf beim Geschehen eines Ereignisses.
+Eine mögliche Systematisierung des Loggierens in der Appliaction wäre: 
+\begin{itemize}
+    \item man zeichnet in jeder Komponente den Inhalt des ankommenden Ereignisses auf
+    \item man zeichnet in jeder Komponente den Inhalt des ausgehenden Ereignisses auf
+    \item man zeichnet alle Komponenten auf, an die das Ereignis weitergegeben wird
+\end{itemize}
+
+Somit lässen sich die Fehler auf die Komponente genau lokalisieren, d.h. man kann einen entsprechenden Unittest schreiben, 
+der diesen Fehler abdeckt, bzw. einen Integrationtests, da man auch den Ablauf des Ereignisses kennt.
+
+\begin{figure}[H]
+    \centering
+    \includegraphics[width=12cm]{./images/FullDataFlow.png}
+     \caption[Kompletter Datenfluss]{Kompletter Datenfluss \footnotemark}
+     \label{fig:FullDataFlow}
+\end{figure}
+\footnotetext{Eigene Quelle}

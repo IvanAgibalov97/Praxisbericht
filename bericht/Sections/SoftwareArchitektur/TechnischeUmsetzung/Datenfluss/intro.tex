@@ -1,0 +1,165 @@
+Im System gibt es 3 wichtige Datenflusse, die durch Kombination miteinander die komplexen Abläufe im System umsetzen
+\begin{enumerate}
+    \item (blau) Controller löst ein Ereignis im Dispatcher aus.
+    \item (rot) Controller spricht sein Port an(z.B. Speichern der Daten in der Datenbank oder OCPP Antwort abzuschicken)
+    \item (grün) Das Programm wird von einem externen System angesprochen (z.B. Ladesäule schickt eine OCPP Nachricht an den Server) 
+\end{enumerate}
+Wenn das geschehen ist, sieht der Datenfluss so aus:
+\import{./images/}{circle_2}
+\label{fig:sp2d}
+\footnotetext{Eigene Quelle}
+
+\newpage
+Darstellung des Datenflusses \textbf{1} als \textbf{Sequencediagram}:
+
+\begin{figure}[h]
+    \begin{sequencediagram}
+        \newthread{A}{Controller 1}
+        \newinst[1]{B}{Dispatcher}
+        \newinst[1]{C}{UseCase}
+        \newinst[1]{D}{Interactor I}
+        \newinst[1]{E}{Controller J}
+        
+        \begin{messcall}{C}{subscribe ``Event''}{B}
+        \end{messcall}
+
+        \begin{messcall}{A}{Event}{B}{}
+                \begin{messcall}{B}{Event}{C}{}
+                    \begin{sdblock}{Loop}{Until sequence of use case done}
+                        \begin{call}{C}{Handle I}{D}{result}
+                            \begin{call}{D}{Handle I}{E}{result}
+                            \end{call}
+                        \end{call}
+                    \end{sdblock}
+                \end{messcall}
+        \end{messcall}
+      \end{sequencediagram}
+      \caption{Sequencediagramm vom Datenfluss ``1'' Blau}
+      \label{fig:seqDiagBlue}
+\end{figure}
+
+Wenn im \textbf{Controller} ein Ereignis erzeugt wird, wird \textbf{Dispatcher} darüber informiert. ein
+oder mehrere \textbf{UseCases} haben bereits dieses Event bei \textbf{Dispatcher} aboniert.
+\textbf{Dispatcher} informiert alle auf das Ereignis abonierte \textbf{UseCases}. 
+Jeder UseCases kann seinen eigenen Verhalten auf das Event definieren unabhängig voneinander.
+\textbf{UseCase} definiert einen Ablauf an \textbf{Interactoren},
+die wie vorgeschrieben ausgeführt werden. Jeder \textbf{Interactor} ruft eine Methode von einem \textbf{Controller} auf 
+und das Ergebnis wird an \textbf{UseCase} zurückgegeben, das vom UseCase entsprechend behandelt wird.
+
+\newpage
+Dabei es gibt 2 Möglichkeiten wie das Ereignis vom \textbf{Controller J} das \textbf{Interactor I} erreichen kann:
+\begin{enumerate}
+    \item synchron - der Rückgabewert ist das Ergebnis der aufgerufenen Methode 
+    \item asynchron - man wartet auf dazugehörige Antwort vom Port (z.B. auf OCPP Response warten, wenn man ein OCPP Request abschickt)
+\end{enumerate}
+
+Darstellung der 2. Möglichkeit:
+\begin{figure}[h]
+    \begin{sequencediagram}
+        \newthread{U}{UseCase}
+        \newinst[1]{A}{Interactor I}
+        \newinst[2]{C}{Dispatcher}
+        \newinst[1]{B}{Controller J}
+        \newthread{D}{...Externe}
+        
+        \begin{call}{U}{Message}{A}{Response}
+        
+        \begin{messcall}{A}{Message}{B}{}
+            \begin{messcall}{A}{subscribe 'Response'}{C}{}
+                
+            \end{messcall}
+            \begin{messcall}{B}{Message}{D}{}
+            \end{messcall}
+        \end{messcall}
+        \begin{messcall}{D}{Response}{B}{}
+            \begin{messcall}{B}{Response}{C}{}
+                \begin{messcall}{C}{Response}{A}{}
+
+                \end{messcall}
+            \end{messcall}
+
+            \begin{messcall}{A}{unsubscribe 'Response'}{C}{}
+            \end{messcall}
+        \end{messcall}
+        
+            
+        \end{call}
+    \end{sequencediagram}
+\end{figure}
+
+Der Rückgabewert wird beim synchronen Funktionsaufruf zurückgegeben, wie in der Abbildung ~\ref{fig:seqDiagBlue} dargestellt.
+Der Rückgabewert beim asynchronen Funktionsaufruf, wird wie folgt definiert:
+Der Aufgerufene Interactor ruft eine Methode vom Controller auf, der die Nachricht an den externen Teilnehmer abschickt. 
+Gleich danach abonniert der Interactor die Antwort auf die abgeschickte Nachricht. Wenn die Antwort ankommt, landet sie beim Dispatcher,
+die alle Abonierten darüber informiert, unteranderem auch den Interactor. Der Interactor gibt diese Antwort als Rückgabewert der Funktionsaufruf
+
+\newpage
+Darstellung des Datenflusses ``2'' als ``sequencediagram'':
+\begin{figure}[h]
+    \begin{sequencediagram}
+        \newthread{A}{Controller}
+        \newinst[1]{B}{Adapter}
+        \newinst[1]{C}{Port}
+        \newinst[3]{D}{Externe}
+        \begin{call}{A}{Message}{B}{return result}
+            \begin{call}{B}{Message}{C}{return result}
+                \begin{messcall}{C}{Message}{D}{}
+                    
+                \end{messcall}
+            \end{call}
+        \end{call}
+    \end{sequencediagram}
+\end{figure}\\
+Darstellung der Datentransformation:\\
+Controller - Adapter: Alle Informationen werden als Objekte übergeben, die im Domain definiert werden müssen.
+\begin{lstlisting}[language=json,firstnumber=1]
+    OCPP20Message({
+        destination: {
+            chargerId : "some_unique_charger_id"
+        },
+        message : {
+            name : "BootNotification",
+            type : "Response",
+            payload : BootNotification({
+                currentTime : Date(Thu Jul 28 2022 14:26:49 GMT+0200),
+                interval : 30,
+                status : "Rejected"    
+            })
+        }
+    })
+    \end{lstlisting}
+    Adapter - Port: Alle Informationen, die gesendet werden (in dem Fall ``message''), werden in der verstandlichen Form (sie muss nicht mehr geändert werden)
+    für den Port an Port weitergegeben.
+    Über das Ziel müssen alle Informationen weitergegeben werden, so dass Port die entsprechende Verbindung zuordnen kann. 
+
+    \begin{lstlisting}[language=json,firstnumber=1]
+    {
+        destination : {
+            chargerId : "some_unique_charger_id"
+        }
+        message : "[3, 'message_id_of_request', {currentTime : 'Thu Jul 28 2022 14:26:49Z', interval : 30, status : 'Rejected'}]"
+    }
+\end{lstlisting}
+
+
+Darstellung des Datenflusses ``3'' als ``sequencediagram'':
+\begin{figure}[H]
+    \begin{sequencediagram}
+        \newthread{A}{Externe}
+        \newthread{B}{Port}
+        \newinst{C}{Adapter}
+        \newinst{D}{Controller}
+
+        \begin{messcall}{A}{Message}{B}
+            \begin{messcall}{B}{Message}{C}
+                \begin{messcall}{C}{Message}{D}
+                    
+                \end{messcall}
+            \end{messcall}
+        \end{messcall}
+    \end{sequencediagram}
+\end{figure}
+
+\newpage
+\newpage
+\newpage
