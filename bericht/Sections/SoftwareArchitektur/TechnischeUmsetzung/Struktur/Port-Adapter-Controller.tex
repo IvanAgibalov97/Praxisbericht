@@ -10,6 +10,11 @@ während in der hier beschriebenen Umsetzung wird es für alle Schnittstellen be
 \textbf{PAC} ist nur ein Teil der gesamten Application, wird an mehreren Stellen unterschiedlich benutzt und beschreibt nicht 
 die Architektur der Application.
 
+Die Aufgabe von drei Komponenten ist die Steurung von einem Aufgabengebiet (z.B. HTTP Schnittstelle).
+Der Grund für das Aufteilen in 3 verschiedene Teile (Adapter, Port und Controller) ist
+\textbf{SRP} (single responsibility prinziple). Somit hat jedes Teil eine Aufgabe und lässt sich besser 
+unterstützen. 
+
 
 \begin{figure}[H]
    \centering

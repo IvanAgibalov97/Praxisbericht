@@ -19,42 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
-    \entry{ghia_1982}{article}{}
-      \name{author}{3}{}{%
-        {{hash=ae624d922375a4dd3ca9895b88a36f0b}{%
-           family={Ghia},
-           familyi={G\bibinitperiod},
-           given={U.},
-           giveni={U\bibinitperiod}}}%
-        {{hash=5a3ebc3007a3461e82fd301cc47b028a}{%
-           family={Ghia},
-           familyi={G\bibinitperiod},
-           given={K.\bibnamedelimi N.},
-           giveni={K\bibinitperiod\bibinitdelim N\bibinitperiod}}}%
-        {{hash=939f2c02931e4438b32abf2639507c91}{%
-           family={Shin},
-           familyi={S\bibinitperiod},
-           given={C.\bibnamedelimi T.},
-           giveni={C\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
-      }
-      \strng{namehash}{ac1475424ad3de7957ad17b55d44317d}
-      \strng{fullhash}{2f309e0af031967bd4d0d591f2e38bd6}
-      \strng{bibnamehash}{2f309e0af031967bd4d0d591f2e38bd6}
-      \strng{authorbibnamehash}{2f309e0af031967bd4d0d591f2e38bd6}
-      \strng{authornamehash}{ac1475424ad3de7957ad17b55d44317d}
-      \strng{authorfullhash}{2f309e0af031967bd4d0d591f2e38bd6}
-      \field{labelalpha}{GGS82}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{journaltitle}{Journal of Computational Physics}
-      \field{title}{High-Re Solutions for Incompressible Flow Using the Navier-Stokes Equations and a Multigrid Method}
-      \field{volume}{48}
-      \field{year}{1982}
-      \field{pages}{387\bibrangedash 411}
-      \range{pages}{25}
-    \endentry
     \entry{sagan_1993}{book}{}
       \name{author}{1}{}{%
         {{hash=17d6616424502bba556b6b98ee30e858}{%

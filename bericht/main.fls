@@ -1591,6 +1591,13 @@ INPUT Sections\Introduction\Architecture\CleanArchitecture.tex
 INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
 INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
 INPUT Sections\Introduction\Architecture\CleanArchitecture.tex
+INPUT .\images\CleanArchitecture.jpg
+INPUT .\images\CleanArchitecture.jpg
+INPUT images\CleanArchitecture.jpg
+INPUT .\images\CleanArchitecture.jpg
+INPUT .\images\CleanArchitecture.jpg
+INPUT .\images\CleanArchitecture.jpg
+INPUT .\images\CleanArchitecture.jpg
 INPUT .\Sections\Introduction\Architecture\MVP.tex
 INPUT .\Sections\Introduction\Architecture\MVP.tex
 INPUT .\Sections\Introduction\Architecture\MVP.tex
@@ -1703,6 +1710,20 @@ INPUT Sections\Introduction\SOLID\sub\DependencyInversionPrinciple.tex
 INPUT .\Sections\Introduction\SOLID\sub\DependencyInversionPrinciple.tex
 INPUT .\Sections\Introduction\SOLID\sub\DependencyInversionPrinciple.tex
 INPUT Sections\Introduction\SOLID\sub\DependencyInversionPrinciple.tex
+INPUT .\images\DIP - bad.png
+INPUT .\images\DIP - bad.png
+INPUT images\DIP - bad.png
+INPUT .\images\DIP - bad.png
+INPUT .\images\DIP - bad.png
+INPUT .\images\DIP - bad.png
+INPUT .\images\DIP - bad.png
+INPUT .\images\DIP - good.png
+INPUT .\images\DIP - good.png
+INPUT images\DIP - good.png
+INPUT .\images\DIP - good.png
+INPUT .\images\DIP - good.png
+INPUT .\images\DIP - good.png
+INPUT .\images\DIP - good.png
 INPUT .\Sections\Introduction\GRASP\GRASP.tex
 INPUT .\Sections\Introduction\GRASP\GRASP.tex
 INPUT .\Sections\Introduction\GRASP\GRASP.tex
@@ -2070,64 +2091,6 @@ INPUT .\Images\TestExample.png
 INPUT .\Images\TestExample.png
 INPUT .\Images\TestExample.png
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
-INPUT .\Appendices\example_appendix.tex
-INPUT .\Appendices\example_appendix.tex
-INPUT .\Appendices\example_appendix.tex
-INPUT Appendices\example_appendix.tex
-INPUT .\Appendices\example_appendix.tex
-INPUT .\Appendices\example_appendix.tex
-INPUT Appendices\example_appendix.tex
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines.png
-INPUT Images\Sub-figures_Example\cavity_100_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines.png
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmmi9.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmsy9.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmex9.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbx9.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmmib9.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\cmextra\cmbsy9.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msam10.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\amsfonts\symbols\msbm10.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\jknappen\ec\tcrm0900.tfm
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines_ghia.png
-INPUT Images\Sub-figures_Example\cavity_100_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_100_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines.png
-INPUT Images\Sub-figures_Example\cavity_400_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines_ghia.png
-INPUT Images\Sub-figures_Example\cavity_400_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_400_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines.png
-INPUT Images\Sub-figures_Example\cavity_1000_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines_ghia.png
-INPUT Images\Sub-figures_Example\cavity_1000_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines_ghia.png
-INPUT .\Images\Sub-figures_Example\cavity_1000_streamlines_ghia.png
 INPUT main.aux
 INPUT .\main.out
 INPUT .\main.out
@@ -2147,8 +2110,6 @@ INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi8.pfb
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmmi9.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmr12.pfb
