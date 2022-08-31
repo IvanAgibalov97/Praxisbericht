@@ -2,7 +2,7 @@ In den Kapiteln \ref{Controller-Dispatcher-UseCase-Interactor} und \ref{Port-Ada
 werden die fertigen Strukturen beschrieben, diese Strukturen müssen am Anfang des Programms erstellt
 und miteinander verbunden werden.
 
-Das Erstellen von der Struktur findet im \textbf{Main} statt und lässt sich in drei Schritte aufteilen:
+Das Erstellen von der Struktur findet im Hauptprogramm statt und lässt sich in drei Schritte aufteilen:
 \begin{itemize}
     \item Erstellen alle Instanzen
     \item Verknüpfen alle Instanzen miteinander
@@ -11,7 +11,7 @@ Das Erstellen von der Struktur findet im \textbf{Main} statt und lässt sich in 
 
 Das Erstellen aller Instanzen lässt sich in zwei weitere Schritte aufteilen, die bedingt voneinander abhängen.
 \begin{itemize}
-    \item Core (Controllers + Dispatcher + UseCases + Interactors)
+    \item Kern (Controllers + Dispatcher + UseCases + Interactors)
     \item Schnittstellen (Port + Adapter + Controller)
 \end{itemize}
 
@@ -25,8 +25,7 @@ Ein möglicher Ablauf wäre:
      \caption[Ablaufiagramm Erstellen der Struktur]{Ablaufiagramm Erstellen der Struktur \footnotemark}
      \label{fig:ADCreate}
 \end{figure}
-\footnotetext{Eigene Quelle}
 
-Mit diesem Ablauf können mehrere \textbf{Main}s erstellt werden, die verschiedene Anwendungen für verschiedene Zwecke erstellen.
+Mit diesem Ablauf können mehrere Hauptprogramme erstellt werden, die verschiedene Anwendungen für verschiedene Zwecke erstellen.
 Z.B. ein Framework braucht keine reelen Anknüpfungen an die Infrastruktur (z.B. Datenbank) im Vergleich zu Standalone Anwendung.
-Oder es können verschiedene \textbf{Main}s für verschiedene Datenbanken geben.
+Oder es können verschiedene Hauptprogramme für verschiedene Datenbanken geben.

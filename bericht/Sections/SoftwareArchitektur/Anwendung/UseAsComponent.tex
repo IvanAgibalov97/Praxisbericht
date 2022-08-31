@@ -1,15 +1,13 @@
-Nicht jede Software wird als Standalone Anwendung ausgeführt, es kann auch passieren, dass man 
-erst ein Kern umsetzt, die dann in jeweiligen Anwendungen entsprechend angepasst werden 
-oder es handelt sich nur um eine Komponente für die andere Anwednung.
-Eine Analogie aus OOP wäre eine Abstrakte Klasse.
+Im Kapitel wird betrachtet, dass die Software ein Teil der anderen Anwendung ist.
+Zum Beispiel kann ein Kern umgesetzt werden, der dann in jeweiligen Anwendungen angepasst wird 
+oder es handelt sich nur um eine Komponente für eine andere Anwednung.
 
-Grundsätzlich kann man die Abbildung \ref{fig:sp2d} folgendeweise vereinfachen:
+Grundsätzlich lässt sich die Abbildung \ref{fig:sp2d} folgendeweise vereinfachen:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/SimpliedArchitecture.png}
     \caption{Vereinfachte Darstellung}
     \label{fig:SimpliedArchitecture}
-    \source{Eigene Quelle}
 \end{figure}
 
 Und bei einer Standalone Anwendung gibt es eine Main-Methode, die diese Struktrur erstellt.
@@ -18,7 +16,6 @@ Und bei einer Standalone Anwendung gibt es eine Main-Methode, die diese Struktru
     \includegraphics[width=1\textwidth]{./images/Architecture as Standalone.png}
     \caption{Vereinfachte Darstellung einer Standalone Anwendung}
     \label{fig:SimpliedArchitectureAsStandalone}
-    \source{Eigene Quelle}
 \end{figure}
 
 Der Datenfluss lässt sich so darstellen:
@@ -27,53 +24,49 @@ Der Datenfluss lässt sich so darstellen:
     \includegraphics[width=1\textwidth]{./images/Dataflow.png}
     \caption{Vereinfachte Darstellung einer Standalone Anwendung}
     \label{fig:SimpliedArchitectureDataflow}
-    \source{Eigene Quelle}
 \end{figure}
 
 \newpage
-Wenn man es als Komponente in einer anderen Anwendung benutzen möchte, braucht die Struktur eine Facade, damit man 
-auf "wichtige Teile" der Komponente zugreifen kann und der Rest verborgen bleibt. 
-Die Facade baut die gesamte Struktur der Komponente auf.
+Wenn man es als Komponente in einer anderen Anwendung verwenden möchte, braucht die Struktur eine Fassade (Kapitel \ref{kap:gof:facade}), damit man 
+auf wichtige Teile der Komponente zugreifen kann und der Rest verborgen bleibt. 
+Die Fassade baut die gesamte Struktur der Komponente auf.
 
-So sieht eine fertige Komponente aus, die man in die anderen Anwendungen integrieren kann:
+Eine fertige Komponente, die man in die anderen Anwendungen integrieren kann:
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/Architecture as Facade.png}
-    \caption{Vereinfacte Darstellung der Architektur als Komponente}
+    \caption{Vereinfachte Darstellung der Architektur als Komponente}
     \label{fig:SimpliedArchitectureAsKomponent}
-    \source{Eigene Quelle}
 \end{figure}
 
-Auf der Darstellung \ref{fig:SimpliedArchitectureAsKomponent} sieht man, dass die Anwendung nur den Zugriff auf drei Teile der Komponente hat.
-Das sind:
+Laut der Darstellung \ref{fig:SimpliedArchitectureAsKomponent} hat die Anwendung nur den Zugriff auf drei Teile der Komponente:
 \begin{itemize}
-    \item \textbf{Controllers} - um die Zustände des jeweiligen Controllers abfragen und ändern.
-    \item \textbf{Dispatcher} - um alle Ereignise in der Komponente abzufangen.
-    \item \textbf{UseCases} - um das Verhalten auf gewisse Ereignise ändern zu können.
+    \item \textbf{Controllers} - um die Zustände des jeweiligen Controllers abzufragen und zu ändern.
+    \item \textbf{Dispatcher} - um alle Ereignisse in der Komponente abzufangen.
+    \item \textbf{UseCases} - um das Verhalten auf gewisse Ereignisse ändern zu können.
 \end{itemize}
 
-Die Komponente kann bestimmte Ereignise selber abarbeiten und die Anwendung davon gar nicht informieren oder
-das Ereignis weiterleiten, dass es von der Anwednung selbst abarbeitet wird.
-Die Komponente wird von der eigentlichen Anwendung unabhängig entwickelt, somit wird es passieren, dass
-der Datentyp des Ereignisses von der Komponente nicht mit dem Datentyp der Anwendung übereinstimmt und deswegen muss noch durch den entsprechenden Adapter angepasst werden.
-Das bedeutet, dass die Komponente wird nur von dem \textbf{Port} der jeweiligen Anwendung benutzt wird.
+Die Komponente kann bestimmte Ereignisse selber abarbeiten und die restliche Anwendung wird darüber nicht informiert oder
+das Ereignis weiterleiten, dass es von der Anwednung selbst abgearbeitet wird.
+Die Komponente wird von der eigentlichen Anwendung unabhängig entwickelt, es kann passieren, dass
+der Datentyp des Ereignisses von der Komponente nicht mit dem Datentyp der Anwendung übereinstimmt. 
+Ein \textbf{Adapter} wäre eine mögliche Lösung für das Problem.
+Das bedeutet, dass die Komponente nur von dem \textbf{Port} der jeweiligen Anwendung benutzt wird.
 
 \newpage
-Die Vereinfacte Darstellung der Anwendung mit der Komponente:
+Die Vereinfachte Darstellung der Anwendung mit der Komponente:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/Architecture as Component.png}
-    \caption{Vereinfacte Darstellung einer Standalone Anwendung mit der Komponente}
+    \caption{Vereinfachte Darstellung einer Standalone Anwendung mit der Komponente}
     \label{fig:SimpliedArchitectureAsStandaloneWithComponent}
-    \source{Eigene Quelle}
 \end{figure}
 
-Der Datenfluss in der Anwendung würde wie folgt aussehen:
+Der Datenfluss in der Anwendung:
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/Dataflow as Component with inform.png}
-    \caption{Vereinfacte Darstellung des Datenflusses in einer Anwendung mit Komponente}
+    \caption{Vereinfachte Darstellung des Datenflusses in einer Anwendung mit Komponente}
     \label{fig:SimpliedDataflowWithComponent}
-    \source{Eigene Quelle}
 \end{figure}

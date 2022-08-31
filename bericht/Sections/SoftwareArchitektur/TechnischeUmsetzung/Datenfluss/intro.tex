@@ -1,4 +1,4 @@
-Im System gibt es 3 wichtige Datenflusse, die durch Kombination miteinander die komplexen Abläufe im System umsetzen
+Im System gibt es drei wichtige Datenflüsse, die durch Kombination miteinander die komplexen Abläufe im System umsetzen.
 \begin{enumerate}
     \item (blau) Controller löst ein Ereignis im Dispatcher aus.
     \item (rot) Controller spricht sein Port an(z.B. Speichern der Daten in der Datenbank oder OCPP Antwort abzuschicken)
@@ -7,7 +7,6 @@ Im System gibt es 3 wichtige Datenflusse, die durch Kombination miteinander die 
 Wenn das geschehen ist, sieht der Datenfluss so aus:
 \import{./images/}{circle_2}
 \label{fig:sp2d}
-\footnotetext{Eigene Quelle}
 
 \newpage
 Darstellung des Datenflusses \textbf{1} als \textbf{Sequencediagram}:
@@ -38,19 +37,19 @@ Darstellung des Datenflusses \textbf{1} als \textbf{Sequencediagram}:
       \label{fig:seqDiagBlue}
 \end{figure}
 
-Wenn im \textbf{Controller} ein Ereignis erzeugt wird, wird \textbf{Dispatcher} darüber informiert. ein
-oder mehrere \textbf{UseCases} haben bereits dieses Event bei \textbf{Dispatcher} aboniert.
+Wenn im \textbf{Controller} ein Ereignis erzeugt wird, wird \textbf{Dispatcher} darüber informiert. 
+Ein oder mehrere \textbf{UseCases} haben bereits dieses Ereignis beim \textbf{Dispatcher} abonniert.
 \textbf{Dispatcher} informiert alle auf das Ereignis abonierte \textbf{UseCases}. 
-Jeder UseCases kann seinen eigenen Verhalten auf das Event definieren unabhängig voneinander.
+Jeder \textbf{UseCase} kann seinen eigenen Verhalten auf das Event definieren unabhängig voneinander.
 \textbf{UseCase} definiert einen Ablauf an \textbf{Interactoren},
 die wie vorgeschrieben ausgeführt werden. Jeder \textbf{Interactor} ruft eine Methode von einem \textbf{Controller} auf 
-und das Ergebnis wird an \textbf{UseCase} zurückgegeben, das vom UseCase entsprechend behandelt wird.
+und das Ergebnis wird an \textbf{UseCase} zurückgegeben.
 
 \newpage
-Dabei es gibt 2 Möglichkeiten wie das Ereignis vom \textbf{Controller J} das \textbf{Interactor I} erreichen kann:
+Dabei es gibt zwei Möglichkeiten wie das Ereignis vom \textbf{Controller J} die \textbf{Interactor I} erreichen kann:
 \begin{enumerate}
     \item synchron - der Rückgabewert ist das Ergebnis der aufgerufenen Methode 
-    \item asynchron - man wartet auf dazugehörige Antwort vom Port (z.B. auf OCPP Response warten, wenn man ein OCPP Request abschickt)
+    \item asynchron - auf die dazugehörige Antwort vom Port wird gewartet(z.B. auf OCPP Response warten, wenn man ein OCPP Request abschickt)
 \end{enumerate}
 
 Darstellung der 2. Möglichkeit:
@@ -89,9 +88,10 @@ Darstellung der 2. Möglichkeit:
 
 Der Rückgabewert wird beim synchronen Funktionsaufruf zurückgegeben, wie in der Abbildung ~\ref{fig:seqDiagBlue} dargestellt.
 Der Rückgabewert beim asynchronen Funktionsaufruf, wird wie folgt definiert:
-Der Aufgerufene Interactor ruft eine Methode vom Controller auf, der die Nachricht an den externen Teilnehmer abschickt. 
-Gleich danach abonniert der Interactor die Antwort auf die abgeschickte Nachricht. Wenn die Antwort ankommt, landet sie beim Dispatcher,
-die alle Abonierten darüber informiert, unteranderem auch den Interactor. Der Interactor gibt diese Antwort als Rückgabewert der Funktionsaufruf
+Der Aufgerufene \textbf{Interactor} ruft eine Methode vom \textbf{Controller} auf, der die Nachricht an den externen Teilnehmer abschickt. 
+Gleich danach abonniert der \textbf{Interactor} die Antwort auf die abgeschickte Nachricht. Wenn die Antwort ankommt, landet sie beim \textbf{Dispatcher},
+die alle Abonnierten darüber informiert, unteranderem auch den \textbf{Interactor}. 
+\textbf{Der Interactor} gibt diese Antwort als Rückgabewert der Funktionsaufruf
 
 \newpage
 Darstellung des Datenflusses ``2'' als ``sequencediagram'':

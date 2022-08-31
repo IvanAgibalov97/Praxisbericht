@@ -2,20 +2,20 @@
 In dem Teil wird die komplete innere Logik der Application beschrieben. Dafür ist nur \textbf{Controller} notwendig. 
 D.h. beim Geschehen eines Ereignisses wird eine (oder mehrere) Method(en) in deb jeweiligen Controllern aufgerufen,
 die das Ereignis entsprechend abarbeiten.
-Dabei hat man folgendes Problem:
-jeder \textbf{Controller} übernimmt mehrere Aufgaben 
-(z.B. Kontrollieren von \textbf{Port} und \textbf{Adapter} und enthält Anwendungslogik)
-d.h. keine \textbf{SRP}
+Dabei entsteht das Problem, dass
+jeder \textbf{Controller} mehrere Aufgaben übernimmt 
+(z.B. Kontrollieren von \textbf{Port} und \textbf{Adapter} und enthält Anwendungslogik).
+Das wiederspricht dem \textbf{SRP}, das in dem Kapitel \ref{kap:SRP} beschrieben ist.
 
 Eine mögliche Lösung wäre das Separieren von Kontrollieren von \textbf{Port} und \textbf{Adapter} und Anwendungslogik
-in 2 verschiedenen Teile. Die Anwendungslogik heißt \textbf{UseCase}.
+in zwei verschiedenen Teile. Die Anwendungslogik heißt \textbf{UseCase}.
 
-Bei dieser Aufteilung besteht das Problem, dass beim Geschehen eines Ereignisses im \textbf{Controller} muss dieses Ereignis an das 
+Bei dieser Aufteilung besteht das Problem, dass beim Auftreten eines Ereignisses im \textbf{Controller} muss dieses Ereignis an das 
 richtige \textbf{UseCase} zugeordnet werden. D.h. \textbf{Contoller} besitzt eine weitere Verantwortlichkeit die sich in ein anderes Teil
-verschieben lässt. Dieses Teil heißt \textbf{Dispatcher}, dessen Aufgabe ist das Informieren alle daran Interessierten \textbf{UseCase}s
-beim Geschehen eines Ereignisses. 
+verschieben lässt. Dieses Teil heißt \textbf{Dispatcher} und seine Aufgabe ist alle Abonnenten \textbf{UseCase}s
+beim Auftreten eines Ereignisses zu informieren.
 
-Jedes \textbf{UseCase} kann mehrere aufeinander folgende Aufgaben machen.
+Jedes \textbf{UseCase} kann mehrere aufeinander folgende Aufgaben erledigen.
 Alle Aufgaben müssen gleiche Funktionalitäten besitzen, z.B:
 \begin{itemize}
     \item der Anfang und das Ende in Logs aufzeichnen.
@@ -23,12 +23,11 @@ Alle Aufgaben müssen gleiche Funktionalitäten besitzen, z.B:
 \end{itemize}
 D.h. man braucht eine ``Hülle'' um jeder Methode - \textbf{Interactor}
 
-Wenn man das alles zusammen entsteht folgendes Objektendiagramm:
+Wenn alles zusammengeführt wird, entsteht folgendes Objektendiamm:
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=6.5cm]{./images/Controller-Dispatcher-UseCase-Interactor.png}
-     \caption[Objektendiagramm Controller-Dispatcher-UseCase-Interactor]{Objektendiagramm Controller-Dispatcher-UseCase-Interactor \footnotemark}
+     \caption[Objektendiagramm Controller-Dispatcher-UseCase-Interactor]{Objektendiagramm Controller-Dispatcher-UseCase-Interactor}
      \label{fig:CDCDUI}
 \end{figure}
-\footnotetext{Eigene Quelle}

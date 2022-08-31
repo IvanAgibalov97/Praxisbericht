@@ -1,6 +1,6 @@
 mehr dazu kann man bei nachlesen: \textbf{siehe kommentar in Latex}% https://martinfowler.com/bliki/InversionOfControl.html
 
-In dem Kapitel wird der Unterschied zwischen einem Framework und einer Bibliothek erleuchtet.
+Im Kapitel wird der Unterschied zwischen einem Framework und einer Bibliothek erleuchtet.
 
 Ein Framework ist eine Softwareplattform, die die Struktur und Architektur des künftigen Softwareprodukts bestimmt.
 Jedes Framework enthält ein vorgefertigtes “Gerüst” – die Vorlagen, Standardmodule und APIs, 
@@ -12,7 +12,7 @@ Bibliothek ist eine Sammlung ähnlicher Objekte, die zur gelegentlichen Verwendu
 
 Der Unterschied zwischen dem Framework und Bibliothek besteht darin, 
 dass beim Framework der geschriebene Code vom Framework aufgerufen wird 
-und bei der Bibliothek der gescrhriebene Code den Code von der Bibliothek aufruft.
+und bei der Bibliothek der geschriebene Code den Code von der Bibliothek aufruft.
 (Inversion Of Control)
 
 % [https://martinfowler.com/bliki/InversionOfControl.html]
@@ -23,20 +23,18 @@ das komplete Verhalten muss vom Clientcode definiert werden.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/Dataflow Library.png}
-    \caption{Vereinfacte Darstellung des Datenflusses bei einer Bibliothek}
+    \caption{Vereinfachte Darstellung des Datenflusses bei einer Bibliothek}
     \label{fig:SimpliedDataflowLibrary}
-    \source{Eigene Quelle}
 \end{figure}
 
-In der dargestellten Architectur könnte es zum Beispiel heißen, 
+In der dargestellten Architektur könnte es zum Beispiel heißen, 
 dass das Defaultverhalten (UseCases Schicht) erweitert oder geändert wurde.
 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/Dataflow Framework.png}
-    \caption{Vereinfacte Darstellung des Datenflusses bei einem Framework}
+    \caption{Vereinfachte Darstellung des Datenflusses bei einem Framework}
     \label{fig:SimpliedDataflowFramework}
-    \source{Eigene Quelle}
 \end{figure}
 
 Vergleich des Client Codes von der Bibliothek und Framework: 
@@ -46,7 +44,9 @@ Vergleich des Client Codes von der Bibliothek und Framework:
                                                             & Framework & Bibliothek \\ 
                                                             \hline
     Typen, Konstruktoren                                    & vom Framework             & Selbst geschrieben \\ 
+    \hline
     Struktur der Anwendung                                  & vom Framework vorgegeben  & Selbst geschrieben \\
+    \hline
     Anteil im Projekt                                       & groß       & gering \\ 
     \hline
 \end{tabular}

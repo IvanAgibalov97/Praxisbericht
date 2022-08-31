@@ -47,11 +47,13 @@
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Builder}
 
         \subsubsection{Facade}
+        \label{kap:gof:facade}
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Facade}
         \subsubsection{Singleton}
         \label{kap:gof:singleton}
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{singleton}
         \subsubsection{Abstract Factory}
+        \label{kap:gof:factory}
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{AbstractFactory}
             
 
@@ -89,6 +91,7 @@
         \import{./Sections/Introduction/SOLID/}{SOLID}
 
         \subsubsection{single-responsibility principle}
+        \label{kap:SRP}
             \import{./Sections/Introduction/SOLID/sub/}{SingleResponsibilityPrinciple}
         
         \subsubsection{open–closed principle}
@@ -131,7 +134,7 @@
 \section{Software Architektur}
     \import{./Sections/SoftwareArchitektur}{into}
 
-    \subsection{irgendwelches PM Kapitel}
+    \subsection{Software Architektur aus Sicht der Projektführung}
 
         \subsubsection{Ziele der Software Architektur}
             \import{./Sections/SoftwareArchitektur/ProjektManagement}{ZieleSA}
@@ -143,7 +146,7 @@
         \nocite{MF_isHighQuilatySoftwareWorthTheCost}
             \import{./Sections/SoftwareArchitektur/ProjektManagement}{QualitaetUndKosten}
         
-        \subsubsection{Wichtigkeit der Testbarkeit der Software}
+        \subsubsection{Testbarkeit der Software ist wichtig}
             \import{./Sections/SoftwareArchitektur/ProjektManagement}{WichtigkeitDerTestbarkeit}
    
     \newpage
@@ -154,12 +157,11 @@
         \subsubsection{Abhängigkeiten im Programm}
         \label{kap:Structur}
             \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{intro}
-
+            \label{kap:StrukturIntro}
 
             \paragraph{Port-Adapter-Controller}
             \label{Port-Adapter-Controller}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{Port-Adapter-Controller}
-
 
             \paragraph{Controller-Dispatcher-UseCase-Interactor} 
             \label{Controller-Dispatcher-UseCase-Interactor}
@@ -195,7 +197,7 @@
             \label{Verhalten für ein Ereignis erweitern}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/ArbeitMitArchitektur}{addBehavior}
     
-            \paragraph{Eine bestehende Schnittstelle um 1 Ereignis erweitern}
+            \paragraph{Eine bestehende Schnittstelle um ein Ereignis erweitern}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/ArbeitMitArchitektur}{addEvent}
             \newpage
             \paragraph{Neue Schnittstelle hinzufügen}
