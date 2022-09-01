@@ -5,7 +5,6 @@ In der Abbildung \ref{fig:dateflowVScodedep} sieht man ein Beispiel von einer An
     \includegraphics[width=1\textwidth]{./images/DepInj_1.png}
     \caption{Datenfluss und Quellcode Abhängigkeiten}
     \label{fig:dateflowVScodedep}
-    \source{Eigene Quelle}
 \end{figure}
 
 Die Funktion \textbf{Quadrieren} ist in dem Fall befindet sich auf einem höheren Niveau als Eingabe und Ausgabe, 
@@ -20,13 +19,12 @@ Somit ist \textbf{Quadrieren} abhängig von der \textbf{Ausgabe}
 Das Problem lässt sich mittels Dependency Injection lösen.
 In OOP Sprachen kann man dafür ``Interface'' benutzen.
 
-Die Lösung wurde dann so aussehen. 
+Die Lösung sieht so aus: 
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/DepInj_2.png}
     \caption{Entkopplung der Abhängigkeiten}
     \label{fig:flow around cylinder}
-    \source{Eigene Quelle}
 \end{figure}
 
 Dies lässt sich mit \textbf{Interface} (für OOP Sprachen) umsetzen, 

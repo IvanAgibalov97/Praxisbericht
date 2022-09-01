@@ -1,10 +1,10 @@
 Mehr zu MVP (Model-View-Presenter) kann man \textit{\textbf{in folgende Quelle}} lesen.
 
 Model-View-Presenter Architektur wird in den Anwendungen benutzt, die eine Oberfläche besitzen.
-Die Architektur teilt die Anwendung in 3 Teile:
+Die Architektur teilt die Anwendung in drei Teile:
 \begin{itemize}
     \item \textbf{Model} - enthält die komplete Logik des Programms.
-    \item \textbf{View} - empfängt alle Ereignisse von der Oberfläche und enthält die Daten, die angezeigt werden sollen.
+    \item \textbf{View} - empfängt alle Ereignisse von der Benutzeroberfläche (UI) und enthält die Daten, die angezeigt werden sollen.
     \item \textbf{Presenter} - transformiert die Daten in beide Richtungen vom Model zu View 
     und vom View zu Model
 \end{itemize}
@@ -16,11 +16,20 @@ Eigenschaften der MVP Architektur:
     \item Jedes neues \textbf{View} braucht ein eigenes \textbf{Presenter}.
 \end{itemize}
 
-
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/MVP.png}
     \caption[Datenfluss in MVP Architektur]{Datenfluss in MVP Architektur \footnotemark}
     \label{fig:MVP}
 \end{figure}
-\footnotetext{Eigene Quelle}
+
+Der Datenfluss in einer Anwendung, die mittels MVP implementiert ist:
+\begin{itemize}
+    \item In der Oberfläche (View) wird ein Ereignis erzeugt(z.B. ein Button wurde gedrückt).
+    \item View gibt das Ereignis an Presenter weiter.
+    \item Das Ereignis wird im Presenter einem im Model definierten Ereignis zugeordnet(z.B. Button "Speichern" wurde gedrückt)
+    \item Das Model bearbeitet das Ereignis (z.B. die Datei wurde gespeichert) und gibt das Ergebnis zurück.
+    \item Presenter empfängt das Ergebnis (z.B. die Datei wurde erfolgreich gespeichert) und wandelt das in ein Ereignis,
+    das View interpetieren kann (z.B. Button "Speicher" soll grün werden).
+    \item View abarbeit das Ergebnis und zeigt es an (z.B. Button wird grün auf der Oberfläche angezeigt)
+\end{itemize}

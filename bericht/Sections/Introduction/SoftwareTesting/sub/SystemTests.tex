@@ -1,5 +1,7 @@
-
 Bei Systemtests wird diese wie ein Produktivsystem
 % Bei den Systemtests wird das gleiche System wie in \textbf{production} 
-gestartet und entsprechend getestet.
-
+gestartet und entsprechend getestet. 
+Alle externen Schnittstellen werden im Test simuliert und jeder Test wird nur an Ausgaben an externen Schnittstellen validiert.
+Da die komplete Anwendung getestet wird, ist die Anzahl an benötigten Tests geringer als bei Integrationstests. 
+Die Laufzeit jedes einzelnen Tests ist sehr groß 
+und die Fehlersuche dauert länger, da der Fehler sich schwer in der Anwendung lokalisieren lässt.

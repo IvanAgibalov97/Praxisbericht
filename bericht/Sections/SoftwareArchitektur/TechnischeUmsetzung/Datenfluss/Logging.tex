@@ -10,11 +10,11 @@ In dem Kapitel \ref{kap:Dataflow} sind alle möglichen Wege basierend auf der be
 im Kapitel \ref{kap:Structur} für die ankommenden Ereignissen in der Software beschrieben.
 
 Die untere Abbildung \ref{fig:FullDataFlow} zeigt den kompleten Ablauf beim Geschehen eines Ereignisses.
-Eine mögliche Systematisierung des Loggens in der Appliaction wäre: 
+Eine mögliche Systematisierung des Loggings in der Appliaction wäre: 
 \begin{itemize}
-    \item man zeichnet in jeder Komponente den Inhalt des ankommenden Ereignisses auf
-    \item man zeichnet in jeder Komponente den Inhalt des ausgehenden Ereignisses auf
-    \item man zeichnet alle Komponenten auf, an die das Ereignis weitergegeben wird
+    \item Aufzeichnung in jeder Komponente den Inhalt des ankommenden Ereignisses auf
+    \item Aufzeichnung in jeder Komponente den Inhalt des ausgehenden Ereignisses auf
+    \item Aufzeichnung alle Komponenten auf, an die das Ereignis weitergegeben wird
 \end{itemize}
 
 Somit lässen sich die Fehler auf die Komponente genau lokalisieren, d.h. man kann einen entsprechenden Unittest schreiben, 
