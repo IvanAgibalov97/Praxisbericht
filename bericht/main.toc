@@ -101,7 +101,13 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.2}Datenfluss im Programm}{25}{subsubsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.2.1}Logging}{30}{paragraph.3.2.2.1}%
+\contentsline {paragraph}{\numberline {3.2.2.1}Datenfluss \textbf {1}}{26}{paragraph.3.2.2.1}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {3.2.2.2}Datenfluss \textbf {2}}{27}{paragraph.3.2.2.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {3.2.2.3}Datenfluss \textbf {3}}{29}{paragraph.3.2.2.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {paragraph}{\numberline {3.2.2.4}Logging}{30}{paragraph.3.2.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3}Erweiterung der Funktionalitäten}{31}{subsubsection.3.2.3}%
 \defcounter {refsection}{0}\relax 

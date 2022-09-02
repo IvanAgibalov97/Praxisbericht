@@ -1,0 +1,22 @@
+Darstellung des Datenflusses \textbf{1} als \textbf{sequencediagram}:
+
+\begin{figure}[H]
+    \begin{sequencediagram}
+        \newthread{A}{Externe}
+        \newthread{B}{Port (A)}
+        \newinst{C}{Adapter (B)}
+        \newinst{D}{Controller (C)}
+
+        \begin{messcall}{A}{Message}{B}
+            \begin{messcall}{B}{Message}{C}
+                \begin{messcall}{C}{Message}{D}
+                    
+                \end{messcall}
+            \end{messcall}
+        \end{messcall}
+    \end{sequencediagram}
+    \caption{Sequencediagramm vom Datenfluss \textbf{1} Grün}
+\end{figure}
+
+In dem Fall wird an einem \textbf{Port} an Ereignis ausgelöst (z.B. HTTP Nachricht), wird es weiter an \textbf{Adapter} weitergegeben, 
+in dem notwendige Daten (z.B. Benutzerinformation) aus der ankommenden Nachricht separiert werden. Die gewonnenen Daten werden an \textbf{Controller} weitergegeben.

@@ -8,9 +8,12 @@ Beschreibung der Darstellung:
 
 Jede Komponente bringt in das gesamt Programm folgende Teile:
 \begin{itemize}
-    \item Port - z.B. WebSocket Server aufzubauen
-    \item Adapter  - umwandeln der ankommenden Nachrichten bzw. Ereignisse in die Typen definierten im Domain
-    \item Controller - definiert alle Tätigkeiten, die die Komponente machen könnte
-    \item UseCase - definiert den Ablauf an Tätigkeiten (Interactoren) beim Geschehen eines Ereignisses
-    \item Interactors - Hülle für alle definierten Tätigkeiten im Controller
+    \item Port - hat die Aufgabe die Schnittstelle nach Außen aufzubauen und die Verbindungen zu kontrollieren (z.B. WebSocket Server, Datenbank).
+    \item Adapter  - hat die Aufgabe ankommenden Ereignisse vom Port an den dazugehörigen Controller und in die andere Richtung zu übersetzen (z.B. Presenter im \textbf{MVC} \ref{kap:MVC})
+    \item Controller - besitzet alle Informationen, die den Zustand jeweiliger Komponente (\textbf{Controller} + \textbf{Adapter} + \textbf{Port}) abbilden.
+    Controller ermöglicht auch die dazugehörige Schnittstelle zu verwenden (z.B. eine Nachricht abschicken).
+    \item UseCase - beschreibt den Vorgang beim Auslösen eines Erreignisses, welches sie abonniert haben. Die
+    vordefinierten UseCases dürfen nur \textbf{Interactors} verwenden, um andere \textbf{Controller} anzusprechen.
+    \item Interactors - Eine atomare Operation im Programm (die Operation lässt sich nicht mehr sinnvoll im Rahmen
+    der Anwendung aufteilen). Für jede Methode des \textbf{Controllers}, die vom \textbf{UseCase} benutzt wird, gibt es ein \textbf{Interactor}
 \end{itemize}

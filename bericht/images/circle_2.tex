@@ -29,8 +29,7 @@
 
         \path[font=\footnotesize]
 
-        (0, -0.2) node[above]{$Domain$}
-        (0, 1.2) node[above]{$Interactors$}
+        (0, 1) node[above]{$Interactors$}
         (0, 2.2) node[above]{$Use Cases$}
         (0, 3.2) node[above]{$Dispatcher$}
         (0, 4.2) node[above]{$Controllers$}
@@ -38,36 +37,48 @@
         (0, 6.2) node[above]{$Ports$};
 
         % Dataflow
-        \coordinate[label=below:$A$] (nodeA) at ($(0,0) + (225:7.5)$);
-        \coordinate[label=below:$B$] (nodeB) at ($(0,0) + (225:6.5)$);
-        \coordinate[label=below:$C$] (nodeC) at ($(0,0) + (225:5.5)$);
+        \coordinate (nodeA_0) at ($(0,0) + (225:7.5)$);
+        \coordinate[label=below:$A$] (nodeA) at ($(0,0) + (225:6.5)$);
+        \coordinate[label=below:$B$] (nodeB) at ($(0,0) + (225:5.5)$);
 
-        \coordinate[label=below:$D$] (nodeD) at ($(0,0) + (225:4.5)$);
-        \coordinate[label=below:$E$] (nodeE) at ($(0,0) + (225:3.5)$);
-        \coordinate[label=above:$G$] (nodeG) at ($(0,0) + (225:2.5)$);
-        \coordinate[label=above:$K$] (nodeK) at ($(0,0) + (225:1.5)$);
-        \coordinate[label=right:$L$] (nodeL) at ($(0,0) + (225:-4.5)$);
+        \coordinate[label=below:$C$] (nodeC) at ($(0,0) + (225:4.5)$);
+        \coordinate[label=below:$D$] (nodeD) at ($(0,0) + (225:3.5)$);
+        \coordinate[label=below:$E$] (nodeE) at ($(0,0) + (225:2.5)$);
+        \coordinate[label=below:$G$] (nodeG) at ($(0,0) + (225:0)$);
+        \coordinate[label=below:$K$] (nodeK) at ($(0,0) + (225:-4.5)$);
 
-        \coordinate[label=below:$M$] (nodeM) at ($(0,0) + (225:-5.5)$);
-        \coordinate[label=below:$N$] (nodeN) at ($(0,0) + (225:-6.5)$);
-        \coordinate[label=below:$O$] (nodeO) at ($(0,0) + (225:-7.5)$);
+        \coordinate[label=below:$L$] (nodeL) at ($(0,0) + (225:-5.5)$);
+        \coordinate[label=below:$M$] (nodeM) at ($(0,0) + (225:-6.5)$);
+        \coordinate (nodeA_1) at ($(0,0) + (225:-7.5)$);
 
+        \fill[teal] (nodeA) circle (2pt);
+        \fill[teal] (nodeB) circle (2pt);
+        \fill[teal] (nodeC) circle (2pt);
+
+        \fill[blue] (nodeD) circle (2pt);
+        \fill[blue] (nodeE) circle (2pt);
+        \fill[blue] (nodeG) circle (2pt);
+
+        \fill[red] (nodeK) circle (2pt);
+        \fill[red] (nodeL) circle (2pt);
+        \fill[red] (nodeM) circle (2pt);
+
+        \draw[teal, >-] (nodeA_0) -- (nodeA);
         \draw[teal] (nodeA) -- (nodeB);
-        \draw[teal] (nodeB) -- (nodeC);
-        \draw[teal, ->] (nodeC) -- (nodeD); 
+        \draw[teal] (nodeB) -- (nodeC); 
 
+        \draw[blue] (nodeC) -- (nodeD); 
         \draw[blue] (nodeD) -- (nodeE); 
-        \draw[blue] (nodeE) -- (nodeG); 
-        \draw[blue] (nodeG) -- (nodeK);
-        \draw[blue, ->, dotted](nodeK) -- (nodeL);
+        \draw[blue] (nodeE) -- (nodeG);
+        \draw[blue](nodeG) -- (nodeK);
 
-        \draw[red](nodeL) -- (nodeM);
-        \draw[red] (nodeM) -- (nodeN);
-        \draw[red, ->] (nodeN) -- (nodeO);
+        \draw[red](nodeK) -- (nodeL);
+        \draw[red] (nodeL) -- (nodeM);
+        \draw[red, ->] (nodeM) -- (nodeA_1);
 
         % Legends
         \draw (0, -8) -- (1, -8) node[right] {$Teile\ des\ Programms\ wissen\ nichts\ voneinander$};
     \end{tikzpicture}
     \caption[some Caption]{Darstellung der umgesetzten Architektur als \textbf{Clean Architecture} mit sieben Schichten. 
-    Pfeile repräsentieren mögliche Datenflüsse \footnotemark}
+    Pfeile repräsentieren mögliche Datenflüsse.}
 \end{figure}

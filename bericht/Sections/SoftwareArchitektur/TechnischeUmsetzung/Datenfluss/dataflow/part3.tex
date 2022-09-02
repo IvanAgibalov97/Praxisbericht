@@ -1,0 +1,46 @@
+Darstellung des Datenflusses \textbf{3} als \textbf{sequencediagram}:
+\begin{figure}[h]
+    \begin{sequencediagram}
+        \newthread{A}{Controller}
+        \newinst[1]{B}{Adapter}
+        \newinst[1]{C}{Port}
+        \newinst[3]{D}{Externe}
+        \begin{call}{A}{Message}{B}{return result}
+            \begin{call}{B}{Message}{C}{return result}
+                \begin{messcall}{C}{Message}{D}{}
+                    
+                \end{messcall}
+            \end{call}
+        \end{call}
+    \end{sequencediagram}
+\end{figure}\\
+Darstellung der Datentransformation:\\
+Controller - Adapter: Alle Informationen werden als Objekte übergeben, die im Domain definiert werden müssen.
+\begin{lstlisting}[language=json,firstnumber=1]
+    OCPP20Message({
+        destination: {
+            chargerId : "some_unique_charger_id"
+        },
+        message : {
+            name : "BootNotification",
+            type : "Response",
+            payload : BootNotification({
+                currentTime : Date(Thu Jul 28 2022 14:26:49 GMT+0200),
+                interval : 30,
+                status : "Rejected"    
+            })
+        }
+    })
+    \end{lstlisting}
+    Adapter - Port: Alle Informationen, die gesendet werden (in dem Fall ``message''), werden in der verstandlichen Form (sie muss nicht mehr geändert werden)
+    für den Port an Port weitergegeben.
+    Über das Ziel müssen alle Informationen weitergegeben werden, so dass Port die entsprechende Verbindung zuordnen kann. 
+
+    \begin{lstlisting}[language=json,firstnumber=1]
+    {
+        destination : {
+            chargerId : "some_unique_charger_id"
+        }
+        message : "[3, 'message_id_of_request', {currentTime : 'Thu Jul 28 2022 14:26:49Z', interval : 30, status : 'Rejected'}]"
+    }
+\end{lstlisting}

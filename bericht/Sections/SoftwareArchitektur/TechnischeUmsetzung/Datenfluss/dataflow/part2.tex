@@ -1,0 +1,82 @@
+Darstellung des Datenflusses \textbf{2} als \textbf{Sequencediagram}:
+
+\begin{figure}[h]
+    \begin{sequencediagram}
+        \newthread{A}{Controller 1 (C)}
+        \newinst[1]{B}{Dispatcher (D)}
+        \newinst[1]{C}{UseCase (E)}
+        \newinst[1]{D}{Interactor I (G)}
+        \newinst[1]{E}{Controller J (C)}
+        
+        \begin{messcall}{C}{subscribe ``Event''}{B}
+        \end{messcall}
+
+        \begin{messcall}{A}{Event}{B}{}
+                \begin{messcall}{B}{Event}{C}{}
+                    \begin{sdblock}{Loop}{Until sequence of use case done}
+                        \begin{call}{C}{Handle I}{D}{result}
+                            \begin{call}{D}{Handle I}{E}{result}
+                            \end{call}
+                        \end{call}
+                    \end{sdblock}
+                \end{messcall}
+        \end{messcall}
+      \end{sequencediagram}
+      \caption{Sequencediagramm vom Datenfluss \textbf{2} Blau}
+      \label{fig:seqDiagBlue}
+\end{figure}
+
+Wenn ein Ereignis den \textbf{Controller} erreicht, wird \textbf{Dispatcher} darüber informiert. 
+Ein oder mehrere \textbf{UseCases} haben bereits dieses Ereignis beim \textbf{Dispatcher} abonniert.
+\textbf{Dispatcher} informiert alle auf das Ereignis abonierte \textbf{UseCases}. 
+Jeder \textbf{UseCase} kann seinen eigenen Verhalten auf das Event definieren unabhängig voneinander.
+\textbf{UseCase} definiert einen Ablauf an \textbf{Interactoren},
+die wie vorgeschrieben ausgeführt werden. Jeder \textbf{Interactor} ruft eine Methode von einem \textbf{Controller} auf 
+und das Ergebnis wird an \textbf{UseCase} zurückgegeben.
+
+Dabei es gibt zwei Möglichkeiten wie das Ereignis vom \textbf{Controller J} die \textbf{Interactor I} erreichen kann:
+\begin{enumerate}
+    \item synchron - der Rückgabewert ist das Ergebnis der aufgerufenen Methode (siehe Darstellung \ref{fig:seqDiagBlue})
+    \item asynchron - auf die dazugehörige Antwort vom Port wird gewartet(z.B. auf OCPP Response warten, wenn man ein OCPP Request abschickt)
+\end{enumerate}
+\newpage
+Darstellung der 2. Möglichkeit:
+\begin{figure}[h]
+    \begin{sequencediagram}
+        \newthread{U}{UseCase (E)}
+        \newinst[1]{A}{Interactor I (G)}
+        \newinst[2]{C}{Dispatcher (D)}
+        \newinst[1]{B}{Controller J (C)}
+        \newthread{D}{Externe}
+        
+        \begin{call}{U}{Message}{A}{Response}
+        
+        \begin{messcall}{A}{Message}{B}{}
+            \begin{messcall}{A}{subscribe 'Response'}{C}{}
+                
+            \end{messcall}
+            \begin{messcall}{B}{Message}{D}{}
+            \end{messcall}
+        \end{messcall}
+        \begin{messcall}{D}{Response}{B}{}
+            \begin{messcall}{B}{Response}{C}{}
+                \begin{messcall}{C}{Response}{A}{}
+
+                \end{messcall}
+            \end{messcall}
+
+            \begin{messcall}{A}{unsubscribe 'Response'}{C}{}
+            \end{messcall}
+        \end{messcall}
+        
+            
+        \end{call}
+    \end{sequencediagram}
+\end{figure}
+
+Der Rückgabewert wird beim synchronen Funktionsaufruf zurückgegeben, wie in der Abbildung ~\ref{fig:seqDiagBlue} dargestellt.
+Der Rückgabewert beim asynchronen Funktionsaufruf, wird wie folgt definiert:
+Der Aufgerufene \textbf{Interactor} ruft eine Methode vom \textbf{Controller} auf, der die Nachricht an den externen Teilnehmer abschickt. 
+Gleich danach abonniert der \textbf{Interactor} die Antwort auf die abgeschickte Nachricht. Wenn die Antwort ankommt, landet sie beim \textbf{Dispatcher},
+die alle Abonnierten darüber informiert, unteranderem auch den \textbf{Interactor}. 
+\textbf{Der Interactor} gibt diese Antwort als Rückgabewert der Funktionsaufruf

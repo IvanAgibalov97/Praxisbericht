@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.23)  2 SEP 2022 08:25
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (MiKTeX 21.6) (preloaded format=pdflatex 2021.7.23)  2 SEP 2022 11:03
 entering extended mode
 **"c:/Users/agiba/OneDrive/Desktop/8. Semester/Praxisbericht/bericht/main.tex"
 (c:/Users/agiba/OneDrive/Desktop/8. Semester/Praxisbericht/bericht/main.tex
@@ -993,9 +993,6 @@ LaTeX Warning: Label `fig:MVP' multiply defined.
 
 LaTeX Warning: Label `fig:flow around cylinder' multiply defined.
 
-
-LaTeX Warning: Label `fig:sp2d' multiply defined.
-
 )
 \openout1 = `main.aux'.
 
@@ -1178,7 +1175,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 \openout9 = `main.lot'.
 
  [4] (Sections/Motivation.tex
-<./Sections//../images/CiCD.png, id=458, 1027.84pt x 720.6925pt>
+<./Sections//../images/CiCD.png, id=460, 1027.84pt x 720.6925pt>
 File: ./Sections//../images/CiCD.png Graphic file (type png)
 <use ./Sections//../images/CiCD.png>
 Package pdftex.def Info: ./Sections//../images/CiCD.png  used on input line 7.
@@ -1188,54 +1185,54 @@ Package pdftex.def Info: ./Sections//../images/CiCD.png  used on input line 7.
                    \relax 
 l.34     \subsection{OOP Design Patterns}
                                           [1 <./Sections//../images/CiCD.png>] (Sections/Introduction/OOPDesignPatterns/OOPPatterns.tex) (Sections/Introduction/OOPDesignPatterns/sub/Observer.tex
-<Images/Observer.png, id=470, 492.3996pt x 317.0244pt>
+<Images/Observer.png, id=472, 492.3996pt x 317.0244pt>
 File: Images/Observer.png Graphic file (type png)
 <use Images/Observer.png>
 Package pdftex.def Info: Images/Observer.png  used on input line 13.
 (pdftex.def)             Requested size: 426.79134pt x 274.79314pt.
 ) (Sections/Introduction/OOPDesignPatterns/sub/Proxy.tex) (Sections/Introduction/OOPDesignPatterns/sub/TemplateMethod.tex) [2 <./Images/Observer.png>] (Sections/Introduction/OOPDesignPatterns/sub/Builder.tex) (Sections/Introduction/OOPDesignPatterns/sub/Facade.tex) (Sections/Introduction/OOPDesignPatterns/sub/singleton.tex) (Sections/Introduction/OOPDesignPatterns/sub/factoryMethod.tex) (Sections/Introduction/Architecture/CleanArchitecture.tex [3]
-<./images/CleanArchitecture.jpg, id=486, 774.895pt x 569.12625pt>
+<./images/CleanArchitecture.jpg, id=488, 774.895pt x 569.12625pt>
 File: ./images/CleanArchitecture.jpg Graphic file (type jpg)
 <use ./images/CleanArchitecture.jpg>
 Package pdftex.def Info: ./images/CleanArchitecture.jpg  used on input line 19.
 (pdftex.def)             Requested size: 426.79134pt x 313.4633pt.
 ) [4 <./images/CleanArchitecture.jpg>] (Sections/Introduction/Architecture/MVP.tex
-<./images/MVP.png, id=494, 1604.99625pt x 324.21124pt>
+<./images/MVP.png, id=496, 1604.99625pt x 324.21124pt>
 File: ./images/MVP.png Graphic file (type png)
 <use ./images/MVP.png>
 Package pdftex.def Info: ./images/MVP.png  used on input line 21.
 (pdftex.def)             Requested size: 426.79134pt x 86.21239pt.
 ) (Sections/Introduction/SoftwareTesting/SoftwareTesting.tex) [5 <./images/MVP.png>] (Sections/Introduction/SoftwareTesting/sub/TestingPyramide.tex
-<Images/test_pyramid.png, id=503, 838.63312pt x 461.47406pt>
+<Images/test_pyramid.png, id=505, 838.63312pt x 461.47406pt>
 File: Images/test_pyramid.png Graphic file (type png)
 <use Images/test_pyramid.png>
 Package pdftex.def Info: Images/test_pyramid.png  used on input line 5.
 (pdftex.def)             Requested size: 426.79134pt x 234.8487pt.
 ) (Sections/Introduction/SoftwareTesting/sub/UnitTests.tex) (Sections/Introduction/SoftwareTesting/sub/IntegrationTests.tex [6 <./Images/test_pyramid.png>]) (Sections/Introduction/SoftwareTesting/sub/SystemTests.tex) (Sections/Introduction/SoftwareTesting/sub/uitests.tex) (Sections/Introduction/SoftwareTesting/sub/ManualTests.tex) (Sections/Introduction/SOLID/SOLID.tex) (Sections/Introduction/SOLID/sub/SingleResponsibilityPrinciple.tex) (Sections/Introduction/SOLID/sub/OpenClosedPrinciple.tex) (Sections/Introduction/SOLID/sub/LiskovSubstitutionPrinciple.tex) [7] (Sections/Introduction/SOLID/sub/InterfaceSegregationPrinciple.tex) (Sections/Introduction/SOLID/sub/DependencyInversionPrinciple.tex
-<./images/DIP - bad.png, id=516, 1167.36125pt x 231.86626pt>
+<./images/DIP - bad.png, id=518, 1167.36125pt x 231.86626pt>
 File: ./images/DIP - bad.png Graphic file (type png)
 <use ./images/DIP - bad.png>
 Package pdftex.def Info: ./images/DIP - bad.png  used on input line 17.
 (pdftex.def)             Requested size: 426.79134pt x 84.77022pt.
-<./images/DIP - good.png, id=519, 1016.79875pt x 532.99126pt>
+<./images/DIP - good.png, id=521, 1016.79875pt x 532.99126pt>
 File: ./images/DIP - good.png Graphic file (type png)
 <use ./images/DIP - good.png>
 Package pdftex.def Info: ./images/DIP - good.png  used on input line 25.
 (pdftex.def)             Requested size: 426.79134pt x 223.71654pt.
 ) (Sections/Introduction/GRASP/GRASP.tex) [8 <./images/DIP - bad.png> <./images/DIP - good.png>] (Sections/Introduction/OOPPrinciples/OOPPrinciples.tex) (Sections/Introduction/OOPPrinciples/sub/Abstraction.tex) (Sections/Introduction/OOPPrinciples/sub/Encapsulation.tex) (Sections/Introduction/OOPPrinciples/sub/Inheritance.tex) (Sections/Introduction/OOPPrinciples/sub/Polymorphism.tex) (Sections/Introduction/IoC.tex) (Sections/Introduction/DependencyInjection.tex
-<./images/DepInj_1.png, id=533, 1144.275pt x 604.2575pt>
+<./images/DepInj_1.png, id=535, 1144.275pt x 604.2575pt>
 File: ./images/DepInj_1.png Graphic file (type png)
 <use ./images/DepInj_1.png>
 Package pdftex.def Info: ./images/DepInj_1.png  used on input line 5.
 (pdftex.def)             Requested size: 426.79134pt x 225.37894pt.
  [9]
-<./images/DepInj_2.png, id=540, 2131.965pt x 1112.155pt>
+<./images/DepInj_2.png, id=542, 2131.965pt x 1112.155pt>
 File: ./images/DepInj_2.png Graphic file (type png)
 <use ./images/DepInj_2.png>
 Package pdftex.def Info: ./images/DepInj_2.png  used on input line 25.
 (pdftex.def)             Requested size: 426.79134pt x 222.63069pt.
  [10 <./images/DepInj_1.png> <./images/DepInj_2.png>]) [11] (Sections/SoftwareArchitektur/into.tex) (Sections/SoftwareArchitektur/ProjektManagement/ZieleSA.tex [12]) (Sections/SoftwareArchitektur/ProjektManagement/TechnischeSchulden.tex) [13] (Sections/SoftwareArchitektur/ProjektManagement/QualitaetUndKosten.tex
-<./images/QASoftwareCompare.png, id=567, 496.254pt x 264.187pt>
+<./images/QASoftwareCompare.png, id=568, 496.254pt x 264.187pt>
 File: ./images/QASoftwareCompare.png Graphic file (type png)
 <use ./images/QASoftwareCompare.png>
 Package pdftex.def Info: ./images/QASoftwareCompare.png  used on input line 54.
@@ -1246,61 +1243,71 @@ Overfull \hbox (20.63832pt too wide) in paragraph at lines 58--60
  []
 
 ) [16]) [17] (Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur/intro.tex) (Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur/Port-Adapter-Controller.tex
-<./images/Port-Adapter-Contoller.png, id=599, 619.31375pt x 720.6925pt>
+<./images/Port-Adapter-Contoller.png, id=600, 619.31375pt x 720.6925pt>
 File: ./images/Port-Adapter-Contoller.png Graphic file (type png)
 <use ./images/Port-Adapter-Contoller.png>
 Package pdftex.def Info: ./images/Port-Adapter-Contoller.png  used on input line 21.
 (pdftex.def)             Requested size: 184.9429pt x 215.2197pt.
  [18]) (Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur/Controller-Dispatcher-UseCase-Interactor.tex
-<./images/Controller-Dispatcher-UseCase-Interactor.png, id=610, 696.6025pt x 1021.8175pt>
+<./images/Controller-Dispatcher-UseCase-Interactor.png, id=611, 696.6025pt x 1021.8175pt>
 File: ./images/Controller-Dispatcher-UseCase-Interactor.png Graphic file (type png)
 <use ./images/Controller-Dispatcher-UseCase-Interactor.png>
 Package pdftex.def Info: ./images/Controller-Dispatcher-UseCase-Interactor.png  used on input line 30.
 (pdftex.def)             Requested size: 184.9429pt x 271.27928pt.
 ) [19 <./images/Port-Adapter-Contoller.png>] [20 <./images/Controller-Dispatcher-UseCase-Interactor.png>] (Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur/Erstellen.tex
-<./images/Erstellen AD.png, id=626, 1844.8925pt x 1430.34375pt>
+<./images/Erstellen AD.png, id=627, 1844.8925pt x 1430.34375pt>
 File: ./images/Erstellen AD.png Graphic file (type png)
 <use ./images/Erstellen AD.png>
 Package pdftex.def Info: ./images/Erstellen AD.png  used on input line 24.
 (pdftex.def)             Requested size: 341.43306pt x 264.69675pt.
 ) (Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur/Utility.tex [21 <./images/Erstellen AD.png>]
-<./images/KlassendiagramMitUtilityControllers.png, id=639, 1884.03876pt x 1436.36626pt>
+<./images/KlassendiagramMitUtilityControllers.png, id=640, 1884.03876pt x 1436.36626pt>
 File: ./images/KlassendiagramMitUtilityControllers.png Graphic file (type png)
 <use ./images/KlassendiagramMitUtilityControllers.png>
 Package pdftex.def Info: ./images/KlassendiagramMitUtilityControllers.png  used on input line 38.
 (pdftex.def)             Requested size: 341.43306pt x 260.28815pt.
 ) [22] (Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur/VerbindungUndTestbarkeit.tex
-<./images/Klassendiagramm Port-Adapter.png, id=648, 1514.65875pt x 756.8275pt>
+<./images/Klassendiagramm Port-Adapter.png, id=649, 1514.65875pt x 756.8275pt>
 File: ./images/Klassendiagramm Port-Adapter.png Graphic file (type png)
 <use ./images/Klassendiagramm Port-Adapter.png>
 Package pdftex.def Info: ./images/Klassendiagramm Port-Adapter.png  used on input line 9.
 (pdftex.def)             Requested size: 341.43306pt x 170.60219pt.
-<./images/CDUI-Klassendiagramm.png, id=651, 1938.24126pt x 1296.845pt>
+<./images/CDUI-Klassendiagramm.png, id=652, 1938.24126pt x 1296.845pt>
 File: ./images/CDUI-Klassendiagramm.png Graphic file (type png)
 <use ./images/CDUI-Klassendiagramm.png>
 Package pdftex.def Info: ./images/CDUI-Klassendiagramm.png  used on input line 17.
 (pdftex.def)             Requested size: 341.43306pt x 228.4354pt.
  [23 <./images/KlassendiagramMitUtilityControllers.png> <./images/Klassendiagramm Port-Adapter.png>]) [24 <./images/CDUI-Klassendiagramm.png>] (Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss/Intro.tex (images/circle_2.tex
-Overfull \hbox (20.43832pt too wide) in paragraph at lines 70--72
+Overfull \hbox (20.43832pt too wide) in paragraph at lines 81--83
 [][] 
  []
 
-) [25]
+)) [25] (Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss/Dataflow/part1.tex
 \pgf@layerbox@umlsd@background=\box104
 \pgf@layerboxsaved@umlsd@background=\box105
 \pgf@layerbox@umlsd@threadlayer=\box106
 \pgf@layerboxsaved@umlsd@threadlayer=\box107
- [26] [27]
-LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 116.
-LaTeX Font Info:    No file OMScmtt.fd. on input line 116.
+) [26] (Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss/Dataflow/part2.tex
+Overfull \hbox (59.30418pt too wide) in paragraph at lines 24--25
+[][] 
+ []
+
+[27]
+Overfull \hbox (32.96425pt too wide) in paragraph at lines 74--75
+[][] 
+ []
+
+) [28] (Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss/Dataflow/part3.tex
+LaTeX Font Info:    Trying to load font information for OMS+cmtt on input line 20.
+LaTeX Font Info:    No file OMScmtt.fd. on input line 20.
 
 
 LaTeX Font Warning: Font shape `OMS/cmtt/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 116.
+(Font)              for symbol `textbraceleft' on input line 20.
 
-[28] [29]) (Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss/Logging.tex
-<./images/FullDataFlow.png, id=732, 1955.305pt x 1686.3pt>
+) [29] (Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss/Logging.tex
+<./images/FullDataFlow.png, id=733, 1955.305pt x 1686.3pt>
 File: ./images/FullDataFlow.png Graphic file (type png)
 <use ./images/FullDataFlow.png>
 Package pdftex.def Info: ./images/FullDataFlow.png  used on input line 25.
@@ -1311,57 +1318,57 @@ Overfull \hbox (17.75716pt too wide) in paragraph at lines 1--3
  []
 
 ) [31] (Sections/SoftwareArchitektur/TechnischeUmsetzung/ArbeitMitArchitektur/addInterface.tex) [32] (Sections/SoftwareArchitektur/Anwendung/UseAsComponent.tex
-<./images/SimpliedArchitecture.png, id=757, 1505.625pt x 225.84375pt>
+<./images/SimpliedArchitecture.png, id=758, 1505.625pt x 225.84375pt>
 File: ./images/SimpliedArchitecture.png Graphic file (type png)
 <use ./images/SimpliedArchitecture.png>
 Package pdftex.def Info: ./images/SimpliedArchitecture.png  used on input line 8.
 (pdftex.def)             Requested size: 426.79134pt x 64.01807pt.
-<./images/Architecture as Standalone.png, id=758, 1505.625pt x 640.3925pt>
+<./images/Architecture as Standalone.png, id=759, 1505.625pt x 640.3925pt>
 File: ./images/Architecture as Standalone.png Graphic file (type png)
 <use ./images/Architecture as Standalone.png>
 Package pdftex.def Info: ./images/Architecture as Standalone.png  used on input line 16.
 (pdftex.def)             Requested size: 426.79134pt x 181.52682pt.
-<./images/Dataflow.png, id=759, 1132.23pt x 169.38281pt>
+<./images/Dataflow.png, id=760, 1132.23pt x 169.38281pt>
 File: ./images/Dataflow.png Graphic file (type png)
 <use ./images/Dataflow.png>
 Package pdftex.def Info: ./images/Dataflow.png  used on input line 24.
 (pdftex.def)             Requested size: 426.79134pt x 63.84663pt.
  [33 <./images/SimpliedArchitecture.png> <./images/Architecture as Standalone.png> <./images/Dataflow.png>]
-<./images/Architecture as Facade.png, id=768, 1505.625pt x 640.3925pt>
+<./images/Architecture as Facade.png, id=769, 1505.625pt x 640.3925pt>
 File: ./images/Architecture as Facade.png Graphic file (type png)
 <use ./images/Architecture as Facade.png>
 Package pdftex.def Info: ./images/Architecture as Facade.png  used on input line 38.
 (pdftex.def)             Requested size: 426.79134pt x 181.52682pt.
  [34 <./images/Architecture as Facade.png>]
-<./images/Architecture as Component.png, id=775, 1806.75pt x 884.30376pt>
+<./images/Architecture as Component.png, id=776, 1806.75pt x 884.30376pt>
 File: ./images/Architecture as Component.png Graphic file (type png)
 <use ./images/Architecture as Component.png>
 Package pdftex.def Info: ./images/Architecture as Component.png  used on input line 61.
 (pdftex.def)             Requested size: 426.79134pt x 208.89088pt.
-<./images/Dataflow as Component with inform.png, id=776, 1277.52281pt x 639.89063pt>
+<./images/Dataflow as Component with inform.png, id=777, 1277.52281pt x 639.89063pt>
 File: ./images/Dataflow as Component with inform.png Graphic file (type png)
 <use ./images/Dataflow as Component with inform.png>
 Package pdftex.def Info: ./images/Dataflow as Component with inform.png  used on input line 69.
 (pdftex.def)             Requested size: 426.79134pt x 213.77151pt.
 ) [35 <./images/Architecture as Component.png> <./images/Dataflow as Component with inform.png>] (Sections/SoftwareArchitektur/Anwendung/FrameworkAndLibrary.tex
-<./images/Dataflow Library.png, id=783, 898.10532pt x 370.38374pt>
+<./images/Dataflow Library.png, id=784, 898.10532pt x 370.38374pt>
 File: ./images/Dataflow Library.png Graphic file (type png)
 <use ./images/Dataflow Library.png>
 Package pdftex.def Info: ./images/Dataflow Library.png  used on input line 25.
 (pdftex.def)             Requested size: 426.79134pt x 176.00757pt.
-<./images/Dataflow Framework.png, id=784, 1321.93875pt x 201.75375pt>
+<./images/Dataflow Framework.png, id=785, 1321.93875pt x 201.75375pt>
 File: ./images/Dataflow Framework.png Graphic file (type png)
 <use ./images/Dataflow Framework.png>
 Package pdftex.def Info: ./images/Dataflow Framework.png  used on input line 35.
 (pdftex.def)             Requested size: 426.79134pt x 65.13512pt.
 ) [36 <./images/Dataflow Library.png> <./images/Dataflow Framework.png>] (Sections/Aufgabestellung.tex [37]) (Sections/Loesung.tex) [38] (Sections/Bestinterface.tex) [39] (Sections/Implementierung.tex [40] [41]
-<Images/TestExample.png, id=812, 542.77782pt x 575.14874pt>
+<Images/TestExample.png, id=813, 542.77782pt x 575.14874pt>
 File: Images/TestExample.png Graphic file (type png)
 <use Images/TestExample.png>
 Package pdftex.def Info: Images/TestExample.png  used on input line 81.
 (pdftex.def)             Requested size: 426.79134pt x 452.26505pt.
 )
-Underfull \hbox (badness 10000) in paragraph at lines 81--232
+Underfull \hbox (badness 10000) in paragraph at lines 81--245
 
  []
 
@@ -1379,17 +1386,13 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 41730 strings out of 478864
- 849560 string characters out of 2848660
- 1644875 words of memory out of 3000000
- 58491 multiletter control sequences out of 15000+600000
+ 41759 strings out of 478864
+ 851518 string characters out of 2848660
+ 1637982 words of memory out of 3000000
+ 58507 multiletter control sequences out of 15000+600000
  421265 words of font info for 90 fonts, out of 8000000 for 9000
  1143 hyphenation exceptions out of 8191
  114i,12n,111p,805b,2459s stack positions out of 5000i,500n,10000p,200000b,80000s
-pdfTeX warning (dest): name{Hfootnote.19} has been referenced but does not exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{Hfootnote.18} has been referenced but does not exist, replaced by a fixed one
-
 pdfTeX warning (dest): name{Hfootnote.17} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.16} has been referenced but does not exist, replaced by a fixed one
@@ -1398,7 +1401,9 @@ pdfTeX warning (dest): name{Hfootnote.15} has been referenced but does not exist
 
 pdfTeX warning (dest): name{Hfootnote.14} has been referenced but does not exist, replaced by a fixed one
 
-pdfTeX warning (dest): name{Hfootnote.10} has been referenced but does not exist, replaced by a fixed one
+pdfTeX warning (dest): name{Hfootnote.13} has been referenced but does not exist, replaced by a fixed one
+
+pdfTeX warning (dest): name{Hfootnote.9} has been referenced but does not exist, replaced by a fixed one
 
 pdfTeX warning (dest): name{Hfootnote.7} has been referenced but does not exist, replaced by a fixed one
 
@@ -1409,9 +1414,9 @@ pdfTeX warning (dest): name{Hfootnote.4} has been referenced but does not exist,
 pdfTeX warning (dest): name{Hfootnote.2} has been referenced but does not exist, replaced by a fixed one
 
  <C:\Users\agiba\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1000.pk><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbxti10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmcsc10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr6.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr7.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr9.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmss10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti12.pfb><C:/Users/agiba/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on main.pdf (49 pages, 1536510 bytes).
+Output written on main.pdf (49 pages, 1537971 bytes).
 PDF statistics:
- 958 PDF objects out of 1000 (max. 8388607)
- 210 named destinations out of 1000 (max. 500000)
+ 960 PDF objects out of 1000 (max. 8388607)
+ 211 named destinations out of 1000 (max. 500000)
  796 words of extra memory for PDF output out of 10000 (max. 10000000)
 
