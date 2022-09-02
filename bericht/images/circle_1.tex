@@ -16,8 +16,6 @@
         \fill[gray!5] ($(0, 0) + (150:4)$) arc (150:270:4) -- ($(0, 0) + (270:5)$) arc (270:150:5) -- cycle;
         \fill[gray!5] ($(0, 0) + (-90:4)$) arc (-90:30:4) -- ($(0, 0) + (30:5)$) arc (30:-90:5) -- cycle;
 
-
-
         % Dispatcher
         \fill[blue!5] (0,0)circle(4);
 
@@ -27,20 +25,13 @@
         \fill[green!5] ($(0, 0) + (-90:2)$) arc (-90:30:2) -- ($(0, 0) + (30:3)$) arc (30:-90:3) -- cycle;
 
         % Interactors
-        \fill[olive!5] ($(0, 0) + (30:1)$) arc (30:150:1) -- ($(0, 0) + (150:2)$) arc (150:30:2) -- cycle;
-        \fill[olive!5] ($(0, 0) + (150:1)$) arc (150:270:1) -- ($(0, 0) + (270:2)$) arc (270:150:2) -- cycle;
-        \fill[olive!5] ($(0, 0) + (-90:1)$) arc (-90:30:1) -- ($(0, 0) + (30:2)$) arc (30:-90:2) -- cycle;
-
-        % Domain
-        \fill[cyan!5] (0,0)circle(1);
-        %Add labels with names of the primary and secondary colors.
+        \fill[olive!5] (0,0)circle(2);
         
         % Boundaries between components
         \draw ($(0,0) + (30:4)$) -- (30:7);
         \draw ($(0,0) + (150:4)$) -- (150:7);
         \draw ($(0,0) + (270:4)$) -- (270:7);
 
-        \draw[dotted] (0,0)circle(1);
         \draw[dotted] (0,0)circle(2);
         \draw[line width = 1pt, dotted] (0,0)circle(3);
         \draw[line width = 1pt, dotted] (0,0)circle(4);
@@ -55,8 +46,7 @@
 
         \path[font=\footnotesize]
 
-        (0, -0.2) node[above]{$Domain$}
-        (0, 1.2) node[above]{$Interactors$}
+        (0, -0.2) node[above]{$Interactors$}
         (0, 2.2) node[above]{$Use Cases$}
         (0, 3.2) node[above]{$Dispatcher$}
         (0, 4.2) node[above]{$Controllers$}

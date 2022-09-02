@@ -1,9 +1,11 @@
-Der OCPP Backend Server wurde anhand ``Clean Architecture'' projektiert und entsprechend umgesetzt. 
-Im Kapitel werden die verwendeten Schichten beschrieben, welche Eigenschaften sie besitzen und wie sie miteinander verbunden sind.
-Auch wird kurz gezeigt wie die Testbarkeit auf allen Niveaus (Unit, Integration und Systemtests), 
-Änderbarkeit und Erweitbarkeit der Software ist.    
+Im Kapitel werden Teile der Anwendung beschrieben, welche Eigenschaften sie besitzen und wie sie miteinander verbunden sind.
+Auch wird kurz gezeigt wie die Testbarkeit (Unit-, Integration- und Systemtests), 
+Änderbarkeit und Erweiterbarkeit der Software ist.    
+Ein wichtiger Teil der Beschreibung ist der Datenfluss im Programm.
+
 \import{./images/}{circle_1}
 Beschreibung der Darstellung:
+
 Jede Komponente bringt in das gesamt Programm folgende Teile:
 \begin{itemize}
     \item Port - z.B. WebSocket Server aufzubauen
@@ -11,5 +13,4 @@ Jede Komponente bringt in das gesamt Programm folgende Teile:
     \item Controller - definiert alle Tätigkeiten, die die Komponente machen könnte
     \item UseCase - definiert den Ablauf an Tätigkeiten (Interactoren) beim Geschehen eines Ereignisses
     \item Interactors - Hülle für alle definierten Tätigkeiten im Controller
-    \item Domain - definiert Typen benutzten der Komponente und deren Basic Verhalten, auch die Ereignisse die vom Dispatcher verteilt werden
 \end{itemize}
