@@ -1,0 +1,141 @@
+\begin{figure}[h]
+    
+    \begin{tikzpicture}[scale=.95]  
+        % Dispatcher
+        \fill[blue!5] (0,0)circle(4);
+
+        % UseCases
+        \fill[green!5] ($(0, 0) + (30:2)$) arc (30:150:2) -- ($(0, 0) + (150:3)$) arc (150:30:3) -- cycle;
+        \fill[green!5] ($(0, 0) + (150:2)$) arc (150:270:2) -- ($(0, 0) + (270:3)$) arc (270:150:3) -- cycle;
+        \fill[green!5] ($(0, 0) + (-90:2)$) arc (-90:30:2) -- ($(0, 0) + (30:3)$) arc (30:-90:3) -- cycle;
+        \fill[green!5] ($(0, 0) + (-90:2)$) arc (-90:30:2) -- ($(0, 0) + (30:3)$) arc (30:-90:3) -- cycle;
+
+        % Interactors
+        \fill[olive!5] (0,0)circle(2);
+
+        % OCPP Port-Adapter-Controller
+        \fill[red!5] ($(0, 0) + (135:6)$) arc (135:90:6) -- ($(0, 0) + (90:7.5)$) arc (90:135:7.5) -- cycle;
+        \fill[yellow!5] ($(0, 0) + (135:5)$) arc (135:90:5) -- ($(0, 0) + (90:6)$) arc (90:135:6) -- cycle;
+        \fill[gray!5] ($(0, 0) + (135:4)$) arc (135:90:4) -- ($(0, 0) + (90:5)$) arc (90:135:5) -- cycle;
+
+        % Logger Port-Adapter-Controller
+        \fill[cyan] ($(0, 0) + (90:6)$) arc (90:45:6) -- ($(0, 0) + (45:7.5)$) arc (45:90:7.5) -- cycle;
+        \fill[cyan] ($(0, 0) + (90:5)$) arc (90:45:5) -- ($(0, 0) + (45:6)$) arc (45:90:6) -- cycle;
+        \fill[gray!5] ($(0, 0) + (90:4)$) arc (90:45:4) -- ($(0, 0) + (45:5)$) arc (45:90:5) -- cycle;
+
+        % Super
+        \fill[gray!5] ($(0, 0) + (45:4)$) arc (45:0:4) -- ($(0, 0) + (0:5)$) arc (0:45:5) -- cycle;
+
+        % HTTP Port-Adapter-Controller
+        \fill[red!5] ($(0, 0) + (135:6)$) arc (135:180:6) -- ($(0, 0) + (180:7.5)$) arc (180:135:7.5) -- cycle;
+        \fill[yellow!5] ($(0, 0) + (135:5)$) arc (135:180:5) -- ($(0, 0) + (180:6)$) arc (180:135:6) -- cycle;
+        \fill[gray!5] ($(0, 0) + (135:4)$) arc (135:180:4) -- ($(0, 0) + (180:5)$) arc (180:135:5) -- cycle;
+
+        % Charger Port-Adapter-Controller
+        \fill[cyan] ($(0, 0) + (180:6)$) arc (180:216:6) -- ($(0, 0) + (216:7.5)$) arc (216:180:7.5) -- cycle;
+        \fill[cyan] ($(0, 0) + (180:5)$) arc (180:216:5) -- ($(0, 0) + (216:6)$) arc (216:180:6) -- cycle;
+        \fill[gray!5] ($(0, 0) + (180:4)$) arc (180:216:4) -- ($(0, 0) + (216:5)$) arc (216:180:5) -- cycle;
+
+        % User Port-Adapter-Controller
+        \fill[cyan] ($(0, 0) + (216:6)$) arc (216:252:6) -- ($(0, 0) + (252:7.5)$) arc (252:216:7.5) -- cycle;
+        \fill[cyan] ($(0, 0) + (216:5)$) arc (216:252:5) -- ($(0, 0) + (252:6)$) arc (252:216:6) -- cycle;
+        \fill[gray!5] ($(0, 0) + (216:4)$) arc (216:252:4) -- ($(0, 0) + (252:5)$) arc (252:216:5) -- cycle;
+
+        % Transaction Port-Adapter-Controller
+        \fill[cyan] ($(0, 0) + (252:6)$) arc (252:288:6) -- ($(0, 0) + (288:7.5)$) arc (288:252:7.5) -- cycle;
+        \fill[cyan] ($(0, 0) + (252:5)$) arc (252:288:5) -- ($(0, 0) + (288:6)$) arc (288:252:6) -- cycle;
+        \fill[gray!5] ($(0, 0) + (252:4)$) arc (252:288:4) -- ($(0, 0) + (288:5)$) arc (288:252:5) -- cycle;
+
+        % Price Port-Adapter-Controller
+        \fill[cyan] ($(0, 0) + (288:6)$) arc (288:324:6) -- ($(0, 0) + (324:7.5)$) arc (324:288:7.5) -- cycle;
+        \fill[cyan] ($(0, 0) + (288:5)$) arc (288:324:5) -- ($(0, 0) + (324:6)$) arc (324:288:6) -- cycle;
+        \fill[gray!5] ($(0, 0) + (288:4)$) arc (288:324:4) -- ($(0, 0) + (324:5)$) arc (324:288:5) -- cycle;
+
+        % DB Port-Adapter-Controller
+        \fill[cyan] ($(0, 0) + (324:6)$) arc (324:360:6) -- ($(0, 0) + (360:7.5)$) arc (360:324:7.5) -- cycle;
+        \fill[cyan] ($(0, 0) + (324:5)$) arc (324:360:5) -- ($(0, 0) + (360:6)$) arc (360:324:6) -- cycle;
+        \fill[gray!5] ($(0, 0) + (324:4)$) arc (324:360:4) -- ($(0, 0) + (360:5)$) arc (360:324:5) -- cycle;
+
+        \path[font=\footnotesize]
+
+        % (0, -0.2) node[above]{$Interactors$}
+        % (0, 2.2) node[above]{$Use Cases$}
+        (0, 3.2) node[above]{$Dispatcher$}
+
+
+        ($(0, 0) + (112.5:2.2)$) node[above, rotate = 22.5]{$14\ St.$}
+        ($(0, 0) + (112.5:4.2)$) node[above, rotate = 22.5]{$OCPP Comm$}
+        ($(0, 0) + (112.5:5.2)$) node[above, rotate = 22.5]{$OCPP Adatapter$}
+        ($(0, 0) + (112.5:6.5)$) node[above, rotate = 22.5]{$OCPP Client$}
+
+        ($(0, 0) + (157.5:2.2)$) node[above, rotate = 67.5]{$18\ St.$}
+        ($(0, 0) + (157.5:4.2)$) node[above, rotate = 67.5]{$HTPP Comm$}
+        ($(0, 0) + (157.5:5.2)$) node[above, rotate = 67.5]{$HTPP Adatapter$}
+        ($(0, 0) + (157.5:6.5)$) node[above, rotate = 67.5]{$HTPP Server$}
+
+        ($(0, 0) + (67.5:2.2)$) node[above, rotate = -22.5]{$0\ St.$}
+        ($(0, 0) + (67.5:4.2)$) node[above, rotate=-22.5]{$Logger$}
+        ($(0, 0) + (67.5:5.2)$) node[above, rotate=-22.5]{$Logger Adatapter$}
+        ($(0, 0) + (67.5:6.5)$) node[above, rotate=-22.5]{$Logger$}
+
+        ($(0, 0) + (22.5:2.2)$) node[above, rotate = -67.5]{$0\ St.$}
+        ($(0, 0) + (22.5:4.2)$) node[above, rotate=-67.5]{$Super$}
+
+        ($(0, 0) + (198:2.7)$) node[above, rotate = -72]{$0\ St.$}
+        ($(0, 0) + (198:4.7)$) node[above, rotate = -72]{$Charger$}
+        ($(0, 0) + (198:6.7)$) node[above, rotate = -72]{$Charger$}
+
+        ($(0, 0) + (234:2.7)$) node[above, rotate = -36]{$0\ St.$}
+        ($(0, 0) + (234:4.7)$) node[above, rotate = -36]{$User$}
+        ($(0, 0) + (234:6.7)$) node[above, rotate = -36]{$User$}
+
+        ($(0, 0) + (270:2.7)$) node[above, rotate = 0]{$0\ St.$}
+        ($(0, 0) + (270:4.7)$) node[above, rotate = 0]{$Transaction$}
+        ($(0, 0) + (270:6.7)$) node[above, rotate = 0]{$Transaction$}
+
+        ($(0, 0) + (306:2.7)$) node[above, rotate = 36]{$0\ St.$}
+        ($(0, 0) + (306:4.7)$) node[above, rotate = 36]{$Price$}
+        ($(0, 0) + (306:6.7)$) node[above, rotate = 36]{$Price$} 
+
+        ($(0, 0) + (342:2.7)$) node[above, rotate = 72]{$0\ St.$}
+        ($(0, 0) + (342:4.7)$) node[above, rotate = 72]{$DB$}
+        ($(0, 0) + (270:7.5)$) node[above, rotate = 0]{$DB$};
+
+        \draw ($(0,0) + (216:4)$) -- (216:7);
+        \draw ($(0,0) + (252:4)$) -- (252:7);
+        \draw ($(0,0) + (288:4)$) -- (288:7);
+        \draw ($(0,0) + (324:4)$) -- (324:7);
+
+        \draw ($(0,0) + (90:4)$) -- (90:7.5);
+        \draw ($(0,0) + (135:4)$) -- (135:7.5);
+        \draw ($(0,0) + (180:4)$) -- (180:7.5);
+        \draw ($(0,0) + (45:4)$) -- (45:7.5);
+        \draw ($(0,0) + (360:4)$) -- (360:7.5);
+
+        \draw[dotted] (0,0)circle(2);
+        \draw[line width = 1pt, dotted] (0,0)circle(3);
+        \draw[line width = 1pt, dotted] (0,0)circle(4);
+        \draw[dotted] ($(0, 0) + (45:5)$) arc (45:360:5);
+        \draw[dotted] ($(0, 0) + (45:6)$) arc (45:360:6);
+        \draw[dotted] ($(0, 0) + (180:7)$) arc (180:324:7);
+        \draw ($(0, 0) + (45:7.5)$) arc (45:360:7.5);
+        \draw ($(0, 0) + (0:5)$) arc (0:45:5 );
+
+
+        \draw ($(0,0) + (0:2)$) -- (0:3);
+        \draw ($(0,0) + (45:2)$) -- (45:3);
+        \draw ($(0,0) + (90:2)$) -- (90:3);
+        \draw ($(0,0) + (135:2)$) -- (135:3);
+        \draw ($(0,0) + (180:2)$) -- (180:3);
+        \draw ($(0,0) + (216:2)$) -- (216:3);
+        \draw ($(0,0) + (252:2)$) -- (252:3);
+        \draw ($(0,0) + (288:2)$) -- (288:3);
+        \draw ($(0,0) + (324:2)$) -- (324:3);
+
+        % Legends
+        \draw (0, -8) -- (1, -8) node[right] {$Teile\ des\ Programms\ wissen\ nichts\ voneinander$};
+    \end{tikzpicture}
+    \caption[some Caption]{Darstellung der umgesetzten Architektur.
+    Die Linien repräsentieren die Grenzen zwischen den einzelnen Teilen des Programms \footnotemark}
+    \label{fig:sp2d}
+\end{figure}

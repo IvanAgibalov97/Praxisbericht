@@ -7,17 +7,17 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Motivation}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Grundlagen}{2}{section.2}%
+\contentsline {section}{\numberline {2}Grundlagen}{1}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}OOP Design Patterns}{2}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}OOP Design Patterns}{1}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.1}Observer}{2}{subsubsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.2}Proxy}{2}{subsubsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Template method}{3}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3}Template method}{2}{subsubsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.4}Builder}{3}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4}Builder}{2}{subsubsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.5}Facade}{3}{subsubsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
@@ -123,42 +123,58 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.3.2}Framework und Bibliothek}{36}{subsubsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}Aufgabenstellung}{37}{section.4}%
+\contentsline {section}{\numberline {4}OCPP Server}{37}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Anforderungen an den Standalone Server}{37}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Aufgabenbeschreibung}{37}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Anforderungen an das Testframework }{38}{subsection.4.2}%
+\contentsline {subsubsection}{\numberline {4.1.1}Standalone Server}{37}{subsubsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Anforderungen an ERK Automatisierungstool}{38}{subsection.4.3}%
+\contentsline {subsubsection}{\numberline {4.1.2}Testframework}{37}{subsubsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Lösung der Aufgabe}{38}{section.5}%
+\contentsline {subsubsection}{\numberline {4.1.3}ERK Automatisierungstool}{38}{subsubsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Gewünschtes Interfaces}{39}{section.6}%
+\contentsline {subsection}{\numberline {4.2}Allgemeine Lösung}{39}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Implementierung}{40}{section.7}%
+\contentsline {subsection}{\numberline {4.3}Anwendung der allgemeinen Lösung}{40}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Achitecture des Frameworks}{40}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {4.3.1}Standalone mit Datenbank}{41}{subsubsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.1}Ports}{40}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {4.3.2}Standalone ohne Datenbank}{42}{subsubsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.2}Adapters}{40}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {4.3.3}Library}{43}{subsubsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.3}Controllers}{40}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {4.3.4}Framework}{44}{subsubsection.4.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.4}Dispatcher}{41}{subsubsection.7.1.4}%
+\contentsline {subsection}{\numberline {4.4}Vergleich der einzelnen Lösungen}{44}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.5}UseCases}{41}{subsubsection.7.1.5}%
+\contentsline {section}{\numberline {5}Lösung der Aufgabe}{44}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.6}Interactors}{41}{subsubsection.7.1.6}%
+\contentsline {section}{\numberline {6}Gewünschtes Interfaces}{45}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.7}Domain}{41}{subsubsection.7.1.7}%
+\contentsline {section}{\numberline {7}Implementierung}{46}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Zugriff auf das Testframework}{41}{subsection.7.2}%
+\contentsline {subsection}{\numberline {7.1}Achitecture des Frameworks}{46}{subsection.7.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Testbeispiel}{42}{subsection.7.3}%
+\contentsline {subsubsection}{\numberline {7.1.1}Ports}{46}{subsubsection.7.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Übersichtsdiagramm}{43}{section.8}%
+\contentsline {subsubsection}{\numberline {7.1.2}Adapters}{46}{subsubsection.7.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Conclusion}{43}{section.9}%
+\contentsline {subsubsection}{\numberline {7.1.3}Controllers}{46}{subsubsection.7.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{44}{section.9}%
+\contentsline {subsubsection}{\numberline {7.1.4}Dispatcher}{47}{subsubsection.7.1.4}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.5}UseCases}{47}{subsubsection.7.1.5}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.6}Interactors}{47}{subsubsection.7.1.6}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsubsection}{\numberline {7.1.7}Domain}{47}{subsubsection.7.1.7}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.2}Zugriff auf das Testframework}{47}{subsection.7.2}%
+\defcounter {refsection}{0}\relax 
+\contentsline {subsection}{\numberline {7.3}Testbeispiel}{48}{subsection.7.3}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {8}Übersichtsdiagramm}{49}{section.8}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{\numberline {9}Conclusion}{49}{section.9}%
+\defcounter {refsection}{0}\relax 
+\contentsline {section}{Bibliography}{50}{section.9}%

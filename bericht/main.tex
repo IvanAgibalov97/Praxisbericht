@@ -126,10 +126,11 @@
         \subsubsection{Polymorphism}
             \import{./Sections/Introduction/OOPPrinciples/sub}{Polymorphism}
     \subsection{Inversion of control}
+    \label{kap:IoC}
         \import{./Sections/Introduction}{IoC}
     \subsection{Dependency Injection}
-        \label{DependencyInjection}
-            \import{./Sections/Introduction}{DependencyInjection}
+    \label{DependencyInjection}
+        \import{./Sections/Introduction}{DependencyInjection}
 
 \newpage
 
@@ -230,7 +231,42 @@
 
 
 % Example section added from an external tex-file, here located in ./Sections/
-\import{./Sections/}{Aufgabestellung}
+\section{OCPP Server}
+    \subsection{Aufgabenbeschreibung}
+        \import{./Sections/OCPPServer/Aufgabenbeschreibung}{intro}
+        \subsubsection{Standalone Server}
+            \import{./Sections/OCPPServer/Aufgabenbeschreibung}{Standalone}
+        \subsubsection{Testframework}
+            \import{./Sections/OCPPServer/Aufgabenbeschreibung}{Testframework}
+        \subsubsection{ERK Automatisierungstool}
+            \import{./Sections/OCPPServer/Aufgabenbeschreibung}{Library}
+    \newpage
+    \subsection{Allgemeine Lösung}
+        \import{./Sections/OCPPServer/Commonsolution}{intro}
+
+    \newpage
+    \subsection{Anwendung der allgemeinen Lösung}
+        \import{./Sections/OCPPServer/UseOfCommonSolution}{intro}
+        
+        \newpage
+        \subsubsection{Standalone mit Datenbank}
+            \import{./Sections/OCPPServer/UseOfCommonSolution}{intro}
+
+        \newpage
+        \subsubsection{Standalone ohne Datenbank}
+            \import{./Sections/OCPPServer/UseOfCommonSolution}{standaloneWithoutDB}
+
+        \newpage
+        \subsubsection{Library}
+            \import{./Sections/OCPPServer/UseOfCommonSolution}{Library}
+        
+        \newpage
+        \subsubsection{Framework}
+            \import{./Sections/OCPPServer/UseOfCommonSolution}{framework}
+    
+    \subsection{Vergleich der einzelnen Lösungen}
+        \import{./Sections/OCPPServer/CompareOfSolutions}{intro}
+
 
 \import{./Sections/}{Loesung}
 

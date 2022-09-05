@@ -1,21 +1,22 @@
-mehr dazu kann man bei nachlesen: \textbf{siehe kommentar in Latex}% https://martinfowler.com/bliki/InversionOfControl.html
-
 Im Kapitel wird der Unterschied zwischen einem Framework und einer Bibliothek erleuchtet.
 
 Ein Framework ist eine Softwareplattform, die die Struktur und Architektur des künftigen Softwareprodukts bestimmt.
 Jedes Framework enthält ein vorgefertigtes “Gerüst” – die Vorlagen, Standardmodule und APIs, 
 die dem Entwickler zur Verfügung stehen.
-% [https://it-talents.de/it-wissen/framework/]
+\footnotemark
+\footnotetext{https://it-talents.de/it-wissen/framework/}
 
-Bibliothek ist eine Sammlung ähnlicher Objekte, die zur gelegentlichen Verwendung gespeichert werden.
-% [https://www.computerweekly.com/de/definition/Bibliothek-Library#:~:text=In%20der%20Informatik%20bezeichnet%20der,und%20physische%20Speichereinheiten%20wie%20Tapes.]
+Definition der Bibliothek ist:
+\begin{quote}
+    Bibliothek ist eine Sammlung ähnlicher Objekte, die zur gelegentlichen Verwendung gespeichert werden.\footnotemark
+    \footnotetext{https://www.computerweekly.com/de/definition/Bibliothek-Library\#:~:text=In\%20der\%20Informatik\%20bezeichnet\%20der,und\%20physische\%20Speichereinheiten\%20wie\%20Tapes.}
+\end{quote}
 
 Der Unterschied zwischen dem Framework und Bibliothek besteht darin, 
 dass beim Framework der geschriebene Code vom Framework aufgerufen wird 
-und bei der Bibliothek der geschriebene Code den Code von der Bibliothek aufruft.
-(Inversion Of Control)
-
-% [https://martinfowler.com/bliki/InversionOfControl.html]
+und bei der Bibliothek der geschriebene Code den Code von der Bibliothek  (Inversion Of Control, Kapitel \ref{kap:IoC}).
+\footnotemark
+\footnotetext{https://martinfowler.com/bliki/InversionOfControl.html}
 
 Beispiele für Bibliotheken sind zum Beispiel alle Implementierungen von Netzwerkprotokollen.
 das komplete Verhalten muss vom Clientcode definiert werden.
