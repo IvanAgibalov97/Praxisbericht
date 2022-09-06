@@ -1,2 +1,44 @@
 \import{./images/solutions}{common}
 
+In der Abbildung \ref{fig:commonSolution} ist die allgemeine Lösung aller im Kapitel \ref{kap:taskDescription} beschriebenen Aufgaben dargestellt.
+Die Darstellung ist nach den Regeln vom Kapitel \ref{kap:commonArchitectureDescription} gebaut.
+
+Die allgemeine Lösung aller Aufgaben besitzt vier Schnittstellen (Ports):
+\begin{itemize}
+    \item Datenbank (um verschiedene Daten zu speichern)
+    \item HTTP (für Benutzerinteractionen)
+    \item Filesystem (für Logging)
+    \item Websocket (für OCPP Schnittstelle)
+\end{itemize}
+
+Die 4 Schnittstellen (Ports) werden von insgesamt 8 Controllers benutzt.
+Die Datenbank wird von Charger-, User-, Transaction-, Price- und DB-Controller benutzt.
+Die HTTP Schnittstelle, in dem Fall als Server, wird nur von HTTP-Controller benutzt.
+Das Filesystem wird vom Logging-Controller benutzt.
+Die Websocketschnittstelle, in dem Fall als Server, wird von OCPP-Controller benutzt.
+
+Jedes Ereignis in jedem \textbf{Controller} wird an Dispatcher weitergegeben, der alle abonnierten \textbf{UseCases} darüber informiert.
+
+Insgesamt gibt es 32 \textbf{UseCases}. 
+Davon 14 reagieren auf die Ereignisse vom ``OCPPComm'' Controller und 18 reagieren auf die Ereignisse vom ``HTPPComm'' Controller. 
+Alle anderen \textbf{Controller} definieren keine eigene \textbf{UseCases} auf verschiedene Ereignisse.
+
+\textbf{Super-Controller} besitzt die Aufgabe, den Zugriff auf die anderen \textbf{Contollers} zu ermöglichen. 
+In der Lösung wird das nur von \textbf{UI-Controller} verwendet, somit besteht die Möglichkeit das Programm über \textbf{HTPP-Schnittstelle} zu verwalten. 
+(z.B. Zustände von den \textbf{Controllern} abzufragen).
+
+\textbf{OCPP-Controller}
+
+\textbf{UI-Controller}
+
+\textbf{Logger-Controller}
+
+\textbf{DB-Controller}
+
+\textbf{Chager-Controller}
+
+\textbf{User-Controller}
+
+\textbf{Transaction-Controller}
+
+\textbf{Price-Controller}

@@ -1,1 +1,21 @@
-some compare of solutions
+In der Tabelle \ref{tab:compareLoC} werden vier Lösungen jeweils miteinander verglichen.
+In den Zellen werden gemeinsame Codezeilen von zwei Anwendungen abgebildet.
+
+\begin{table}[h!]
+    \centering
+    \begin{tabular}{|c|c| c| c| c| }
+    \hline
+                        & Standalone mit DB & Standalone ohne DB    & Framework & Library \\ 
+    \hline
+    Standalone mit DB   & 28466             &                       &           & \\  
+    \hline
+    Standalone ohne DB  & 26210             & 26417                 &           & \\  
+    \hline
+    Framework           & 25799             & 25972                 & 26888     & \\  
+    \hline
+    Library             & 25799             & 25972                 & 25799     & 26112 \\
+    \hline
+    \end{tabular}
+    \caption{Vergleich der Codezeilen}
+    \label{tab:compareLoC}
+\end{table}
