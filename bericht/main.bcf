@@ -2345,13 +2345,14 @@
   </bcf:bibdata>
   <bcf:section number="0">
     <bcf:citekey order="1" nocite="1">imt_software_wiki</bcf:citekey>
-    <bcf:citekey order="2">GRASP_Def</bcf:citekey>
-    <bcf:citekey order="3">cleanArchitecture</bcf:citekey>
-    <bcf:citekey order="4">MF_WhatIsSA</bcf:citekey>
-    <bcf:citekey order="5">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="2">portAndAdapter</bcf:citekey>
+    <bcf:citekey order="3">GRASP_Def</bcf:citekey>
+    <bcf:citekey order="4">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="5">MF_WhatIsSA</bcf:citekey>
     <bcf:citekey order="6">cleanArchitecture</bcf:citekey>
-    <bcf:citekey order="7" nocite="1">MF_isHighQuilatySoftwareWorthTheCost</bcf:citekey>
-    <bcf:citekey order="8">sagan_1993</bcf:citekey>
+    <bcf:citekey order="7">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="8" nocite="1">MF_isHighQuilatySoftwareWorthTheCost</bcf:citekey>
+    <bcf:citekey order="9">sagan_1993</bcf:citekey>
   </bcf:section>
   <!-- SORTING TEMPLATES -->
   <bcf:sortingtemplate name="ynt">

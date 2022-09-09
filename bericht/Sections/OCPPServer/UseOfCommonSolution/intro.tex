@@ -6,26 +6,21 @@ Der Unterschiede zwischen den einzelnen Lösungen sind:
     \item Fassade der Anwendung (betrifft nur Library und Framework)
 \end{itemize}
 
-Jeder \textbf{Controller} außer ``Super''-Controller kann eine reele Schnittstelle benutzen oder die Schnittstelle kann weggelassen werden, 
-falls es in der Anwedung nicht verwendet wird. In jeder Anwendung kann eine Schnittstelle von mehreren \textbf{Controllers} verwendet werden.
+Jeder \textbf{Controller} außer ``Super''-Controller kann eine reele Schnittstelle benutzen, 
+falls sie in der Anwendung gebraucht wird. In jeder Anwendung kann eine Schnittstelle von mehreren \textbf{Controllers} verwendet werden.
 Das lässt sich zum Beispiel mittel ISP (siehe Kapitel \ref{kap:ISP}) umsetzen.
 
+Jede Schnittstelle kann drei Versionen haben:
+\begin{itemize}
+    \item reele Schnittstelle
+    \item Schnittstelle ist gefälscht. Zum Beispiel statt Datenbank Cache verwenden. Das Verhalten der gefälschten Schnittstelle ist wichtig.
+    \item Schnittstelle wird nicht benutzt, sie muss aber trotzdem übergeben werden, 
+    damit Parameterliste erfüllt wird. Das Verhalten der Schnittstelle ist unwichtig.
+\end{itemize}
+
+\newpage
 Jede Anwendung soll OCPP Kommunikation serverseitig können. 
-Aus diesem Grund wird OCPP Schnittstelle (in dem Fall Websocket Schnittstelle) immer reel und gleich sein.
+Aus diesem Grund wird OCPP Schnittstelle (in dem Fall Websocket-Server) immer reel und gleich sein.
 
 Zusammengefasst sieht das gleiche Teil jeder Anwendung so aus:
 \import{./images/solutions}{CommonPartOfEverySolution}
-
-Die allgemeine Lösung aller Aufgaben besitzt vier Schnittstellen (Ports):
-\begin{itemize}
-    \item Datenbank (um verschiedene Daten zu speichern)
-    \item HTTP (für Benutzerinteractionen)
-    \item Filesystem (für Logging)
-    \item Websocket (für OCPP Schnittstelle)
-\end{itemize}
-
-Die 4 Schnittstellen (Ports) werden von insgesamt 8 Controllers benutzt.
-Die Datenbank wird von Charger-, User-, Transaction-, Price- und DB-Controller benutzt.
-Die HTTP Schnittstelle, in dem Fall als Server, wird nur von HTTP-Controller benutzt.
-Das Filesystem wird vom Logging-Controller benutzt.
-Die Websocketschnittstelle, in dem Fall als Server, wird von OCPP-Controller benutzt.
