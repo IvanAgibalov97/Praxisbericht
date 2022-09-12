@@ -3,7 +3,7 @@ In jeder Anwendung gibt es Teile bzw. Module, die aus allen Komponenten des Prog
 
 Das Problem dabei ist, dass in das neue erstellte Objekt die Utility Controllers immer neben den anderen Argumenten 
 mitübergeben werden müssen. Das erschwert die Lesbarkeit des Codes und kann eine Reihe an Änderungen an vielen Stellen mit sich ziehen,
-falls man die Konstruktoren ändert.
+falls die Konstruktoren geändert werden.
 
 Es gibt folgende Möglichkeiten das Problem zu lösen:
 \begin{itemize}
@@ -12,8 +12,8 @@ Es gibt folgende Möglichkeiten das Problem zu lösen:
     oder mittels einer Settermethode.
 \end{itemize}
 
-Bei der ersten Implementierung hat man das Problem, dass die benutzten Utility Controllers nicht ersetzbar sind.
-D.h. man kann dann alle Module sehr schwer mit Unittests abdecken, denn es werden immer auch die Utility Controllers mitgetestet.
+Bei der ersten Implementierung besteht das Problem, dass die benutzten Utility Controllers nicht ersetzbar sind.
+D.h. die Module lassen sich sehr schwer mit Unittests abdecken, denn es werden immer auch die Utility Controllers mitgetestet.
 Ein weiteres Problem besteht darin, dass alle Utility Controllers eine Infrastruktur benutzen.
 (z.B. Logs in dem Datenbank speichern). Jeder Test wird dadurch deutlich länger laufen.
 Da es auch reele Infrastruktur sein wird, wird es die Parallelisierung des Tests deutlich erschwert, denn 

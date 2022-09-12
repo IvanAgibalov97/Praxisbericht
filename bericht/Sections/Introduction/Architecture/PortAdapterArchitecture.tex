@@ -10,7 +10,7 @@ Laut der Architekturbeschreibung besteht die Anwendung, die nach der Ports und A
 \end{itemize}
 
 Im \textbf{Core} ist das komplette Verhalten der Anwendung definiert.
-Jeder \textbf{Port} ist die Einstiegsstelle für externe Anwendung.
+Jeder \textbf{Port} verbindet die Anwendung mit einer anderen externen Anwendung (z.B. Benutzeroberfläche wird über HTTP-Schnittstelle verbunden oder Datenbank-Schnittstelle).
 Jeder \textbf{Port} benötigt einen \textbf{Adapter}, um die ankommenden Nachrichten für den \textbf{Core} zu transformieren bzw. 
 ausgehende Nachrichten für den \textbf{Port} zu transformieren.\cite{portAndAdapter}
 

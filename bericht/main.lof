@@ -3,78 +3,80 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces CI/CD Pipeline}}{1}{figure.caption.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces UML Observer}}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces UML Adapter}}{2}{figure.caption.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces Clean Architecture}}{4}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces UML Observer}}{2}{figure.caption.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Datenfluss in MVP Architektur}}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces Clean Architecture}}{4}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Port und Adapter Architektur}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Datenfluss in MVP Architektur}}{5}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Testing Pyramide}}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Port und Adapter Architektur}}{6}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Schlechte laut DIP Abhängigkeit}}{10}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Testing Pyramide}}{7}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Gute laut DIP Abhängigkeit}}{10}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Schlechte laut DIP Abhängigkeit}}{10}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{11}{figure.caption.10}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Gute laut DIP Abhängigkeit}}{10}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{11}{figure.caption.11}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{11}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces Vergleich einer guten und einer schlechten Softwarearchitektur}}{16}{figure.caption.12}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{11}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces some Caption}}{17}{figure.caption.13}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Vergleich einer guten und einer schlechten Softwarearchitektur}}{16}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces Objektendiagramm PAC}}{20}{figure.caption.14}%
+\contentsline {figure}{\numberline {13}{\ignorespaces some Caption}}{17}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces Objektendiagramm Controller-Dispatcher-UseCase-Interactor}}{21}{figure.caption.15}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Objektendiagramm PAC}}{20}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces Ablaufiagramm Erstellen der Struktur}}{22}{figure.caption.16}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Objektendiagramm Controller-Dispatcher-UseCase-Interactor}}{21}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Objektendiagramm mit Utility Controllers}}{24}{figure.caption.17}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Ablaufiagramm Erstellen der Struktur}}{22}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Klassendiagramm Port-Adapter-Controller}}{24}{figure.caption.18}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Objektendiagramm mit Utility Controllers}}{24}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces Klassendiagramm Controller-Dispatcher-UseCase-Interactor}}{25}{figure.caption.19}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Klassendiagramm Port-Adapter-Controller}}{24}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces some Caption}}{26}{figure.caption.20}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Klassendiagramm Controller-Dispatcher-UseCase-Interactor}}{25}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Sequencediagramm vom Datenfluss \textbf {1} Grün\relax }}{27}{figure.caption.21}%
+\contentsline {figure}{\numberline {20}{\ignorespaces some Caption}}{26}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces Sequencediagramm vom einfachen Datenfluss \textbf {2} Blau\relax }}{28}{figure.caption.22}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Sequencediagramm vom Datenfluss \textbf {1} Grün\relax }}{27}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Sequencediagramm vom komplexen Datenfluss \textbf {2} Blau\relax }}{29}{figure.caption.23}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Sequencediagramm vom einfachen Datenfluss \textbf {2} Blau\relax }}{28}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces Kompletter Datenfluss}}{31}{figure.caption.25}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Sequencediagramm vom komplexen Datenfluss \textbf {2} Blau\relax }}{29}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces Vereinfachte Darstellung\relax }}{34}{figure.caption.26}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Kompletter Datenfluss}}{31}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces Vereinfachte Darstellung einer Standalone Anwendung\relax }}{34}{figure.caption.27}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Vereinfachte Darstellung\relax }}{34}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {26}{\ignorespaces Vereinfachte Darstellung einer Standalone Anwendung\relax }}{34}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces Vereinfachte Darstellung der Architektur als Komponente\relax }}{35}{figure.caption.29}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Vereinfachte Darstellung einer Standalone Anwendung\relax }}{34}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces Vereinfachte Darstellung einer Standalone Anwendung mit der Komponente\relax }}{36}{figure.caption.30}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Vereinfachte Darstellung der Architektur als Komponente\relax }}{35}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {29}{\ignorespaces Vereinfachte Darstellung des Datenflusses in einer Anwendung mit Komponente\relax }}{36}{figure.caption.31}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Vereinfachte Darstellung einer Standalone Anwendung mit der Komponente\relax }}{36}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {30}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einer Bibliothek\relax }}{37}{figure.caption.32}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Vereinfachte Darstellung des Datenflusses in einer Anwendung mit Komponente\relax }}{36}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {31}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einem Framework\relax }}{37}{figure.caption.33}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einer Bibliothek\relax }}{37}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {32}{\ignorespaces some Caption}}{40}{figure.caption.34}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einem Framework\relax }}{37}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {33}{\ignorespaces Ablauf eines Interactors}}{42}{figure.caption.35}%
+\contentsline {figure}{\numberline {33}{\ignorespaces some Caption}}{40}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {34}{\ignorespaces Klassendiagramm eines Interactors}}{42}{figure.caption.36}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Ablauf eines Interactors}}{42}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {35}{\ignorespaces some Caption}}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Klassendiagramm eines Interactors}}{42}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {36}{\ignorespaces some Caption}}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {36}{\ignorespaces some Caption}}{44}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {37}{\ignorespaces some Caption}}{46}{figure.caption.39}%
+\contentsline {figure}{\numberline {37}{\ignorespaces some Caption}}{45}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {38}{\ignorespaces some Caption}}{47}{figure.caption.40}%
+\contentsline {figure}{\numberline {38}{\ignorespaces some Caption}}{46}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {39}{\ignorespaces some Caption}}{48}{figure.caption.41}%
+\contentsline {figure}{\numberline {39}{\ignorespaces some Caption}}{47}{figure.caption.41}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {40}{\ignorespaces some Caption}}{48}{figure.caption.42}%

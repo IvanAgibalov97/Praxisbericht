@@ -1,5 +1,5 @@
 
-    Bei diesem Szenario geht man davon aus das ein Ereignis an \textbf{Dispatcher} ankommt und entspechend an alle dafür 
+    Bei diesem Szenario wird betrachtet, dass ein Ereignis, für das neues Verhalten geändert werden soll, an \textbf{Dispatcher} ankommt und entspechend an alle dafür 
     verantwortlichen \textbf{UseCases} weiterleitet. 
     Es gibt hier zwei Möglichkeiten:
     \begin{enumerate}
@@ -7,9 +7,9 @@
         \item neues \textbf{UseCase}  erstellen, das das gleiche Ereignis handelt.
     \end{enumerate}
 
-    Mit der ersten Möglichkeit hat man das komplete Verhalten für ein Ereignis an einem Ort und mit Unittests abdecken.
+    Bei der ersten Möglichkeit ist das komplete Verhalten für ein Ereignis an einem Ort definiert und entspechend mit Unittests abdecken lässt.
 
-    Die zweite Möglichkeit streut das Verhalten für ein Ereignis im Projekt, was eine besere Lesbarkeit des jeweiligen Teils erhöht,
+    Die zweite Möglichkeit streut das Verhalten für ein Ereignis im Projekt. Das verbessert die Lesbarkeit des jeweiligen Teils,
     jedoch die Schwierigkeit bringt alle solche Teile im Projekt zu finden. Das Gesamtverhalten lässt sich erst mittels
     einem Integrationtest abdecken, was eine mögliche Fehlersuche erschweren kann. 
     Für den Fall, dass das neue Verhalten unabhängig von dem bestehenden Verhalten ablaufen soll ist es eine gute Möglichkeit.

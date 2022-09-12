@@ -19,31 +19,6 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
-    \entry{sagan_1993}{book}{}
-      \name{author}{1}{}{%
-        {{hash=17d6616424502bba556b6b98ee30e858}{%
-           family={Sagan},
-           familyi={S\bibinitperiod},
-           given={Carl},
-           giveni={C\bibinitperiod}}}%
-      }
-      \list{publisher}{1}{%
-        {Presidio Press}%
-      }
-      \strng{namehash}{17d6616424502bba556b6b98ee30e858}
-      \strng{fullhash}{17d6616424502bba556b6b98ee30e858}
-      \strng{bibnamehash}{17d6616424502bba556b6b98ee30e858}
-      \strng{authorbibnamehash}{17d6616424502bba556b6b98ee30e858}
-      \strng{authornamehash}{17d6616424502bba556b6b98ee30e858}
-      \strng{authorfullhash}{17d6616424502bba556b6b98ee30e858}
-      \field{labelalpha}{Sag93}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Brocas brain: reflections on the romance of science}
-      \field{year}{1993}
-    \endentry
     \entry{cleanArchitecture}{book}{}
       \name{author}{1}{}{%
         {{hash=6f41df64eb0dc4855be70172368604c2}{%
@@ -187,32 +162,31 @@
       \verb https://www.ntnu.no/wiki/display/imtsoftware/LaTeX
       \endverb
     \endentry
-    \entry{GRASP_Def}{online}{}
+    \entry{ocppDocs}{online}{}
       \name{author}{1}{}{%
-        {{hash=520cf502d0e4b111e62778cc4520abdc}{%
-           family={Rodin},
-           familyi={R\bibinitperiod},
-           given={Vladislav},
-           giveni={V\bibinitperiod}}}%
+        {{hash=bbc58dafd86306df3f6774aaefc3c4fb}{%
+           family={OCA},
+           familyi={O\bibinitperiod}}}%
       }
-      \strng{namehash}{520cf502d0e4b111e62778cc4520abdc}
-      \strng{fullhash}{520cf502d0e4b111e62778cc4520abdc}
-      \strng{bibnamehash}{520cf502d0e4b111e62778cc4520abdc}
-      \strng{authorbibnamehash}{520cf502d0e4b111e62778cc4520abdc}
-      \strng{authornamehash}{520cf502d0e4b111e62778cc4520abdc}
-      \strng{authorfullhash}{520cf502d0e4b111e62778cc4520abdc}
-      \field{labelalpha}{Rod}
+      \strng{namehash}{bbc58dafd86306df3f6774aaefc3c4fb}
+      \strng{fullhash}{bbc58dafd86306df3f6774aaefc3c4fb}
+      \strng{bibnamehash}{bbc58dafd86306df3f6774aaefc3c4fb}
+      \strng{authorbibnamehash}{bbc58dafd86306df3f6774aaefc3c4fb}
+      \strng{authornamehash}{bbc58dafd86306df3f6774aaefc3c4fb}
+      \strng{authorfullhash}{bbc58dafd86306df3f6774aaefc3c4fb}
+      \field{labelalpha}{OCA}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \verb{urlraw}
-      \verb https://tech-de.netlify.app/articles/de521476/index.html
+      \verb https://www.openchargealliance.org/protocols/ocpp-201/
       \endverb
       \verb{url}
-      \verb https://tech-de.netlify.app/articles/de521476/index.html
+      \verb https://www.openchargealliance.org/protocols/ocpp-201/
       \endverb
     \endentry
   \enddatalist
+  \missing{sagan_1993}
 \endrefsection
 \endinput
 

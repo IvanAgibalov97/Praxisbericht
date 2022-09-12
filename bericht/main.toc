@@ -15,9 +15,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.2}Observer}{2}{subsubsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.3}Proxy}{2}{subsubsection.2.1.3}%
+\contentsline {subsubsection}{\numberline {2.1.3}Proxy}{3}{subsubsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.4}Template method}{2}{subsubsection.2.1.4}%
+\contentsline {subsubsection}{\numberline {2.1.4}Template method}{3}{subsubsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.5}Builder}{3}{subsubsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
@@ -27,9 +27,9 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.8}Factory method}{3}{subsubsection.2.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Architekturen}{3}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Architekturen}{4}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Clean Architectur}{3}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Clean Architectur}{4}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.2.2}Model-View-Presenter Architektur}{5}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
@@ -49,7 +49,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.3.6}Manual Tests}{8}{subsubsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}SOLID}{8}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Softwareentwicklung Prinzipien}{8}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.1}Single-responsibility principle}{8}{subsubsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
@@ -61,11 +61,11 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.4.5}Dependency inversion principle}{9}{subsubsection.2.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}GRASP}{10}{subsection.2.5}%
+\contentsline {subsubsection}{\numberline {2.4.6}Inversion of control}{10}{subsubsection.2.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.6}Inversion of control}{10}{subsection.2.6}%
+\contentsline {subsubsection}{\numberline {2.4.7}Dependency Injection}{10}{subsubsection.2.4.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.7}Dependency Injection}{10}{subsection.2.7}%
+\contentsline {subsection}{\numberline {2.5}OCPP Kommunikation}{12}{subsection.2.5}%
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {3}Software Architektur}{13}{section.3}%
 \defcounter {refsection}{0}\relax 
@@ -149,34 +149,32 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {4.4}Vergleich der einzelnen Lösungen}{50}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {5}Lösung der Aufgabe}{50}{section.5}%
+\contentsline {section}{\numberline {5}Gewünschtes Interfaces}{51}{section.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {6}Gewünschtes Interfaces}{51}{section.6}%
+\contentsline {section}{\numberline {6}Implementierung}{52}{section.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {7}Implementierung}{52}{section.7}%
+\contentsline {subsection}{\numberline {6.1}Achitecture des Frameworks}{52}{subsection.6.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.1}Achitecture des Frameworks}{52}{subsection.7.1}%
+\contentsline {subsubsection}{\numberline {6.1.1}Ports}{52}{subsubsection.6.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.1}Ports}{52}{subsubsection.7.1.1}%
+\contentsline {subsubsection}{\numberline {6.1.2}Adapters}{52}{subsubsection.6.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.2}Adapters}{52}{subsubsection.7.1.2}%
+\contentsline {subsubsection}{\numberline {6.1.3}Controllers}{52}{subsubsection.6.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.3}Controllers}{52}{subsubsection.7.1.3}%
+\contentsline {subsubsection}{\numberline {6.1.4}Dispatcher}{53}{subsubsection.6.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.4}Dispatcher}{53}{subsubsection.7.1.4}%
+\contentsline {subsubsection}{\numberline {6.1.5}UseCases}{53}{subsubsection.6.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.5}UseCases}{53}{subsubsection.7.1.5}%
+\contentsline {subsubsection}{\numberline {6.1.6}Interactors}{53}{subsubsection.6.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.6}Interactors}{53}{subsubsection.7.1.6}%
+\contentsline {subsubsection}{\numberline {6.1.7}Domain}{53}{subsubsection.6.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {7.1.7}Domain}{53}{subsubsection.7.1.7}%
+\contentsline {subsection}{\numberline {6.2}Zugriff auf das Testframework}{53}{subsection.6.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.2}Zugriff auf das Testframework}{53}{subsection.7.2}%
+\contentsline {subsection}{\numberline {6.3}Testbeispiel}{54}{subsection.6.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {7.3}Testbeispiel}{54}{subsection.7.3}%
+\contentsline {section}{\numberline {7}Übersichtsdiagramm}{55}{section.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {8}Übersichtsdiagramm}{55}{section.8}%
+\contentsline {section}{\numberline {8}Conclusion}{55}{section.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {9}Conclusion}{55}{section.9}%
-\defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{56}{section.9}%
+\contentsline {section}{Bibliography}{56}{section.8}%
