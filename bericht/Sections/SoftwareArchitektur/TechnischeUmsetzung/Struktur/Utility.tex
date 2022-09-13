@@ -20,11 +20,11 @@ Da es auch reele Infrastruktur sein wird, wird es die Parallelisierung des Tests
 der Zustand der benutzten Infrastruktur durch mehrere unabhängig voneinander laufendenen Tests geändert wird.
 
 Bei der zweiten Möglichkeit müssen alle Utility Controllers entweder bei der Initialisiereung im Konstruktor 
-der jeweiligen Instanzen übergeben oder mittels einer Settermethode der Instanz.
+der jeweiligen Instanzen oder mittels einer Settermethode der Instanz übergeben werden.
 Die erste Möglichkeit führt zu einer längeren Parameterliste, die die Lesbarkeit des Codes erschwert.
-Die zweite Möglichkeitführt dazu, dass der Aufruf der Methode von dem Softwareentwickler vergessen werden kann.
+Die zweite Möglichkeit führt dazu, dass der Aufruf der Methode von dem Softwareentwickler vergessen werden kann.
 
-Das Problem lässt sich zum Beispiel durch OOP design pattern \textbf{Factory} (Kapitel \ref{kap:gof:factory}), das die Utility Controllers bereits
+Das Problem lässt sich zum Beispiel durch OOP design pattern \textbf{Factory} (Kapitel \ref{kap:gof:factory}) umgehen, das die Utility Controllers bereits
 enthält und bei der Initialisierung entsprechend in die Konstruktor übergibt. 
 Jeder Teil des Programms besitzt eine Referenz auf der Instanz der Fabrik, 
 die ein kürzeres (kleinere Übergabeparameterliste) Interface für das Erstellen von verschieden Instanzen anbietet.

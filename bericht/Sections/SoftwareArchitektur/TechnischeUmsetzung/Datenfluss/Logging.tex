@@ -9,7 +9,7 @@ und welche Ereigniskette den jeweiligen Fehler hervorgerufen hat.
 In dem Kapitel \ref{kap:Dataflow} sind alle möglichen Wege basierend auf der beschriebenen Struktur 
 im Kapitel \ref{kap:Structur} für die ankommenden Ereignissen in der Software beschrieben.
 
-Die untere Abbildung \ref{fig:FullDataFlow} zeigt den kompleten Ablauf beim Geschehen eines Ereignisses.
+Die nachfolgende Abbildung \ref{fig:FullDataFlow} zeigt den kompletten Ablauf beim Geschehen eines Ereignisses.
 Eine mögliche Systematisierung des Loggings in der Appliaction wäre: 
 \begin{itemize}
     \item Aufzeichnung in jeder Komponente den Inhalt des ankommenden Ereignisses auf
@@ -17,7 +17,7 @@ Eine mögliche Systematisierung des Loggings in der Appliaction wäre:
     \item Aufzeichnung alle Komponenten auf, an die das Ereignis weitergegeben wird
 \end{itemize}
 
-Somit lässen sich die Fehler auf die Komponente genau lokalisieren, d.h. ein entsprechender Unittest lässt sich schreiben, 
+Somit lassen sich die Fehler auf die Komponente genau lokalisieren, d.h. ein entsprechender Unittest lässt sich schreiben, 
 der diesen Fehler abdeckt, bzw. einen Integrationtests, da der Ablauf des Ereignisses auch bekannt ist.
 
 \begin{figure}[H]

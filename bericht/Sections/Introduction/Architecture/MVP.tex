@@ -10,10 +10,10 @@ Die Architektur teilt die Anwendung in drei Teile:
 \end{itemize}
 
 
-Eigenschaften der MVP Architektur:
+Eigenschaften der \textbf{MVP} Architektur:
 \begin{itemize}
     \item \textbf{Presenter} und \textbf{Model} lassen sich mit Unittests abdecken.
-    \item Jedes neues \textbf{View} braucht ein eigenes \textbf{Presenter}.
+    \item Jede neue \textbf{View} braucht einen eigenen \textbf{Presenter}.
 \end{itemize}
 
 \begin{figure}[H]
@@ -23,13 +23,13 @@ Eigenschaften der MVP Architektur:
     \label{fig:MVP}
 \end{figure}
 
-Der Datenfluss in einer Anwendung, die mittels MVP implementiert ist:
+Der Datenfluss in einer Anwendung, die mittels \textbf{MVP} implementiert ist, lässt sich wie folgt darstellen:
 \begin{itemize}
-    \item In der Oberfläche (View) wird ein Ereignis erzeugt(z.B. ein Button wurde gedrückt).
-    \item View gibt das Ereignis an Presenter weiter.
-    \item Das Ereignis wird im Presenter einem im Model definierten Ereignis zugeordnet(z.B. Button "Speichern" wurde gedrückt)
-    \item Das Model bearbeitet das Ereignis (z.B. die Datei wurde gespeichert) und gibt das Ergebnis zurück.
-    \item Presenter empfängt das Ergebnis (z.B. die Datei wurde erfolgreich gespeichert) und wandelt das in ein Ereignis,
-    das View interpetieren kann (z.B. Button "Speicher" soll grün werden).
-    \item View abarbeit das Ergebnis und zeigt es an (z.B. Button wird grün auf der Oberfläche angezeigt)
+    \item In der Oberfläche (\textbf{View}) wird ein Ereignis erzeugt(z.B. ein Button wurde gedrückt).
+    \item \textbf{View} gibt das Ereignis an \textbf{Presenter} weiter.
+    \item Das Ereignis wird im \textbf{Presenter} einem im \textbf{Model} definierten Ereignis zugeordnet(z.B. Button ``Speichern'' wurde gedrückt)
+    \item Das \textbf{Model} bearbeitet das Ereignis (z.B. die Datei wurde gespeichert) und gibt das Ergebnis zurück.
+    \item \textbf{Presenter} empfängt das Ergebnis (z.B. die Datei wurde erfolgreich gespeichert) und wandelt das in ein Ereignis,
+    das \textbf{View} interpetieren kann (z.B. Button ``Speichern'' soll grün werden).
+    \item \textbf{View} abarbeit das Ergebnis und zeigt es an (z.B. Button wird grün auf der Oberfläche angezeigt)
 \end{itemize}

@@ -105,7 +105,7 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {3.2.3}Erweiterung der Funktionalitäten}{32}{subsubsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.3.1}Verhalten für ein Ereignis erweitern}{32}{paragraph.3.2.3.1}%
+\contentsline {paragraph}{\numberline {3.2.3.1}Erweiterung des Verhaltens für ein Ereignis}{32}{paragraph.3.2.3.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {paragraph}{\numberline {3.2.3.2}Eine bestehende Schnittstelle um ein Ereignis erweitern}{32}{paragraph.3.2.3.2}%
 \defcounter {refsection}{0}\relax 

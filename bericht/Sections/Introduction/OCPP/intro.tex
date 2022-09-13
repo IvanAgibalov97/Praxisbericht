@@ -1,15 +1,15 @@
 Das OCPP (engl. Open Charge Point Protocol) ist ein Kommunikationsstandard zwischen der Ladesäule (Charging Station) und dem Server (Charging Station Management System)
-udn enwickelt um jegliche Ladetechnik zu unterstützen.\cite[Part 0, 3. Seite]{ocppDocs}
+und enwickelt um jegliche Ladetechnik zu unterstützen.\cite[Part 0, 3. Seite]{ocppDocs}
 
-Das OCPP ist duplex Kommunikation zwischen dem Server und der Ladesäule. Das Protocol kann in verschiedenen Architekturen für unterschiedlichen Ladesäulen benutzt werden.
+Mithilfe von standardisierter OCPP Kommunikation können die Software für die Ladesäule und den Server unabhängig voneinander geschrieben.
+Somit kann ein Server Ladesäulen von unterschiedlichen Herstellern gleichzeitig betreiben.
 
-OCPP was originally intended for two way communication between a backoffice, in OCPP the Charging Station Management System
-(in this document: CSMS) and a Charging Station. The protocol has become more advanced and with every new revision new
-functionalities and options are added. It has evolved into a protocol that can be used in different architectures for different types of
-Charging Stations.
-This document describes, in addition to the original "simple" setup CSMS <> Charging Station, a number of topologies as an
-additional explanation for using OCPP. Furthermore, the Device Management concept to configure and monitor any type of
-Charging Station, the OCPP Information Model and the 3-tier model are explained.\cite[Part 1, 3. Seite]{ocppDocs}
+OCPP definiert eine Menge an Nachrichten, welche Inhalte und Struktrur sie haben dürfen und in welcher Situtaition die Nachrichten abgeschickt werden dürfen.
+Es wird auch das Übertragungsprotokoll vorgegeben, in dem die Kommunikation stattfindet.
 
-Die Kommunikation zwischen der Ladesäule und dem Server findet über WebSocketprotoll statt. 
-Der Server ist WebSocket-Server, die Ladesäule ist WebSocket-Client.  \cite[Part 4, 6. Seite ]{ocppDocs}
+Für diese Arbeit sind folgende Eigenschaften des OCPP-Protokolls von Bedeutung:
+\begin{itemize}
+    \item Übertragungsprotokoll ist WebSocket, dadurch wird die Implementation des \textbf{Ports} vorgegeben (siehe Kapitel \ref{})
+    \item Inhalt und Struktur jeder Nachricht, gibt das Verhalten des \textbf{Adapters} vor (siehe Kapitel \ref{})
+    \item Vordefiniertes Verhalten gibt eine Menge an \textbf{UseCases} vor. (siehe Kapitel \ref{})
+\end{itemize}

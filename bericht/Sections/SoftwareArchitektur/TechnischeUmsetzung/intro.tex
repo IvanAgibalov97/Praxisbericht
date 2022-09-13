@@ -6,7 +6,7 @@ Ein wichtiger Teil der Beschreibung ist der Datenfluss im Programm.
 \import{./images/}{circle_1}
 Beschreibung der Darstellung:
 
-Jede Komponente bringt in das gesamt Programm folgende Teile:
+Folgende Komponenten sind im Programm definiert:
 \begin{itemize}
     \item Port - hat die Aufgabe die Schnittstelle nach Außen aufzubauen und die Verbindungen zu kontrollieren (z.B. WebSocket Server, Datenbank).
     \item Adapter  - hat die Aufgabe ankommenden Ereignisse vom Port an den dazugehörigen Controller und in die andere Richtung zu übersetzen (z.B. Presenter im \textbf{MVC} \ref{kap:MVC})
@@ -15,5 +15,6 @@ Jede Komponente bringt in das gesamt Programm folgende Teile:
     \item UseCase - beschreibt den Vorgang beim Auslösen eines Erreignisses, welches sie abonniert haben. Die
     vordefinierten UseCases dürfen nur \textbf{Interactors} verwenden, um andere \textbf{Controller} anzusprechen.
     \item Interactors - Eine atomare Operation im Programm (die Operation lässt sich nicht mehr sinnvoll im Rahmen
-    der Anwendung aufteilen). Für jede Methode des \textbf{Controllers}, die vom \textbf{UseCase} benutzt wird, gibt es ein \textbf{Interactor}
+    der Anwendung aufteilen). Für jede Methode des \textbf{Controllers}, 
+    die vom \textbf{UseCase} benutzt wird, gibt es einen \textbf{Interactor}
 \end{itemize}

@@ -26,13 +26,13 @@ Darstellung des Datenflusses \textbf{2} als \textbf{Sequencediagram}:
       \label{fig:seqDiagBlue}
 \end{figure}
 
-Wenn ein Ereignis den \textbf{Controller} erreicht, wird \textbf{Dispatcher} darüber informiert. 
+Wenn ein Ereignis den \textbf{Controller} erreicht, wird der \textbf{Dispatcher} darüber informiert. 
 Ein oder mehrere \textbf{UseCases} haben bereits dieses Ereignis beim \textbf{Dispatcher} abonniert.
-\textbf{Dispatcher} informiert alle auf das Ereignis abonierte \textbf{UseCases}. 
-Jeder \textbf{UseCase} kann seinen eigenen Verhalten auf das Event definieren unabhängig voneinander.
+der \textbf{Dispatcher} informiert alle auf das Ereignis abonierte \textbf{UseCases}. 
+Jeder \textbf{UseCase} kann unabhängig voneinander sein eigenes Verhalten auf das Event definieren.
 \textbf{UseCase} definiert einen Ablauf an \textbf{Interactoren},
 die wie vorgeschrieben ausgeführt werden. Jeder \textbf{Interactor} ruft eine Methode von einem \textbf{Controller} auf 
-und das Ergebnis wird an \textbf{UseCase} zurückgegeben.
+und das Ergebnis wird an den \textbf{UseCase} zurückgegeben.
 
 Dabei es gibt zwei Möglichkeiten wie das Ereignis vom \textbf{Controller J} die \textbf{Interactor I} erreichen kann:
 \begin{enumerate}
@@ -75,10 +75,9 @@ Darstellung der 2. Möglichkeit:
     \caption{Sequencediagramm vom komplexen Datenfluss \textbf{2} Blau}
     \label{fig:dataFlowKomplexInteractor}
 \end{figure}
-
-Der Rückgabewert wird beim synchronen Funktionsaufruf zurückgegeben, wie in der Abbildung ~\ref{fig:seqDiagBlue} dargestellt.
+Beim synchronen Funktionsaufruf wird der Rückgabewert, wie in Abbildung \ref{fig:seqDiagBlue} dargestellt.
 Der Rückgabewert beim asynchronen Funktionsaufruf, wird wie folgt definiert:
 Der Aufgerufene \textbf{Interactor} ruft eine Methode vom \textbf{Controller} auf, der die Nachricht an den externen Teilnehmer abschickt. 
 Gleich danach abonniert der \textbf{Interactor} die Antwort auf die abgeschickte Nachricht. Wenn die Antwort ankommt, landet sie beim \textbf{Dispatcher},
-die alle Abonnierten darüber informiert, unteranderem auch den \textbf{Interactor}. 
-\textbf{Der Interactor} gibt diese Antwort als Rückgabewert der Funktionsaufruf
+der alle Abonnenten darüber informiert, unteranderem auch den \textbf{Interactor}. 
+\textbf{Der Interactor} gibt diese Antwort als Rückgabewert des Funktionsaufrufs zurück.

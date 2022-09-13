@@ -1,8 +1,8 @@
 Jede Software erfüllt bestimmte Anforderungen, die von Außen gestellt werden. 
-Diese Anforderungen sind meistens von nicht Softwareentwicklern definiert und beziehen sich auf nicht Informatikgebiete 
+Diese Anforderungen sind meistens nicht von Softwareentwicklern definiert und beziehen sich nicht auf Informatikgebiete 
     (z.B. Banksoftware oder eine Smartphone Anwendung). 
     Das Erfüllen von diesen Anforderungen ist das Ziel von jedem Softwareprojekt.
-    Jedoch bei der Umsetzung entstehen viele Herausforderungen, die für die Außenstehenden nicht bekannt oder nicht relevant sind.
+    Jedoch entstehen bei der Umsetzung viele Herausforderungen, die für Außenstehende nicht bekannt oder nicht relevant sind.
     (Auswahl einer Datenbank, Optimierung der Ressourcenverwendung, innere Struktur der Anwendung usw.). 
     Die dabei getroffenen Entscheidungen haben eine große Auswirkung auf die Entwicklungszeit bzw.
     benötigten Ressourcen und somit kann das Ziel der Software Architektur wie folgt definiert werden:
@@ -11,7 +11,7 @@ Diese Anforderungen sind meistens von nicht Softwareentwicklern definiert und be
     to build and maintain the required system}\cite[5]{cleanArchitecture}
 
     Diese Aussage lässt sich sehr einfach überprüfen, indem festgestellt wird, 
-    ob jede neue Anforderungen an der Software mehr Ressourcen verbraucht als die vorherigen.
+    ob jede neue Anforderungen an die Software mehr Ressourcen verbraucht als die vorherigen.
 
     \textit{The strategy [...] is to leave as many options open as possible, for as long as possible}
     \cite[136]{cleanArchitecture}
@@ -23,12 +23,13 @@ Diese Anforderungen sind meistens von nicht Softwareentwicklern definiert und be
         \item Wie und wo die Loggingdaten gespeichert werden (in einer Datei, Datenbank oder externe Server)
     \end{itemize}
 
-    Auch die anderen Tätigkeiten, die nicht direkt das Programmieren betreffen, sind von den Entscheidungen in der SoftwareArchitektur betroffen:
+    Auch die anderen Tätigkeiten, die nicht direkt das Programmieren betreffen, 
+    sind von den Entscheidungen in der Softwarearchitektur betroffen:
     \begin{itemize}
-        \item Deployment (Aufsetzung) der Software.
-        \item Maintenance (Unterstützung) der Software.
+        \item Deployment (Verteilung) der Software.
+        \item Maintenance (Wartung) der Software.
     \end{itemize}
 
-    Deployment der Software beinhaltet die Kosten die durch das Aufsetzen der neuen Version der Software entstehen.\\
+    Deployment der Software beinhaltet die Kosten die durch die Verteilung der neuen Version der Software entstehen.\\
     Maintenance der Software beinhaltet die Kosten, die nach dem Beenden der Entwicklung bei kleineren Erweiterungen und Änderungen des Systems entstehen.
 

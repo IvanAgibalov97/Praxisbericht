@@ -1,18 +1,18 @@
 Am nähesten zu der \textbf{PAC}\footnote{Port-Adapter-Controller} Struktrur 
 ist das Pattern \textbf{MVP}\footnote{Model-View-Presenter}.
-Dabei die Aufgaben von \textbf{View} entsprechen den Aufgaben von \textbf{Port}. 
-Die Aufgaben von \textbf{Presenter} entsprechen den Aufgaben \textbf{Adapter}.
-Und die Aufgaben von dem Rest des Programms inklusiv \textbf{Controller} entspechen den Aufgaben von \textbf{Model}.
+Dabei die Aufgaben von \textbf{View} (Benutzerobefläche aktualisieren und Ereignisse empfangen) entsprechen den Aufgaben von \textbf{Port}. 
+Die Aufgaben von \textbf{Presenter} (Ereignisse von der Benutzerobefläche in das Datenmodel der Anwendung umwandlen) entsprechen den Aufgaben \textbf{Adapter}.
+Und die Aufgaben von dem Rest des Programms inklusiv \textbf{Controller} entspechen den Aufgaben von \textbf{Model} (ankommende Ereignisse abarbeiten und das Ergebnis zurückgeben).
 
 Der Unterschied zu \textbf{MVP} besteht darin, dass \textbf{MVP} im klassischen Sinne nur für die Benutzerobeflächen gedacht ist,
-während in der hier beschriebenen Umsetzung wird es für alle Schnittstellen benutzt.
+während es in der hier beschriebenen Umsetzung für alle Schnittstellen benutzt wird.
 \textbf{MVP} Architektur übernimmt in der gesamten Application eine zentralle Stelle und ist nur einmal zu treffen.
 \textbf{PAC} ist nur ein Teil der gesamten Application, wird an mehreren Stellen unterschiedlich benutzt und beschreibt nicht 
-die Architektur der Application.
+die komplette Architektur der Application.
 
-Die Aufgabe von drei Komponenten ist die Steurung von einem Aufgabengebiet (z.B. HTTP Schnittstelle).
+Die Aufgabe von jeder \textbf{PAC}-Struktur ist die Steurung von einem Aufgabengebiet (z.B. HTTP Schnittstelle oder OCPP Schnittstelle).
 Der Grund für das Aufteilen in 3 verschiedene Teile (Adapter, Port und Controller) ist
-\textbf{SRP} (Kapitel \ref{kap:SRP}). Somit hat jedes Teil eine Aufgabe und lässt sich besser 
+\textbf{SRP} (Kapitel \ref{kap:SRP}). Somit hat jeder Teil eine Aufgabe und lässt sich besser im Laufe der Zeit
 unterstützen. 
 
 
