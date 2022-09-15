@@ -73,6 +73,31 @@
       \verb https://www.dossier-andreas.net/software_architecture/ports_and_adapters.html
       \endverb
     \endentry
+    \entry{IoCDefinition}{online}{}
+      \name{author}{1}{}{%
+        {{hash=b6d43ba4f262081aa3ba7e923d5db4c2}{%
+           family={Augsten},
+           familyi={A\bibinitperiod},
+           given={Stephan},
+           giveni={S\bibinitperiod}}}%
+      }
+      \strng{namehash}{b6d43ba4f262081aa3ba7e923d5db4c2}
+      \strng{fullhash}{b6d43ba4f262081aa3ba7e923d5db4c2}
+      \strng{bibnamehash}{b6d43ba4f262081aa3ba7e923d5db4c2}
+      \strng{authorbibnamehash}{b6d43ba4f262081aa3ba7e923d5db4c2}
+      \strng{authornamehash}{b6d43ba4f262081aa3ba7e923d5db4c2}
+      \strng{authorfullhash}{b6d43ba4f262081aa3ba7e923d5db4c2}
+      \field{labelalpha}{Aug}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \verb{urlraw}
+      \verb https://www.dev-insider.de/was-bedeutet-inversion-of-control-a-1110688/#:~:text=Definition%20%E2%80%9ESteuerungsumkehr%E2%80%9C%20Was%20bedeutet%20Inversion%20of%20Control%3F&text=Inversion%20of%20Control%20ist%20ein,die%20Steuerung%20bestimmter%20Programmteile%20%C3%BCbernimmt
+      \endverb
+      \verb{url}
+      \verb https://www.dev-insider.de/was-bedeutet-inversion-of-control-a-1110688/#:~:text=Definition%20%E2%80%9ESteuerungsumkehr%E2%80%9C%20Was%20bedeutet%20Inversion%20of%20Control%3F&text=Inversion%20of%20Control%20ist%20ein,die%20Steuerung%20bestimmter%20Programmteile%20%C3%BCbernimmt
+      \endverb
+    \endentry
     \entry{MF_WhatIsSA}{online}{}
       \name{author}{1}{}{%
         {{hash=312ac886938a9b2be4f8eb607567fe4c}{%
@@ -186,7 +211,6 @@
       \endverb
     \endentry
   \enddatalist
-  \missing{sagan_1993}
 \endrefsection
 \endinput
 

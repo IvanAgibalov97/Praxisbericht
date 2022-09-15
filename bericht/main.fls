@@ -1710,13 +1710,6 @@ INPUT Sections\Introduction\principles\sub\OpenClosedPrinciple.tex
 INPUT .\Sections\Introduction\principles\sub\OpenClosedPrinciple.tex
 INPUT .\Sections\Introduction\principles\sub\OpenClosedPrinciple.tex
 INPUT Sections\Introduction\principles\sub\OpenClosedPrinciple.tex
-INPUT .\Sections\Introduction\principles\sub\LiskovSubstitutionPrinciple.tex
-INPUT .\Sections\Introduction\principles\sub\LiskovSubstitutionPrinciple.tex
-INPUT .\Sections\Introduction\principles\sub\LiskovSubstitutionPrinciple.tex
-INPUT Sections\Introduction\principles\sub\LiskovSubstitutionPrinciple.tex
-INPUT .\Sections\Introduction\principles\sub\LiskovSubstitutionPrinciple.tex
-INPUT .\Sections\Introduction\principles\sub\LiskovSubstitutionPrinciple.tex
-INPUT Sections\Introduction\principles\sub\LiskovSubstitutionPrinciple.tex
 INPUT .\Sections\Introduction\principles\sub\InterfaceSegregationPrinciple.tex
 INPUT .\Sections\Introduction\principles\sub\InterfaceSegregationPrinciple.tex
 INPUT .\Sections\Introduction\principles\sub\InterfaceSegregationPrinciple.tex
@@ -2076,13 +2069,34 @@ INPUT Sections\OCPPServer\Aufgabenbeschreibung\intro.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\intro.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\intro.tex
 INPUT Sections\OCPPServer\Aufgabenbeschreibung\intro.tex
-INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Standalone.tex
-INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Standalone.tex
-INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Standalone.tex
-INPUT Sections\OCPPServer\Aufgabenbeschreibung\Standalone.tex
-INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Standalone.tex
-INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Standalone.tex
-INPUT Sections\OCPPServer\Aufgabenbeschreibung\Standalone.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithDB.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithDB.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithDB.tex
+INPUT Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithDB.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithDB.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithDB.tex
+INPUT Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithDB.tex
+INPUT .\images\OCPP Server Standalone mit DB.png
+INPUT .\images\OCPP Server Standalone mit DB.png
+INPUT images\OCPP Server Standalone mit DB.png
+INPUT .\images\OCPP Server Standalone mit DB.png
+INPUT .\images\OCPP Server Standalone mit DB.png
+INPUT .\images\OCPP Server Standalone mit DB.png
+INPUT .\images\OCPP Server Standalone mit DB.png
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithoutDB.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithoutDB.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithoutDB.tex
+INPUT Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithoutDB.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithoutDB.tex
+INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithoutDB.tex
+INPUT Sections\OCPPServer\Aufgabenbeschreibung\StandaloneWithoutDB.tex
+INPUT .\images\OCPP Server Standalone ohne DB.png
+INPUT .\images\OCPP Server Standalone ohne DB.png
+INPUT images\OCPP Server Standalone ohne DB.png
+INPUT .\images\OCPP Server Standalone ohne DB.png
+INPUT .\images\OCPP Server Standalone ohne DB.png
+INPUT .\images\OCPP Server Standalone ohne DB.png
+INPUT .\images\OCPP Server Standalone ohne DB.png
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Testframework.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Testframework.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Testframework.tex
@@ -2090,6 +2104,13 @@ INPUT Sections\OCPPServer\Aufgabenbeschreibung\Testframework.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Testframework.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Testframework.tex
 INPUT Sections\OCPPServer\Aufgabenbeschreibung\Testframework.tex
+INPUT .\images\Framework.png
+INPUT .\images\Framework.png
+INPUT images\Framework.png
+INPUT .\images\Framework.png
+INPUT .\images\Framework.png
+INPUT .\images\Framework.png
+INPUT .\images\Framework.png
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Library.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Library.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Library.tex
@@ -2097,6 +2118,13 @@ INPUT Sections\OCPPServer\Aufgabenbeschreibung\Library.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Library.tex
 INPUT .\Sections\OCPPServer\Aufgabenbeschreibung\Library.tex
 INPUT Sections\OCPPServer\Aufgabenbeschreibung\Library.tex
+INPUT .\images\ERK.png
+INPUT .\images\ERK.png
+INPUT images\ERK.png
+INPUT .\images\ERK.png
+INPUT .\images\ERK.png
+INPUT .\images\ERK.png
+INPUT .\images\ERK.png
 INPUT .\Sections\OCPPServer\Commonsolution\intro.tex
 INPUT .\Sections\OCPPServer\Commonsolution\intro.tex
 INPUT .\Sections\OCPPServer\Commonsolution\intro.tex
@@ -2195,6 +2223,13 @@ INPUT images\solutions\Framework.tex
 INPUT .\images\solutions\Framework.tex
 INPUT .\images\solutions\Framework.tex
 INPUT images\solutions\Framework.tex
+INPUT .\images\TestAblauf.png
+INPUT .\images\TestAblauf.png
+INPUT images\TestAblauf.png
+INPUT .\images\TestAblauf.png
+INPUT .\images\TestAblauf.png
+INPUT .\images\TestAblauf.png
+INPUT .\images\TestAblauf.png
 INPUT .\Sections\OCPPServer\CompareOfSolutions\intro.tex
 INPUT .\Sections\OCPPServer\CompareOfSolutions\intro.tex
 INPUT .\Sections\OCPPServer\CompareOfSolutions\intro.tex
@@ -2202,27 +2237,6 @@ INPUT Sections\OCPPServer\CompareOfSolutions\intro.tex
 INPUT .\Sections\OCPPServer\CompareOfSolutions\intro.tex
 INPUT .\Sections\OCPPServer\CompareOfSolutions\intro.tex
 INPUT Sections\OCPPServer\CompareOfSolutions\intro.tex
-INPUT .\Sections\Bestinterface.tex
-INPUT .\Sections\Bestinterface.tex
-INPUT .\Sections\Bestinterface.tex
-INPUT Sections\Bestinterface.tex
-INPUT .\Sections\Bestinterface.tex
-INPUT .\Sections\Bestinterface.tex
-INPUT Sections\Bestinterface.tex
-INPUT .\Sections\Implementierung.tex
-INPUT .\Sections\Implementierung.tex
-INPUT .\Sections\Implementierung.tex
-INPUT Sections\Implementierung.tex
-INPUT .\Sections\Implementierung.tex
-INPUT .\Sections\Implementierung.tex
-INPUT Sections\Implementierung.tex
-INPUT .\Images\TestExample.png
-INPUT .\Images\TestExample.png
-INPUT Images\TestExample.png
-INPUT .\Images\TestExample.png
-INPUT .\Images\TestExample.png
-INPUT .\Images\TestExample.png
-INPUT .\Images\TestExample.png
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss10.tfm
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmss8.tfm
@@ -2263,6 +2277,8 @@ INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\c
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmss10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy10.pfb
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy7.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmsy8.pfb
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\type1\public\amsfonts\cm\cmti10.pfb

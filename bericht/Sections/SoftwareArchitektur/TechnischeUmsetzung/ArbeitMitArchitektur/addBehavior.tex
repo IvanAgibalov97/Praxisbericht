@@ -9,7 +9,7 @@
 
     Bei der ersten Möglichkeit ist das komplette Verhalten für ein Ereignis an einem Ort definiert und entspechend mit Unittests abdecken lässt.
 
-    Die zweite Möglichkeit streut das Verhalten für ein Ereignis im Projekt. Das verbessert die Lesbarkeit des jeweiligen Teils,
+    Die zweite Möglichkeit streut das Verhalten für ein Ereignis im Projekt. Das verbessert die Lesbarkeit des jeweiligen Teils und erfühlt \textbf{OCP} (Open-Closed-Prinzip, siehe Kapitel \ref{kap:OCP}),
     jedoch die Schwierigkeit bringt alle solche Teile im Projekt zu finden. Das Gesamtverhalten lässt sich erst mittels
     einem Integrationtest abdecken, was eine mögliche Fehlersuche erschweren kann. 
     Für den Fall, dass das neue Verhalten unabhängig von dem bestehenden Verhalten ablaufen soll ist es eine gute Möglichkeit.

@@ -1,1 +1,12 @@
-OCP
+Das Open-Closed-Prinzip (dt. Prinzip der Offen- und Verschlossenheit) beschäftigt sich 
+mit Erweiterbarkeit und Änderbarkeit einer Software.
+
+Die Definition von OCP ist:
+\textit{A software artifact should be open for extension but 
+closed for modification}\cite[70]{cleanArchitecture}
+
+Wenn eine neue Erweiterungen in der bestehenden Software gemacht werden soll, 
+soll nach dem \textbf{OCP} die bestehende Software minimal geändert werden 
+(idealerweise gar nicht). Das lässt sich in der Kombination mit \textbf{SRP} (siehe Kapitel \ref{kap:SRP})
+erreichen, indem alle Module bzw. Klassen nur eine Aufgabe erledigen und somit 
+nur einen Grund für die Änderungen besitzen.

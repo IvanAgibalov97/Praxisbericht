@@ -7,7 +7,7 @@ Zu dem Zeitpunkt gab es bereits drei Stellen, bei denen der OCPP1.6 Server Funkt
 Das sind:
 \begin{itemize}
     \item Testframework für die automatisierten Systemtests von der Ladesäule
-    \item Eigenständiger OCPP1.6 und später OCPP2.0 Server für die manuellen Tests. (mit einer reelen und einer gemockten Datenbank)
+    \item Eigenständiger OCPP1.6 und später OCPP2.0 Server für die manuellen Tests. (mit und ohne einer Datenbank)
     \item Automatisierungstool für den ERK (Eichrechtkonformität) Prozess
 \end{itemize}
 
@@ -16,3 +16,17 @@ Die Aufgabe hat dabei den kleinsten Anteil an OCPP Server Funktionalitäten gebr
 
 Anschließend wurden die Teilaufgaben erledigt, aufgrund der großen Überschneidung der programmiertechnischen Anforderungen, 
 konnten Teile der vorhergehenden Aufgabe übernommen werden.
+
+Der Server soll mehrere Bereiche unterstützen, 
+die in Abhängigkeit von jeweiligem Zustand des Bereiches das Verhalten des Servers ändern.
+
+Die gewünschte Bereiche, die der Server unterstützen soll, sind:
+\begin{itemize}
+    \item Ladesäuleverwaltung soll die angefragten Verbindungen von bekannten Ladesäulen akzeptieren bzw. von unbekannten Ladesäulen ablehnen.
+    \item Benutzerverwaltung soll die Authentifizierung von bekannten Benutzern an Ladesäulen zulassen bzw. von unbekannten Benutzern ablehnen.
+    \item Preisverwaltung soll unterschiedliche Preise für unterschiedliche Benutzer verwalten.
+    \item Ladevorgangverwaltung soll die Zustände jedes Ladevorgang verwalten können.
+    \item Benutzeroberflächeverwaltung soll ermöglichen alle Bereiche des Servers manuell ändern zu können.
+    \item Ladesäulekommunikationverwaltung soll die Kommunikation mit den Ladesäulen mittels OCPP Protokoll ermöglichen.
+    \item Loggingverwaltung soll die wichtigen Ereignisse im Server aufzeichnen.
+\end{itemize}

@@ -8,7 +8,7 @@ Der Unterschiede zwischen den einzelnen Lösungen sind:
 
 Jeder \textbf{Controller} außer ``Super''-Controller kann eine reele Schnittstelle benutzen, 
 falls sie in der Anwendung gebraucht wird. In jeder Anwendung kann eine Schnittstelle von mehreren \textbf{Controllers} verwendet werden.
-Das lässt sich zum Beispiel mittel ISP (siehe Kapitel \ref{kap:ISP}) umsetzen.
+Das lässt sich zum Beispiel mittel \textbf{ISP} (siehe Kapitel \ref{kap:ISP}) umsetzen.
 
 Jede Schnittstelle kann drei Versionen haben:
 \begin{itemize}
@@ -17,6 +17,11 @@ Jede Schnittstelle kann drei Versionen haben:
     \item Schnittstelle wird nicht benutzt, sie muss aber trotzdem übergeben werden, 
     damit Parameterliste erfüllt wird. Das Verhalten der Schnittstelle ist unwichtig.
 \end{itemize}
+
+Da jede Schnittstelle drei Komponenten benötigt (\textbf{Controller}, \textbf{Adapter} und \textbf{Port}) und jede Komponente nur einen Aufgabenbereich erfühlt
+bzw. nur einen Grund für die Änderung besitzt, lassen sich einzelne Komponente ohne Änderungen an bestehender Software für verschiedene Anwendung getauscht werden. 
+Damit ist \textbf{OCP} erfühlt (siehe Kapitel \ref{kap:OCP}). Das wird bei der Umsetzung von allen Aufgaben aktiv benutzt, d.h. wenn es an einem Teil einer Anwendung 
+irgendwas geändert wird, wird andere Anwendung, die dieses Teil nicht benutzt, nicht von den Änderungen betroffen.
 
 \newpage
 Jede Anwendung soll OCPP Kommunikation serverseitig können. 

@@ -5,7 +5,7 @@
 
 % Importing document settings from our file "packages.sty"
 \usepackage{packages}
-
+% \includepdf[scale=0.8,pages=1,pagecommand=\subsection{blub}]{images/Abschlussarbeit Deckblatt.pdf}
 % Beginning of document
 \begin{document}
 
@@ -110,16 +110,15 @@
             \import{./Sections/Introduction/principles/sub/}{SingleResponsibilityPrinciple}
         
         \subsubsection{Open–closed principle}
+        \label{kap:OCP}
             \import{./Sections/Introduction/principles/sub/}{OpenClosedPrinciple}
-        
-        \subsubsection{Liskov substitution principle}
-            \import{./Sections/Introduction/principles/sub/}{LiskovSubstitutionPrinciple}
         
         \subsubsection{Interface segregation principle}
         \label{kap:ISP}
             \import{./Sections/Introduction/principles/sub/}{InterfaceSegregationPrinciple}
                    
         \subsubsection{Dependency inversion principle}
+        \label{kap:DIP}
             \import{./Sections/Introduction/principles/sub/}{DependencyInversionPrinciple}
 
         \subsubsection{Inversion of control}
@@ -237,10 +236,16 @@
     \subsection{Aufgabenbeschreibung}
     \label{kap:taskDescription}
         \import{./Sections/OCPPServer/Aufgabenbeschreibung}{intro}
-        \subsubsection{Standalone Server}
-            \import{./Sections/OCPPServer/Aufgabenbeschreibung}{Standalone}
+        \subsubsection{Standalone Server mit Datenbank}
+        \label{kap:taskDescription:standaloneWithDB}
+            \import{./Sections/OCPPServer/Aufgabenbeschreibung}{StandaloneWithDB}
+
+        \subsubsection{Standalone Server ohne Datenbank}
+        \import{./Sections/OCPPServer/Aufgabenbeschreibung}{StandaloneWithoutDB}
+
         \subsubsection{Testframework}
             \import{./Sections/OCPPServer/Aufgabenbeschreibung}{Testframework}
+
         \subsubsection{ERK Automatisierungstool}
             \import{./Sections/OCPPServer/Aufgabenbeschreibung}{Library}
     \newpage
@@ -273,18 +278,16 @@
         \import{./Sections/OCPPServer/CompareOfSolutions}{intro}
 
 % Beschreibung der gewünschten Implementierung
-\newpage
-\import{./Sections/}{Bestinterface}
+% \newpage
+% \import{./Sections/}{Bestinterface}
 
-% Beschreibung der Implementierung der Software
-\newpage
-\import{./Sections/}{Implementierung}
+% % Beschreibung der Implementierung der Software
+% \newpage
+% \import{./Sections/}{Implementierung}
 
-\section{Übersichtsdiagramm}
-
-% Example section added directly into the main-file
-\section{Conclusion}
-\textit{But the fact that some geniuses were laughed at does not imply that all who are laughed at are geniuses. They laughed at Columbus, they laughed at Fulton, they laughed at the Wright Brothers. But they also laughed at Bozo the Clown} -  \textcite{sagan_1993}.
+% % Example section added directly into the main-file
+% \section{Conclusion}
+% \textit{But the fact that some geniuses were laughed at does not imply that all who are laughed at are geniuses. They laughed at Columbus, they laughed at Fulton, they laughed at the Wright Brothers. But they also laughed at Bozo the Clown} -  \textcite{sagan_1993}.
 
 % Printing bibliography
 \newpage

@@ -65,18 +65,28 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {32}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einem Framework\relax }}{37}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {33}{\ignorespaces some Caption}}{40}{figure.caption.35}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Übersichtdiagramm der Standalone-Anwendung mit Datenbank}}{39}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {34}{\ignorespaces Ablauf eines Interactors}}{42}{figure.caption.36}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Übersichtdiagramm der Standalone-Anwendung ohne Datenbank}}{40}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {35}{\ignorespaces Klassendiagramm eines Interactors}}{42}{figure.caption.37}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Übersichtdiagramm der Framework-Anwendung}}{41}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {36}{\ignorespaces some Caption}}{44}{figure.caption.38}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Übersichtdiagramm der ERK-Software}}{42}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {37}{\ignorespaces some Caption}}{45}{figure.caption.39}%
+\contentsline {figure}{\numberline {37}{\ignorespaces some Caption}}{43}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {38}{\ignorespaces some Caption}}{46}{figure.caption.40}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Ablauf eines Interactors}}{45}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {39}{\ignorespaces some Caption}}{47}{figure.caption.41}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Klassendiagramm eines Interactors}}{45}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {40}{\ignorespaces some Caption}}{48}{figure.caption.42}%
+\contentsline {figure}{\numberline {40}{\ignorespaces some Caption}}{47}{figure.caption.42}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {41}{\ignorespaces some Caption}}{48}{figure.caption.43}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {42}{\ignorespaces some Caption}}{49}{figure.caption.44}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {43}{\ignorespaces some Caption}}{50}{figure.caption.45}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {44}{\ignorespaces some Caption}}{51}{figure.caption.46}%
+\defcounter {refsection}{0}\relax 
+\contentsline {figure}{\numberline {45}{\ignorespaces Ablaufdiagramm eines Tests}}{52}{figure.caption.47}%
