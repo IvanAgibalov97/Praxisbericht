@@ -3,10 +3,10 @@ Darstellung des Datenflusses \textbf{2} als \textbf{Sequencediagram}:
 \begin{figure}[h]
     \begin{sequencediagram}
         \newthread{A}{Controller 1 (C)}
-        \newinst[1]{B}{Dispatcher (D)}
-        \newinst[1]{C}{UseCase (E)}
-        \newinst[1]{D}{Interactor I (G)}
-        \newinst[1]{E}{Controller J (C)}
+        \newinst[0.4]{B}{Dispatcher (D)}
+        \newinst[0.4]{C}{UseCase (E)}
+        \newinst[0.4]{D}{Interactor I (G)}
+        \newinst[0.4]{E}{Controller J (C)}
         
         \begin{messcall}{C}{subscribe ``Event''}{B}
         \end{messcall}
@@ -45,7 +45,7 @@ Darstellung der 2. Möglichkeit:
     \begin{sequencediagram}
         \newthread{U}{UseCase (E)}
         \newinst[1]{A}{Interactor I (G)}
-        \newinst[2]{C}{Dispatcher (D)}
+        \newinst[1]{C}{Dispatcher (D)}
         \newinst[1]{B}{Controller J (C)}
         \newthread{D}{Externe}
         
@@ -75,6 +75,7 @@ Darstellung der 2. Möglichkeit:
     \caption{Sequencediagramm vom komplexen Datenfluss \textbf{2} Blau}
     \label{fig:dataFlowKomplexInteractor}
 \end{figure}
+
 Beim synchronen Funktionsaufruf wird der Rückgabewert, wie in Abbildung \ref{fig:seqDiagBlue} dargestellt.
 Der Rückgabewert beim asynchronen Funktionsaufruf, wird wie folgt definiert:
 Der Aufgerufene \textbf{Interactor} ruft eine Methode vom \textbf{Controller} auf, der die Nachricht an den externen Teilnehmer abschickt. 

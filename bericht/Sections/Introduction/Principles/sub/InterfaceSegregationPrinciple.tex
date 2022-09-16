@@ -1,8 +1,8 @@
 Das Interface-Segregation-Prinzip (dt. Schnittstellenaufteilungsprinzip) 
-ist Begriff aus des objektorientierten Entwurfs. Er besagt dass eine große Schnittstelle (Interface) 
+ist Begriff aus den objektorientierten Entwurf. Er besagt dass eine große Schnittstelle (Interface) 
 in mehrere kleine Schnittstellen aufgeteilt werden soll.
 
-Beispiel: es gibt eine Schnittstelle, die \textbf{IDatebase} heißt. 
+Beispiel: es gibt eine Schnittstelle, die \textbf{IDatabase} heißt. 
 Diese Schnittstelle definiert folgende Methoden:
 \begin{itemize}
     \item getUser()
@@ -24,7 +24,14 @@ dass es sich in drei Gruppen aufteilen lässt (jeweils Methoden für Charger, Us
 Nach \textbf{ISP} sollen besser drei statt eine Schnittstellen definiert werden.
 Zum Beispiel mit folgenden Namen:
 \begin{enumerate}
-    \item IDatebaseUser: getUser(), setUser(),
-    \item IDatebaseCharger: getCharger(), setCharger(),
-    \item IDatebaseTransaction: getTransaction(), setTransaction()
+    \item IDatabaseUser: getUser(), setUser(),
+    \item IDatabaseCharger: getCharger(), setCharger(),
+    \item IDatabaseTransaction: getTransaction(), setTransaction()
 \end{enumerate}
+
+Das Nutzen von \textbf{ISP} ist,
+dass wenn mehrere Interfaces gleiche Methode besitzen sollen, 
+ist es am besten die gleichen Methoden in ein anderes Interface zu isolieren.
+Das bringt besseres Verständnis über die Struktur der Anwendung und 
+minimiert Anzahl an Teilen der Software, 
+die im Falle einer Änderung, mitgeändert werden sollen.

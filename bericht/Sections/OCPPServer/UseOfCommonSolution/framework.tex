@@ -1,16 +1,17 @@
 Die Framework Anwendung soll nur OCPP-Schnittstelle benutzen. 
-Die HTTP- und Filesystem- Schnittstelle werden gar nicht gebraucht und deswegen müssen gemockt werden.
-Die Datenbank-Schnittstelle soll gefälscht werden, da es gewünscht wird, 
+Die HTTP- und Filesystem- Schnittstelle werden gar nicht gebraucht.
+Die Datenbank-Schnittstelle soll simuliert werden, da es gewünscht wird, 
 manche Informationen zu speichern um sie später verwenden bzw. auswerten zu können.
 
 Die Anwendung lässt sich wie folgt darstellen 
-(Die blaue Farbe stellt gefälschte Komponenten dar, die schwarze Farbe stellt gefälschte Komponente dar):
+(Die blaue Farbe stellt simulierte Komponenten dar, die schwarze Farbe stellt fehlende Komponente dar):
 
 \import{./images/solutions}{Framework}
 
 \newpage
-Das Framework wird von den Dritten benutzt. Aus diesen Grund benötigt es ein gutes Interfaces, 
-das zugleich als Fassade (siehe Kapitel \ref{kap:gof:facade}) zu der Struktur in der Abbildung \ref{fig:solutionFramework} darstellt.
+Das Framework wird von Dritten benutzt. Aus diesem Grund benötigt es ein gutes Interface, 
+das als Fassade (siehe Kapitel \ref{kap:gof:facade}) 
+zu der komplexen Struktur in der Abbildung \ref{fig:solutionFramework} dient.
 
 Die Struktur als Klassendiagramm:
 \textbf{HIER SOLL DIE Struktrur des FRAMEWORKS SEIN}
@@ -26,8 +27,10 @@ Das Interface besteht aus folgende Methoden:
     \item sendMessage
 \end{itemize}
 
-Jeder Test lässt sich in vier Phasen unterteilen, jede Methode bzw. Funktion des Frameworks soll einer dieser Phase zugeordnet werden.
-In der nachfolgenden Abbildung \ref{fig:TestFlow} ist eine Zuordnung der Methoden zu jeweiliger Phase im From eines Ablaufdiagramms zu sehen:
+Jeder Test lässt sich in vier Phasen unterteilen, jede Methode bzw. 
+Funktion des Frameworks soll einer dieser Phasen zugeordnet werden.
+In der nachfolgenden Abbildung \ref{fig:TestFlow} 
+ist eine Zuordnung der Methoden zu jeweiliger Phase in Form eines Ablaufdiagramms zu sehen:
 
 \begin{figure}[H]
     \centering

@@ -2,16 +2,19 @@ Im Kapitel werden Teile der Anwendung beschrieben, welche Eigenschaften sie besi
 Auch wird kurz gezeigt wie die Testbarkeit (Unit-, Integration- und Systemtests), 
 Änderbarkeit und Erweiterbarkeit der Software ist.    
 Ein wichtiger Teil der Beschreibung ist der Datenfluss im Programm.
+Die dargestellte Architektur ist Eigenwert.
 
 \import{./images/}{circle_1}
 
 Folgende Komponenten sind im Programm definiert:
 \begin{itemize}
     \item Port - hat die Aufgabe die Schnittstelle nach Außen aufzubauen und die Verbindungen zu kontrollieren (z.B. WebSocket Server, Datenbank).
-    \item Adapter  - hat die Aufgabe ankommenden Ereignisse vom Port an den dazugehörigen Controller und in die andere Richtung zu übersetzen (z.B. Presenter im \textbf{MVC} \ref{kap:MVC})
-    \item Controller - besitzet alle Informationen, die den Zustand jeweiliger Komponente (\textbf{Controller} + \textbf{Adapter} + \textbf{Port}) abbilden.
+    \item Adapter  - hat die Aufgabe ankommende Ereignisse vom \textbf{Port} an den dazugehörigen \textbf{Controller} und in die andere Richtung zu übersetzen (z.B. Presenter im \textbf{MVC} \ref{kap:MVC})
+    \item Controller - besitzt alle Informationen, die den Zustand jeweiliger Komponente (\textbf{Controller} + \textbf{Adapter} + \textbf{Port}) abbilden.
     Controller ermöglicht auch die dazugehörige Schnittstelle zu verwenden (z.B. eine Nachricht abschicken).
-    \item UseCase - beschreibt den Vorgang beim Auslösen eines Erreignisses, welches sie abonniert haben. Die
+    Über alle Ereignisse wird \textbf{Dispatcher} informiert.
+    \item Dispatcher - hat die Aufgabe die aufgetretenen Ereignisse an die \textbf{UseCases} zuzuordnen.
+    \item UseCase - beschreibt den Vorgang beim Auslösen eines Ereignisses, welches sie abonniert haben. Die
     vordefinierten UseCases dürfen nur \textbf{Interactors} verwenden, um andere \textbf{Controller} anzusprechen.
     \item Interactors - Eine atomare Operation im Programm (die Operation lässt sich nicht mehr sinnvoll im Rahmen
     der Anwendung aufteilen). Für jede Methode des \textbf{Controllers}, 

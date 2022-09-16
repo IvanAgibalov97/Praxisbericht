@@ -1,4 +1,5 @@
-Jede umgesetzte Lösung benutzt das im Kapitel \ref{kap:commonSolution} beschriebene Verhalten und Struktur. 
+Jede umgesetzte Lösung benutzt das im Kapitel \ref{kap:commonSolution} beschriebene Verhalten 
+und die Struktur. 
 
 Der Unterschiede zwischen den einzelnen Lösungen sind:
 \begin{itemize}
@@ -13,7 +14,7 @@ Das lässt sich zum Beispiel mittel \textbf{ISP} (siehe Kapitel \ref{kap:ISP}) u
 Jede Schnittstelle kann drei Versionen haben:
 \begin{itemize}
     \item reele Schnittstelle
-    \item Schnittstelle ist gefälscht. Zum Beispiel statt Datenbank Cache verwenden. Das Verhalten der gefälschten Schnittstelle ist wichtig.
+    \item Schnittstelle ist simuliert. Zum Beispiel statt Datenbank Cache verwenden. Das Verhalten der gefälschten Schnittstelle ist wichtig.
     \item Schnittstelle wird nicht benutzt, sie muss aber trotzdem übergeben werden, 
     damit Parameterliste erfüllt wird. Das Verhalten der Schnittstelle ist unwichtig.
 \end{itemize}
@@ -21,11 +22,10 @@ Jede Schnittstelle kann drei Versionen haben:
 Da jede Schnittstelle drei Komponenten benötigt (\textbf{Controller}, \textbf{Adapter} und \textbf{Port}) und jede Komponente nur einen Aufgabenbereich erfühlt
 bzw. nur einen Grund für die Änderung besitzt, lassen sich einzelne Komponente ohne Änderungen an bestehender Software für verschiedene Anwendung getauscht werden. 
 Damit ist \textbf{OCP} erfühlt (siehe Kapitel \ref{kap:OCP}). Das wird bei der Umsetzung von allen Aufgaben aktiv benutzt, d.h. wenn es an einem Teil einer Anwendung 
-irgendwas geändert wird, wird andere Anwendung, die dieses Teil nicht benutzt, nicht von den Änderungen betroffen.
+irgendwas geändert wird, wird andere Anwendung, die diesen Teil nicht benutzt, nicht von den Änderungen betroffen.
 
 \newpage
 Jede Anwendung soll OCPP Kommunikation serverseitig können. 
 Aus diesem Grund wird OCPP Schnittstelle (in dem Fall Websocket-Server) immer reel und gleich sein.
 
-Zusammengefasst sieht das gleiche Teil jeder Anwendung so aus:
 \import{./images/solutions}{CommonPartOfEverySolution}

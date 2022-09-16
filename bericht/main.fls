@@ -1589,8 +1589,6 @@ INPUT Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
 INPUT Sections\Introduction\OOPDesignPatterns\sub\singleton.tex
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\factoryMethod.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\factoryMethod.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\factoryMethod.tex
@@ -1619,6 +1617,8 @@ INPUT Sections\Introduction\Architecture\MVP.tex
 INPUT .\Sections\Introduction\Architecture\MVP.tex
 INPUT .\Sections\Introduction\Architecture\MVP.tex
 INPUT Sections\Introduction\Architecture\MVP.tex
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmti10.tfm
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmbxti10.tfm
 INPUT .\images\MVP.png
 INPUT .\images\MVP.png
 INPUT images\MVP.png
