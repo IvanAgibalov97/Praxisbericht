@@ -1,21 +1,13 @@
-Zu Begin der Praxisphase war die Entwicklung in der Abteilung, in der ich meine Praxisphase gemacht habe, und Testen an vielen Stellen an eine externe Schnittstelle gebunden.
-Um diese Abhängigkeit zu reduzieren und die Möglichkeit zu bekommen eigene Funktionalitäten hinzuzufügen, bekamm ich die Aufgabe
-einen OCPP 1.6. Server zu implementieren.
-
-Zu dem Zeitpunkt gab es bereits drei Stellen, bei denen der OCPP1.6 Server Funktionalitäten in unterschiedlichem Umfang benutzt wurden.
+Als Beispiel der Anwendung der beschriebenen Architektur dient OCPP 1.6. Server.
+Es sollen insgesamt mehrere unterschiedliche Anwednungen entstehen, die für unterschiedliche 
+Zwecke gedacht sind.
 
 Das sind:
 \begin{itemize}
-    \item Testframework für die automatisierten Systemtests von der Ladesäule
-    \item Eigenständiger OCPP1.6 und später OCPP2.0 Server für die manuellen Tests. (mit und ohne einer Datenbank)
-    \item Automatisierungstool für den ERK (Eichrechtkonformität) Prozess
+    \item Testframework für die automatisierten Systemtests.
+    \item Eigenständiger OCPP1.6 und später OCPP2.0 Server (mit und ohne Datenbank).
+    \item Bibliothek, die in einer anderen Anwendung benutzt wird.
 \end{itemize}
-
-Die dritte Aufgabe (Automatisierungstool für den ERK Prozess) hatte großere Priorität und somit wurde diese als erstes erledigt.
-Die Aufgabe hat dabei den kleinsten Anteil an OCPP Server Funktionalitäten gebraucht.
-
-Anschließend wurden die Teilaufgaben erledigt, aufgrund der großen Überschneidung der programmiertechnischen Anforderungen, 
-konnten Teile der vorhergehenden Aufgabe übernommen werden.
 
 Der Server soll mehrere Bereiche unterstützen, 
 die in Abhängigkeit von jeweiligem Zustand des Bereiches das Verhalten des Servers ändern.

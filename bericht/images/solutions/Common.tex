@@ -15,8 +15,8 @@
         \fill[olive!5] (0,0)circle(2);
 
         % OCPP Port-Adapter-Controller
-       % \fill[red!5] ($(0, 0) + (135:6)$) arc (135:90:6) -- ($(0, 0) + (90:7.5)$) arc (90:135:7.5) -- cycle;
-       % \fill[yellow!5] ($(0, 0) + (135:5)$) arc (135:90:5) -- ($(0, 0) + (90:6)$) arc (90:135:6) -- cycle;
+        \fill[red!3] ($(0, 0) + (135:6)$) arc (135:-225:6) -- ($(0, 0) + (-225:7)$) arc (-225:135:7) -- cycle;
+       \fill[yellow!3] ($(0, 0) + (135:5)$) arc (135:-225:5) -- ($(0, 0) + (-225:6)$) arc (-225:135:6) -- cycle;
         \fill[gray!5] ($(0, 0) + (135:4)$) arc (135:90:4) -- ($(0, 0) + (90:5)$) arc (90:135:5) -- cycle;
 
         % Logger Port-Adapter-Controller
@@ -135,10 +135,9 @@
 
 
         % Legends
-        \draw (0, -8) -- (1, -8) node[right] {$Teile\ des\ Programms\ wissen\ nichts\ voneinander$};
+       %  \draw (0, -8) -- (1, -8) node[right] {$Teile\ des\ Programms\ wissen\ nichts\ voneinander$};
     \end{tikzpicture}
-    \caption[1]{Darstellung der umgesetzten Architektur.
-    Die Linien repräsentieren die Grenzen zwischen den einzelnen Teilen des Programms}
+    \caption[Darstellung des inneren Kreises der Architektur in jeder Anwendung]{Darstellung des inneren Kreises der Architektur in jeder Anwendung}
     \label{fig:commonSolution}
         
 \end{figure}

@@ -1,0 +1,71 @@
+Darstellung des Datenflusses \textbf{1} als \textbf{sequencediagram}:
+
+\begin{figure}[H]
+    \begin{sequencediagram}
+        \newthread{A}{Externe}
+        \newthread{B}{Port (A)}
+        \newinst[1]{C}{Adapter (B)}
+        \newinst[1]{D}{Controller (C)}
+
+        \begin{messcall}{A}{Message}{B}
+            \begin{messcall}{B}{Message}{C}
+                \begin{messcall}{C}{Message}{D}
+                    
+                \end{messcall}
+            \end{messcall}
+        \end{messcall}
+    \end{sequencediagram}
+    \caption{Sequencediagramm vom Datenfluss \textbf{1} Grün}
+\end{figure}
+
+Darstellung des Datenflusses \textbf{3} als \textbf{sequencediagram}:
+\begin{figure}[h]
+    \begin{sequencediagram}
+        \newthread{A}{Controller (K)}
+        \newinst[1]{B}{Adapter (L)}
+        \newinst[1]{C}{Port (M)}
+        \newthread{D}{Externe}
+        \begin{messcall}{A}{Message}{B}
+            \begin{messcall}{B}{Message}{C}
+                \begin{messcall}{C}{Message}{D}
+                    
+                \end{messcall}
+            \end{messcall}
+        \end{messcall}
+    \end{sequencediagram}
+    \caption{Sequencediagramm vom Datenfluss \textbf{3} Rot}
+\end{figure}\\
+Darstellung der Datentransformation:
+
+\noindent \textbf{Controller} - \textbf{Adapter}: Alle Informationen werden mittels Struktruren übergeben, die in jeweiliger Anwendung definiert sind.
+D.h. für verschiedene Anwendung, die unterschiedliche Struktruren definieren, wird das übergebene Objekt anderes aussehen.
+
+\noindent Ein Beispiel der übergebenen Information an den \textbf{Controller} von \textbf{Adapter} 
+und an den \textbf{Adapter} vom \textbf{Controller} für OCPP Kommunikation kann wie folgt aussehen:
+\begin{lstlisting}[language=json,firstnumber=1]
+    OCPP20Message({{
+        name : "BootNotification",
+        type : "Response",
+        payload : BootNotification({
+            currentTime : Date(Thu Jul 28 2022 14:26:49 GMT+0200),
+            interval : 30,
+            status : "Rejected"    
+        })
+    })
+\end{lstlisting}
+
+\newpage
+\noindent \textbf{Adapter} - \textbf{Port}: Alle Informationen, 
+die gesendet werden (in dem Fall ``message''), werden in der verstandlichen Form (sie muss nicht mehr in der Anwendung geändert werden)
+für den Port an Port weitergegeben.
+Falls es notwendig ist, müssen alle Informationen über den Empfänger oder Sender der Nachricht weitergegeben werden, 
+sodass der Port die entsprechende Verbindung zuordnen kann. 
+Die Struktur der übergebenen Information wird durch den Port und das benutzte Übertragungsprotokoll bestimmt. 
+
+\noindent Ein Beispiel der übergebenen Information an den \textbf{Adapter} vom \textbf{Port} 
+und an den \textbf{Port} vom \textbf{Adapter} im Falle einer OCPP Nachricht:
+\begin{lstlisting}[language=json,firstnumber=1]
+{
+    message : "[3, 'message_id_of_request', {currentTime : 'Thu Jul 28 2022 14:26:49Z', interval : 30, status : 'Rejected'}]"
+}
+\end{lstlisting}

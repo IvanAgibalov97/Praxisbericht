@@ -1,22 +1,14 @@
+In dem Teil wird die Aufbau der inneren Logik der Application beschrieben. 
+Für die Anwendungslogik ist ein Teil nach \textbf{SRP} (siehe Kapitel \ref{kap:SRP}) notwendig. Das Teil heißt \textbf{UseCase}.
+Damit beim Geschehen eines Ereignisses alle \textbf{UseCases} informiert werden, 
+wird ein weiteres Teil notwendig, das das Ereignis an die richtigen \textbf{UseCases} zuordnet.  
+Das Teil heißt \textbf{Dispatcher}.
+Das Weiterleiten des Ereignisses an \textbf{Dispatcher} und das Kontrollieren von \textbf{Port} und \textbf{Adapter} wird 
+vom \textbf{Controller} übernommen.
 
-In dem Teil wird die komplete innere Logik der Application beschrieben. Dafür ist nur \textbf{Controller} notwendig. 
-D.h. beim Geschehen eines Ereignisses wird eine (oder mehrere) Method(en) in deb jeweiligen Controllern aufgerufen,
-die das Ereignis entsprechend abarbeiten.
-Dabei entsteht das Problem, dass
-jeder \textbf{Controller} mehrere Aufgaben übernimmt 
-(z.B. Kontrollieren von \textbf{Port} und \textbf{Adapter} und enthält Anwendungslogik).
-Das wiederspricht dem \textbf{SRP}, das in dem Kapitel \ref{kap:SRP} beschrieben ist.
-
-Eine mögliche Lösung wäre das Separieren von Kontrollieren von \textbf{Port} und \textbf{Adapter} und Anwendungslogik
-in zwei verschiedenen Teile. Die Anwendungslogik heißt \textbf{UseCase}.
-
-Bei dieser Aufteilung besteht das Problem, dass beim Auftreten eines Ereignisses im \textbf{Controller} muss dieses Ereignis an das 
-richtige \textbf{UseCase} zugeordnet werden. D.h. \textbf{Contoller} besitzt eine weitere Verantwortlichkeit die sich in ein anderes Teil
-verschieben lässt. Dieses Teil heißt \textbf{Dispatcher} und seine Aufgabe ist alle Abonnenten \textbf{UseCase}s
-beim Auftreten eines Ereignisses zu informieren.
-
-Jedes \textbf{UseCase} kann mehrere aufeinander folgende Aufgaben erledigen.
-Alle Aufgaben müssen gleiche Funktionalitäten besitzen, z.B:
+Jedes \textbf{UseCase} erledigt mehrere aufeinander folgende Aufgaben, die andere \textbf{Controller} benutzen.
+Es ist vom Vorteil, andere \textbf{Controller} nicht direkt aufzurufen. 
+Es kann passieren, dass es gewünscht wird gleiche Funktionalität für alle solche Aufrufe hinzuzufügen, z.B:
 \begin{itemize}
     \item der Anfang und das Ende in Logs aufzeichnen.
     \item Nach einer bestimmten Zeit gestoppt werden.

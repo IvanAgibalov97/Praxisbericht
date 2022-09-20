@@ -91,11 +91,46 @@
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Inversion of control}
+      \field{urlday}{14}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.dev-insider.de/was-bedeutet-inversion-of-control-a-1110688/#:~:text=Definition%20%E2%80%9ESteuerungsumkehr%E2%80%9C%20Was%20bedeutet%20Inversion%20of%20Control%3F&text=Inversion%20of%20Control%20ist%20ein,die%20Steuerung%20bestimmter%20Programmteile%20%C3%BCbernimmt
       \endverb
       \verb{url}
       \verb https://www.dev-insider.de/was-bedeutet-inversion-of-control-a-1110688/#:~:text=Definition%20%E2%80%9ESteuerungsumkehr%E2%80%9C%20Was%20bedeutet%20Inversion%20of%20Control%3F&text=Inversion%20of%20Control%20ist%20ein,die%20Steuerung%20bestimmter%20Programmteile%20%C3%BCbernimmt
+      \endverb
+    \endentry
+    \entry{DiP}{online}{}
+      \name{author}{1}{}{%
+        {{hash=5619f1f7e8a719f66e32b2d6e9ac24e8}{%
+           family={dewiki},
+           familyi={d\bibinitperiod}}}%
+      }
+      \strng{namehash}{5619f1f7e8a719f66e32b2d6e9ac24e8}
+      \strng{fullhash}{5619f1f7e8a719f66e32b2d6e9ac24e8}
+      \strng{bibnamehash}{5619f1f7e8a719f66e32b2d6e9ac24e8}
+      \strng{authorbibnamehash}{5619f1f7e8a719f66e32b2d6e9ac24e8}
+      \strng{authornamehash}{5619f1f7e8a719f66e32b2d6e9ac24e8}
+      \strng{authorfullhash}{5619f1f7e8a719f66e32b2d6e9ac24e8}
+      \field{labelalpha}{dew}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Dependency-Inversion-Prinzip}
+      \field{urlday}{19}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://dewiki.de/Lexikon/Dependency-Inversion-Prinzip
+      \endverb
+      \verb{url}
+      \verb https://dewiki.de/Lexikon/Dependency-Inversion-Prinzip
       \endverb
     \endentry
     \entry{MF_WhatIsSA}{online}{}
@@ -118,6 +153,10 @@
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{extraalpha}{1}
       \field{labelnamesource}{author}
+      \field{urlday}{23}
+      \field{urlmonth}{7}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf
       \endverb
@@ -147,6 +186,10 @@
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Is High Quality Software Worth the Cost?}
+      \field{urlday}{29}
+      \field{urlmonth}{5}
+      \field{urlyear}{2019}
+      \field{urldateera}{ce}
       \true{nocite}
       \verb{urlraw}
       \verb https://martinfowler.com/articles/is-quality-worth-cost.html
@@ -203,6 +246,10 @@
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
+      \field{urlday}{12}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
       \verb{urlraw}
       \verb https://www.openchargealliance.org/protocols/ocpp-201/
       \endverb

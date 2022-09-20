@@ -14,26 +14,26 @@
         \fill[olive!5] (0,0)circle(2);
 
         % OCPP Port-Adapter-Controller
-        \fill[red!5] ($(0, 0) + (135:6)$) arc (135:90:6) -- ($(0, 0) + (90:7)$) arc (90:135:7) -- cycle;
-        \fill[yellow!5] ($(0, 0) + (135:5)$) arc (135:90:5) -- ($(0, 0) + (90:6)$) arc (90:135:6) -- cycle;
+        \fill[red!8] ($(0, 0) + (135:6)$) arc (135:90:6) -- ($(0, 0) + (90:7)$) arc (90:135:7) -- cycle;
+        \fill[yellow!8] ($(0, 0) + (135:5)$) arc (135:90:5) -- ($(0, 0) + (90:6)$) arc (90:135:6) -- cycle;
         \fill[gray!5] ($(0, 0) + (135:4)$) arc (135:90:4) -- ($(0, 0) + (90:5)$) arc (90:135:5) -- cycle;
 
         % Logger Port-Adapter-Controller
-     %   \fill[red!5] ($(0, 0) + (90:6)$) arc (90:45:6) -- ($(0, 0) + (45:7.5)$) arc (45:90:7) -- cycle;
-     %   \fill[yellow!5] ($(0, 0) + (90:5)$) arc (90:45:5) -- ($(0, 0) + (45:6)$) arc (45:90:6) -- cycle;
+       \fill[red!3] ($(0, 0) + (90:6)$) arc (90:-225:6) -- ($(0, 0) + (-225:7)$) arc (-225:90:7) -- cycle;
+       \fill[yellow!3] ($(0, 0) + (90:5)$) arc (90:-225:5) -- ($(0, 0) + (-225:6)$) arc (-225:90:6) -- cycle;
         \fill[gray!5] ($(0, 0) + (90:4)$) arc (90:45:4) -- ($(0, 0) + (45:5)$) arc (45:90:5) -- cycle;
 
         % Super
         \fill[gray!5] ($(0, 0) + (45:4)$) arc (45:0:4) -- ($(0, 0) + (0:5)$) arc (0:45:5) -- cycle;
 
         % HTTP Port-Adapter-Controller
-     %   \fill[red!5] ($(0, 0) + (135:6)$) arc (135:180:6) -- ($(0, 0) + (180:7.5)$) arc (180:135:7) -- cycle;
-      %  \fill[yellow!5] ($(0, 0) + (135:5)$) arc (135:180:5) -- ($(0, 0) + (180:6)$) arc (180:135:6) -- cycle;
+    % \fill[red!2] ($(0, 0) + (135:6)$) arc (135:180:6) -- ($(0, 0) + (180:7)$) arc (180:135:7) -- cycle;
+       % \fill[yellow!2] ($(0, 0) + (135:5)$) arc (135:180:5) -- ($(0, 0) + (180:6)$) arc (180:135:6) -- cycle;
         \fill[gray!5] ($(0, 0) + (135:4)$) arc (135:180:4) -- ($(0, 0) + (180:5)$) arc (180:135:5) -- cycle;
 
         % Charger Port-Adapter-Controller
-      %  \fill[red!5] ($(0, 0) + (180:6)$) arc (180:216:6) -- ($(0, 0) + (216:7.5)$) arc (216:180:7) -- cycle;
-      %  \fill[yellow!5] ($(0, 0) + (180:5)$) arc (180:216:5) -- ($(0, 0) + (216:6)$) arc (216:180:6) -- cycle;
+        %\fill[red!2] ($(0, 0) + (180:6)$) arc (180:216:6) -- ($(0, 0) + (216:7)$) arc (216:180:7) -- cycle;
+       %\fill[yellow!2] ($(0, 0) + (180:5)$) arc (180:216:5) -- ($(0, 0) + (216:6)$) arc (216:180:6) -- cycle;
         \fill[gray!5] ($(0, 0) + (180:4)$) arc (180:216:4) -- ($(0, 0) + (216:5)$) arc (216:180:5) -- cycle;
 
         % User Port-Adapter-Controller
@@ -145,6 +145,6 @@
         % Legends
         \draw (0, -8) -- (1, -8) node[right] {$Teile\ des\ Programms\ wissen\ nichts\ voneinander$};
     \end{tikzpicture}
-    \caption[2]{Darstellung des allgemeinen Teils jeder Anwendung}
-    \label{fig:standAloneWithDB}
+    \caption[Darstellung des allgemeinen Teils jeder Anwendung]{Darstellung des allgemeinen Teils jeder Anwendung}
+    \label{fig:commonPartOfEverySolution}
 \end{figure}

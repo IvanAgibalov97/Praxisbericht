@@ -1,10 +1,10 @@
 Im System gibt es drei wichtige Datenflüsse, die durch Kombination miteinander die komplexen Abläufe im System umsetzen.
 \begin{enumerate}
-    \item (grün) Das Programm wird von einem externen System angesprochen (z.B. Ladesäule schickt eine OCPP Nachricht an den Server) 
+    \item (grün) Das Programm wird von einem externen System angesprochen (z.B. Ladesäule schickt eine OCPP Nachricht an den Server).
     \item (blau) Controller löst ein Ereignis im Dispatcher aus.
-    \item (rot) Controller spricht sein Port an(z.B. Speichern der Daten in der Datenbank oder OCPP Antwort abschicken)
+    \item (rot) Controller spricht sein Port an(z.B. Speichern der Daten in der Datenbank oder OCPP Antwort abschicken). Dieser Datenfluss ist der umgekehrte Datenfluss ``1''.
 \end{enumerate}
-Die Kombination aus drei Datenflüssen sieht so aus:
+Die einfache Kombination aus drei Datenflüssen sieht so aus:
 \import{./images/}{circle_2}
 
 Jeder Punkt in der Darstellung repräsentiert eine Stelle, in der die Daten bearbeitet und weitergegeben werden.

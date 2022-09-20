@@ -1596,20 +1596,6 @@ INPUT Sections\Introduction\OOPDesignPatterns\sub\factoryMethod.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\factoryMethod.tex
 INPUT .\Sections\Introduction\OOPDesignPatterns\sub\factoryMethod.tex
 INPUT Sections\Introduction\OOPDesignPatterns\sub\factoryMethod.tex
-INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
-INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
-INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
-INPUT Sections\Introduction\Architecture\CleanArchitecture.tex
-INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
-INPUT .\Sections\Introduction\Architecture\CleanArchitecture.tex
-INPUT Sections\Introduction\Architecture\CleanArchitecture.tex
-INPUT .\images\CleanArchitecture.jpg
-INPUT .\images\CleanArchitecture.jpg
-INPUT images\CleanArchitecture.jpg
-INPUT .\images\CleanArchitecture.jpg
-INPUT .\images\CleanArchitecture.jpg
-INPUT .\images\CleanArchitecture.jpg
-INPUT .\images\CleanArchitecture.jpg
 INPUT .\Sections\Introduction\Architecture\MVP.tex
 INPUT .\Sections\Introduction\Architecture\MVP.tex
 INPUT .\Sections\Introduction\Architecture\MVP.tex
@@ -1724,20 +1710,13 @@ INPUT Sections\Introduction\principles\sub\DependencyInversionPrinciple.tex
 INPUT .\Sections\Introduction\principles\sub\DependencyInversionPrinciple.tex
 INPUT .\Sections\Introduction\principles\sub\DependencyInversionPrinciple.tex
 INPUT Sections\Introduction\principles\sub\DependencyInversionPrinciple.tex
-INPUT .\images\DIP - bad.png
-INPUT .\images\DIP - bad.png
-INPUT images\DIP - bad.png
-INPUT .\images\DIP - bad.png
-INPUT .\images\DIP - bad.png
-INPUT .\images\DIP - bad.png
-INPUT .\images\DIP - bad.png
-INPUT .\images\DIP - good.png
-INPUT .\images\DIP - good.png
-INPUT images\DIP - good.png
-INPUT .\images\DIP - good.png
-INPUT .\images\DIP - good.png
-INPUT .\images\DIP - good.png
-INPUT .\images\DIP - good.png
+INPUT .\images\DIP - compare.png
+INPUT .\images\DIP - compare.png
+INPUT images\DIP - compare.png
+INPUT .\images\DIP - compare.png
+INPUT .\images\DIP - compare.png
+INPUT .\images\DIP - compare.png
+INPUT .\images\DIP - compare.png
 INPUT .\Sections\Introduction\principles\sub\IoC.tex
 INPUT .\Sections\Introduction\principles\sub\IoC.tex
 INPUT .\Sections\Introduction\principles\sub\IoC.tex
@@ -1927,13 +1906,14 @@ INPUT images\circle_2.tex
 INPUT .\images\circle_2.tex
 INPUT .\images\circle_2.tex
 INPUT images\circle_2.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1.tex
-INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1.tex
-INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1and3.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1and3.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1and3.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1and3.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1and3.tex
+INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1and3.tex
+INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part1and3.tex
+INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part2.tex
 INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part2.tex
 INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part2.tex
@@ -1942,14 +1922,6 @@ INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\par
 INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part2.tex
 INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part2.tex
 INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmr9.tfm
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part3.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part3.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part3.tex
-INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part3.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part3.tex
-INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part3.tex
-INPUT Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Dataflow\part3.tex
-INPUT C:\Users\agiba\AppData\Local\Programs\MiKTeX\fonts\tfm\public\cm\cmtt10.tfm
 INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
 INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
 INPUT .\Sections\SoftwareArchitektur\TechnischeUmsetzung\Datenfluss\Logging.tex
@@ -2223,6 +2195,13 @@ INPUT images\solutions\Framework.tex
 INPUT .\images\solutions\Framework.tex
 INPUT .\images\solutions\Framework.tex
 INPUT images\solutions\Framework.tex
+INPUT .\images\FrameworkKlassenDiagramm.png
+INPUT .\images\FrameworkKlassenDiagramm.png
+INPUT images\FrameworkKlassenDiagramm.png
+INPUT .\images\FrameworkKlassenDiagramm.png
+INPUT .\images\FrameworkKlassenDiagramm.png
+INPUT .\images\FrameworkKlassenDiagramm.png
+INPUT .\images\FrameworkKlassenDiagramm.png
 INPUT .\images\TestAblauf.png
 INPUT .\images\TestAblauf.png
 INPUT images\TestAblauf.png
