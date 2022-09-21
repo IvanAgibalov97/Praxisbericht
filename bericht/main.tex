@@ -8,7 +8,6 @@
 % \includepdf[scale=0.8,pages=1,pagecommand=\subsection{blub}]{images/Abschlussarbeit Deckblatt.pdf}
 % Beginning of document
 \begin{document}
-
 % Inserting title page
 \import{./}{title}
 
@@ -28,6 +27,7 @@
 \section{Motivation}
     \import{./Sections/}{Motivation}
 
+\newpage
 \section{Grundlagen}
     \import{./Sections/Introduction}{Introduction}
 
@@ -37,7 +37,7 @@
         \subsubsection{Adapter}
         \label{kap:gof:adapter}
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Adapter}
-
+        \newpage
         \subsubsection{Observer}
         \label{kap:gof:observer}
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{Observer}
@@ -67,6 +67,7 @@
             \import{./Sections/Introduction/OOPDesignPatterns/sub/}{factoryMethod}
             
 
+    \newpage
     \subsection{Architekturen}
         % \subsubsection{Clean Architectur}
         %     \import{./Sections/Introduction/Architecture}{CleanArchitecture}
@@ -81,8 +82,9 @@
             \import{./Sections/Introduction/Architecture}{PortAdapterArchitecture}
 
 
-
+    \newpage
     \subsection{Software Testing}
+        \nocite{Testing}
         \import{./Sections/Introduction/SoftwareTesting}{SoftwareTesting}
 
         \subsubsection{Testing Pyramide}
@@ -100,22 +102,25 @@
         \subsubsection{UI Tests}
             \import{./Sections/Introduction/SoftwareTesting/sub/}{uitests}
 
+        \newpage
         \subsubsection{Manual Tests}
             \import{./Sections/Introduction/SoftwareTesting/sub/}{ManualTests}
-
+    \newpage
     \subsection{Softwareentwicklung Prinzipien}
 
-        \subsubsection{Single-responsibility principle}
-        \label{kap:SRP}
-            \import{./Sections/Introduction/principles/sub/}{SingleResponsibilityPrinciple}
-        
-        \subsubsection{Open–closed principle}
-        \label{kap:OCP}
-            \import{./Sections/Introduction/principles/sub/}{OpenClosedPrinciple}
-        
         \subsubsection{Interface segregation principle}
         \label{kap:ISP}
             \import{./Sections/Introduction/principles/sub/}{InterfaceSegregationPrinciple}
+
+        \newpage
+        \subsubsection{Single-responsibility principle}
+        \label{kap:SRP}
+            \import{./Sections/Introduction/principles/sub/}{SingleResponsibilityPrinciple}
+            
+        \subsubsection{Open–closed principle}
+        \label{kap:OCP}
+            \import{./Sections/Introduction/principles/sub/}{OpenClosedPrinciple}
+            
                    
         \subsubsection{Dependency inversion principle}
         \label{kap:DIP}
@@ -129,6 +134,7 @@
         \label{DependencyInjection}
             \import{./Sections/Introduction/principles/sub/}{DependencyInjection}
 
+    \newpage
     \subsection{OCPP Kommunikation}
         \import{./Sections/Introduction/OCPP/}{intro}
 
@@ -141,12 +147,12 @@
 
         \subsubsection{Ziele der Software Architektur}
             \import{./Sections/SoftwareArchitektur/ProjektManagement}{ZieleSA}
+        \newpage
         \subsubsection{Technical Debts}
             \import{./Sections/SoftwareArchitektur/ProjektManagement}{TechnischeSchulden}
 
     \newpage
         \subsubsection{Qualität und Kosten der Software}
-        \nocite{MF_isHighQuilatySoftwareWorthTheCost}
             \import{./Sections/SoftwareArchitektur/ProjektManagement}{QualitaetUndKosten}
         
         \subsubsection{Testbarkeit der Software ist wichtig}
@@ -157,16 +163,17 @@
     \label{kap:commonArchitectureDescription}
         \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung}{intro}
 
-        \newpage
         \subsubsection{Abhängigkeiten im Programm}
         \label{kap:Structur}
             \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{intro}
             \label{kap:StrukturIntro}
 
+            \newpage
             \paragraph{Port-Adapter-Controller}
             \label{Port-Adapter-Controller}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{Port-Adapter-Controller}
 
+            \newpage
             \paragraph{Controller-Dispatcher-UseCase-Interactor} 
             \label{Controller-Dispatcher-UseCase-Interactor}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{Controller-Dispatcher-UseCase-Interactor}
@@ -178,7 +185,8 @@
             \paragraph{Utility Controllers}
             \label{kap:utilityControllers}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{Utility}
-   
+
+            \newpage
             \paragraph{Verbindung der einzelnen Schichten miteinander und die Testbarkeit}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{VerbindungUndTestbarkeit}
 
@@ -235,17 +243,22 @@
     \subsection{Aufgabenbeschreibung}
     \label{kap:taskDescription}
         \import{./Sections/OCPPServer/Aufgabenbeschreibung}{intro}
+
+        \newpage
         \subsubsection{Standalone Server mit Datenbank}
         \label{kap:taskDescription:standaloneWithDB}
             \import{./Sections/OCPPServer/Aufgabenbeschreibung}{StandaloneWithDB}
 
+        \newpage
         \subsubsection{Standalone Server ohne Datenbank}
         \import{./Sections/OCPPServer/Aufgabenbeschreibung}{StandaloneWithoutDB}
 
+        \newpage
         \subsubsection{Testframework}
             \import{./Sections/OCPPServer/Aufgabenbeschreibung}{Testframework}
 
-        \subsubsection{ERK Automatisierungstool}
+        \newpage
+        \subsubsection{Bibliothek}
             \import{./Sections/OCPPServer/Aufgabenbeschreibung}{Library}
     \newpage
     \subsection{Allgemeine Lösung}
@@ -265,14 +278,13 @@
             \import{./Sections/OCPPServer/UseOfCommonSolution}{standaloneWithoutDB}
 
         \newpage
-        \subsubsection{Library}
+        \subsubsection{Bibliothek}
             \import{./Sections/OCPPServer/UseOfCommonSolution}{Library}
         
         \newpage
         \subsubsection{Framework}
             \import{./Sections/OCPPServer/UseOfCommonSolution}{framework}
     
-    \newpage
     \subsection{Vergleich der einzelnen Lösungen}
         \import{./Sections/OCPPServer/CompareOfSolutions}{intro}
 
@@ -290,7 +302,17 @@
 
 % Printing bibliography
 \newpage
-\printbibliography[heading = bibintoc, title = Bibliography]    % 'bibintoc' inserts our bibliography into the table of contents
+\printbibliography[heading = bibintoc, title = Literaturverzeichnis]    % 'bibintoc' inserts our bibliography into the table of contents
+
+\nocite{MF_isHighQuilatySoftwareWorthTheCost}
+\nocite{enterprisePatterns}
+\nocite{cleanCode}
+\nocite{CiCd}
+\nocite{frameworkOnline1}
+
+\nocite{frameworkOnline2}
+
+\nocite{frameworkOnline3}
 
 % End of document
 \end{document}

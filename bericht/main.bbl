@@ -19,6 +19,56 @@
 
 \refsection{0}
   \datalist[entry]{ynt/global//global/global}
+    \entry{enterprisePatterns}{book}{}
+      \name{author}{1}{}{%
+        {{hash=312ac886938a9b2be4f8eb607567fe4c}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{fullhash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{bibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authorbibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authornamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authorfullhash}{312ac886938a9b2be4f8eb607567fe4c}
+      \field{extraname}{1}
+      \field{labelalpha}{Fow03}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-321-12742-6}
+      \field{title}{Patterns of Enterprise Application Architecture}
+      \field{year}{2003}
+      \true{nocite}
+    \endentry
+    \entry{cleanCode}{book}{}
+      \name{author}{1}{}{%
+        {{hash=6f41df64eb0dc4855be70172368604c2}{%
+           family={Martin},
+           familyi={M\bibinitperiod},
+           given={Robert\bibnamedelima C.},
+           giveni={R\bibinitperiod\bibinitdelim C\bibinitperiod}}}%
+      }
+      \strng{namehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{fullhash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{bibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
+      \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{extraname}{1}
+      \field{labelalpha}{Mar09}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{isbn}{978-0-13-235088-4}
+      \field{title}{Clean Code}
+      \field{year}{2009}
+      \true{nocite}
+    \endentry
     \entry{cleanArchitecture}{book}{}
       \name{author}{1}{}{%
         {{hash=6f41df64eb0dc4855be70172368604c2}{%
@@ -33,6 +83,7 @@
       \strng{authorbibnamehash}{6f41df64eb0dc4855be70172368604c2}
       \strng{authornamehash}{6f41df64eb0dc4855be70172368604c2}
       \strng{authorfullhash}{6f41df64eb0dc4855be70172368604c2}
+      \field{extraname}{2}
       \field{labelalpha}{Mar18}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
@@ -41,6 +92,39 @@
       \field{isbn}{978-0-13-449416-6}
       \field{title}{Clean Architecture}
       \field{year}{2018}
+    \endentry
+    \entry{CiCd}{online}{}
+      \name{author}{1}{}{%
+        {{hash=fc6066f992cc3e97ddd967adaed42070}{%
+           family={Andenmatten},
+           familyi={A\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{fc6066f992cc3e97ddd967adaed42070}
+      \strng{fullhash}{fc6066f992cc3e97ddd967adaed42070}
+      \strng{bibnamehash}{fc6066f992cc3e97ddd967adaed42070}
+      \strng{authorbibnamehash}{fc6066f992cc3e97ddd967adaed42070}
+      \strng{authornamehash}{fc6066f992cc3e97ddd967adaed42070}
+      \strng{authorfullhash}{fc6066f992cc3e97ddd967adaed42070}
+      \field{labelalpha}{And}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extraalpha}{1}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{CD –CONTINUOUS DELIVERY}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://blog.itil.org/2016/07/wort-zum-montag-cd-continous-delivery/
+      \endverb
+      \verb{url}
+      \verb https://blog.itil.org/2016/07/wort-zum-montag-cd-continous-delivery/
+      \endverb
     \endentry
     \entry{portAndAdapter}{online}{}
       \name{author}{1}{}{%
@@ -59,6 +143,7 @@
       \field{labelalpha}{And}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extraalpha}{2}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Hexagonal architectur}
@@ -104,6 +189,38 @@
       \verb https://www.dev-insider.de/was-bedeutet-inversion-of-control-a-1110688/#:~:text=Definition%20%E2%80%9ESteuerungsumkehr%E2%80%9C%20Was%20bedeutet%20Inversion%20of%20Control%3F&text=Inversion%20of%20Control%20ist%20ein,die%20Steuerung%20bestimmter%20Programmteile%20%C3%BCbernimmt
       \endverb
     \endentry
+    \entry{frameworkOnline3}{online}{}
+      \name{author}{1}{}{%
+        {{hash=86e9a4d0b8ee3c1fb38c922a4d649b17}{%
+           family={ComputerWeekly.de},
+           familyi={C\bibinitperiod},
+           given={Redaktion},
+           giveni={R\bibinitperiod}}}%
+      }
+      \strng{namehash}{86e9a4d0b8ee3c1fb38c922a4d649b17}
+      \strng{fullhash}{86e9a4d0b8ee3c1fb38c922a4d649b17}
+      \strng{bibnamehash}{86e9a4d0b8ee3c1fb38c922a4d649b17}
+      \strng{authorbibnamehash}{86e9a4d0b8ee3c1fb38c922a4d649b17}
+      \strng{authornamehash}{86e9a4d0b8ee3c1fb38c922a4d649b17}
+      \strng{authorfullhash}{86e9a4d0b8ee3c1fb38c922a4d649b17}
+      \field{labelalpha}{Com}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Bibliothek (Library)}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.computerweekly.com/de/definition/Bibliothek-Library\#:~:text=In\%20der\%20Informatik\%20bezeichnet\%20der,und\%20physische\%20Speichereinheiten\%20wie\%20Tapes.
+      \endverb
+      \verb{url}
+      \verb https://www.computerweekly.com/de/definition/Bibliothek-Library%5C#:~:text=In%5C%20der%5C%20Informatik%5C%20bezeichnet%5C%20der,und%5C%20physische%5C%20Speichereinheiten%5C%20wie%5C%20Tapes.
+      \endverb
+    \endentry
     \entry{DiP}{online}{}
       \name{author}{1}{}{%
         {{hash=5619f1f7e8a719f66e32b2d6e9ac24e8}{%
@@ -147,7 +264,7 @@
       \strng{authorbibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
       \strng{authornamehash}{312ac886938a9b2be4f8eb607567fe4c}
       \strng{authorfullhash}{312ac886938a9b2be4f8eb607567fe4c}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{labelalpha}{Fow}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
@@ -164,6 +281,38 @@
       \verb https://martinfowler.com/ieeeSoftware/whoNeedsArchitect.pdf
       \endverb
     \endentry
+    \entry{frameworkOnline2}{online}{}
+      \name{author}{1}{}{%
+        {{hash=312ac886938a9b2be4f8eb607567fe4c}{%
+           family={Fowler},
+           familyi={F\bibinitperiod},
+           given={Martin},
+           giveni={M\bibinitperiod}}}%
+      }
+      \strng{namehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{fullhash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{bibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authorbibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authornamehash}{312ac886938a9b2be4f8eb607567fe4c}
+      \strng{authorfullhash}{312ac886938a9b2be4f8eb607567fe4c}
+      \field{extraname}{3}
+      \field{labelalpha}{Fow}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{extraalpha}{2}
+      \field{labelnamesource}{author}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://martinfowler.com/bliki/InversionOfControl.html
+      \endverb
+      \verb{url}
+      \verb https://martinfowler.com/bliki/InversionOfControl.html
+      \endverb
+    \endentry
     \entry{MF_isHighQuilatySoftwareWorthTheCost}{online}{}
       \name{author}{1}{}{%
         {{hash=312ac886938a9b2be4f8eb607567fe4c}{%
@@ -178,11 +327,11 @@
       \strng{authorbibnamehash}{312ac886938a9b2be4f8eb607567fe4c}
       \strng{authornamehash}{312ac886938a9b2be4f8eb607567fe4c}
       \strng{authorfullhash}{312ac886938a9b2be4f8eb607567fe4c}
-      \field{extraname}{2}
+      \field{extraname}{4}
       \field{labelalpha}{Fow}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
-      \field{extraalpha}{2}
+      \field{extraalpha}{3}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Is High Quality Software Worth the Cost?}
@@ -198,36 +347,36 @@
       \verb https://martinfowler.com/articles/is-quality-worth-cost.html
       \endverb
     \endentry
-    \entry{imt_software_wiki}{online}{}
+    \entry{frameworkOnline1}{online}{}
       \name{author}{1}{}{%
-        {{hash=178c5578ed7109d0caf64717be9612fc}{%
-           family={NTNU},
-           familyi={N\bibinitperiod},
-           given={Department\bibnamedelimb of\bibnamedelimb Marine\bibnamedelima Technology},
-           giveni={D\bibinitperiod\bibinitdelim o\bibinitperiod\bibinitdelim M\bibinitperiod\bibinitdelim T\bibinitperiod}}}%
+        {{hash=6e7ad3d554dae8b7e23609d93b8e94c4}{%
+           family={Landwehr},
+           familyi={L\bibinitperiod},
+           given={Jesko},
+           giveni={J\bibinitperiod}}}%
       }
-      \strng{namehash}{178c5578ed7109d0caf64717be9612fc}
-      \strng{fullhash}{178c5578ed7109d0caf64717be9612fc}
-      \strng{bibnamehash}{178c5578ed7109d0caf64717be9612fc}
-      \strng{authorbibnamehash}{178c5578ed7109d0caf64717be9612fc}
-      \strng{authornamehash}{178c5578ed7109d0caf64717be9612fc}
-      \strng{authorfullhash}{178c5578ed7109d0caf64717be9612fc}
-      \field{labelalpha}{NTN}
+      \strng{namehash}{6e7ad3d554dae8b7e23609d93b8e94c4}
+      \strng{fullhash}{6e7ad3d554dae8b7e23609d93b8e94c4}
+      \strng{bibnamehash}{6e7ad3d554dae8b7e23609d93b8e94c4}
+      \strng{authorbibnamehash}{6e7ad3d554dae8b7e23609d93b8e94c4}
+      \strng{authornamehash}{6e7ad3d554dae8b7e23609d93b8e94c4}
+      \strng{authorfullhash}{6e7ad3d554dae8b7e23609d93b8e94c4}
+      \field{labelalpha}{Lan}
       \field{sortinit}{9}
       \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
-      \field{title}{IMT Software Wiki - LaTeX}
-      \field{urlday}{15}
+      \field{title}{Was ist ein Framework? – Definition \& Erklärung}
+      \field{urlday}{20}
       \field{urlmonth}{9}
-      \field{urlyear}{2020}
+      \field{urlyear}{2022}
       \field{urldateera}{ce}
       \true{nocite}
       \verb{urlraw}
-      \verb https://www.ntnu.no/wiki/display/imtsoftware/LaTeX
+      \verb https://it-talents.de/it-wissen/framework/
       \endverb
       \verb{url}
-      \verb https://www.ntnu.no/wiki/display/imtsoftware/LaTeX
+      \verb https://it-talents.de/it-wissen/framework/
       \endverb
     \endentry
     \entry{ocppDocs}{online}{}
@@ -255,6 +404,101 @@
       \endverb
       \verb{url}
       \verb https://www.openchargealliance.org/protocols/ocpp-201/
+      \endverb
+    \endentry
+    \entry{Testing}{online}{}
+      \name{author}{1}{}{%
+        {{hash=ec26463d0962217c926cf8597973961c}{%
+           family={Scharfstein},
+           familyi={S\bibinitperiod},
+           given={Andi},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{ec26463d0962217c926cf8597973961c}
+      \strng{fullhash}{ec26463d0962217c926cf8597973961c}
+      \strng{bibnamehash}{ec26463d0962217c926cf8597973961c}
+      \strng{authorbibnamehash}{ec26463d0962217c926cf8597973961c}
+      \strng{authornamehash}{ec26463d0962217c926cf8597973961c}
+      \strng{authorfullhash}{ec26463d0962217c926cf8597973961c}
+      \field{labelalpha}{Sch}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Migrating our JUnit 3 Tests to JUnit 4}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://www.cqse.eu/de/news/blog/junit3-migration/
+      \endverb
+      \verb{url}
+      \verb https://www.cqse.eu/de/news/blog/junit3-migration/
+      \endverb
+    \endentry
+    \entry{OOPPaterns}{online}{}
+      \name{author}{1}{}{%
+        {{hash=96dfef298f5fd8385c9bda34f6502377}{%
+           family={Shvets},
+           familyi={S\bibinitperiod},
+           given={Alexander},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{fullhash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{bibnamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorbibnamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authornamehash}{96dfef298f5fd8385c9bda34f6502377}
+      \strng{authorfullhash}{96dfef298f5fd8385c9bda34f6502377}
+      \field{labelalpha}{Shv}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{OOP Design Patterns}
+      \field{urlday}{19}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://refactoring.guru/
+      \endverb
+      \verb{url}
+      \verb https://refactoring.guru/
+      \endverb
+    \endentry
+    \entry{MVP}{online}{}
+      \name{author}{1}{}{%
+        {{hash=a3ec26cfaa3a3a483eb9fa3573cf1b4b}{%
+           family={Vyas},
+           familyi={V\bibinitperiod},
+           given={Anshul},
+           giveni={A\bibinitperiod}}}%
+      }
+      \strng{namehash}{a3ec26cfaa3a3a483eb9fa3573cf1b4b}
+      \strng{fullhash}{a3ec26cfaa3a3a483eb9fa3573cf1b4b}
+      \strng{bibnamehash}{a3ec26cfaa3a3a483eb9fa3573cf1b4b}
+      \strng{authorbibnamehash}{a3ec26cfaa3a3a483eb9fa3573cf1b4b}
+      \strng{authornamehash}{a3ec26cfaa3a3a483eb9fa3573cf1b4b}
+      \strng{authorfullhash}{a3ec26cfaa3a3a483eb9fa3573cf1b4b}
+      \field{labelalpha}{Vya}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Model View Presenter}
+      \field{urlday}{20}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://anshul-vyas380.medium.com/model-view-presenter-b7ece803203c
+      \endverb
+      \verb{url}
+      \verb https://anshul-vyas380.medium.com/model-view-presenter-b7ece803203c
       \endverb
     \endentry
   \enddatalist

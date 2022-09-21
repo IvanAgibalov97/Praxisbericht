@@ -7,142 +7,142 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {section}{\numberline {1}Motivation}{1}{section.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {2}Grundlagen}{1}{section.2}%
+\contentsline {section}{\numberline {2}Grundlagen}{2}{section.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.1}OOP Design Patterns}{1}{subsection.2.1}%
+\contentsline {subsection}{\numberline {2.1}OOP Design Patterns}{2}{subsection.2.1}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.1}Adapter}{2}{subsubsection.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.2}Observer}{2}{subsubsection.2.1.2}%
+\contentsline {subsubsection}{\numberline {2.1.2}Observer}{3}{subsubsection.2.1.2}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.3}Proxy}{3}{subsubsection.2.1.3}%
 \defcounter {refsection}{0}\relax 
 \contentsline {subsubsection}{\numberline {2.1.4}Template method}{3}{subsubsection.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.5}Builder}{3}{subsubsection.2.1.5}%
+\contentsline {subsubsection}{\numberline {2.1.5}Builder}{4}{subsubsection.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.6}Facade}{3}{subsubsection.2.1.6}%
+\contentsline {subsubsection}{\numberline {2.1.6}Facade}{4}{subsubsection.2.1.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.7}Singleton}{3}{subsubsection.2.1.7}%
+\contentsline {subsubsection}{\numberline {2.1.7}Singleton}{4}{subsubsection.2.1.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.1.8}Factory method}{3}{subsubsection.2.1.8}%
+\contentsline {subsubsection}{\numberline {2.1.8}Factory method}{4}{subsubsection.2.1.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.2}Architekturen}{4}{subsection.2.2}%
+\contentsline {subsection}{\numberline {2.2}Architekturen}{5}{subsection.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.1}Model-View-Presenter Architektur}{4}{subsubsection.2.2.1}%
+\contentsline {subsubsection}{\numberline {2.2.1}Model-View-Presenter Architektur}{5}{subsubsection.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.2.2}Port und Adapter Architektur}{5}{subsubsection.2.2.2}%
+\contentsline {subsubsection}{\numberline {2.2.2}Port und Adapter Architektur}{6}{subsubsection.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.3}Software Testing}{5}{subsection.2.3}%
+\contentsline {subsection}{\numberline {2.3}Software Testing}{7}{subsection.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.1}Testing Pyramide}{6}{subsubsection.2.3.1}%
+\contentsline {subsubsection}{\numberline {2.3.1}Testing Pyramide}{7}{subsubsection.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.2}Unit Tests}{6}{subsubsection.2.3.2}%
+\contentsline {subsubsection}{\numberline {2.3.2}Unit Tests}{8}{subsubsection.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.3}Integration Tests}{7}{subsubsection.2.3.3}%
+\contentsline {subsubsection}{\numberline {2.3.3}Integration Tests}{8}{subsubsection.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.4}SystemTests}{7}{subsubsection.2.3.4}%
+\contentsline {subsubsection}{\numberline {2.3.4}SystemTests}{8}{subsubsection.2.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.5}UI Tests}{7}{subsubsection.2.3.5}%
+\contentsline {subsubsection}{\numberline {2.3.5}UI Tests}{8}{subsubsection.2.3.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.3.6}Manual Tests}{7}{subsubsection.2.3.6}%
+\contentsline {subsubsection}{\numberline {2.3.6}Manual Tests}{9}{subsubsection.2.3.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.4}Softwareentwicklung Prinzipien}{7}{subsection.2.4}%
+\contentsline {subsection}{\numberline {2.4}Softwareentwicklung Prinzipien}{10}{subsection.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.1}Single-responsibility principle}{7}{subsubsection.2.4.1}%
+\contentsline {subsubsection}{\numberline {2.4.1}Interface segregation principle}{10}{subsubsection.2.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.2}Open–closed principle}{7}{subsubsection.2.4.2}%
+\contentsline {subsubsection}{\numberline {2.4.2}Single-responsibility principle}{11}{subsubsection.2.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.3}Interface segregation principle}{8}{subsubsection.2.4.3}%
+\contentsline {subsubsection}{\numberline {2.4.3}Open–closed principle}{11}{subsubsection.2.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.4}Dependency inversion principle}{8}{subsubsection.2.4.4}%
+\contentsline {subsubsection}{\numberline {2.4.4}Dependency inversion principle}{11}{subsubsection.2.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.5}Inversion of control}{9}{subsubsection.2.4.5}%
+\contentsline {subsubsection}{\numberline {2.4.5}Inversion of control}{12}{subsubsection.2.4.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {2.4.6}Dependency Injection}{9}{subsubsection.2.4.6}%
+\contentsline {subsubsection}{\numberline {2.4.6}Dependency Injection}{12}{subsubsection.2.4.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {2.5}OCPP Kommunikation}{11}{subsection.2.5}%
+\contentsline {subsection}{\numberline {2.5}OCPP Kommunikation}{14}{subsection.2.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {3}Software Architektur}{12}{section.3}%
+\contentsline {section}{\numberline {3}Software Architektur}{15}{section.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.1}Software Architektur aus Sicht der Projektführung}{12}{subsection.3.1}%
+\contentsline {subsection}{\numberline {3.1}Software Architektur aus Sicht der Projektführung}{15}{subsection.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.1}Ziele der Software Architektur}{12}{subsubsection.3.1.1}%
+\contentsline {subsubsection}{\numberline {3.1.1}Ziele der Software Architektur}{15}{subsubsection.3.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.2}Technical Debts}{13}{subsubsection.3.1.2}%
+\contentsline {subsubsection}{\numberline {3.1.2}Technical Debts}{17}{subsubsection.3.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.3}Qualität und Kosten der Software}{14}{subsubsection.3.1.3}%
+\contentsline {subsubsection}{\numberline {3.1.3}Qualität und Kosten der Software}{18}{subsubsection.3.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.1.4}Testbarkeit der Software ist wichtig}{15}{subsubsection.3.1.4}%
+\contentsline {subsubsection}{\numberline {3.1.4}Testbarkeit der Software ist wichtig}{19}{subsubsection.3.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.2}Technische Umsetzung der Software Architektur}{16}{subsection.3.2}%
+\contentsline {subsection}{\numberline {3.2}Technische Umsetzung der Software Architektur}{20}{subsection.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.1}Abhängigkeiten im Programm}{18}{subsubsection.3.2.1}%
+\contentsline {subsubsection}{\numberline {3.2.1}Abhängigkeiten im Programm}{21}{subsubsection.3.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.1.1}Port-Adapter-Controller}{18}{paragraph.3.2.1.1}%
+\contentsline {paragraph}{\numberline {3.2.1.1}Port-Adapter-Controller}{22}{paragraph.3.2.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.1.2}Controller-Dispatcher-UseCase-Interactor}{19}{paragraph.3.2.1.2}%
+\contentsline {paragraph}{\numberline {3.2.1.2}Controller-Dispatcher-UseCase-Interactor}{23}{paragraph.3.2.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.1.3}Erstellen der Struktur}{20}{paragraph.3.2.1.3}%
+\contentsline {paragraph}{\numberline {3.2.1.3}Erstellen der Struktur}{24}{paragraph.3.2.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.1.4}Utility Controllers}{21}{paragraph.3.2.1.4}%
+\contentsline {paragraph}{\numberline {3.2.1.4}Utility Controllers}{25}{paragraph.3.2.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.1.5}Verbindung der einzelnen Schichten miteinander und die Testbarkeit}{22}{paragraph.3.2.1.5}%
+\contentsline {paragraph}{\numberline {3.2.1.5}Verbindung der einzelnen Schichten miteinander und die Testbarkeit}{27}{paragraph.3.2.1.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.2}Datenfluss im Programm}{24}{subsubsection.3.2.2}%
+\contentsline {subsubsection}{\numberline {3.2.2}Datenfluss im Programm}{28}{subsubsection.3.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.2.1}Datenfluss \textbf {1} und \textbf {3}}{25}{paragraph.3.2.2.1}%
+\contentsline {paragraph}{\numberline {3.2.2.1}Datenfluss \textbf {1} und \textbf {3}}{29}{paragraph.3.2.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.2.2}Datenfluss \textbf {2}}{27}{paragraph.3.2.2.2}%
+\contentsline {paragraph}{\numberline {3.2.2.2}Datenfluss \textbf {2}}{31}{paragraph.3.2.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.2.3}Logging}{29}{paragraph.3.2.2.3}%
+\contentsline {paragraph}{\numberline {3.2.2.3}Logging}{33}{paragraph.3.2.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.2.3}Erweiterung der Funktionalitäten}{30}{subsubsection.3.2.3}%
+\contentsline {subsubsection}{\numberline {3.2.3}Erweiterung der Funktionalitäten}{34}{subsubsection.3.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.3.1}Erweiterung des Verhaltens für ein Ereignis}{30}{paragraph.3.2.3.1}%
+\contentsline {paragraph}{\numberline {3.2.3.1}Erweiterung des Verhaltens für ein Ereignis}{34}{paragraph.3.2.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.3.2}Eine bestehende Schnittstelle um ein Ereignis erweitern}{30}{paragraph.3.2.3.2}%
+\contentsline {paragraph}{\numberline {3.2.3.2}Eine bestehende Schnittstelle um ein Ereignis erweitern}{34}{paragraph.3.2.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {paragraph}{\numberline {3.2.3.3}Neue Schnittstelle hinzufügen}{31}{paragraph.3.2.3.3}%
+\contentsline {paragraph}{\numberline {3.2.3.3}Neue Schnittstelle hinzufügen}{35}{paragraph.3.2.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {3.3}Anwendung}{32}{subsection.3.3}%
+\contentsline {subsection}{\numberline {3.3}Anwendung}{36}{subsection.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.1}Anbindung in eine andere Anwendung als eine Komponente}{32}{subsubsection.3.3.1}%
+\contentsline {subsubsection}{\numberline {3.3.1}Anbindung in eine andere Anwendung als eine Komponente}{36}{subsubsection.3.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {3.3.2}Framework und Bibliothek}{35}{subsubsection.3.3.2}%
+\contentsline {subsubsection}{\numberline {3.3.2}Framework und Bibliothek}{39}{subsubsection.3.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{\numberline {4}OCPP Server}{37}{section.4}%
+\contentsline {section}{\numberline {4}OCPP Server}{40}{section.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.1}Aufgabenbeschreibung}{37}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.1}Aufgabenbeschreibung}{40}{subsection.4.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.1}Standalone Server mit Datenbank}{37}{subsubsection.4.1.1}%
+\contentsline {subsubsection}{\numberline {4.1.1}Standalone Server mit Datenbank}{41}{subsubsection.4.1.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.2}Standalone Server ohne Datenbank}{38}{subsubsection.4.1.2}%
+\contentsline {subsubsection}{\numberline {4.1.2}Standalone Server ohne Datenbank}{42}{subsubsection.4.1.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.3}Testframework}{39}{subsubsection.4.1.3}%
+\contentsline {subsubsection}{\numberline {4.1.3}Testframework}{43}{subsubsection.4.1.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.1.4}ERK Automatisierungstool}{39}{subsubsection.4.1.4}%
+\contentsline {subsubsection}{\numberline {4.1.4}Bibliothek}{44}{subsubsection.4.1.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.2}Allgemeine Lösung}{41}{subsection.4.2}%
+\contentsline {subsection}{\numberline {4.2}Allgemeine Lösung}{45}{subsection.4.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.1}Controllers}{41}{subsubsection.4.2.1}%
+\contentsline {subsubsection}{\numberline {4.2.1}Controllers}{46}{subsubsection.4.2.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.2}Dispatcher}{42}{subsubsection.4.2.2}%
+\contentsline {subsubsection}{\numberline {4.2.2}Dispatcher}{46}{subsubsection.4.2.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.3}UseCases}{42}{subsubsection.4.2.3}%
+\contentsline {subsubsection}{\numberline {4.2.3}UseCases}{47}{subsubsection.4.2.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.2.4}Interactors}{43}{subsubsection.4.2.4}%
+\contentsline {subsubsection}{\numberline {4.2.4}Interactors}{47}{subsubsection.4.2.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.3}Anwendung der allgemeinen Lösung}{44}{subsection.4.3}%
+\contentsline {subsection}{\numberline {4.3}Anwendung der allgemeinen Lösung}{48}{subsection.4.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.1}Standalone mit Datenbank}{46}{subsubsection.4.3.1}%
+\contentsline {subsubsection}{\numberline {4.3.1}Standalone mit Datenbank}{50}{subsubsection.4.3.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.2}Standalone ohne Datenbank}{47}{subsubsection.4.3.2}%
+\contentsline {subsubsection}{\numberline {4.3.2}Standalone ohne Datenbank}{51}{subsubsection.4.3.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.3}Library}{48}{subsubsection.4.3.3}%
+\contentsline {subsubsection}{\numberline {4.3.3}Bibliothek}{52}{subsubsection.4.3.3}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsubsection}{\numberline {4.3.4}Framework}{49}{subsubsection.4.3.4}%
+\contentsline {subsubsection}{\numberline {4.3.4}Framework}{54}{subsubsection.4.3.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {subsection}{\numberline {4.4}Vergleich der einzelnen Lösungen}{51}{subsection.4.4}%
+\contentsline {subsection}{\numberline {4.4}Vergleich der einzelnen Lösungen}{56}{subsection.4.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Bibliography}{52}{table.caption.48}%
+\contentsline {section}{Literaturverzeichnis}{57}{table.caption.49}%

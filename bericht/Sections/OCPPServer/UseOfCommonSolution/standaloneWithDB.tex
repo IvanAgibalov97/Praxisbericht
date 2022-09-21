@@ -2,12 +2,11 @@ Die Anwendung soll dauerhaft auf einem Server laufen und die Informationen dürf
 Somit sollen alle wichtigen Daten und die Logs gespeichert werden. 
 Eine Standalone-Anwendung mit Datenbank benötigt, dass alle verwendeten Schnittstellen reel sind. Das sind:
 \begin{itemize}
-    \item Datenbank (um verschiedene Daten zu speichern, wird von Charger-, User-, Transaction- und Price-Controllern verwendet)
+    \item Datenbank (um verschiedene Daten zu speichern)
     \item HTTP Server (für Benutzerinteraktionen)
     \item Filesystem (für Logging)
     \item Websocket Server (für OCPP Schnittstelle)
 \end{itemize}
-% Dazu gehört sein eigenes Hauptprogramm (Main), das die richtigen Komponenten nimmt und miteinander verbindet.
 Die Anwendung lässt sich wie folgt darstellen:
 
 \import{./images/solutions}{Standalone}
