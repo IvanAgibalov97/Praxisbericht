@@ -2344,18 +2344,18 @@
     <bcf:datasource type="file" datatype="bibtex" glob="false">references.bib</bcf:datasource>
   </bcf:bibdata>
   <bcf:section number="0">
-    <bcf:citekey order="1">OOPPaterns</bcf:citekey>
-    <bcf:citekey order="2" nocite="1">MVP</bcf:citekey>
-    <bcf:citekey order="3">portAndAdapter</bcf:citekey>
-    <bcf:citekey order="4" nocite="1">Testing</bcf:citekey>
-    <bcf:citekey order="5">cleanArchitecture</bcf:citekey>
-    <bcf:citekey order="6">DiP</bcf:citekey>
-    <bcf:citekey order="7">IoCDefinition</bcf:citekey>
-    <bcf:citekey order="8">ocppDocs</bcf:citekey>
+    <bcf:citekey order="1">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="2">MF_WhatIsSA</bcf:citekey>
+    <bcf:citekey order="3">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="4">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="5">OOPPaterns</bcf:citekey>
+    <bcf:citekey order="6" nocite="1">MVP</bcf:citekey>
+    <bcf:citekey order="7">portAndAdapter</bcf:citekey>
+    <bcf:citekey order="8" nocite="1">Testing</bcf:citekey>
     <bcf:citekey order="9">cleanArchitecture</bcf:citekey>
-    <bcf:citekey order="10">MF_WhatIsSA</bcf:citekey>
-    <bcf:citekey order="11">cleanArchitecture</bcf:citekey>
-    <bcf:citekey order="12">cleanArchitecture</bcf:citekey>
+    <bcf:citekey order="10">DiP</bcf:citekey>
+    <bcf:citekey order="11">IoCDefinition</bcf:citekey>
+    <bcf:citekey order="12">ocppDocs</bcf:citekey>
     <bcf:citekey order="13" nocite="1">MF_isHighQuilatySoftwareWorthTheCost</bcf:citekey>
     <bcf:citekey order="14" nocite="1">enterprisePatterns</bcf:citekey>
     <bcf:citekey order="15" nocite="1">cleanCode</bcf:citekey>

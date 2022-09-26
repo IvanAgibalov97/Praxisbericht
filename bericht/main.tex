@@ -24,8 +24,34 @@
 % Defining main matter settings
 \mainmatter
 
-\section{Motivation}
+\section{Einleitung}
     \import{./Sections/}{Motivation}
+
+    \newpage
+    \subsection{Motivation}
+        \import{./Sections/SoftwareArchitektur}{into}
+
+    \subsubsection{Ziele der Software Architektur}
+        \import{./Sections/SoftwareArchitektur/ProjektManagement}{ZieleSA}
+    \newpage
+    \subsubsection{Technical Debts}
+    \label{kap:technicalDebts}
+        \import{./Sections/SoftwareArchitektur/ProjektManagement}{TechnischeSchulden}
+
+    \newpage
+    \subsubsection{Qualität und Kosten der Software}
+        \import{./Sections/SoftwareArchitektur/ProjektManagement}{QualitaetUndKosten}
+        
+    \subsubsection{Testbarkeit der Software ist wichtig}
+        \import{./Sections/SoftwareArchitektur/ProjektManagement}{WichtigkeitDerTestbarkeit}
+   
+    \newpage
+
+    \subsection{Aufgabenstellung}
+    \label{kap:task}
+        \import{./Sections/sub}{Aufgabenstellung}
+    \subsection{Ziel der Arbeit}
+        \import{./Sections/sub}{ZielDerArbeit}
 
 \newpage
 \section{Grundlagen}
@@ -141,86 +167,68 @@
 \newpage
 
 \section{Software Architektur}
-    \import{./Sections/SoftwareArchitektur}{into}
-
-    \subsection{Software Architektur aus Sicht der Projektführung}
-
-        \subsubsection{Ziele der Software Architektur}
-            \import{./Sections/SoftwareArchitektur/ProjektManagement}{ZieleSA}
-        \newpage
-        \subsubsection{Technical Debts}
-            \import{./Sections/SoftwareArchitektur/ProjektManagement}{TechnischeSchulden}
-
-    \newpage
-        \subsubsection{Qualität und Kosten der Software}
-            \import{./Sections/SoftwareArchitektur/ProjektManagement}{QualitaetUndKosten}
-        
-        \subsubsection{Testbarkeit der Software ist wichtig}
-            \import{./Sections/SoftwareArchitektur/ProjektManagement}{WichtigkeitDerTestbarkeit}
-   
-    \newpage
-    \subsection{Technische Umsetzung der Software Architektur}
+    
     \label{kap:commonArchitectureDescription}
         \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung}{intro}
 
-        \subsubsection{Abhängigkeiten im Programm}
+        \subsection{Abhängigkeiten im Programm}
         \label{kap:Structur}
             \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{intro}
             \label{kap:StrukturIntro}
 
             \newpage
-            \paragraph{Port-Adapter-Controller}
+            \subsubsection{Port-Adapter-Controller}
             \label{Port-Adapter-Controller}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{Port-Adapter-Controller}
 
             \newpage
-            \paragraph{Controller-Dispatcher-UseCase-Interactor} 
+            \subsubsection{Controller-Dispatcher-UseCase-Interactor} 
             \label{Controller-Dispatcher-UseCase-Interactor}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{Controller-Dispatcher-UseCase-Interactor}
     
             \newpage
-            \paragraph{Erstellen der Struktur}
+            \subsubsection{Erstellen der Struktur}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{Erstellen}
    
-            \paragraph{Utility Controllers}
+            \subsubsection{Utility Controllers}
             \label{kap:utilityControllers}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{Utility}
 
             \newpage
-            \paragraph{Verbindung der einzelnen Schichten miteinander und die Testbarkeit}
+            \subsubsection{Verbindung der einzelnen Schichten miteinander und die Testbarkeit}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Struktur}{VerbindungUndTestbarkeit}
 
            
                
         \newpage
-        \subsubsection{Datenfluss im Programm}
+        \subsection{Datenfluss im Programm}
         \label{kap:Dataflow}
             \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss}{Intro}
            
             \newpage
-            \paragraph{Datenfluss \textbf{1} und \textbf{3}}
+            \subsubsection{Datenfluss \textbf{1} und \textbf{3}}
             \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss/Dataflow}{part1and3}
             \newpage
-            \paragraph{Datenfluss \textbf{2}}
+            \subsubsection{Datenfluss \textbf{2}}
             \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss/Dataflow}{part2}
 
    \newpage
-            \paragraph{Logging}
+        \subsubsection{Logging}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/Datenfluss}{Logging}
 
 
         \newpage
-        \subsubsection{Erweiterung der Funktionalitäten}
+        \subsection{Erweiterung der Funktionalitäten}
             \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/ArbeitMitArchitektur}{intro}
     
-            \paragraph{Erweiterung des Verhaltens für ein Ereignis}
+            \subsubsection{Erweiterung des Verhaltens für ein Ereignis}
             \label{Verhalten für ein Ereignis erweitern}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/ArbeitMitArchitektur}{addBehavior}
     
-            \paragraph{Eine bestehende Schnittstelle um ein Ereignis erweitern}
+            \subsubsection{Eine bestehende Schnittstelle um ein Ereignis erweitern}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/ArbeitMitArchitektur}{addEvent}
             \newpage
-            \paragraph{Neue Schnittstelle hinzufügen}
+            \subsubsection{Neue Schnittstelle hinzufügen}
                 \import{./Sections/SoftwareArchitektur/TechnischeUmsetzung/ArbeitMitArchitektur}{addInterface}
 
 
@@ -285,8 +293,9 @@
         \subsubsection{Framework}
             \import{./Sections/OCPPServer/UseOfCommonSolution}{framework}
     
-    \subsection{Vergleich der einzelnen Lösungen}
-        \import{./Sections/OCPPServer/CompareOfSolutions}{intro}
+\section{Fazit}
+    \import{./Sections/sub}{Fazit}
+    \import{./Sections/OCPPServer/CompareOfSolutions}{intro}
 
 % Beschreibung der gewünschten Implementierung
 % \newpage

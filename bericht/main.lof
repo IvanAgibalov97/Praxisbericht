@@ -3,92 +3,92 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {figure}{\numberline {1}{\ignorespaces CI/CD Pipeline}}{1}{figure.caption.2}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {2}{\ignorespaces UML Adapter}}{2}{figure.caption.3}%
+\contentsline {figure}{\numberline {2}{\ignorespaces Vergleich einer guten und einer schlechten Softwarearchitektur}}{6}{figure.caption.4}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {3}{\ignorespaces UML Observer}}{3}{figure.caption.4}%
+\contentsline {figure}{\numberline {3}{\ignorespaces UML Adapter}}{8}{figure.caption.5}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {4}{\ignorespaces Datenfluss in MVP Architektur}}{5}{figure.caption.5}%
+\contentsline {figure}{\numberline {4}{\ignorespaces UML Observer}}{9}{figure.caption.6}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {5}{\ignorespaces Port und Adapter Architektur}}{6}{figure.caption.6}%
+\contentsline {figure}{\numberline {5}{\ignorespaces Datenfluss in MVP Architektur}}{11}{figure.caption.7}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {6}{\ignorespaces Testing Pyramide}}{7}{figure.caption.7}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Port und Adapter Architektur}}{12}{figure.caption.8}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {7}{\ignorespaces Vergleich der schlechten und guten laut DIP Abhängigkeiten}}{11}{figure.caption.8}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Testing Pyramide}}{13}{figure.caption.9}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {8}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{12}{figure.caption.9}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Vergleich der schlechten und guten laut DIP Abhängigkeiten}}{17}{figure.caption.10}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {9}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{13}{figure.caption.10}%
+\contentsline {figure}{\numberline {9}{\ignorespaces Datenfluss und Quellcode Abhängigkeiten\relax }}{18}{figure.caption.11}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {10}{\ignorespaces Vergleich einer guten und einer schlechten Softwarearchitektur}}{19}{figure.caption.12}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Entkopplung der Abhängigkeiten\relax }}{19}{figure.caption.12}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {11}{\ignorespaces Darstellung der umgesetzten Architektur mit 6 Schichten}}{20}{figure.caption.13}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Darstellung der umgesetzten Architektur mit 6 Schichten}}{21}{figure.caption.13}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {12}{\ignorespaces Objektendiagramm PAC}}{22}{figure.caption.14}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Objektendiagramm PAC}}{23}{figure.caption.14}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {13}{\ignorespaces Objektendiagramm Controller-Dispatcher-UseCase-Interactor}}{23}{figure.caption.15}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Objektendiagramm Controller-Dispatcher-UseCase-Interactor}}{24}{figure.caption.15}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {14}{\ignorespaces Ablaufiagramm Erstellen der Struktur}}{24}{figure.caption.16}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Ablaufiagramm Erstellen der Struktur}}{25}{figure.caption.16}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {15}{\ignorespaces Objektendiagramm mit Utility Controllers}}{26}{figure.caption.17}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Objektendiagramm mit Utility Controllers}}{27}{figure.caption.17}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {16}{\ignorespaces Klassendiagramm Port-Adapter-Controller}}{27}{figure.caption.18}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Klassendiagramm Port-Adapter-Controller}}{28}{figure.caption.18}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {17}{\ignorespaces Klassendiagramm Controller-Dispatcher-UseCase-Interactor}}{27}{figure.caption.19}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Klassendiagramm Controller-Dispatcher-UseCase-Interactor}}{28}{figure.caption.19}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {18}{\ignorespaces Darstellung des Datenflusses in der Architektur}}{28}{figure.caption.20}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Darstellung des Datenflusses in der Architektur}}{29}{figure.caption.20}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {19}{\ignorespaces Sequencediagramm vom Datenfluss \textbf {1} Grün\relax }}{29}{figure.caption.21}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Sequencediagramm vom Datenfluss \textbf {1} Grün\relax }}{30}{figure.caption.21}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {20}{\ignorespaces Sequencediagramm vom Datenfluss \textbf {3} Rot\relax }}{29}{figure.caption.22}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Sequencediagramm vom Datenfluss \textbf {3} Rot\relax }}{30}{figure.caption.22}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {21}{\ignorespaces Sequencediagramm vom einfachen Datenfluss \textbf {2} Blau\relax }}{31}{figure.caption.23}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Sequencediagramm vom einfachen Datenfluss \textbf {2} Blau\relax }}{32}{figure.caption.23}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {22}{\ignorespaces Sequencediagramm vom komplexen Datenfluss \textbf {2} Blau\relax }}{32}{figure.caption.24}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Sequencediagramm vom komplexen Datenfluss \textbf {2} Blau\relax }}{33}{figure.caption.24}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {23}{\ignorespaces Kompletter Datenfluss}}{33}{figure.caption.25}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Kompletter Datenfluss}}{34}{figure.caption.25}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {24}{\ignorespaces Vereinfachte Darstellung der Architektur\relax }}{36}{figure.caption.26}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Vereinfachte Darstellung der Architektur\relax }}{37}{figure.caption.26}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {25}{\ignorespaces Vereinfachte Darstellung der Struktur einer Standalone Anwendung\relax }}{36}{figure.caption.27}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Vereinfachte Darstellung der Struktur einer Standalone Anwendung\relax }}{37}{figure.caption.27}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {26}{\ignorespaces Vereinfachte Darstellung des Datenflusses in einer Standalone Anwendung\relax }}{36}{figure.caption.28}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Vereinfachte Darstellung des Datenflusses in einer Standalone Anwendung\relax }}{37}{figure.caption.28}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {27}{\ignorespaces Vereinfachte Darstellung der Architektur als Komponente\relax }}{37}{figure.caption.29}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Vereinfachte Darstellung der Architektur als Komponente\relax }}{38}{figure.caption.29}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {28}{\ignorespaces Vereinfachte Darstellung einer Standalone Anwendung mit der Komponente\relax }}{38}{figure.caption.30}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Vereinfachte Darstellung einer Standalone Anwendung mit der Komponente\relax }}{39}{figure.caption.30}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {29}{\ignorespaces Vereinfachte Darstellung des Datenflusses in einer Anwendung mit Komponente\relax }}{38}{figure.caption.31}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Vereinfachte Darstellung des Datenflusses in einer Anwendung mit Komponente\relax }}{39}{figure.caption.31}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {30}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einer Bibliothek\relax }}{39}{figure.caption.32}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einer Bibliothek\relax }}{40}{figure.caption.32}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {31}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einem Framework\relax }}{39}{figure.caption.33}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Vereinfachte Darstellung des Datenflusses bei einem Framework\relax }}{40}{figure.caption.33}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {32}{\ignorespaces Übersichtdiagramm der Standalone-Anwendung mit Datenbank}}{41}{figure.caption.34}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Übersichtdiagramm der Standalone-Anwendung mit Datenbank}}{42}{figure.caption.34}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {33}{\ignorespaces Übersichtdiagramm der Standalone-Anwendung ohne Datenbank}}{42}{figure.caption.35}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Übersichtdiagramm der Standalone-Anwendung ohne Datenbank}}{43}{figure.caption.35}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {34}{\ignorespaces Übersichtdiagramm der Framework-Anwendung}}{43}{figure.caption.36}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Übersichtdiagramm der Framework-Anwendung}}{44}{figure.caption.36}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {35}{\ignorespaces Übersichtdiagramm der Software}}{44}{figure.caption.37}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Übersichtdiagramm der Software}}{45}{figure.caption.37}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {36}{\ignorespaces Darstellung des inneren Kreises der Architektur in jeder Anwendung}}{45}{figure.caption.38}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Darstellung des inneren Kreises der Architektur in jeder Anwendung}}{46}{figure.caption.38}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {37}{\ignorespaces Ablauf eines Interactors}}{47}{figure.caption.39}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Ablauf eines Interactors}}{48}{figure.caption.39}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {38}{\ignorespaces Klassendiagramm eines Interactors}}{47}{figure.caption.40}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Klassendiagramm eines Interactors}}{48}{figure.caption.40}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {39}{\ignorespaces Darstellung des allgemeinen Teils jeder Anwendung}}{49}{figure.caption.41}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Darstellung des allgemeinen Teils jeder Anwendung}}{50}{figure.caption.41}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {40}{\ignorespaces Darstellung der umgesetzten Architektur der Standalone Anwendung mit Datenbank}}{50}{figure.caption.42}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Darstellung der umgesetzten Architektur der Standalone Anwendung mit Datenbank}}{51}{figure.caption.42}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {41}{\ignorespaces Darstellung der umgesetzten Architektur der Standalone Anwendung ohne Datenbank}}{51}{figure.caption.43}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Darstellung der umgesetzten Architektur der Standalone Anwendung ohne Datenbank}}{52}{figure.caption.43}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {42}{\ignorespaces Darstellung der umgesetzten Architektur einer Bibliothek}}{52}{figure.caption.44}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Darstellung der umgesetzten Architektur einer Bibliothek}}{53}{figure.caption.44}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {43}{\ignorespaces Struktur der Bibliothek}}{53}{figure.caption.45}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Struktur der Bibliothek}}{54}{figure.caption.45}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {44}{\ignorespaces Darstellung der umgesetzten Architektur des Frameworks}}{54}{figure.caption.46}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Darstellung der umgesetzten Architektur des Frameworks}}{55}{figure.caption.46}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {45}{\ignorespaces Struktur des Frameworks}}{55}{figure.caption.47}%
+\contentsline {figure}{\numberline {45}{\ignorespaces Struktur des Frameworks}}{56}{figure.caption.47}%
 \defcounter {refsection}{0}\relax 
-\contentsline {figure}{\numberline {46}{\ignorespaces Ablaufdiagramm eines Tests}}{55}{figure.caption.48}%
+\contentsline {figure}{\numberline {46}{\ignorespaces Ablaufdiagramm eines Tests}}{56}{figure.caption.48}%
