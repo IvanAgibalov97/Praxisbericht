@@ -9,7 +9,8 @@ Die dargestellte Architektur ist Eigenwert.
 Folgende Komponenten sind im Programm definiert:
 \begin{itemize}
     \item Port - hat die Aufgabe die Schnittstelle nach Außen aufzubauen und die Verbindungen zu kontrollieren (z.B. WebSocket Server, Datenbank).
-    \item Adapter  - hat die Aufgabe ankommende Ereignisse vom \textbf{Port} an den dazugehörigen \textbf{Controller} und in die andere Richtung zu übersetzen (z.B. Presenter im \textbf{MVC} \ref{kap:MVC})
+    \item Adapter  - hat die Aufgabe ankommende Ereignisse vom \textbf{Port} an den dazugehörigen \textbf{Controller} 
+    und in die andere Richtung zu übersetzen (z.B. Presenter im \textbf{MVP} \ref{kap:MVP})
     \item Controller - besitzt alle Informationen, die den Zustand jeweiliger Komponente (\textbf{Controller} + \textbf{Adapter} + \textbf{Port}) abbilden.
     Controller ermöglicht auch die dazugehörige Schnittstelle zu verwenden (z.B. eine Nachricht abschicken).
     Über alle Ereignisse wird \textbf{Dispatcher} informiert.
