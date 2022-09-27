@@ -1,5 +1,5 @@
 Im Kapitel wird betrachtet, dass die Software ein Teil der anderen Anwendung ist.
-Zum Beispiel kann ein Kern umgesetzt werden, der dann in jeweiligen Anwendungen angepasst wird 
+Zum Beispiel kann ein Kern umgesetzt werden, der dann in den jeweiligen Anwendungen angepasst wird 
 oder es handelt sich nur um eine Komponente für eine andere Anwednung.
 
 Grundsätzlich lässt sich die Abbildung \ref{fig:architectureCommon} folgendeweise vereinfachen:
@@ -10,7 +10,7 @@ Grundsätzlich lässt sich die Abbildung \ref{fig:architectureCommon} folgendewe
     \label{fig:SimpliedArchitecture}
 \end{figure}
 
-Und bei einer Standalone Anwendung gibt es eine Main-Methode, die diese Struktrur erstellt.
+Bei einer Standalone Anwendung gibt es eine Main-Methode, die diese Struktrur erstellt.
 \begin{figure}[H]
     \centering
     \includegraphics[width=1\textwidth]{./images/Architecture as Standalone.png}
@@ -31,7 +31,7 @@ Wenn es in einer anderen Anwendung verwendet wird, braucht die Komponente eine F
 die wichtigen Teile der Komponente zugreifbar sind und der Rest verborgen bleibt. 
 Die Fassade baut die gesamte Struktur der Komponente auf.
 
-Eine fertige Komponente, die in die anderen Anwendungen sich integrieren lässt:
+Eine fertige Komponente, die sich in die anderen Anwendungen integrieren lässt:
 
 \begin{figure}[H]
     \centering
@@ -48,8 +48,9 @@ Laut der Darstellung \ref{fig:SimpliedArchitectureAsKomponent} hat die Anwendung
 \end{itemize}
 
 Die Komponente kann bestimmte Ereignisse selber abarbeiten und die restliche Anwendung wird darüber nicht informiert oder
-das Ereignis weiterleiten, dass es von der Anwednung selbst abgearbeitet wird.
-Die Komponente wird von der eigentlichen Anwendung unabhängig entwickelt, es kann passieren, dass
+das Ereignis weiterleiten, sodass dieses von der Anwednung selbst abgearbeitet wird.
+Die Komponente wird von der eigentlichen Anwendung unabhängig entwickelt. 
+Es kann passieren, dass
 der Datentyp des Ereignisses von der Komponente nicht mit dem Datentyp der Anwendung übereinstimmt. 
 Ein \textbf{Adapter} wäre eine mögliche Lösung für das Problem.
 Das bedeutet, dass die Komponente nur von dem \textbf{Port} der jeweiligen Anwendung benutzt wird.

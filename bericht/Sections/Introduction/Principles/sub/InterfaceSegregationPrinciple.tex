@@ -1,5 +1,5 @@
 Das Interface-Segregation-Prinzip (dt. Schnittstellenaufteilungsprinzip) 
-ist Begriff aus den objektorientierten Entwurf. Er besagt dass eine große Schnittstelle (Interface) 
+ist ein Begriff aus dem objektorientierten Entwurf. Er besagt dass eine große Schnittstelle (Interface) 
 in mehrere kleine Schnittstellen aufgeteilt werden soll.
 
 Beispiel: es gibt eine Schnittstelle, die \textbf{IDatabase} heißt. 
@@ -29,9 +29,9 @@ Zum Beispiel mit folgenden Namen:
     \item IDatabaseTransaction: getTransaction(), setTransaction()
 \end{enumerate}
 
-Das Nutzen von \textbf{ISP} ist,
+Der Nutzen von \textbf{ISP} ist,
 dass wenn mehrere Interfaces gleiche Methode besitzen sollen, 
 ist es am besten die gleichen Methoden in ein anderes Interface zu isolieren.
-Das bringt besseres Verständnis über die Struktur der Anwendung und 
+Das bringt ein besseres Verständnis über die Struktur der Anwendung und 
 minimiert Anzahl an Teilen der Software, 
 die im Falle einer Änderung, mitgeändert werden sollen.

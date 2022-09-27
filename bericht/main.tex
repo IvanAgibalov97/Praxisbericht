@@ -5,9 +5,11 @@
 
 % Importing document settings from our file "packages.sty"
 \usepackage{packages}
-% \includepdf[scale=0.8,pages=1,pagecommand=\subsection{blub}]{images/Abschlussarbeit Deckblatt.pdf}
+
 % Beginning of document
 \begin{document}
+\includepdf[]{images/Abschlussarbeit Deckblatt.pdf}
+\includepdf[]{images/Eigenstaendigkeitserklaerung.pdf}
 % Inserting title page
 \import{./}{title}
 
@@ -114,6 +116,7 @@
         \import{./Sections/Introduction/SoftwareTesting}{SoftwareTesting}
 
         \subsubsection{Testing Pyramide}
+        \label{kap:testingPyramide}
             \import{./Sections/Introduction/SoftwareTesting/sub/}{TestingPyramide}
         
         \subsubsection{Unit Tests}
@@ -122,7 +125,7 @@
         \subsubsection{Integration Tests}
             \import{./Sections/Introduction/SoftwareTesting/sub/}{IntegrationTests}
 
-        \subsubsection{SystemTests}
+        \subsubsection{Systemtests}
             \import{./Sections/Introduction/SoftwareTesting/sub/}{SystemTests}
 
         \subsubsection{UI Tests}
@@ -248,6 +251,7 @@
 
 % Example section added from an external tex-file, here located in ./Sections/
 \section{OCPP Server}
+\label{kap:implementation}
     \subsection{Aufgabenbeschreibung}
     \label{kap:taskDescription}
         \import{./Sections/OCPPServer/Aufgabenbeschreibung}{intro}
@@ -295,7 +299,6 @@
     
 \section{Fazit}
     \import{./Sections/sub}{Fazit}
-    \import{./Sections/OCPPServer/CompareOfSolutions}{intro}
 
 % Beschreibung der gewünschten Implementierung
 % \newpage

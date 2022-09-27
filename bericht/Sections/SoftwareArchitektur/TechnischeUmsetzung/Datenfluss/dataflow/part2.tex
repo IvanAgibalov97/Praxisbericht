@@ -34,7 +34,7 @@ Jeder \textbf{UseCase} kann unabhängig voneinander sein eigenes Verhalten auf d
 die wie vorgeschrieben ausgeführt werden. Jeder \textbf{Interactor} ruft eine Methode von einem \textbf{Controller} auf 
 und das Ergebnis wird an den \textbf{UseCase} zurückgegeben.
 
-Dabei es gibt zwei Möglichkeiten wie das Ereignis vom \textbf{Controller J} die \textbf{Interactor I} erreichen kann:
+Dabei gibt es zwei Möglichkeiten wie das Ereignis vom \textbf{Controller J} die \textbf{Interactor I} erreichen kann:
 \begin{enumerate}
     \item synchron - der Rückgabewert ist das Ergebnis der aufgerufenen Methode (siehe Darstellung \ref{fig:seqDiagBlue})
     \item asynchron - auf die dazugehörige Antwort vom Port wird gewartet(z.B. auf OCPP Response warten, wenn ein OCPP Request abgeschickt wird)

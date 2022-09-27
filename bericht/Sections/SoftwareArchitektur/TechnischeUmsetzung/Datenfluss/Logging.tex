@@ -1,4 +1,4 @@
-Ein wichtiger Bestandteil jeder Software ist das Logging von unterschiedlichen Ereignissen in der Software.
+Ein wichtiger Bestandteil jeder Software ist das Logging von unterschiedlichen Ereignissen.
 Das Ziel vom Logging ist später von den Softwareentwicklern verschiedene Fehler in der Software so schnell wie möglich zu finden und
 zu beseitigen.
 
@@ -12,13 +12,14 @@ im Kapitel \ref{kap:Structur} für die ankommenden Ereignissen in der Software b
 Die nachfolgende Abbildung \ref{fig:FullDataFlow} zeigt den kompletten Ablauf beim Geschehen eines Ereignisses.
 Eine mögliche Systematisierung des Loggings in der Appliaction wäre: 
 \begin{itemize}
-    \item Aufzeichnung in jeder Komponente den Inhalt des ankommenden Ereignisses
-    \item Aufzeichnung in jeder Komponente den Inhalt des ausgehenden Ereignisses
-    \item Aufzeichnung allee Komponenten, an die das Ereignis weitergegeben wird
+    \item Aufzeichnung des Inhaltes des ankommenden Ereignisses in jeder Komponente
+    \item Aufzeichnung des Inhaltes des ausgehenden Ereignisses in jeder Komponente 
+    \item Aufzeichnung aller Komponenten, an die das Ereignis weitergegeben wird
 \end{itemize}
 
-Somit lassen sich die Fehler auf die Komponente genau lokalisieren, d.h. ein entsprechender Unittest lässt sich schreiben, 
-der diesen Fehler abdeckt, bzw. einen Integrationtests, da der Ablauf des Ereignisses auch bekannt ist.
+Somit lassen sich die Fehler auf die Komponente genau lokalisieren, d.h. es lässt sich ein entsprechender Unittest schreiben, 
+der diesen Fehler abdeckt. Auch ein Integrationtest ist möglich, da der Ablauf des Ereignisses ebenfalls bekannt ist.
+
 
 \begin{figure}[H]
     \centering

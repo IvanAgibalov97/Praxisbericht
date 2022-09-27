@@ -11,19 +11,19 @@ Der innere Kreis wird bei allen Anwednungen ohne jeglichen Änderungen benutzt.
 
 \begin{enumerate}
     \item \textbf{Super-Controller} besitzt die Aufgabe, den Zugriff auf die anderen \textbf{Contollers} zu ermöglichen. 
-    In der Lösung wird das nur von \textbf{UI-Controller} verwendet, somit besteht die Möglichkeit das Programm über \textbf{HTPP-Schnittstelle} zu verwalten. 
+    In der Lösung wird er nur von \textbf{UI-Controller} verwendet, somit besteht die Möglichkeit das Programm über \textbf{HTPP-Schnittstelle} zu verwalten. 
     (z.B. Zustände von den \textbf{Controllern} abzufragen).
     \item \textbf{OCPP-Controller} kontrolliert den Websocket-Server, ermöglicht das Abschicken und Aufnehmen von Netzwerk- und OCPP Ereignissen.
     \item \textbf{UI-Controller} kontrolliert den HTTP-Server, ermöglicht das Aufnehmen von HTTP Nachrichten.
     \item \textbf{Logger-Controller} kontrolliert den Zugriff auf das Filesystem, ermöglicht das Logging im Programm.
     \item \textbf{DB-Controller} kontrolliert den Zugriff auf die Datenbank, indem die Verbindung erstellt wird.
     \item \textbf{Chager-Controller} kontrolliert alle Informtationen der bekannten Ladesäulen, 
-    ermöglicht folgende Sachen: neue Ladesäule anzulegen, Ladesäuleinformation ändern bzw. löschen, Überprüfen ob gegegbene Ladesäule bekannt ist.
-    \item \textbf{User-Controller} kontrolliert alle Informtationen über die bekannten Nutzer der Ladesäulen, ermöglicht folgende Sachen:
+    ermöglicht folgende Funktionalitäten: neue Ladesäule anzulegen, Ladesäuleinformation ändern bzw. löschen, Überprüfen ob gegegbene Ladesäule bekannt ist.
+    \item \textbf{User-Controller} kontrolliert alle Informtationen über die bekannten Nutzer der Ladesäulen, ermöglicht folgende Funktionalitäten:
     neuen Nutzer anzulegen, Nutzerinformation ändern bzw. löschen, Überprüfen ob gegebene Nutzer bekannt ist.
     \item \textbf{Transaction-Controller} kontrolliert alle Informationen über die Ladevorgänge an den Ladesäulen, 
-    ermöglicht folgende Sachen: neue Transaction starten und stoppen.
-    \item \textbf{Price-Controller} kontrolliert alle Informationen über den Preis, ermöglicht folgende Sachen:
+    ermöglicht folgende Funktionalitäten: neue Transaction starten und stoppen.
+    \item \textbf{Price-Controller} kontrolliert alle Informationen über den Preis, ermöglicht folgende Funktionalitäten:
     Preis für den Nutzer anzulegen und ändern, Standardpreis zu ändern.
 \end{enumerate}
 
