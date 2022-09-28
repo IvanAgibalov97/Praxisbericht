@@ -347,6 +347,36 @@
       \verb https://martinfowler.com/articles/is-quality-worth-cost.html
       \endverb
     \endentry
+    \entry{unused}{online}{}
+      \name{author}{1}{}{%
+        {{hash=be0fa9a5e5df1f22afef2dc97c94b6d7}{%
+           family={hgraca},
+           familyi={h\bibinitperiod}}}%
+      }
+      \strng{namehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{fullhash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{bibnamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authorbibnamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authornamehash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \strng{authorfullhash}{be0fa9a5e5df1f22afef2dc97c94b6d7}
+      \field{labelalpha}{hgr}
+      \field{sortinit}{9}
+      \field{sortinithash}{0a5ebc79d83c96b6579069544c73c7d4}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{DDD, Hexagonal, Onion, Clean, CQRS, … How I put it all together}
+      \field{urlday}{28}
+      \field{urlmonth}{9}
+      \field{urlyear}{2022}
+      \field{urldateera}{ce}
+      \true{nocite}
+      \verb{urlraw}
+      \verb https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/
+      \endverb
+      \verb{url}
+      \verb https://herbertograca.com/2017/11/16/explicit-architecture-01-ddd-hexagonal-onion-clean-cqrs-how-i-put-it-all-together/
+      \endverb
+    \endentry
     \entry{frameworkOnline1}{online}{}
       \name{author}{1}{}{%
         {{hash=6e7ad3d554dae8b7e23609d93b8e94c4}{%
