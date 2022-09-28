@@ -149,4 +149,4 @@
 \defcounter {refsection}{0}\relax 
 \contentsline {subsection}{\numberline {5.1}Ausblick}{58}{subsection.5.1}%
 \defcounter {refsection}{0}\relax 
-\contentsline {section}{Literaturverzeichnis}{59}{subsection.5.1}%
+\contentsline {section}{Literaturverzeichnis}{59}{figure.caption.52}%
