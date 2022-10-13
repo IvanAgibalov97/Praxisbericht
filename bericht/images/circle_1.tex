@@ -2,37 +2,37 @@
     \centering
     \begin{tikzpicture}[scale=.95]  
         % Ports
-        \fill[red!5] ($(0, 0) + (30:6)$) arc (30:150:6) -- ($(0, 0) + (150:7)$) arc (150:30:7) -- cycle;
-        \fill[red!5] ($(0, 0) + (150:6)$) arc (150:270:6) -- ($(0, 0) + (270:7)$) arc (270:150:7) -- cycle;
-        \fill[red!5] ($(0, 0) + (-90:6)$) arc (-90:30:6) -- ($(0, 0) + (30:7)$) arc (30:-90:7) -- cycle;
+        \fill[gray!1] ($(0, 0) + (30:6)$) arc (30:150:6) -- ($(0, 0) + (150:7)$) arc (150:30:7) -- cycle;
+        \fill[gray!1] ($(0, 0) + (150:6)$) arc (150:270:6) -- ($(0, 0) + (270:7)$) arc (270:150:7) -- cycle;
+        \fill[gray!1] ($(0, 0) + (-90:6)$) arc (-90:30:6) -- ($(0, 0) + (30:7)$) arc (30:-90:7) -- cycle;
 
         % Adapaters
-        \fill[yellow!5] ($(0, 0) + (30:5)$) arc (30:150:5) -- ($(0, 0) + (150:6)$) arc (150:30:6) -- cycle;
-        \fill[yellow!5] ($(0, 0) + (150:5)$) arc (150:270:5) -- ($(0, 0) + (270:6)$) arc (270:150:6) -- cycle;
-        \fill[yellow!5] ($(0, 0) + (-90:5)$) arc (-90:30:5) -- ($(0, 0) + (30:6)$) arc (30:-90:6) -- cycle;
+        \fill[gray!1] ($(0, 0) + (30:5)$) arc (30:150:5) -- ($(0, 0) + (150:6)$) arc (150:30:6) -- cycle;
+        \fill[gray!1] ($(0, 0) + (150:5)$) arc (150:270:5) -- ($(0, 0) + (270:6)$) arc (270:150:6) -- cycle;
+        \fill[gray!1] ($(0, 0) + (-90:5)$) arc (-90:30:5) -- ($(0, 0) + (30:6)$) arc (30:-90:6) -- cycle;
 
         % Controllers
-        \fill[gray!5] ($(0, 0) + (30:4)$) arc (30:150:4) -- ($(0, 0) + (150:5)$) arc (150:30:5) -- cycle;
-        \fill[gray!5] ($(0, 0) + (150:4)$) arc (150:270:4) -- ($(0, 0) + (270:5)$) arc (270:150:5) -- cycle;
-        \fill[gray!5] ($(0, 0) + (-90:4)$) arc (-90:30:4) -- ($(0, 0) + (30:5)$) arc (30:-90:5) -- cycle;
+        \fill[red] ($(0, 0) + (30:4)$) arc (30:150:4) -- ($(0, 0) + (150:5)$) arc (150:30:5) -- cycle;
+        \fill[red] ($(0, 0) + (150:4)$) arc (150:270:4) -- ($(0, 0) + (270:5)$) arc (270:150:5) -- cycle;
+        \fill[red] ($(0, 0) + (-90:4)$) arc (-90:30:4) -- ($(0, 0) + (30:5)$) arc (30:-90:5) -- cycle;
 
         % Dispatcher
-        \fill[blue!5] (0,0)circle(4);
+        \fill[red] (0,0)circle(4);
 
         % UseCases
-        \fill[green!5] ($(0, 0) + (30:2)$) arc (30:150:2) -- ($(0, 0) + (150:3)$) arc (150:30:3) -- cycle;
-        \fill[green!5] ($(0, 0) + (150:2)$) arc (150:270:2) -- ($(0, 0) + (270:3)$) arc (270:150:3) -- cycle;
-        \fill[green!5] ($(0, 0) + (-90:2)$) arc (-90:30:2) -- ($(0, 0) + (30:3)$) arc (30:-90:3) -- cycle;
+        \fill[red] ($(0, 0) + (30:2)$) arc (30:150:2) -- ($(0, 0) + (150:3)$) arc (150:30:3) -- cycle;
+        \fill[red] ($(0, 0) + (150:2)$) arc (150:270:2) -- ($(0, 0) + (270:3)$) arc (270:150:3) -- cycle;
+        \fill[red] ($(0, 0) + (-90:2)$) arc (-90:30:2) -- ($(0, 0) + (30:3)$) arc (30:-90:3) -- cycle;
 
         % Interactors
-        \fill[olive!5] (0,0)circle(2);
+        \fill[red] (0,0)circle(2);
         
         % Boundaries between components
         \draw ($(0,0) + (30:4)$) -- (30:7);
         \draw ($(0,0) + (150:4)$) -- (150:7);
         \draw ($(0,0) + (270:4)$) -- (270:7);
 
-        \draw[dotted] (0,0)circle(2);
+        % \draw[dotted] (0,0)circle(2);
         \draw[line width = 1pt, dotted] (0,0)circle(3);
         \draw[line width = 1pt, dotted] (0,0)circle(4);
         \draw[dotted] (0,0)circle(5);
@@ -49,9 +49,9 @@
         (0, -0.2) node[above]{$Interactors$}
         (0, 2.2) node[above]{$Use Cases$}
         (0, 3.2) node[above]{$Dispatcher$}
-        (0, 4.2) node[above]{$Controllers$}
-        (0, 5.2) node[above]{$Adapters$}
-        (0, 6.2) node[above]{$Ports$};
+        (0, 4.2) node[above]{$Controllers$};
+        % (0, 5.2) node[above]{$Adapters$}
+        % (0, 6.2) node[above]{$Ports$}
 
         % Legends
         \draw (-4, -8) -- (-3, -8) node[right] {$Teile\ des\ Programms\ wissen\ nichts\ voneinander$};
